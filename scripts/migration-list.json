@@ -41,6 +41,7 @@
    "category": "life",
    "workingTitle": "SBI証券「ゼロカン」｜こどもNISA専用・信託報酬ゼロのオルカン",
    "tickers": [],
+   "series": "seido-kurashi",
    "namespace": null
   },
   {
@@ -75,6 +76,7 @@
    "category": "life",
    "workingTitle": "こどもNISA 証券会社比較表",
    "tickers": [],
+   "series": "seido-kurashi",
    "namespace": "kdn"
   },
   {
@@ -113,6 +115,7 @@
    "category": "life",
    "workingTitle": "NISAは「商品」ではなく「箱」｜GACKT発言から仕組みを整理",
    "tickers": [],
+   "series": "seido-kurashi",
    "namespace": null
   },
   {
@@ -137,6 +140,7 @@
    "category": "life",
    "workingTitle": "食料品消費税1%で得する企業・損する企業｜9ポイントの税率差",
    "tickers": [],
+   "series": "national-policy",
    "namespace": null
   },
   {
@@ -191,6 +195,7 @@
    "tickers": [
     "8848"
    ],
+   "series": "ma-tob",
    "namespace": "lpx"
   },
   {
@@ -209,6 +214,7 @@
    "tickers": [
     "8473"
    ],
+   "series": "ma-tob",
    "namespace": "ldr"
   },
   {
@@ -217,6 +223,7 @@
    "category": "macro",
    "workingTitle": "FOMC×日銀の同週会合｜ドル円シナリオ分岐",
    "tickers": [],
+   "series": "central-bank",
    "namespace": null
   },
   {
@@ -245,6 +252,7 @@
    "category": "macro",
    "workingTitle": "日銀1.25%でも円安が止まらない構造",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "pdx"
   },
   {
@@ -268,7 +276,9 @@
    "wpId": 16460,
    "category": "ai-semi",
    "workingTitle": "TSMC8月売上と日経平均の失速（姉妹記事②）",
-   "tickers": [],
+   "tickers": [
+    "TSM"
+   ],
    "namespace": "smk"
   },
   {
@@ -287,6 +297,7 @@
    "tickers": [
     "7475"
    ],
+   "series": "ma-tob",
    "namespace": "alb"
   },
   {
@@ -422,6 +433,7 @@
    "category": "macro",
    "workingTitle": "FRBとウォーシュ議長の利上げ観測",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "wrs"
   },
   {
@@ -430,6 +442,7 @@
    "category": "macro",
    "workingTitle": "日銀9月会合と円相場",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "bjt"
   },
   {
@@ -659,7 +672,9 @@
    "wpId": 16057,
    "category": "ai-semi",
    "workingTitle": "TSMCの値上げとSOX→日経の連鎖",
-   "tickers": [],
+   "tickers": [
+    "TSM"
+   ],
    "namespace": "fnd"
   },
   {
@@ -699,7 +714,9 @@
    "wpId": 16006,
    "category": "ai-semi",
    "workingTitle": "TSMC過去最高決算と同日安",
-   "tickers": [],
+   "tickers": [
+    "TSM"
+   ],
    "namespace": "tsm"
   },
   {
@@ -858,6 +875,7 @@
    "category": "life",
    "workingTitle": "フィジカルAIの国策10.5兆円",
    "tickers": [],
+   "series": "national-policy",
    "namespace": "pai"
   },
   {
@@ -1042,6 +1060,7 @@
    "category": "macro",
    "workingTitle": "利上げなのに株高の理由（織り込み検証）",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "pin"
   },
   {
@@ -1050,6 +1069,7 @@
    "category": "macro",
    "workingTitle": "日銀の国債減額停止と財政",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "qts"
   },
   {
@@ -1082,6 +1102,7 @@
    "category": "macro",
    "workingTitle": "日銀6月会合｜利上げか据え置きか",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "mpm"
   },
   {
@@ -1134,6 +1155,7 @@
    "category": "life",
    "workingTitle": "骨太の方針2026｜17分野と6つの受益クラスター",
    "tickers": [],
+   "series": "national-policy",
    "namespace": "gov"
   },
   {
@@ -1142,6 +1164,7 @@
    "category": "stock",
    "workingTitle": "家電量販大手の経営統合",
    "tickers": [],
+   "series": "ma-tob",
    "namespace": "yed"
   },
   {
@@ -1158,6 +1181,7 @@
    "category": "macro",
    "workingTitle": "日銀6月会合の「三重の綱渡り」",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "boj"
   },
   {
@@ -1206,6 +1230,7 @@
    "category": "life",
    "workingTitle": "骨太の方針2026と国策テーマ株",
    "tickers": [],
+   "series": "national-policy",
    "namespace": "gov"
   },
   {
@@ -1268,6 +1293,7 @@
    "category": "life",
    "workingTitle": "エアコン2027年問題",
    "tickers": [],
+   "series": "seido-kurashi",
    "namespace": "arc"
   },
   {

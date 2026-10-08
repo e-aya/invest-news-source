@@ -5,7 +5,12 @@
   "publishedAt": "2026-09-10T15:46:40.000Z",
   "category": "ai-semi",
   "series": "geo-risk",
-  "tickers": [],
+  "tickers": [
+    {
+      "code": "TSM",
+      "name": "TSMC"
+    }
+  ],
   "tags": [
     "2026年相場",
     "7万円相場",

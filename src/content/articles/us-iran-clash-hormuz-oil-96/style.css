@@ -2,7 +2,7 @@
 .irc-doc.irc-doc::before,.irc-doc.irc-doc::after{content:none !important;display:none !important;}
 .irc-doc *{all:revert;box-sizing:border-box !important;letter-spacing:inherit !important;word-spacing:inherit !important;line-height:inherit !important;color:inherit !important;border-color:currentColor !important;-webkit-text-fill-color:currentColor !important;font-size:inherit !important;transform:none !important;filter:none !important;opacity:1 !important;visibility:visible !important;white-space:normal !important;position:static !important;background-color:transparent !important;border-radius:0 !important;clip-path:none !important;mask:none !important;background-clip:border-box !important;background-origin:padding-box !important;background-size:auto !important;background-position:0 0 !important;margin:0 !important;padding:0 !important;}
 .irc-doc *:not(svg):not(svg *){width:auto;height:auto;}
-.irc-doc :where(h1{font-size:inherit !important;}
+.irc-doc :where(h1,h2,h3,h4,h5,h6){font-size:inherit !important;}
 .irc-kicker{display:inline-block !important;font-size:12px !important;font-weight:700 !important;letter-spacing:.12em !important;color:#7dd3fc !important;background-color:#0e1a2b !important;padding:5px 12px !important;margin:0 0 14px 0 !important;border:1px solid #1e3a5f !important;}
 .irc-hero{background-color:#111827 !important;padding:28px 24px !important;margin:0 0 20px 0 !important;border-left:4px solid #38bdf8 !important;}
 .irc-hero-title{font-size:24px !important;font-weight:800 !important;color:#f8fafc !important;line-height:1.5 !important;margin:0 0 8px 0 !important;}

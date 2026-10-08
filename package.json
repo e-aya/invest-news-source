@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/gen-worker-data.mjs && astro build && pagefind --site dist && node scripts/check-links.mjs",
+    "build": "node scripts/check-article-css.mjs && node scripts/gen-worker-data.mjs && astro build && pagefind --site dist && node scripts/check-links.mjs",
     "preview": "wrangler dev",
     "deploy": "npm run build && wrangler deploy --env=\"\"",
     "deploy:staging": "npm run build && wrangler deploy --env staging",

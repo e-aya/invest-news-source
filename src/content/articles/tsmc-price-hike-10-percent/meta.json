@@ -5,7 +5,12 @@
   "publishedAt": "2026-07-22T13:54:55.000Z",
   "category": "ai-semi",
   "series": "ai-light-shadow",
-  "tickers": [],
+  "tickers": [
+    {
+      "code": "TSM",
+      "name": "TSMC"
+    }
+  ],
   "tags": [
     "2nm 3nm",
     "AIインフラ投資",
