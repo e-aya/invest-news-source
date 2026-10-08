@@ -116,11 +116,11 @@ export function tileOf(a: Article) {
   return t ? { big: t.code, sub: t.name, logo: logoOf(t.code) } : { big: categoryLabel(a.data.category), sub: '', logo: undefined };
 }
 
-// 企業ロゴ。public/logos/<銘柄コード>.svg|png|webp を置くとカードに表示する（大文字・小文字は問わない）
+// 企業ロゴ。public/logos/<銘柄コード>.svg|webp|png|jpg を置くとカードに表示する（大文字・小文字は問わない）
 const LOGO_DIR = path.resolve('public/logos');
 const logoFiles = fs.existsSync(LOGO_DIR) ? fs.readdirSync(LOGO_DIR) : [];
 export function logoOf(code: string): string | undefined {
-  for (const ext of ['svg', 'webp', 'png']) {
+  for (const ext of ['svg', 'webp', 'png', 'jpg', 'jpeg']) {
     const f = logoFiles.find((n) => n.toLowerCase() === `${code.toLowerCase()}.${ext}`);
     if (f) return `/logos/${f}`;
   }
