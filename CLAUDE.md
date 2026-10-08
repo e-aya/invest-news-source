@@ -40,5 +40,4 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 以下はすべてアカウント側の操作。手順は README.md の「初回セットアップ」にまとめてある（KV は初回デプロイで自動作成されるので作業不要）
 
 - Cloudflare：確認用デプロイ → サイト追加・お名前.com のネームサーバー変更 → 本番デプロイ → Email Routing の宛先確認 → Turnstile
-- AdSense：手動ユニットを作成して `site.config.ts` にIDを入れる（`/ads.txt` は自動生成）
 - 相互RSS（kitaaa.net / twobeko.com）と Blozoo の `https` 読み込みは本番で動作確認する

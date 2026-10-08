@@ -7,7 +7,10 @@ interface Props { kind: Kind; height?: number; pcOnly?: boolean; sticky?: boolea
 const { kind, height = 250, pcOnly = false, sticky = false } = Astro.props;
 const slot = site.adsense.slots[kind];
 const live = Boolean(site.adsense.client && slot);
-const format = kind === 'multiplex' ? 'autorelaxed' : kind.startsWith('inArticle') ? 'fluid' : 'auto';
+// 管理画面のフォーマットに合わせる：記事内広告は fluid、Multiplex は autorelaxed、サイドバーは固定サイズのディスプレイ
+const inArticle = kind === 'inArticle' || kind === 'listing';
+const fixed = ({ sidebarTop: [300, 250], sidebar: [300, 600] } as Partial<Record<Kind, [number, number]>>)[kind];
+const format = kind === 'multiplex' ? 'autorelaxed' : inArticle ? 'fluid' : undefined;
 ---
 <aside
   class:list={['ad', pcOnly && 'ad--pc-only', sticky && 'ad--sidebar']}
@@ -21,12 +24,11 @@ const format = kind === 'multiplex' ? 'autorelaxed' : kind.startsWith('inArticle
       <>
         <ins
           class="adsbygoogle"
-          style="display:block"
+          style={fixed ? `display:block;width:${fixed[0]}px;height:${fixed[1]}px;margin:0 auto` : 'display:block'}
           data-ad-client={site.adsense.client}
           data-ad-slot={slot}
           data-ad-format={format}
-          data-ad-layout={kind.startsWith('inArticle') ? 'in-article' : undefined}
-          data-full-width-responsive="true"
+          data-ad-layout={inArticle ? 'in-article' : undefined}
         />
         <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
       </>

@@ -80,7 +80,14 @@ npm run import:wp  # import/export.xml と import/additional.css から記事を
 
 ### 5. AdSense
 
-1. ★ AdSense 管理画面でサイト `invest-news-source.com` を確認済みにする
-2. ★ 「広告」→「広告ユニットごと」で手動ユニットを5つ作る（記事内×2、マルチプレックス、サイドバー、一覧）
-3. `src/site.config.ts` の `adsense.client`（`ca-pub-...`）と各 `slots` を埋めて `npm run deploy`
-   - `client` を入れると `/ads.txt` が自動で正しい内容になる
+設定済み（`src/site.config.ts` の `adsense`）。`/ads.txt` は `client` から自動生成される。
+
+| スロット | 場所 | 管理画面のフォーマット |
+|---|---|---|
+| `inArticle` | 記事の第2セクションの後 | 記事内 |
+| `multiplex` | まとめの後・関連記事の前 | Multiplex |
+| `sidebarTop` | PCサイドバー上部 300×250 | ディスプレイ |
+| `sidebar` | PCサイドバー下部・追従 300×600 | ディスプレイ |
+| `listing` | トップの一覧内 | 記事内 |
+
+ユニットを作り直したら ID を差し替えて `npm run deploy`。サイドバー広告は 1000px 以下の画面では出さない。

@@ -87,7 +87,8 @@
     align-items: flex-start;
   }
   .with-aside > .main { flex: 999 1 600px; min-width: 0; }
-  .with-aside > .aside { flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 24px; }
+  /* サイドバーは 300px 幅の広告（300×250 / 300×600）が欠けずに入る幅にする */
+  .with-aside > .aside { flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 24px; }
   .page { padding-block: 32px 64px; }
 }
 
