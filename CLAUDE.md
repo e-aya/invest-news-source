@@ -1,0 +1,41 @@
+# CLAUDE.md — ずんだもん投資速報（invest-news-source.com）
+
+WordPress から移行した個人の投資ブログ。Astro の静的サイトを Cloudflare Workers（静的アセット＋Worker）で配信する。
+運営者とのやりとり・説明はすべて日本語で行う。
+
+## 構成の要点
+
+- 記事は `src/content/articles/<slug>/` に `meta.json` / `content.html` / `style.css`。スキーマは `src/content.config.ts`
+- 一覧・シリーズ・銘柄ハブ（`/stocks/<code>/`）・関連記事・RSS（`/feed/`）・サイトマップは、公開中の記事から毎回生成する（`src/lib/articles.ts` の `getPublished()` を必ず通す）
+- 公開状態は `meta.json` の `status`：`published` / `draft` / `withdrawn`（withdrawn は Worker が 410 を返す）
+- 外部サービスのID（GA4・AdSense・Blozoo・Turnstile）と著者情報は `src/site.config.ts`
+- `worker/index.js`：旧URL `/?p=ID` → スラッグへ 301（`worker/generated/legacy-map.json` は `scripts/gen-worker-data.mjs` がビルド時に生成）、未移行記事と `wp-*` は 410、`/feed/`、`/api/contact`（Email Routing の send_email）、`/api/rss`（相互RSSを cron で取得し KV に保存）
+- CSS は `src/styles/global.css` の `@layer` で読み込み順を固定。旧記事の `style.css` はレイヤー外で、その記事の名前空間（`.akp-` など）だけに効く
+- デザインの基準は確定済みのモックアップ（生成りの新聞紙風背景、ずんだグリーン #2F7A2C、ヘッダー下の二重罫、ライト／ダーク対応）
+
+## コマンド
+
+- `npm run build` … 転送表生成 → astro build → pagefind → 全内部リンク検査（リンク切れがあると失敗する。失敗したら直してから進める）
+- `npm run preview` … wrangler dev で Worker 込みの確認
+- `npm run deploy` … ビルドして Cloudflare に公開
+- `npm run import:wp` … `import/export.xml`（WXR）と `import/additional.css` から再取り込み。`import/` は git 管理外
+
+## 取り込み（WordPress → 新サイト）
+
+- 対象は `scripts/migration-list.json`（159本、選定シートから作成）
+- スラッグは `scripts/slugs.json`（記事ID → スラッグ）。一度公開したら変えない
+- 本文の仮リンク `href="#"` は `scripts/link-overrides.json`（手動）→ 銘柄コード → タイトルの類似度 の順で解決し、決まらないものはリンクを外す
+- 結果は `import/report.md`
+
+## 新しい記事の書き方
+
+- 記事制作パイプライン（calc.py → SVG生成 → assemble → QA）は従来どおり。出力先を `src/content/articles/<slug>/` に変え、`format: "native"` で書く
+- WordPress 向けの防御（全面 `!important`、SVG の1行化、wpautop 対策）は不要。記事CSSは名前空間を付けて `style.css` に置く
+- 「この記事のポイント」は `meta.json` の `points` に書く（ページ側で表示し、JSON-LD の説明にも使う）
+- 公開・更新日は `publishedAt` / `updatedAt`（ISO 8601、+09:00）
+
+## 未完了
+
+- Cloudflare：KV 作成（`wrangler.jsonc` の `REPLACE_WITH_KV_ID`）、Email Routing の宛先確認、Turnstile、初回デプロイ、お名前.com のネームサーバー変更
+- AdSense：手動ユニットを作成して `site.config.ts` にIDを入れる
+- 相互RSS（kitaaa.net / twobeko.com）と Blozoo の `https` 読み込みは本番で動作確認する
