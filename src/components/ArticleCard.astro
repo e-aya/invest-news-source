@@ -1,0 +1,21 @@
+---
+import { articleUrl, displayDate, fmtDate, tileOf, type Article } from '../lib/articles';
+interface Props { article: Article }
+const { article } = Astro.props;
+const tile = tileOf(article);
+const d = displayDate(article);
+const isIpo = article.data.category === 'ipo';
+---
+<a class="card" href={articleUrl(article)} data-card={article.id}>
+  <div class:list={['card__tile', !isIpo && 'is-or']}>
+    <span class="card__code">{tile.big}</span>
+    {tile.sub && <span class="card__sub">{tile.sub}</span>}
+  </div>
+  <div class="card__body">
+    <span class="card__title">{article.data.title}</span>
+    <div class="card__meta">
+      <span class:list={['date', d.updated && 'is-updated']}>{d.label} <time datetime={d.date.toISOString()}>{fmtDate(d.date)}</time></span>
+      <span class="read-chip">既読</span>
+    </div>
+  </div>
+</a>

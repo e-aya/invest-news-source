@@ -1,0 +1,21 @@
+{
+  "name": "invest-news-source",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/gen-worker-data.mjs && astro build && pagefind --site dist && node scripts/check-links.mjs",
+    "preview": "wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "import:wp": "node scripts/import-wxr.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.7"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2",
+    "wrangler": "^4.148.0"
+  }
+}

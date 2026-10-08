@@ -1,0 +1,21 @@
+---
+import type { GetStaticPaths } from 'astro';
+import ListPage from '../../components/ListPage.astro';
+import { getPublished } from '../../lib/articles';
+
+// ページ送りは /news/2/ 形式（パラメータは使わない）
+export const getStaticPaths = (async ({ paginate }) => {
+  const all = (await getPublished()).filter((a) => a.data.category !== 'ipo');
+  return paginate(all, { pageSize: 30 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+<ListPage
+  title={page.currentPage === 1 ? '投資速報' : `投資速報（${page.currentPage}ページ目）`}
+  lead="市況・金融政策・AI半導体・地政学など、その日の相場の動きを数字で読み解いた記事の一覧です。"
+  articles={page.data}
+  current="news"
+  prevUrl={page.url.prev}
+  nextUrl={page.url.next}
+/>

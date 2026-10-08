@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsRow from './NewsRow.astro';
+import Sidebar from './Sidebar.astro';
+import type { Article } from '../lib/articles';
+interface Props {
+  title: string;
+  lead?: string;
+  articles: Article[];
+  crumbs?: { name: string; url: string }[];
+  current?: string;
+  prevUrl?: string;
+  nextUrl?: string;
+  noindex?: boolean;
+}
+const { title, lead, articles, crumbs = [], current, prevUrl, nextUrl, noindex = false } = Astro.props;
+---
+<Base title={title} description={lead} current={current} noindex={noindex}>
+  <div class="wrap page with-aside">
+    <main class="main">
+      <nav class="crumbs" aria-label="パンくず">
+        <a href="/">ホーム</a> › {crumbs.map((c) => <><a href={c.url}>{c.name}</a> › </>)}<span>{title}</span>
+      </nav>
+      <h1 class="sec-title" style="margin-bottom:8px">{title}</h1>
+      {lead && <p style="color:var(--mu);margin-bottom:20px">{lead}</p>}
+      <ul class="news-list">{articles.map((a) => <NewsRow article={a} />)}</ul>
+      {articles.length === 0 && <p style="color:var(--mu)">まだ記事がありません。</p>}
+      {
+        (prevUrl || nextUrl) && (
+          <nav class="pager" aria-label="ページ送り">
+            {prevUrl ? <a class="btn" href={prevUrl}>← 新しい記事</a> : <span />}
+            {nextUrl ? <a class="btn" href={nextUrl}>古い記事 →</a> : <span />}
+          </nav>
+        )
+      }
+    </main>
+    <aside class="aside"><Sidebar /></aside>
+  </div>
+</Base>
+<style>
+  .pager { display: flex; justify-content: space-between; margin-top: 28px; }
+</style>

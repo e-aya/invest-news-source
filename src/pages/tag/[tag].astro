@@ -1,0 +1,15 @@
+---
+import ListPage from '../../components/ListPage.astro';
+import { getPublished } from '../../lib/articles';
+
+export async function getStaticPaths() {
+  const all = await getPublished();
+  const tags = new Set(all.flatMap((a) => a.data.tags));
+  return [...tags].map((tag) => ({
+    params: { tag },
+    props: { tag, articles: all.filter((a) => a.data.tags.includes(tag)) },
+  }));
+}
+const { tag, articles } = Astro.props;
+---
+<ListPage title={`#${tag}`} lead={`「${tag}」に関する記事の一覧です。`} articles={articles} noindex={articles.length < 2} />

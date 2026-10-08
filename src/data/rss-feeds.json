@@ -1,0 +1,30 @@
+{
+  "_comment": "相互RSSの取得設定。Workersが1時間ごとに取得してKVに保存する。表示順はこの並び。maxInAll は「すべて（新着順）」での1ブログあたりの上限件数。",
+  "maxInAll": 2,
+  "feeds": [
+    {
+      "id": "kitaaa",
+      "label": "キター(ﾟ∀ﾟ)ー！アンテナ",
+      "fullName": "キター(ﾟ∀ﾟ)ー！アンテナ - お金・投資 -",
+      "url": "https://kitaaa.net/feed08.xml"
+    },
+    {
+      "id": "okane",
+      "label": "みんなのお金儲けアンテナ",
+      "fullName": "【株式投資】ブログ注目記事 － みんなのお金儲けアンテナ",
+      "url": "https://okane-antena.com/feed/r/kabu/index.rss"
+    },
+    {
+      "id": "twobeko",
+      "label": "つべこアンテナ",
+      "fullName": "つべこアンテナ",
+      "url": "http://twobeko.com/index.xml"
+    },
+    {
+      "id": "kabuline",
+      "label": "株ライン",
+      "fullName": "株ライン［ツイッターで株価予想 おすすめ銘柄］",
+      "url": "https://kabuline.com/stock/rank.rss"
+    }
+  ]
+}

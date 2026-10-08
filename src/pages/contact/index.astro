@@ -1,0 +1,25 @@
+---
+import Page from '../../layouts/Page.astro';
+import { site } from '../../site.config';
+---
+<Page title="お問い合わせ" description="当ブログへのお問い合わせフォームです。">
+  <p>記事の内容に関するご指摘や、その他のお問い合わせはこちらからお送りください。</p>
+  <form class="form" method="post" action="/api/contact">
+    <label>お名前<span class="req">必須</span><input name="name" required maxlength="100" autocomplete="name" /></label>
+    <label>メールアドレス<span class="req">必須</span><input name="email" type="email" required maxlength="200" autocomplete="email" /></label>
+    <label>題名<input name="subject" maxlength="200" /></label>
+    <label>メッセージ本文<textarea name="message" rows="8" maxlength="5000"></textarea></label>
+    <!-- ボット対策：人には見えない入力欄。入力があれば送信しない -->
+    <label class="visually-hidden" aria-hidden="true">会社名<input name="company" tabindex="-1" autocomplete="off" /></label>
+    {site.turnstileSiteKey && <div class="cf-turnstile" data-sitekey={site.turnstileSiteKey}></div>}
+    <button class="btn is-primary" type="submit">送信する</button>
+  </form>
+  {site.turnstileSiteKey && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>}
+</Page>
+<style>
+  .form { display: flex; flex-direction: column; gap: 16px; margin-top: 20px; }
+  .form label { display: flex; flex-direction: column; gap: 6px; font-weight: 500; }
+  .form input, .form textarea { padding: 10px 12px; border: 1px solid var(--ln); border-radius: 8px; background: var(--sf); font-weight: 400; }
+  .req { display: inline-block; margin-left: 8px; font-size: 11px; color: var(--onac); background: var(--or); padding: 0 6px; border-radius: 4px; }
+  .form button { align-self: flex-start; }
+</style>

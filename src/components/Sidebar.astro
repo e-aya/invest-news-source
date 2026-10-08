@@ -1,0 +1,53 @@
+---
+import { site } from '../site.config';
+import AdSlot from './AdSlot.astro';
+import feeds from '../data/rss-feeds.json';
+interface Props { showAbout?: boolean; adHeight?: number }
+const { showAbout = true, adHeight = 600 } = Astro.props;
+---
+{
+  showAbout && (
+    <section class="panel">
+      <h2>このブログについて</h2>
+      <p style="font-size:14px;color:var(--mu);line-height:1.8">
+        IPO・株式分割・マクロの話題を、数字と図解で深掘りする個人投資家向けブログです。
+      </p>
+      <div class="follow">
+        <a href={site.x.url} target="_blank" rel="noopener" aria-label={`Xで @${site.x.handle} をフォロー`}>
+          <img src="/brand/follow-x-160x36.png" alt="" width="160" height="36" />
+        </a>
+        <a href={site.blogmura.url} target="_blank" rel="noopener">
+          <img src={site.blogmura.banner} width="160" height="36" alt={`${site.name} - にほんブログ村`} />
+        </a>
+      </div>
+    </section>
+  )
+}
+
+<section class="panel">
+  <h2>逆アクセスランキング</h2>
+  <!-- Blozoo パーツ掲載用コード（document.write を使うため、この位置に同期で読み込む） -->
+  <div class="blz" id={`blz_rank_${site.blozoo.u}_${site.blozoo.t}`}>
+    <script is:inline define:vars={{ u: site.blozoo.u, t: site.blozoo.t }}>
+      window.blzP = 'rank'; window.blzU = u; window.blzT = t;
+    </script>
+    <script is:inline src="https://js.blozoo.info/js/ranktool/blogparts_2.js"></script>
+  </div>
+</section>
+
+<section class="panel" data-rss>
+  <div class="rss-head">
+    <h2 style="margin:0">相互RSS</h2>
+    <label class="visually-hidden" for="rss-src">表示するブログ</label>
+    <select id="rss-src" data-rss-select>
+      <option value="all">すべて（新着順）</option>
+      {feeds.feeds.map((f) => <option value={f.id}>{f.label}</option>)}
+    </select>
+  </div>
+  <ul class="rss-list" data-rss-list>
+    <li class="note" style="padding:10px 0">読み込み中…</li>
+  </ul>
+  <p class="note">「すべて」は1ブログ最大{feeds.maxInAll}件・新着順</p>
+</section>
+
+<AdSlot kind="sidebar" height={adHeight} pcOnly sticky />

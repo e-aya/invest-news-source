@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { getPublished, seriesArticles, articleUrl, displayDate, fmtDate } from '../../lib/articles';
+
+export async function getStaticPaths() {
+  const series = await getCollection('series');
+  return series.map((s) => ({ params: { id: s.id }, props: { s } }));
+}
+const { s } = Astro.props;
+const all = await getPublished();
+// 一覧は新しい順、番号は連載の順番（古い順）
+const ordered = seriesArticles(all, s.id);
+const items = ordered.map((a, i) => ({ a, no: i + 1 })).reverse();
+---
+<Base title={s.data.name} description={s.data.description} current={s.id === 'ipo' ? 'ipo' : 'series'}>
+  <div class="wrap page with-aside">
+    <main class="main">
+      <nav class="crumbs" aria-label="パンくず"><a href="/">ホーム</a> › <a href="/series/">シリーズ一覧</a> › <span>{s.data.name}</span></nav>
+      <section class="series-hero">
+        <p class="kicker">SERIES</p>
+        <h1>{s.data.name}</h1>
+        <p>{s.data.description}</p>
+        <div class="series-progress" data-series-progress={JSON.stringify(ordered.map((a) => a.id))}>
+          <strong>既読 <span data-count>0</span> / {ordered.length}</strong>
+          <span class="bar"><span data-fill></span></span>
+        </div>
+      </section>
+
+      <div role="tablist" aria-label="絞り込み" class="tabs" data-filter-group="#series-list">
+        <button role="tab" type="button" data-filter="all" aria-selected="true">すべて</button>
+        <button role="tab" type="button" data-filter="unread" aria-selected="false">未読のみ</button>
+        <button role="tab" type="button" data-filter="saved" aria-selected="false">あとで読む</button>
+      </div>
+
+      <ol id="series-list" class="series-list" role="list">
+        {items.map(({ a, no }) => {
+          const d = displayDate(a);
+          return (
+            <li data-item={a.id}>
+              <a href={articleUrl(a)} data-card={a.id}>
+                <span class="no num">{no}</span>
+                <span class="t">
+                  {a.data.tickers[0] && <span class="code num">{a.data.tickers[0].code}</span>}
+                  <strong>{a.data.title}</strong>
+                </span>
+                <span class:list={['date', d.updated && 'is-updated']} style="font-size:13px">{d.label} <time datetime={d.date.toISOString()}>{fmtDate(d.date)}</time></span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+      {items.length === 0 && <p style="color:var(--mu)">まだ記事がありません。</p>}
+    </main>
+    <aside class="aside"><Sidebar /></aside>
+  </div>
+</Base>
+<style>
+  .series-hero { background: var(--acs); border-radius: 20px; padding: 26px 30px; margin-bottom: 24px; }
+  .kicker { font-size: 13px; font-weight: 700; color: var(--ac); letter-spacing: 0.08em; }
+  .series-hero h1 { font-size: clamp(25px, 1.5vw + 18px, 32px); line-height: 1.4; margin: 2px 0 8px; }
+  .series-hero p { font-size: 15px; max-width: 600px; }
+  .series-progress { display: flex; align-items: center; gap: 14px; margin-top: 16px; font-size: 14px; }
+  .series-progress .bar { flex: 0 1 280px; height: 8px; border-radius: 4px; background: var(--sf); overflow: hidden; }
+  .series-progress .bar span { display: block; height: 8px; width: 0; background: var(--ac); }
+  .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+  .tabs button { min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--ln); background: var(--sf); font-size: 14px; cursor: pointer; }
+  .tabs button[aria-selected='true'] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+  .series-list li { border-bottom: 1px solid var(--ln); }
+  .series-list a { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; padding: 16px 4px; color: var(--ink); text-decoration: none; }
+  .series-list .no {
+    flex: 0 0 40px; height: 40px; border-radius: 50%; border: 2px solid var(--ac); color: var(--ac);
+    display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px;
+  }
+  .series-list .is-read .no { border-color: var(--ln); color: var(--mu); background: var(--sf2); }
+  .series-list .t { flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; }
+  .series-list .code { font-size: 13px; color: var(--ac); font-weight: 700; }
+  .series-list .is-read strong { color: var(--mu); }
+</style>

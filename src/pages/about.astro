@@ -1,0 +1,23 @@
+---
+import Page from '../layouts/Page.astro';
+import { site } from '../site.config';
+---
+<Page title="運営者情報・プロフィール" description={`${site.name}の運営者 ${site.author.name} のプロフィールです。`}>
+  <div style="display:flex;gap:16px;align-items:center;margin-bottom:20px">
+    <img src={site.author.icon} alt="" width="72" height="72" style="border-radius:50%" />
+    <div><p style="font-size:20px;font-weight:700;margin:0">{site.author.name}</p><p style="color:var(--mu);margin:0">{site.author.title}</p></div>
+  </div>
+  <h2>プロフィール</h2>
+  <p>投資歴約10年程ですが、投資を始めた頃は、FXや株の信用取引など短期売買にも挑戦しました。<br />しかし、相場の値動きを追いかける投資では思うような結果を出せず、失敗も経験しています。</p>
+  <p>そこで投資スタイルを見直し、現在は個別株とインデックス投資を中心に、「成長する企業や市場に長く投資する」長期保有を基本とした運用へ。<br />短期的な値動きに振り回されることが減り、着実に資産形成を続けています。</p>
+  <p>また本業であるITエンジニアの仕事柄、数字やデータを確認し、「なぜそうなるのか」を考えることが好きです。<br />このブログでも、企業決算や株式市場、金利、為替、経済ニュースなどを、できる限り数字や一次情報をもとに読み解いています。</p>
+  <p>「上がる・下がる」だけではなく、なぜ動いたのか。そのニュースが企業や投資にどうつながるのか。<br />投資で遠回りした経験も生かしながら、長期的な資産形成を考えるための材料を、分かりやすく発信していきます。</p>
+  <h2>運営者情報</h2>
+  <ul>
+    <li>サイト名：{site.name}</li>
+    <li>URL：{site.url}/</li>
+    <li>運営者：{site.author.name}</li>
+    <li>X：<a href={site.x.url} rel="me">@{site.x.handle}</a></li>
+    <li>お問い合わせ：<a href="/contact/">お問い合わせフォーム</a></li>
+  </ul>
+</Page>

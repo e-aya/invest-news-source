@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { getPublished, tickerIndex, tickerUrl } from '../../lib/articles';
+const idx = [...tickerIndex(await getPublished()).values()].sort((a, b) => b.articles.length - a.articles.length || a.code.localeCompare(b.code));
+---
+<Base title="銘柄から探す" description="記事で取り上げた銘柄の一覧です。銘柄ごとに分析記事とニュースをまとめています。" current="stocks">
+  <div class="wrap page with-aside">
+    <main class="main">
+      <nav class="crumbs" aria-label="パンくず"><a href="/">ホーム</a> › <span>銘柄から探す</span></nav>
+      <h1 class="sec-title" style="margin-bottom:8px">銘柄から探す</h1>
+      <p style="color:var(--mu);margin-bottom:20px">記事で取り上げた銘柄の一覧です。銘柄ページではウォッチ登録もできます。</p>
+      <div class="chip-row">
+        {idx.map((t) => (
+          <a class="chip" href={tickerUrl(t.code)}><span class="num">{t.code}</span><span>{t.name}</span><span style="color:var(--mu);font-size:12px">{t.articles.length}本</span></a>
+        ))}
+      </div>
+    </main>
+    <aside class="aside"><Sidebar /></aside>
+  </div>
+</Base>

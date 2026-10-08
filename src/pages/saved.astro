@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsRow from '../components/NewsRow.astro';
+import { getPublished } from '../lib/articles';
+const all = await getPublished();
+---
+<Base title="あとで読む" noindex>
+  <main class="wrap page" style="max-width:860px">
+    <nav class="crumbs" aria-label="パンくず"><a href="/">ホーム</a> › <span>あとで読む</span></nav>
+    <h1 class="sec-title" style="margin-bottom:8px">あとで読む</h1>
+    <p style="color:var(--mu);margin-bottom:16px">保存した記事はこの端末のブラウザ内にだけ保存されます。</p>
+    <p data-saved-empty style="padding:20px 0">保存した記事はまだありません。記事ページの「あとで読む」ボタンで保存できます。</p>
+    <ul class="news-list" data-saved-list>
+      {all.map((a) => <NewsRow article={a} item />)}
+    </ul>
+  </main>
+</Base>

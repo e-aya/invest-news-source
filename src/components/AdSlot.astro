@@ -1,0 +1,35 @@
+---
+// 手動の広告ユニット。高さを先に確保してから読み込む（CLS対策）。
+// site.config.ts で client とスロットIDが未設定のあいだは、枠だけ表示する。
+import { site } from '../site.config';
+type Kind = keyof typeof site.adsense.slots;
+interface Props { kind: Kind; height?: number; pcOnly?: boolean; sticky?: boolean }
+const { kind, height = 250, pcOnly = false, sticky = false } = Astro.props;
+const slot = site.adsense.slots[kind];
+const live = Boolean(site.adsense.client && slot);
+const format = kind === 'multiplex' ? 'autorelaxed' : kind.startsWith('inArticle') ? 'fluid' : 'auto';
+---
+<aside
+  class:list={['ad', pcOnly && 'ad--pc-only', sticky && 'ad--sidebar']}
+  style={`--ad-h:${height}px`}
+  aria-label="広告"
+  data-filled={live ? '' : undefined}
+>
+  <span class="ad__label">広告</span>
+  {
+    live && (
+      <>
+        <ins
+          class="adsbygoogle"
+          style="display:block"
+          data-ad-client={site.adsense.client}
+          data-ad-slot={slot}
+          data-ad-format={format}
+          data-ad-layout={kind.startsWith('inArticle') ? 'in-article' : undefined}
+          data-full-width-responsive="true"
+        />
+        <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </>
+    )
+  }
+</aside>

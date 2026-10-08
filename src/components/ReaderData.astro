@@ -1,0 +1,19 @@
+---
+// 端末内機能（reader.ts）が使う最小限のデータをページに埋め込む
+import { getPublished, tickerIndex, tickerUrl } from '../lib/articles';
+const all = await getPublished();
+const idx = tickerIndex(all);
+const tickers = Object.fromEntries(
+  [...idx.values()].map((t) => [
+    t.code,
+    {
+      code: t.code,
+      name: t.name,
+      url: tickerUrl(t.code),
+      latest: Math.max(...t.articles.map((a) => (a.data.updatedAt ?? a.data.publishedAt).getTime())),
+    },
+  ]),
+);
+---
+<script type="application/json" id="published-ids" set:html={JSON.stringify(all.map((a) => a.id))} />
+<script type="application/json" id="ticker-index" set:html={JSON.stringify(tickers)} />

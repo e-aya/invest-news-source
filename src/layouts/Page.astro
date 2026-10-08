@@ -1,0 +1,21 @@
+---
+import Base from './Base.astro';
+interface Props { title: string; description?: string; noindex?: boolean }
+const { title, description, noindex } = Astro.props;
+---
+<Base title={title} description={description} noindex={noindex}>
+  <main class="wrap page">
+    <article class="doc">
+      <nav class="crumbs" aria-label="パンくず"><a href="/">ホーム</a> › <span>{title}</span></nav>
+      <h1>{title}</h1>
+      <slot />
+    </article>
+  </main>
+</Base>
+<style>
+  .doc { max-width: 760px; }
+  .doc h1 { font-size: clamp(24px, 1.5vw + 16px, 30px); line-height: 1.4; margin-bottom: 24px; }
+  .doc :global(h2) { font-size: 19px; margin: 32px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--ln); }
+  .doc :global(p), .doc :global(ul) { margin-bottom: 14px; }
+  .doc :global(ul) { padding-left: 1.3em; }
+</style>

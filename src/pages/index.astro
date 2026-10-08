@@ -1,0 +1,102 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsRow from '../components/NewsRow.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { getPublished } from '../lib/articles';
+import { site } from '../site.config';
+
+const all = await getPublished();
+const ipo = all.filter((a) => a.data.category === 'ipo').slice(0, 6);
+const news = all.filter((a) => a.data.category !== 'ipo').slice(0, 10);
+const series = (await getCollection('series')).sort((a, b) => a.data.order - b.data.order);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: site.name,
+    url: site.url + '/',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${site.url}/search/?q={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
+  },
+];
+---
+<Base title={site.name} jsonLd={jsonLd}>
+  <main class="wrap page">
+    <h1 style="margin:0 0 32px;line-height:0">
+      <picture>
+        <source media="(max-width: 720px)" srcset="/brand/header-sp-light.webp" />
+        <img
+          src="/brand/header-light.webp"
+          alt={`${site.name} — 速報はXで、深掘りはこちら。AIも国策もIPOも、数字でほどいてから話すのだ。`}
+          width="2560"
+          height="500"
+          class="hero-light"
+          style="width:100%;height:auto"
+          fetchpriority="high"
+        />
+      </picture>
+      <picture>
+        <source media="(max-width: 720px)" srcset="/brand/header-sp-dark.webp" />
+        <img src="/brand/header-dark.webp" alt="" width="2560" height="500" class="hero-dark" style="width:100%;height:auto" loading="lazy" />
+      </picture>
+    </h1>
+
+    <div class="with-aside">
+      <div class="main stack">
+        <section class="panel" data-watch-panel hidden aria-label="ウォッチ中の銘柄">
+          <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+            <span style="font-weight:700;font-size:14px">ウォッチ中の銘柄</span>
+            <div class="chip-row" data-watch-list></div>
+            <a href="/stocks/" style="font-size:14px;margin-left:auto">＋ 銘柄を探す</a>
+          </div>
+        </section>
+
+        <section>
+          <div class="sec-head">
+            <h2 class="sec-title">IPOシリーズ</h2>
+            <a href="/series/ipo/">すべて見る →</a>
+          </div>
+          <div class="card-grid is-scroll">
+            {ipo.map((a) => <ArticleCard article={a} />)}
+          </div>
+        </section>
+
+        <AdSlot kind="listing" height={250} />
+
+        <section>
+          <div class="sec-head">
+            <h2 class="sec-title" style="--bar:var(--or)">投資速報</h2>
+            <a href="/news/">すべて見る →</a>
+          </div>
+          <ul class="news-list">
+            {news.map((a) => <NewsRow article={a} />)}
+          </ul>
+        </section>
+
+        <section>
+          <h2 style="font-size:20px;margin-bottom:14px">連載シリーズから探す</h2>
+          <div class="chip-row">
+            {series.map((s) => <a class="chip" href={`/series/${s.id}/`}>{s.data.name}</a>)}
+          </div>
+        </section>
+      </div>
+
+      <aside class="aside">
+        <Sidebar />
+      </aside>
+    </div>
+  </main>
+</Base>
+
+<style>
+  .hero-dark { display: none; }
+  :global([data-theme='dark']) .hero-light { display: none; }
+  :global([data-theme='dark']) .hero-dark { display: block; }
+</style>

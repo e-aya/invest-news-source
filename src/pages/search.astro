@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="サイト内検索" noindex>
+  <main class="wrap page" style="max-width:860px">
+    <nav class="crumbs" aria-label="パンくず"><a href="/">ホーム</a> › <span>サイト内検索</span></nav>
+    <h1 class="sec-title" style="margin-bottom:16px">サイト内検索</h1>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <div id="search"></div>
+    <script is:inline src="/pagefind/pagefind-ui.js"></script>
+    <script is:inline>
+      window.addEventListener('DOMContentLoaded', function () {
+        var ui = new PagefindUI({ element: '#search', showSubResults: true, translations: { placeholder: '銘柄名・コード・キーワードで検索', zero_results: '「[SEARCH_TERM]」に一致する記事はありません' } });
+        var q = new URLSearchParams(location.search).get('q');
+        if (q) ui.triggerSearch(q);
+      });
+    </script>
+  </main>
+</Base>
+<style>
+  #search { --pagefind-ui-primary: var(--ac); --pagefind-ui-text: var(--ink); --pagefind-ui-background: var(--sf); --pagefind-ui-border: var(--ln); --pagefind-ui-font: var(--font-body); }
+</style>

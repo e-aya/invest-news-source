@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { getPublished, seriesArticles } from '../../lib/articles';
+
+const all = await getPublished();
+const series = (await getCollection('series')).sort((a, b) => a.data.order - b.data.order);
+---
+<Base title="シリーズ一覧" description="連載シリーズの一覧です。" current="series">
+  <div class="wrap page with-aside">
+    <main class="main">
+      <nav class="crumbs" aria-label="パンくず"><a href="/">ホーム</a> › <span>シリーズ一覧</span></nav>
+      <h1 class="sec-title" style="margin-bottom:20px">シリーズ一覧</h1>
+      <div class="card-grid">
+        {series.map((s) => (
+          <a class="panel" href={`/series/${s.id}/`} style="color:var(--ink);text-decoration:none;display:flex;flex-direction:column;gap:6px">
+            <strong style="font-size:18px">{s.data.name}</strong>
+            <span style="font-size:14px;color:var(--mu)">{s.data.description}</span>
+            <span style="font-size:13px;color:var(--ac);font-weight:700">{seriesArticles(all, s.id).length}本</span>
+          </a>
+        ))}
+      </div>
+    </main>
+    <aside class="aside"><Sidebar /></aside>
+  </div>
+</Base>

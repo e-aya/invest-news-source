@@ -1,0 +1,15 @@
+---
+import { site } from '../site.config';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <a href="/about/">運営者情報・プロフィール</a>
+    <a href="/policy/">編集方針</a>
+    <a href="/privacy/">プライバシーポリシー</a>
+    <a href="/disclaimer/">免責事項</a>
+    <a href="/contact/">お問い合わせ</a>
+    <a href="/feed/">RSS</a>
+    <small>© {year} {site.name}</small>
+  </div>
+</footer>

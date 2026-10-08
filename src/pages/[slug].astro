@@ -1,0 +1,237 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import AuthorBox from '../components/AuthorBox.astro';
+import AdSlot from '../components/AdSlot.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Sidebar from '../components/Sidebar.astro';
+import {
+  getPublished, readBody, readStyle, readingMinutes, fmtDate, categoryLabel,
+  seriesArticles, related, tickerUrl, tagUrl, articleUrl, type Article,
+} from '../lib/articles';
+import { site } from '../site.config';
+
+export async function getStaticPaths() {
+  const all = await getPublished();
+  return all.map((article) => ({ params: { slug: article.id }, props: { article } }));
+}
+
+const { article } = Astro.props as { article: Article };
+const d = article.data;
+const all = await getPublished();
+const seriesList = await getCollection('series');
+const series = d.series ? seriesList.find((s) => s.id === d.series) : undefined;
+const inSeries = series ? seriesArticles(all, series.id) : [];
+const pos = inSeries.findIndex((a) => a.id === article.id);
+const prev = pos > 0 ? inSeries[pos - 1] : undefined;
+const next = pos >= 0 && pos < inSeries.length - 1 ? inSeries[pos + 1] : undefined;
+const rel = related(all, article, 3);
+
+let body = readBody(article.id);
+const css = readStyle(article.id);
+const minutes = readingMinutes(body);
+const updated = d.updatedAt && d.updatedAt > d.publishedAt ? d.updatedAt : undefined;
+const legacy = d.format === 'legacy';
+
+// 新テンプレートの記事だけ、第2セクションの後に記事内広告を差し込む。
+// 旧記事は記事CSSの全称リセットが広告枠に効いてしまうため、本文の後に置く。
+let bodyHead = body;
+let bodyTail = '';
+if (!legacy) {
+  const re = /<\/section>/g;
+  let m: RegExpExecArray | null;
+  let n = 0;
+  while ((m = re.exec(body))) {
+    if (++n === 2) {
+      bodyHead = body.slice(0, m.index + m[0].length);
+      bodyTail = body.slice(m.index + m[0].length);
+      break;
+    }
+  }
+}
+
+const url = new URL(articleUrl(article), site.url).href;
+const ogImage = d.ogImage ?? site.ogImage;
+const crumbs = [
+  { name: 'ホーム', url: '/' },
+  series ? { name: series.data.name, url: `/series/${series.id}/` } : { name: categoryLabel(d.category), url: `/category/${d.category}/` },
+  { name: d.title, url: articleUrl(article) },
+];
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: d.title,
+    description: d.points.length ? d.points.join(' ') : d.description,
+    image: [new URL(ogImage, site.url).href],
+    datePublished: d.publishedAt.toISOString(),
+    dateModified: (updated ?? d.publishedAt).toISOString(),
+    mainEntityOfPage: url,
+    inLanguage: 'ja',
+    author: {
+      '@type': 'Person',
+      name: site.author.name,
+      jobTitle: site.author.title,
+      url: new URL(site.author.profileUrl, site.url).href,
+      sameAs: [site.x.url],
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: site.name,
+      logo: { '@type': 'ImageObject', url: new URL('/brand/icon-512.png', site.url).href },
+    },
+    keywords: d.tags.join(','),
+    about: d.tickers.map((t) => ({ '@type': 'Corporation', name: t.name, tickerSymbol: t.code })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.url, site.url).href })),
+  },
+];
+---
+<Base
+  title={d.title}
+  description={d.description}
+  ogImage={ogImage}
+  ogType="article"
+  jsonLd={jsonLd}
+  articleCss={css}
+  progress
+>
+  <div class="wrap page with-aside">
+    <article class="main post">
+      <nav class="crumbs" aria-label="パンくず">
+        {crumbs.slice(0, -1).map((c) => <><a href={c.url}>{c.name}</a> › </>)}<span>{d.title}</span>
+      </nav>
+
+      <div class="post__pills">
+        {series && <a class="pill is-solid" href={`/series/${series.id}/`} style="text-decoration:none">{series.data.name}{pos >= 0 && ` ${pos + 1}/${inSeries.length}`}</a>}
+        <a class="pill is-ac" href={`/category/${d.category}/`} style="text-decoration:none">{categoryLabel(d.category)}</a>
+        {d.tickers.map((t) => (
+          <a class="pill is-outline" href={tickerUrl(t.code)}><span class="num">{t.code}</span> {t.name} の記事一覧</a>
+        ))}
+      </div>
+
+      {!legacy && <h1 class="post__title">{d.title}</h1>}
+
+      <div class="byline">
+        <a class="byline__who" href="#author">
+          <img src={site.author.icon} alt="" width="36" height="36" />
+          <span><strong>{site.author.name}</strong><small>{site.author.title}</small></span>
+        </a>
+        <span>公開 <time datetime={d.publishedAt.toISOString()}>{fmtDate(d.publishedAt)}</time></span>
+        {updated && <span class="date is-updated">更新 <time datetime={updated.toISOString()}>{fmtDate(updated)}</time></span>}
+        <span>読了目安 {minutes}分</span>
+      </div>
+
+      <div class="actions">
+        <button class="btn" type="button" data-save={article.id} aria-pressed="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg>
+          <span data-label>あとで読む</span>
+        </button>
+        {d.tickers.slice(0, 1).map((t) => (
+          <button class="btn" type="button" data-watch={t.code.toUpperCase()} aria-pressed="false">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            <span data-label>{t.code} をウォッチ</span>
+          </button>
+        ))}
+        <a class="btn" href={`https://x.com/intent/post?text=${encodeURIComponent(d.title)}&url=${encodeURIComponent(url)}&via=${site.x.handle}`} target="_blank" rel="noopener">
+          Xでシェア
+        </a>
+      </div>
+
+      {
+        !legacy && d.points.length > 0 && (
+          <section class="points">
+            <h2>この記事のポイント</h2>
+            <ul>{d.points.map((p) => <li>{p}</li>)}</ul>
+          </section>
+        )
+      }
+
+      <div class="post__body" data-article-body data-pagefind-body>
+        <Fragment set:html={bodyHead} />
+        {!legacy && bodyTail && <AdSlot kind="inArticle" height={280} />}
+        {!legacy && <Fragment set:html={bodyTail} />}
+      </div>
+
+      {legacy && <AdSlot kind="inArticle" height={280} />}
+
+      {
+        series && (prev || next) && (
+          <nav class="series-nav" aria-label="シリーズ内の前後の記事">
+            {prev ? (
+              <a href={articleUrl(prev)}><small>← 前の記事（{series.data.name}）</small><strong>{prev.data.title}</strong></a>
+            ) : <span />}
+            {next ? (
+              <a href={articleUrl(next)} style="text-align:right"><small>次の記事（{series.data.name}）→</small><strong>{next.data.title}</strong></a>
+            ) : <span />}
+          </nav>
+        )
+      }
+      {series && <a class="btn is-primary is-block" href={`/series/${series.id}/`}>{series.data.name}を全部読む</a>}
+
+      <AdSlot kind="multiplex" height={300} />
+
+      {
+        rel.length > 0 && (
+          <section>
+            <h2 style="font-size:20px;margin-bottom:14px">関連記事</h2>
+            <div class="card-grid">{rel.map((a) => <ArticleCard article={a} />)}</div>
+          </section>
+        )
+      }
+
+      {
+        d.tags.length > 0 && (
+          <div class="chip-row" aria-label="タグ">
+            {d.tags.map((t) => <a class="chip" href={tagUrl(t)}>#{t}</a>)}
+          </div>
+        )
+      }
+
+      <AuthorBox readMark={article.id} />
+
+      <p class="disclaimer">
+        本記事は情報提供を目的としたもので、特定銘柄の売買を推奨するものではありません。投資判断はご自身の責任でお願いします。
+      </p>
+    </article>
+
+    <aside class="aside">
+      <Sidebar showAbout={false} />
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .post > :global(* + *) { margin-top: 24px; }
+  .post__pills { display: flex; flex-wrap: wrap; gap: 8px; }
+  .post__title { font-size: clamp(25px, 1.8vw + 16px, 34px); line-height: 1.45; }
+  .byline { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; font-size: 14px; color: var(--mu); }
+  .byline__who { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; }
+  .byline__who img { width: 36px; height: 36px; border-radius: 50%; }
+  .byline__who span { display: flex; flex-direction: column; line-height: 1.4; }
+  .byline__who small { font-size: 12px; color: var(--mu); }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+  .points { background: var(--acs); border-radius: 16px; padding: 20px 24px; }
+  .points h2 { font-size: 16px; color: var(--ac); margin-bottom: 6px; }
+  .points ul { padding-left: 1.2em; line-height: 1.9; }
+  .post__body { font-size: clamp(16px, 0.3vw + 15px, 17px); line-height: 1.9; }
+  /* 新テンプレート記事の本文。旧記事は記事CSS側で整形済みなので触らない */
+  .post__body :global(> section + section) { margin-top: 36px; }
+  .post__body :global(> section h2) { font-size: clamp(20px, 1vw + 15px, 24px); line-height: 1.5; margin-bottom: 14px; }
+  .post__body :global(> section p + p) { margin-top: 14px; }
+  .post__body :global(figure) { margin: 24px 0 0; }
+  .post__body :global(figcaption) { margin-top: 8px; font-size: 13px; color: var(--mu); }
+  .post__body > :global(aside.ad) { margin-block: 36px; }
+  .series-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .series-nav a {
+    display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid var(--ln);
+    border-radius: 14px; background: var(--sf); color: var(--ink); text-decoration: none;
+  }
+  .series-nav small { color: var(--mu); font-size: 12px; }
+  .series-nav strong { font-size: 15px; }
+  @media (max-width: 560px) { .series-nav { grid-template-columns: 1fr; } }
+  .disclaimer { padding: 16px 18px; border: 1px solid var(--ln); border-radius: 12px; font-size: 13px; color: var(--mu); }
+</style>

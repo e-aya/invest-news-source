@@ -1,0 +1,35 @@
+---
+import { site } from '../site.config';
+interface Props { current?: string; progress?: boolean }
+const { current = '', progress = false } = Astro.props;
+const nav = [
+  { href: '/series/ipo/', label: 'IPOシリーズ', key: 'ipo' },
+  { href: '/news/', label: '投資速報', key: 'news' },
+  { href: '/series/', label: 'シリーズ一覧', key: 'series' },
+  { href: '/stocks/', label: '銘柄から探す', key: 'stocks' },
+];
+---
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="/">
+      <img src="/brand/icon-512.png" alt="" width="32" height="32" />
+      <span>{site.name}</span>
+    </a>
+    <nav class="gnav" aria-label="メインメニュー">
+      {nav.map((n) => (
+        <a class="gnav__text" href={n.href} aria-current={current === n.key ? 'page' : undefined}>{n.label}</a>
+      ))}
+      <a class="icon-btn" href="/search/" aria-label="サイト内検索">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+      </a>
+      <a class="icon-btn" href="/saved/" aria-label="あとで読む">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg>
+        <span class="badge" data-saved-count></span>
+      </a>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="ライト／ダークを切り替え">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"></path></svg>
+      </button>
+    </nav>
+  </div>
+  {progress && <div class="progress" aria-hidden="true"><span data-progress></span></div>}
+</header>

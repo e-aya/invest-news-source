@@ -1,0 +1,8 @@
+[
+  { "id": "ipo", "name": "IPOシリーズ", "description": "国内外の新規上場銘柄を、目論見書と数字から読み解くシリーズ。", "order": 1 },
+  { "id": "geo-risk", "name": "地政学リスクウォッチ", "description": "ホルムズ海峡・米中・資源など、地政学の動きが相場に伝わる経路を追うシリーズ。", "order": 2 },
+  { "id": "central-bank", "name": "中央銀行ウォッチ", "description": "日銀・FRBの金融政策と、金利・為替・株価への波及を整理するシリーズ。", "order": 3 },
+  { "id": "ai-light-shadow", "name": "AI熱狂の光と影", "description": "AI投資の実需と期待のずれを、決算と資金の流れから検証するシリーズ。", "order": 4 },
+  { "id": "national-policy", "name": "国策テーマウォッチ", "description": "政府の重点分野と予算から、関連銘柄への影響を整理するシリーズ。", "order": 5 },
+  { "id": "good-company-bad-timing", "name": "良い会社・悪いタイミング", "description": "業績は良いのに株価が振るわない理由を、需給と期待値から読むシリーズ。", "order": 6 }
+]

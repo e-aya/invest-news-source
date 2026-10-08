@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "invest-news-source",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-09-01",
+  // 静的サイト（Astroのビルド結果）を配信する。Workerを先に通して旧URLの転送・410を判定する
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "404-page",
+    "html_handling": "force-trailing-slash"
+  },
+  // 相互RSSの取得結果を保存する。id は `npx wrangler kv namespace create RSS_CACHE` で作って書き換える
+  "kv_namespaces": [{ "binding": "RSS_CACHE", "id": "REPLACE_WITH_KV_ID" }],
+  // 相互RSSを1時間ごとに取得
+  "triggers": { "crons": ["17 * * * *"] },
+  // お問い合わせの転送先。Cloudflare の Email Routing で宛先アドレスの確認が必要
+  "send_email": [{ "name": "MAILER", "destination_address": "invest-news-source@outlook.jp" }],
+  "vars": {
+    "MAIL_FROM": "form@invest-news-source.com"
+  },
+  "routes": [
+    { "pattern": "invest-news-source.com", "custom_domain": true },
+    { "pattern": "www.invest-news-source.com", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}

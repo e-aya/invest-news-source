@@ -1,0 +1,41 @@
+---
+import { site } from '../site.config';
+interface Props { readMark?: string }
+const { readMark } = Astro.props;
+const a = site.author;
+---
+<section class="author" id="author" aria-label="この記事を書いた人" data-read-mark={readMark}>
+  <img src={a.icon} alt="" width="64" height="64" />
+  <div>
+    <p class="author__kicker">この記事を書いた人</p>
+    <p class="author__name">{a.name}</p>
+    <p class="author__title">{a.title}</p>
+    <p class="author__bio">{a.summary}</p>
+    <p class="author__policy">{a.policy}</p>
+    <div class="author__links">
+      <a href={a.profileUrl}>プロフィールを詳しく見る</a>
+      <a href="/policy/">運営者情報・編集方針</a>
+      <a href={site.x.url} rel="me">X @{site.x.handle}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .author {
+    display: flex; gap: 18px; align-items: flex-start; background: var(--sf);
+    border: 1px solid var(--ln); border-top: 4px double var(--ink); border-radius: 4px; padding: 20px 22px;
+  }
+  .author img { flex: 0 0 auto; width: 64px; height: 64px; border-radius: 50%; }
+  .author > div { min-width: 0; }
+  .author__kicker { font-size: 12px; color: var(--mu); letter-spacing: 0.08em; }
+  .author__name { font-size: 18px; font-weight: 700; }
+  .author__title { font-size: 13px; color: var(--mu); margin-bottom: 8px; }
+  .author__bio { font-size: 14px; margin-bottom: 10px; }
+  .author__policy { font-size: 13px; color: var(--mu); margin-bottom: 10px; }
+  .author__links { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 13px; }
+  .author__links a { display: inline-flex; align-items: center; min-height: 32px; }
+  @media (max-width: 560px) {
+    .author { flex-direction: column; }
+    .author img { width: 52px; height: 52px; }
+  }
+</style>

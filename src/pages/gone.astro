@@ -1,0 +1,14 @@
+---
+// 削除した記事・移行しなかった旧記事へのアクセスに返すページ（Workerがステータス410で返す）
+import Page from '../layouts/Page.astro';
+---
+<Page title="この記事は削除されました" noindex>
+  <p>お探しの記事は、サイトの移転にともない削除しました。</p>
+  <p>新しい記事は、次のページからご覧いただけます。</p>
+  <ul>
+    <li><a href="/">トップページ</a></li>
+    <li><a href="/series/ipo/">IPOシリーズ</a></li>
+    <li><a href="/news/">投資速報</a></li>
+    <li><a href="/stocks/">銘柄から探す</a></li>
+  </ul>
+</Page>

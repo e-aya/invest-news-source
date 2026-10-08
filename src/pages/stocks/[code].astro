@@ -1,0 +1,70 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import NewsRow from '../../components/NewsRow.astro';
+import { getPublished, tickerIndex, tickerUrl, categoryLabel, type Article } from '../../lib/articles';
+import { site } from '../../site.config';
+
+// 記事が1本以上ある銘柄だけページを作る
+export async function getStaticPaths() {
+  const all = await getPublished();
+  const idx = tickerIndex(all);
+  return [...idx.values()].map((t) => ({ params: { code: t.code.toLowerCase() }, props: { t, idx } }));
+}
+const { t, idx } = Astro.props as { t: { code: string; name: string; articles: Article[] }; idx: Map<string, { code: string; name: string; articles: Article[] }> };
+
+// 区分ごとにまとめる
+const groups = new Map<string, Article[]>();
+for (const a of t.articles) {
+  const k = categoryLabel(a.data.category);
+  if (!groups.has(k)) groups.set(k, []);
+  groups.get(k)!.push(a);
+}
+// 関連銘柄：同じ記事に登場する別の銘柄
+const relatedCodes = new Map<string, string>();
+for (const a of t.articles) for (const x of a.data.tickers) if (x.code.toUpperCase() !== t.code) relatedCodes.set(x.code.toUpperCase(), x.name);
+const title = `${t.name}（${t.code}）の分析・ニュースまとめ`;
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: title,
+  url: new URL(tickerUrl(t.code), site.url).href,
+  about: { '@type': 'Corporation', name: t.name, tickerSymbol: t.code },
+}];
+---
+<Base title={title} description={`${t.name}（${t.code}）に関する記事を、IPO分析・決算・市況などに分けてまとめています。`} jsonLd={jsonLd} current="stocks">
+  <div class="wrap page with-aside">
+    <main class="main">
+      <nav class="crumbs" aria-label="パンくず"><a href="/">ホーム</a> › <a href="/stocks/">銘柄から探す</a> › <span>{t.code} {t.name}</span></nav>
+      <section class="tk-head">
+        <div>
+          <p class="num tk-code">{t.code}</p>
+          <h1>{title}</h1>
+          <p style="color:var(--mu)">{t.name}について、これまでの記事を種類別にまとめています。</p>
+        </div>
+        <button class="btn" type="button" data-watch={t.code} aria-pressed="false"><span data-label>{t.code} をウォッチ</span></button>
+      </section>
+      {[...groups.entries()].map(([label, list]) => (
+        <section style="margin-bottom:32px">
+          <h2 class="sec-title" style="font-size:20px">{label}<span style="font-size:13px;font-weight:500;color:var(--mu)">{list.length}件</span></h2>
+          <ul class="news-list">{list.map((a) => <NewsRow article={a} />)}</ul>
+        </section>
+      ))}
+      {relatedCodes.size > 0 && (
+        <section class="panel">
+          <h2>関連する銘柄</h2>
+          <div class="chip-row">
+            {[...relatedCodes].filter(([c]) => idx.has(c)).map(([c, n]) => <a class="chip" href={tickerUrl(c)}><span class="num">{c}</span>{n}</a>)}
+          </div>
+        </section>
+      )}
+    </main>
+    <aside class="aside"><Sidebar /></aside>
+  </div>
+</Base>
+<style>
+  .tk-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px; padding-bottom: 22px; border-bottom: 1px solid var(--ink); margin-bottom: 28px; }
+  .tk-head > div { min-width: 0; }
+  .tk-code { font-weight: 700; font-size: clamp(40px, 3vw + 24px, 56px); line-height: 1; color: var(--ac); }
+  .tk-head h1 { font-size: clamp(22px, 1.4vw + 15px, 30px); line-height: 1.4; margin: 10px 0 6px; }
+</style>

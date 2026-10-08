@@ -1,0 +1,15 @@
+---
+import ListPage from '../../components/ListPage.astro';
+import { getPublished } from '../../lib/articles';
+import { categories } from '../../site.config';
+
+export async function getStaticPaths() {
+  const all = await getPublished();
+  return categories.map((c) => ({
+    params: { id: c.id },
+    props: { label: c.label, articles: all.filter((a) => a.data.category === c.id) },
+  }));
+}
+const { label, articles } = Astro.props;
+---
+<ListPage title={label} articles={articles} noindex={articles.length === 0} />
