@@ -31,13 +31,13 @@ export const site = {
 
   // AdSense。client は ca-pub-XXXXXXXX。各スロットIDは管理画面で作った手動ユニットのID
   adsense: {
-    client: '',
+    client: 'ca-pub-9528923007422550',
     slots: {
-      inArticle: '', // 記事内（第2セクションの後）
-      inArticleSecond: '', // 長い記事の中盤
-      multiplex: '', // まとめ後・関連記事の前
-      sidebar: '', // PCサイドバー追従
-      listing: '', // トップの一覧内
+      inArticle: '5615637725', // 記事内（第2セクションの後）。記事内広告
+      multiplex: '1197046418', // まとめ後・関連記事の前。Multiplex
+      sidebarTop: '7667085994', // PCサイドバー上部 300×250。ディスプレイ
+      sidebar: '5723448935', // PCサイドバー追従 300×600。ディスプレイ
+      listing: '2973162518', // トップの一覧内。記事内広告
     },
   },
 

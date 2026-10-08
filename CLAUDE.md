@@ -17,7 +17,8 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 
 - `npm run build` … 転送表生成 → astro build → pagefind → 全内部リンク検査（リンク切れがあると失敗する。失敗したら直してから進める）
 - `npm run preview` … wrangler dev で Worker 込みの確認
-- `npm run deploy` … ビルドして Cloudflare に公開
+- `npm run deploy` … ビルドして Cloudflare に公開（本番：独自ドメイン）
+- `npm run deploy:staging` … 確認用（workers.dev、noindex、メール送信なし）に公開
 - `npm run import:wp` … `import/export.xml`（WXR）と `import/additional.css` から再取り込み。`import/` は git 管理外
 
 ## 取り込み（WordPress → 新サイト）
@@ -36,6 +37,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 
 ## 未完了
 
-- Cloudflare：KV 作成（`wrangler.jsonc` の `REPLACE_WITH_KV_ID`）、Email Routing の宛先確認、Turnstile、初回デプロイ、お名前.com のネームサーバー変更
-- AdSense：手動ユニットを作成して `site.config.ts` にIDを入れる
+以下はすべてアカウント側の操作。手順は README.md の「初回セットアップ」にまとめてある（KV は初回デプロイで自動作成されるので作業不要）
+
+- Cloudflare：確認用デプロイ → サイト追加・お名前.com のネームサーバー変更 → 本番デプロイ → Email Routing の宛先確認 → Turnstile
 - 相互RSS（kitaaa.net / twobeko.com）と Blozoo の `https` 読み込みは本番で動作確認する
