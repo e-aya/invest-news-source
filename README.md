@@ -37,9 +37,50 @@ npm run import:wp  # import/export.xml と import/additional.css から記事を
 
 ## 初回セットアップ（Cloudflare）
 
-1. `npx wrangler login`
-2. `npx wrangler kv namespace create RSS_CACHE` → 表示された id を `wrangler.jsonc` に書く
-3. Email Routing を有効にし、宛先 `invest-news-source@outlook.jp` を確認する
-4. （任意）Turnstile のサイトキーを `site.config.ts`、秘密鍵を `npx wrangler secret put TURNSTILE_SECRET` で登録
-5. `npm run deploy`
-6. 切り替え当日：お名前.com のネームサーバーを Cloudflare に変更
+上から順に進める。★はアカウントでの操作（コードの変更は不要）。
+
+### 1. 確認用環境に出す（ネームサーバー切り替え前でもできる）
+
+1. ★ `npx wrangler login`
+2. `npm run deploy:staging`
+   - `invest-news-source-staging.<アカウント名>.workers.dev` に公開される（検索エンジンには載らないよう `noindex` を付けている）
+   - 相互RSS用の KV は初回デプロイ時に自動で作られる（`wrangler.jsonc` に id を書く必要はない）
+3. 確認する項目
+   - トップ・記事・検索・ダークモードの表示
+   - `/?p=<旧記事ID>` が新URLへ 301、`/wp-login.php` が 410
+   - `/feed/` が RSS を返す
+   - `/api/rss` に kitaaa.net / twobeko.com などの記事が入っている（cron は毎時17分。初回はアクセス時に取得）
+   - サイドバーの Blozoo が表示される
+   - お問い合わせは確認用環境では 503（メール送信を付けていないため。正常）
+
+### 2. ドメインを Cloudflare に移す
+
+1. ★ Cloudflare ダッシュボードで「サイトを追加」→ `invest-news-source.com`（Free プラン）
+   - 既存の DNS レコードが読み込まれるので、メール（MX）など WordPress 以外で使っているレコードが残っているか確認する
+2. ★ お名前.com のネームサーバーを、Cloudflare が表示した2つに変更する
+   - 反映まで数時間〜最大48時間。切り替わるまでは旧 WordPress が表示される
+3. ドメインが「有効」になったら `npm run deploy`
+   - `invest-news-source.com` と `www` に独自ドメインとして割り当てられる（DNS レコードも自動で作られる）
+   - 旧サーバーを指す A / CNAME レコードが残っていると割り当てに失敗するので、その場合は削除してから再実行する
+
+### 3. お問い合わせ（Email Routing）
+
+1. ★ ダッシュボード →「メール」→「Email Routing」を有効化（MX / SPF レコードが追加される）
+2. ★「宛先アドレス」に `invest-news-source@outlook.jp` を追加し、届いた確認メールのリンクを開く
+3. フォームから送信してテストする（送信元は `form@invest-news-source.com`）
+
+### 4. Turnstile（ボット対策、任意）
+
+1. ★ ダッシュボード →「Turnstile」→ ウィジェットを追加（ホスト名 `invest-news-source.com`、モード「マネージド」）
+2. サイトキーを `src/site.config.ts` の `turnstileSiteKey` に書く
+3. `npx wrangler secret put TURNSTILE_SECRET --env=""` でシークレットキーを登録
+4. `npm run deploy`
+
+サイトキーとシークレットは必ずセットで設定する（シークレットだけ入れるとフォームが常に失敗する）。
+
+### 5. AdSense
+
+1. ★ AdSense 管理画面でサイト `invest-news-source.com` を確認済みにする
+2. ★ 「広告」→「広告ユニットごと」で手動ユニットを5つ作る（記事内×2、マルチプレックス、サイドバー、一覧）
+3. `src/site.config.ts` の `adsense.client`（`ca-pub-...`）と各 `slots` を埋めて `npm run deploy`
+   - `client` を入れると `/ads.txt` が自動で正しい内容になる

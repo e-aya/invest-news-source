@@ -11,8 +11,8 @@
     "not_found_handling": "404-page",
     "html_handling": "force-trailing-slash"
   },
-  // 相互RSSの取得結果を保存する。id は `npx wrangler kv namespace create RSS_CACHE` で作って書き換える
-  "kv_namespaces": [{ "binding": "RSS_CACHE", "id": "REPLACE_WITH_KV_ID" }],
+  // 相互RSSの取得結果を保存する。id を書かなければ、初回の `wrangler deploy` が KV を自動で作って紐づける
+  "kv_namespaces": [{ "binding": "RSS_CACHE" }],
   // 相互RSSを1時間ごとに取得
   "triggers": { "crons": ["17 * * * *"] },
   // お問い合わせの転送先。Cloudflare の Email Routing で宛先アドレスの確認が必要
@@ -24,5 +24,18 @@
     { "pattern": "invest-news-source.com", "custom_domain": true },
     { "pattern": "www.invest-news-source.com", "custom_domain": true }
   ],
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  // 確認用（npm run deploy:staging）。独自ドメインを付けず invest-news-source-staging.<account>.workers.dev に出す。
+  // ネームサーバーを切り替える前に、Cloudflare 上での表示・旧URL転送・410・相互RSSを確かめるために使う。
+  // send_email は Email Routing（ドメインが Cloudflare に移ってから有効化）が必要なので付けない（お問い合わせは 503 を返す）
+  "env": {
+    "staging": {
+      "name": "invest-news-source-staging",
+      "workers_dev": true,
+      "routes": [],
+      "kv_namespaces": [{ "binding": "RSS_CACHE" }],
+      "triggers": { "crons": ["17 * * * *"] },
+      "vars": { "MAIL_FROM": "form@invest-news-source.com" }
+    }
+  }
 }

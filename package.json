@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "node scripts/gen-worker-data.mjs && astro build && pagefind --site dist && node scripts/check-links.mjs",
     "preview": "wrangler dev",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy --env=\"\"",
+    "deploy:staging": "npm run build && wrangler deploy --env staging",
     "import:wp": "node scripts/import-wxr.mjs",
     "check:links": "node scripts/check-links.mjs"
   },

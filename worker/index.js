@@ -12,61 +12,71 @@ const HOST = 'invest-news-source.com';
 
 export default {
   async fetch(request, env, ctx) {
-    const url = new URL(request.url);
-
-    // www なしに統一
-    if (url.hostname === `www.${HOST}`) {
-      url.hostname = HOST;
-      return Response.redirect(url.toString(), 301);
-    }
-
-    // ---- WordPress 時代のURL ----
-    const q = url.searchParams;
-    if (q.has('p')) {
-      const slug = legacy.byWpId[q.get('p')];
-      return slug ? redirect(url, `/${slug}/`) : gone(env, request);
-    }
-    if (q.has('page_id')) {
-      const to = legacy.pages[q.get('page_id')];
-      return to ? redirect(url, to) : gone(env, request);
-    }
-    if (q.has('s')) return redirect(url, `/search/?q=${encodeURIComponent(q.get('s') || '')}`);
-    if (q.has('feed')) return redirect(url, '/feed/');
-    if (q.has('cat') || q.has('tag') || q.has('m') || q.has('author') || q.has('attachment_id')) {
-      return redirect(url, '/');
-    }
-    if (/^\/(wp-admin|wp-includes|wp-content|wp-json)(\/|$)|^\/(wp-login\.php|xmlrpc\.php|wp-cron\.php)$/.test(url.pathname)) {
-      return gone(env, request);
-    }
-
-    // ---- 自サイトのRSS ----
-    if (/^\/feed(\/(rss2?\/?|atom\/?)?)?$/.test(url.pathname)) {
-      const res = await env.ASSETS.fetch(new URL('/feed/index.xml', url));
-      return new Response(res.body, {
-        status: res.status,
-        headers: { 'content-type': 'application/rss+xml; charset=utf-8', 'cache-control': 'public, max-age=600' },
-      });
-    }
-
-    // ---- 削除済み記事 ----
-    const first = decodeURIComponent(url.pathname.split('/')[1] || '');
-    if (first && legacy.withdrawn.includes(first)) return gone(env, request);
-
-    // ---- API ----
-    if (url.pathname === '/api/contact') {
-      if (request.method !== 'POST') return new Response('Method Not Allowed', { status: 405 });
-      return contact(request, env, url);
-    }
-    if (url.pathname === '/api/rss') return rssApi(env, ctx);
-
-    // ---- 静的ファイル ----
-    return env.ASSETS.fetch(request);
+    const res = await handle(request, env, ctx);
+    // 本番ドメイン以外（確認用の workers.dev など）は検索エンジンに載せない
+    const host = new URL(request.url).hostname;
+    if (host === HOST || host === `www.${HOST}` || res.status === 101) return res;
+    const out = new Response(res.body, res);
+    out.headers.set('x-robots-tag', 'noindex, nofollow');
+    return out;
   },
 
   async scheduled(_event, env, ctx) {
     ctx.waitUntil(refreshRss(env));
   },
 };
+
+async function handle(request, env, ctx) {
+  const url = new URL(request.url);
+
+  // www なしに統一
+  if (url.hostname === `www.${HOST}`) {
+    url.hostname = HOST;
+    return Response.redirect(url.toString(), 301);
+  }
+
+  // ---- WordPress 時代のURL ----
+  const q = url.searchParams;
+  if (q.has('p')) {
+    const slug = legacy.byWpId[q.get('p')];
+    return slug ? redirect(url, `/${slug}/`) : gone(env, request);
+  }
+  if (q.has('page_id')) {
+    const to = legacy.pages[q.get('page_id')];
+    return to ? redirect(url, to) : gone(env, request);
+  }
+  if (q.has('s')) return redirect(url, `/search/?q=${encodeURIComponent(q.get('s') || '')}`);
+  if (q.has('feed')) return redirect(url, '/feed/');
+  if (q.has('cat') || q.has('tag') || q.has('m') || q.has('author') || q.has('attachment_id')) {
+    return redirect(url, '/');
+  }
+  if (/^\/(wp-admin|wp-includes|wp-content|wp-json)(\/|$)|^\/(wp-login\.php|xmlrpc\.php|wp-cron\.php)$/.test(url.pathname)) {
+    return gone(env, request);
+  }
+
+  // ---- 自サイトのRSS ----
+  if (/^\/feed(\/(rss2?\/?|atom\/?)?)?$/.test(url.pathname)) {
+    const res = await env.ASSETS.fetch(new URL('/feed/index.xml', url));
+    return new Response(res.body, {
+      status: res.status,
+      headers: { 'content-type': 'application/rss+xml; charset=utf-8', 'cache-control': 'public, max-age=600' },
+    });
+  }
+
+  // ---- 削除済み記事 ----
+  const first = decodeURIComponent(url.pathname.split('/')[1] || '');
+  if (first && legacy.withdrawn.includes(first)) return gone(env, request);
+
+  // ---- API ----
+  if (url.pathname === '/api/contact') {
+    if (request.method !== 'POST') return new Response('Method Not Allowed', { status: 405 });
+    return contact(request, env, url);
+  }
+  if (url.pathname === '/api/rss') return rssApi(env, ctx);
+
+  // ---- 静的ファイル ----
+  return env.ASSETS.fetch(request);
+}
 
 function redirect(url, to, status = 301) {
   return Response.redirect(new URL(to, url).toString(), status);
@@ -115,6 +125,14 @@ async function contact(request, env, url) {
     '',
     `送信元: ${request.headers.get('cf-connecting-ip') || '-'} / ${new Date().toISOString()}`,
   ].join('\n');
+
+  // 確認用環境（send_email なし）や Email Routing の設定前は送れない
+  if (!env.MAILER) {
+    return new Response(`ただいまフォームから送信できません。お手数ですが ${env.MAIL_TO || 'invest-news-source@outlook.jp'} まで直接ご連絡ください。`, {
+      status: 503,
+      headers: { 'content-type': 'text/plain; charset=utf-8' },
+    });
+  }
 
   const raw = mime({
     from: env.MAIL_FROM,
