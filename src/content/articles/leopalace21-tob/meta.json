@@ -4,6 +4,7 @@
   "status": "published",
   "publishedAt": "2026-09-18T00:46:57.000Z",
   "category": "stock",
+  "series": "ma-tob",
   "tickers": [
     {
       "code": "8848",

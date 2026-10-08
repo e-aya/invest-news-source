@@ -88,6 +88,29 @@ function blocks(css) {
 }
 const cssBlocks = blocks(stripComments(fs.readFileSync(CSS, 'utf-8')));
 
+// セレクタ列をトップレベルのカンマで分ける（:is(p, li) や [data-x="a,b"] の中のカンマでは切らない）
+function splitSelectors(prelude) {
+  const out = [];
+  let depth = 0;
+  let quote = '';
+  let cur = '';
+  for (const ch of prelude) {
+    if (quote) {
+      if (ch === quote) quote = '';
+    } else if (ch === '"' || ch === "'") quote = ch;
+    else if (ch === '(' || ch === '[') depth++;
+    else if (ch === ')' || ch === ']') depth--;
+    else if (ch === ',' && depth === 0) {
+      out.push(cur.trim());
+      cur = '';
+      continue;
+    }
+    cur += ch;
+  }
+  out.push(cur.trim());
+  return out.filter(Boolean);
+}
+
 function cssFor(namespaces) {
   const hit = (sel) => namespaces.some((ns) => new RegExp(`\\.${ns}-`).test(sel));
   const parts = [];
@@ -100,7 +123,7 @@ function cssFor(namespaces) {
       if (hit(b.prelude.replace(/@keyframes\s+/, '.'))) parts.push(`${b.prelude}{${b.body}}`);
     } else if (!b.prelude.startsWith('@') && hit(b.prelude)) {
       // 1つのルールに複数のセレクタがある場合、この記事の名前空間を含むものだけ残す
-      const sels = b.prelude.split(',').map((s) => s.trim()).filter(hit);
+      const sels = splitSelectors(b.prelude).filter(hit);
       parts.push(`${sels.join(',')}{${b.body.trim()}}`);
     }
   }
@@ -114,7 +137,7 @@ const TICKER_NAMES = {
   '543A': 'ARCHION', '9334': 'アイビスHD', '9984': 'ソフトバンクグループ', '8848': 'レオパレス21', '8473': 'SBIホールディングス',
   '7475': 'アルビス', '8035': '東京エレクトロン', '8316': '三井住友FG', '4062': 'イビデン', '6976': '太陽誘電', '6857': 'アドバンテスト',
   '3382': 'セブン＆アイHD', '7011': '三菱重工業', '7267': 'ホンダ', '5803': 'フジクラ',
-  NVDA: 'NVIDIA', MU: 'マイクロン', SBE: 'SBエナジー', IBM: 'IBM', ASML: 'ASML', ORCL: 'オラクル', SPCX: 'SpaceX',
+  NVDA: 'NVIDIA', MU: 'マイクロン', TSM: 'TSMC', SBE: 'SBエナジー', IBM: 'IBM', ASML: 'ASML', ORCL: 'オラクル', SPCX: 'SpaceX',
 };
 const SERIES_TAGS = [
   ['geo-risk', /地政学リスクウォッチ/],
@@ -260,7 +283,8 @@ for (const { row, post, slug } of plan) {
   const categoryNames = new Set(post.categories);
   const tags = post.tags.filter((t) => !categoryNames.has(t));
   const allLabels = [...post.tags, ...post.categories].join(' ');
-  const series = row.category === 'ipo' ? 'ipo' : (SERIES_TAGS.find(([, re]) => re.test(allLabels)) || [])[0];
+  // シリーズは移行リストの指定が優先。なければ IPO 区分 → タグ・カテゴリ名 の順で決める
+  const series = row.series || (row.category === 'ipo' ? 'ipo' : (SERIES_TAGS.find(([, re]) => re.test(allLabels)) || [])[0]);
 
   const meta = {
     title: post.title,

@@ -15,7 +15,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 
 ## コマンド
 
-- `npm run build` … 転送表生成 → astro build → pagefind → 全内部リンク検査（リンク切れがあると失敗する。失敗したら直してから進める）
+- `npm run build` … 記事CSSのセレクタ検査 → 転送表生成 → astro build → pagefind → 全内部リンク検査（リンク切れがあると失敗する。失敗したら直してから進める）
 - `npm run preview` … wrangler dev で Worker 込みの確認
 - `npm run deploy` … ビルドして Cloudflare に公開（本番：独自ドメイン）
 - `npm run deploy:staging` … 確認用（workers.dev、noindex、メール送信なし）に公開
@@ -25,6 +25,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 
 - 対象は `scripts/migration-list.json`（159本、選定シートから作成）
 - スラッグは `scripts/slugs.json`（記事ID → スラッグ）。一度公開したら変えない
+- シリーズ・銘柄は `scripts/migration-list.json` の `series` / `tickers` で指定する（`meta.json` だけ直すと再取り込みで戻る）
 - 本文の仮リンク `href="#"` は `scripts/link-overrides.json`（手動）→ 銘柄コード → タイトルの類似度 の順で解決し、決まらないものはリンクを外す
 - 結果は `import/report.md`
 

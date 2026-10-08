@@ -5,7 +5,12 @@
   "publishedAt": "2026-07-17T01:20:49.000Z",
   "category": "ai-semi",
   "series": "ai-light-shadow",
-  "tickers": [],
+  "tickers": [
+    {
+      "code": "TSM",
+      "name": "TSMC"
+    }
+  ],
   "tags": [
     "2026年相場",
     "AIインフラ投資",

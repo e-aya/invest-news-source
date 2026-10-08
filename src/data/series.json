@@ -4,5 +4,7 @@
   { "id": "central-bank", "name": "中央銀行ウォッチ", "description": "日銀・FRBの金融政策と、金利・為替・株価への波及を整理するシリーズ。", "order": 3 },
   { "id": "ai-light-shadow", "name": "AI熱狂の光と影", "description": "AI投資の実需と期待のずれを、決算と資金の流れから検証するシリーズ。", "order": 4 },
   { "id": "national-policy", "name": "国策テーマウォッチ", "description": "政府の重点分野と予算から、関連銘柄への影響を整理するシリーズ。", "order": 5 },
-  { "id": "good-company-bad-timing", "name": "良い会社・悪いタイミング", "description": "業績は良いのに株価が振るわない理由を、需給と期待値から読むシリーズ。", "order": 6 }
+  { "id": "good-company-bad-timing", "name": "良い会社・悪いタイミング", "description": "業績は良いのに株価が振るわない理由を、需給と期待値から読むシリーズ。", "order": 6 },
+  { "id": "seido-kurashi", "name": "制度・暮らし", "description": "NISA・税制・省エネ基準など、制度の変更が家計と投資にどう関わるかを整理するシリーズ。", "order": 7 },
+  { "id": "ma-tob", "name": "M&A・TOBウォッチ", "description": "TOB・経営統合・事業売却を、プレミアムと株価の動きから読み解くシリーズ。", "order": 8 }
 ]
