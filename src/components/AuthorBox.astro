@@ -1,10 +1,8 @@
 ---
 import { site } from '../site.config';
-interface Props { readMark?: string }
-const { readMark } = Astro.props;
 const a = site.author;
 ---
-<section class="author" id="author" aria-label="この記事を書いた人" data-read-mark={readMark}>
+<section class="author" id="author" aria-label="この記事を書いた人">
   <img src={a.icon} alt="" width="64" height="64" />
   <div>
     <p class="author__kicker">この記事を書いた人</p>

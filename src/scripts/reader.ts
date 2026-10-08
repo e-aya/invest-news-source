@@ -18,7 +18,7 @@ function save(s: Store) {
   try { localStorage.setItem(KEY, JSON.stringify(s)); } catch { /* 保存できなくても動作は続ける */ }
 }
 
-const store = load();
+let store = load();
 // 30分以上あいだが空いたら「前回の訪問」とみなす（ウォッチ銘柄の「新着」判定に使う）
 if (Date.now() - store.lastSeen > 30 * 60 * 1000) store.lastVisit = store.lastSeen;
 store.lastSeen = Date.now();
@@ -43,8 +43,9 @@ function toggle(list: string[], v: string) {
 document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]').forEach((b) =>
   b.addEventListener('click', () => {
     const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-    document.documentElement.dataset.theme = next;
-    try { localStorage.setItem('theme', next); } catch {}
+    const theme = (window as unknown as { zimTheme?: { set(t: string): void } }).zimTheme;
+    if (theme) theme.set(next);
+    else document.documentElement.dataset.theme = next;
   }),
 );
 
@@ -70,16 +71,19 @@ function renderRead() {
     el.classList.toggle('is-read', store.read.includes(el.dataset.card!));
   });
 }
-// 記事を最後（著者ボックス）まで読んだら既読にする
+// 記事の本文を最後まで読んだら既読にする
 const endMark = document.querySelector<HTMLElement>('[data-read-mark]');
 if (endMark && 'IntersectionObserver' in window) {
   const id = endMark.dataset.readMark!;
   const io = new IntersectionObserver((es) => {
-    if (es.some((e) => e.isIntersecting) && !store.read.includes(id)) {
+    if (!es.some((e) => e.isIntersecting)) return;
+    // 別のタブで既読が増えていても消さないよう、保存直前に読み直す
+    store = load();
+    if (!store.read.includes(id)) {
       store.read.push(id);
       save(store);
-      io.disconnect();
     }
+    io.disconnect();
   });
   io.observe(endMark);
 }
@@ -141,10 +145,13 @@ document.querySelectorAll<HTMLButtonElement>('[data-watch]').forEach((b) =>
 );
 
 /* ---------- シリーズ一覧の絞り込み（URLは変えない） ---------- */
+const reapplyFilters: (() => void)[] = [];
 document.querySelectorAll<HTMLElement>('[data-filter-group]').forEach((group) => {
   const list = document.querySelector<HTMLElement>(group.dataset.filterGroup!);
   const buttons = group.querySelectorAll<HTMLButtonElement>('[data-filter]');
+  let current = 'all';
   const apply = (mode: string) => {
+    current = mode;
     buttons.forEach((b) => b.setAttribute('aria-selected', String(b.dataset.filter === mode)));
     list?.querySelectorAll<HTMLElement>('[data-item]').forEach((li) => {
       const id = li.dataset.item!;
@@ -154,20 +161,24 @@ document.querySelectorAll<HTMLElement>('[data-filter-group]').forEach((group) =>
   };
   buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.filter!)));
   apply('all');
+  reapplyFilters.push(() => apply(current));
 });
 // 既読数の進捗
-document.querySelectorAll<HTMLElement>('[data-series-progress]').forEach((el) => {
-  const ids: string[] = JSON.parse(el.dataset.seriesProgress || '[]');
-  const n = ids.filter((id) => store.read.includes(id)).length;
-  const count = el.querySelector('[data-count]');
-  const fill = el.querySelector<HTMLElement>('[data-fill]');
-  if (count) count.textContent = String(n);
-  if (fill) fill.style.width = `${ids.length ? Math.round((n / ids.length) * 100) : 0}%`;
-});
+function renderProgress() {
+  document.querySelectorAll<HTMLElement>('[data-series-progress]').forEach((el) => {
+    const ids: string[] = JSON.parse(el.dataset.seriesProgress || '[]');
+    const n = ids.filter((id) => store.read.includes(id)).length;
+    const count = el.querySelector('[data-count]');
+    const fill = el.querySelector<HTMLElement>('[data-fill]');
+    if (count) count.textContent = String(n);
+    if (fill) fill.style.width = `${ids.length ? Math.round((n / ids.length) * 100) : 0}%`;
+  });
+}
 
 /* ---------- あとで読む一覧ページ ---------- */
-const savedList = document.querySelector<HTMLElement>('[data-saved-list]');
-if (savedList) {
+function renderSavedList() {
+  const savedList = document.querySelector<HTMLElement>('[data-saved-list]');
+  if (!savedList) return;
   savedList.querySelectorAll<HTMLElement>('[data-item]').forEach((li) => {
     li.hidden = !store.saved.includes(li.dataset.item!);
   });
@@ -219,6 +230,19 @@ if (rssBox) {
     .catch(() => { list.innerHTML = '<li class="note" style="padding:10px 0">記事を取得できませんでした</li>'; });
 }
 
-renderSaved();
-renderRead();
-renderWatch();
+function renderAll() {
+  renderSaved();
+  renderRead();
+  renderWatch();
+  renderProgress();
+  renderSavedList();
+  reapplyFilters.forEach((f) => f());
+}
+renderAll();
+
+// 「戻る」でキャッシュから表示されたページ（bfcache）は、この間に記事を読んで既読が増えているので描き直す
+addEventListener('pageshow', (e) => {
+  if (!e.persisted) return;
+  store = load();
+  renderAll();
+});

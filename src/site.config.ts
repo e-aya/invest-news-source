@@ -26,6 +26,9 @@ export const site = {
     banner: 'https://b.blogmura.com/banner-blogmura-reader-pink-small.svg',
   },
 
+  // ライト／ダークの自動切り替え。端末の時刻で darkFrom 時〜darkUntil 時はダーク（OSがダーク設定なら常にダーク）
+  theme: { darkFrom: 18, darkUntil: 6 },
+
   // Google Analytics 4（G-XXXXXXX）
   ga4Id: 'G-H1V784847Y',
 

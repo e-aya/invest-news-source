@@ -157,6 +157,8 @@ const jsonLd = [
         {!legacy && bodyTail && <AdSlot kind="inArticle" height={280} />}
         {!legacy && <Fragment set:html={bodyTail} />}
       </div>
+      <!-- 本文の最後まで読んだら既読にする（シリーズの「次の記事」より上に置く） -->
+      <div data-read-mark={article.id} aria-hidden="true" style="height:1px"></div>
 
       {legacy && <AdSlot kind="inArticle" height={280} />}
 
@@ -193,7 +195,7 @@ const jsonLd = [
         )
       }
 
-      <AuthorBox readMark={article.id} />
+      <AuthorBox />
 
       <p class="disclaimer">
         本記事は情報提供を目的としたもので、特定銘柄の売買を推奨するものではありません。投資判断はご自身の責任でお願いします。

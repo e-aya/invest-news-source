@@ -62,13 +62,43 @@ const ogAbs = new URL(ogImage, site.url).href;
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap"
     />
-    <!-- テーマ：保存された設定 > OSの設定。描画前に決めてちらつきを防ぐ -->
-    <script is:inline>
+    <!--
+      テーマ：手動で切り替えた設定（次の切り替え時刻まで有効）> OSのダーク設定 > 時刻（端末の時計＝OSのタイムゾーン）。
+      描画前に決めてちらつきを防ぐ。ページを開いたままでも切り替え時刻になったら自動で変える
+    -->
+    <script is:inline define:vars={{ cfg: site.theme }}>
       (function () {
-        var t = null;
-        try { t = localStorage.getItem('theme'); } catch (e) {}
-        if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        document.documentElement.dataset.theme = t;
+        var from = cfg.darkFrom, until = cfg.darkUntil;
+        var osDark = matchMedia('(prefers-color-scheme: dark)');
+        function isNight(d) {
+          var h = d.getHours();
+          return from > until ? h >= from || h < until : h >= from && h < until;
+        }
+        // 次に昼／夜が切り替わる時刻
+        function nextSwitch() {
+          var n = new Date();
+          n.setMinutes(0, 0, 0);
+          do n.setHours(n.getHours() + 1); while (n.getHours() !== from && n.getHours() !== until);
+          return n.getTime();
+        }
+        function current() {
+          var t = null, u = 0;
+          try { t = localStorage.getItem('theme'); u = Number(localStorage.getItem('theme-until')) || 0; } catch (e) {}
+          if ((t === 'light' || t === 'dark') && Date.now() < u) return t;
+          return osDark.matches || isNight(new Date()) ? 'dark' : 'light';
+        }
+        function apply() { document.documentElement.dataset.theme = current(); }
+        function schedule() { setTimeout(function () { apply(); schedule(); }, nextSwitch() - Date.now() + 1000); }
+        apply();
+        schedule();
+        osDark.addEventListener && osDark.addEventListener('change', apply);
+        // ヘッダーの切り替えボタンから呼ぶ。手動の設定は次の切り替え時刻まで有効
+        window.zimTheme = {
+          set: function (t) {
+            try { localStorage.setItem('theme', t); localStorage.setItem('theme-until', String(nextSwitch())); } catch (e) {}
+            apply();
+          },
+        };
       })();
     </script>
     {articleCss && <style set:html={articleCss} />}
