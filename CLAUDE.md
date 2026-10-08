@@ -9,6 +9,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 - 一覧・シリーズ・銘柄ハブ（`/stocks/<code>/`）・関連記事・RSS（`/feed/`）・サイトマップは、公開中の記事から毎回生成する（`src/lib/articles.ts` の `getPublished()` を必ず通す）
 - 公開状態は `meta.json` の `status`：`published` / `draft` / `withdrawn`（withdrawn は Worker が 410 を返す）
 - 外部サービスのID（GA4・AdSense・Blozoo・Turnstile）と著者情報は `src/site.config.ts`
+- 企業ロゴは `public/logos/<銘柄コード>.svg|webp|png`。あれば記事カードに表示（`src/lib/articles.ts` の `logoOf()`）
 - `worker/index.js`：旧URL `/?p=ID` → スラッグへ 301（`worker/generated/legacy-map.json` は `scripts/gen-worker-data.mjs` がビルド時に生成）、未移行記事と `wp-*` は 410、`/feed/`、`/api/contact`（Email Routing の send_email）、`/api/rss`（相互RSSを cron で取得し KV に保存）
 - CSS は `src/styles/global.css` の `@layer` で読み込み順を固定。旧記事の `style.css` はレイヤー外で、その記事の名前空間（`.akp-` など）だけに効く
 - デザインの基準は確定済みのモックアップ（生成りの新聞紙風背景、ずんだグリーン #2F7A2C、ヘッダー下の二重罫、ライト／ダーク対応）

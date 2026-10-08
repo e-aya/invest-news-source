@@ -7,10 +7,19 @@ const d = displayDate(article);
 const isIpo = article.data.category === 'ipo';
 ---
 <a class="card" href={articleUrl(article)} data-card={article.id}>
-  <div class:list={['card__tile', !isIpo && 'is-or']}>
-    <span class="card__code">{tile.big}</span>
-    {tile.sub && <span class="card__sub">{tile.sub}</span>}
-  </div>
+  {
+    tile.logo ? (
+      <div class:list={['card__tile', 'has-logo', !isIpo && 'is-or']}>
+        <span class="card__logo"><img src={tile.logo} alt={`${tile.sub}のロゴ`} loading="lazy" decoding="async" /></span>
+        <span class="card__sub"><span class="num">{tile.big}</span> {tile.sub}</span>
+      </div>
+    ) : (
+      <div class:list={['card__tile', !isIpo && 'is-or']}>
+        <span class="card__code">{tile.big}</span>
+        {tile.sub && <span class="card__sub">{tile.sub}</span>}
+      </div>
+    )
+  }
   <div class="card__body">
     <span class="card__title">{article.data.title}</span>
     <div class="card__meta">
