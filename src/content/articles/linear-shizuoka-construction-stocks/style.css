@@ -1,0 +1,756 @@
+.lnr-article{max-width: 860px !important;
+  margin: 0 auto !important;
+  padding: 0 4px !important;
+  color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif !important;
+  line-height: 1.9 !important;
+  font-size: 16px !important;
+  filter: none !important;}
+.lnr-article p{margin: 0 0 1.4em !important;
+  color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;}
+.lnr-article .lnr-hero{background-color: #052e16 !important;
+  background-image: linear-gradient(135deg, #052e16 0%, #134e4a 100%) !important;
+  border-radius: 14px !important;
+  padding: 34px 30px !important;
+  margin: 0 0 26px !important;
+  border: none !important;
+  filter: none !important;
+  box-shadow: none !important;}
+.lnr-article .lnr-hero *{filter: none !important;
+  border: none !important;}
+.lnr-article .lnr-hero-chip{display: inline-block !important;
+  background-color: #0f766e !important;
+  background-image: none !important;
+  color: #e0e7ff !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  padding: 5px 14px !important;
+  border-radius: 999px !important;
+  margin: 0 0 16px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-hero-title{color: #f8fafc !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 27px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 18px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;
+  text-shadow: none !important;}
+.lnr-article .lnr-hero-lead{color: #cbd5e1 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-summary{background-color: #fffbeb !important;
+  background-image: none !important;
+  border: 2px solid #f59e0b !important;
+  border-radius: 12px !important;
+  padding: 22px 26px !important;
+  margin: 0 0 26px !important;
+  filter: none !important;
+  box-shadow: none !important;}
+.lnr-article .lnr-summary-label{color: #92400e !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  margin: 0 0 12px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-summary-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  list-style: disc !important;}
+.lnr-article .lnr-summary-list li{color: #78350f !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  line-height: 1.85 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary{background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 12px !important;
+  padding: 22px 26px !important;
+  margin: 0 0 34px !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-title{color: #0f172a !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin: 0 0 14px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list{margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dt{color: #1d4ed8 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  margin: 0 0 4px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dd{color: #334155 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  margin: 0 0 14px !important;
+  padding: 0 0 0 1em !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dd:last-child{margin-bottom: 0 !important;}
+.lnr-article .lnr-section{margin: 0 0 40px !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-h2{display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  color: #0f172a !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 21px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 18px !important;
+  padding: 0 0 10px !important;
+  border: none !important;
+  border-bottom: 3px solid #e2e8f0 !important;
+  filter: none !important;}
+.lnr-article .lnr-h3{color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 16.5px !important;
+  font-weight: 800 !important;
+  margin: 1.6em 0 0.6em !important;
+  padding: 0 0 0 12px !important;
+  border: none !important;
+  border-left: 4px solid #7c3aed !important;
+  filter: none !important;}
+.lnr-article .lnr-badge{display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 34px !important;
+  height: 34px !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+  background-image: none !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  flex-shrink: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-badge-1{background-color: #2563eb !important;}
+.lnr-article .lnr-badge-2{background-color: #16a34a !important;}
+.lnr-article .lnr-badge-3{background-color: #dc2626 !important;}
+.lnr-article .lnr-badge-4{background-color: #ea580c !important;}
+.lnr-article .lnr-badge-5{background-color: #7c3aed !important;}
+.lnr-article .lnr-badge-6{background-color: #0891b2 !important;}
+.lnr-article .lnr-figure{margin: 26px 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  text-align: center !important;}
+.lnr-article .lnr-svg{width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  filter: none !important;}
+.lnr-article .lnr-figcaption{color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  margin: 10px 0 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;
+  text-align: center !important;}
+.lnr-article .lnr-takeaway{background-color: #0f172a !important;
+  background-image: none !important;
+  border-radius: 14px !important;
+  padding: 28px 30px !important;
+  margin: 0 0 26px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-takeaway *{filter: none !important;
+  border: none !important;}
+.lnr-article .lnr-takeaway-label{color: #fbbf24 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  margin: 0 0 14px !important;
+  padding: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-takeaway-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  list-style: disc !important;}
+.lnr-article .lnr-takeaway-list li{color: #e2e8f0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-disclaimer{background-color: #f8fafc !important;
+  background-image: none !important;
+  border: 1px dashed #94a3b8 !important;
+  border-radius: 10px !important;
+  padding: 16px 20px !important;
+  margin: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-disclaimer p{color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 12.5px !important;
+  line-height: 1.8 !important;
+  margin: 0 !important;
+  border: none !important;
+  filter: none !important;}
+@media (max-width: 480px){.lnr-article .lnr-hero{padding: 26px 20px !important;}.lnr-article .lnr-hero-title{font-size: 21px !important;}.lnr-article .lnr-summary, .lnr-article .lnr-glossary{padding: 18px 18px !important;}.lnr-article .lnr-h2{font-size: 18px !important;}.lnr-article .lnr-takeaway{padding: 22px 20px !important;}}
+.lnr-article{max-width: 860px !important;
+  margin: 0 auto !important;
+  padding: 0 4px !important;
+  color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif !important;
+  line-height: 1.9 !important;
+  font-size: 16px !important;
+  filter: none !important;}
+.lnr-article p{margin: 0 0 1.4em !important;
+  color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;}
+.lnr-article .lnr-hero{background-color: #052e16 !important;
+  background-image: linear-gradient(135deg, #052e16 0%, #134e4a 100%) !important;
+  border-radius: 14px !important;
+  padding: 34px 30px !important;
+  margin: 0 0 26px !important;
+  border: none !important;
+  filter: none !important;
+  box-shadow: none !important;}
+.lnr-article .lnr-hero *{filter: none !important;
+  border: none !important;}
+.lnr-article .lnr-hero-chip{display: inline-block !important;
+  background-color: #0f766e !important;
+  background-image: none !important;
+  color: #e0e7ff !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  padding: 5px 14px !important;
+  border-radius: 999px !important;
+  margin: 0 0 16px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-hero-title{color: #f8fafc !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 27px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 18px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;
+  text-shadow: none !important;}
+.lnr-article .lnr-hero-lead{color: #cbd5e1 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-summary{background-color: #fffbeb !important;
+  background-image: none !important;
+  border: 2px solid #f59e0b !important;
+  border-radius: 12px !important;
+  padding: 22px 26px !important;
+  margin: 0 0 26px !important;
+  filter: none !important;
+  box-shadow: none !important;}
+.lnr-article .lnr-summary-label{color: #92400e !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  margin: 0 0 12px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-summary-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  list-style: disc !important;}
+.lnr-article .lnr-summary-list li{color: #78350f !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  line-height: 1.85 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary{background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 12px !important;
+  padding: 22px 26px !important;
+  margin: 0 0 34px !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-title{color: #0f172a !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin: 0 0 14px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list{margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dt{color: #1d4ed8 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  margin: 0 0 4px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dd{color: #334155 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  margin: 0 0 14px !important;
+  padding: 0 0 0 1em !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dd:last-child{margin-bottom: 0 !important;}
+.lnr-article .lnr-section{margin: 0 0 40px !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-h2{display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  color: #0f172a !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 21px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 18px !important;
+  padding: 0 0 10px !important;
+  border: none !important;
+  border-bottom: 3px solid #e2e8f0 !important;
+  filter: none !important;}
+.lnr-article .lnr-h3{color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 16.5px !important;
+  font-weight: 800 !important;
+  margin: 1.6em 0 0.6em !important;
+  padding: 0 0 0 12px !important;
+  border: none !important;
+  border-left: 4px solid #7c3aed !important;
+  filter: none !important;}
+.lnr-article .lnr-badge{display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 34px !important;
+  height: 34px !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+  background-image: none !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  flex-shrink: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-badge-1{background-color: #2563eb !important;}
+.lnr-article .lnr-badge-2{background-color: #16a34a !important;}
+.lnr-article .lnr-badge-3{background-color: #dc2626 !important;}
+.lnr-article .lnr-badge-4{background-color: #ea580c !important;}
+.lnr-article .lnr-badge-5{background-color: #7c3aed !important;}
+.lnr-article .lnr-badge-6{background-color: #0891b2 !important;}
+.lnr-article .lnr-figure{margin: 26px 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  text-align: center !important;}
+.lnr-article .lnr-svg{width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  filter: none !important;}
+.lnr-article .lnr-figcaption{color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  margin: 10px 0 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;
+  text-align: center !important;}
+.lnr-article .lnr-takeaway{background-color: #0f172a !important;
+  background-image: none !important;
+  border-radius: 14px !important;
+  padding: 28px 30px !important;
+  margin: 0 0 26px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-takeaway *{filter: none !important;
+  border: none !important;}
+.lnr-article .lnr-takeaway-label{color: #fbbf24 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  margin: 0 0 14px !important;
+  padding: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-takeaway-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  list-style: disc !important;}
+.lnr-article .lnr-takeaway-list li{color: #e2e8f0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-disclaimer{background-color: #f8fafc !important;
+  background-image: none !important;
+  border: 1px dashed #94a3b8 !important;
+  border-radius: 10px !important;
+  padding: 16px 20px !important;
+  margin: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-disclaimer p{color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 12.5px !important;
+  line-height: 1.8 !important;
+  margin: 0 !important;
+  border: none !important;
+  filter: none !important;}
+@media (max-width: 480px){.lnr-article .lnr-hero{padding: 26px 20px !important;}.lnr-article .lnr-hero-title{font-size: 21px !important;}.lnr-article .lnr-summary, .lnr-article .lnr-glossary{padding: 18px 18px !important;}.lnr-article .lnr-h2{font-size: 18px !important;}.lnr-article .lnr-takeaway{padding: 22px 20px !important;}}
+.lnr-article{max-width: 860px !important;
+  margin: 0 auto !important;
+  padding: 0 4px !important;
+  color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif !important;
+  line-height: 1.9 !important;
+  font-size: 16px !important;
+  filter: none !important;}
+.lnr-article p{margin: 0 0 1.4em !important;
+  color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;}
+.lnr-article .lnr-hero{background-color: #052e16 !important;
+  background-image: linear-gradient(135deg, #052e16 0%, #134e4a 100%) !important;
+  border-radius: 14px !important;
+  padding: 34px 30px !important;
+  margin: 0 0 26px !important;
+  border: none !important;
+  filter: none !important;
+  box-shadow: none !important;}
+.lnr-article .lnr-hero *{filter: none !important;
+  border: none !important;}
+.lnr-article .lnr-hero-chip{display: inline-block !important;
+  background-color: #0f766e !important;
+  background-image: none !important;
+  color: #e0e7ff !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  padding: 5px 14px !important;
+  border-radius: 999px !important;
+  margin: 0 0 16px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-hero-title{color: #f8fafc !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 27px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 18px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;
+  text-shadow: none !important;}
+.lnr-article .lnr-hero-lead{color: #cbd5e1 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-summary{background-color: #fffbeb !important;
+  background-image: none !important;
+  border: 2px solid #f59e0b !important;
+  border-radius: 12px !important;
+  padding: 22px 26px !important;
+  margin: 0 0 26px !important;
+  filter: none !important;
+  box-shadow: none !important;}
+.lnr-article .lnr-summary-label{color: #92400e !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  margin: 0 0 12px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-summary-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  list-style: disc !important;}
+.lnr-article .lnr-summary-list li{color: #78350f !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  line-height: 1.85 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary{background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 12px !important;
+  padding: 22px 26px !important;
+  margin: 0 0 34px !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-title{color: #0f172a !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin: 0 0 14px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list{margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dt{color: #1d4ed8 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  margin: 0 0 4px !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dd{color: #334155 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  margin: 0 0 14px !important;
+  padding: 0 0 0 1em !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-glossary-list dd:last-child{margin-bottom: 0 !important;}
+.lnr-article .lnr-section{margin: 0 0 40px !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-h2{display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  color: #0f172a !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 21px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 18px !important;
+  padding: 0 0 10px !important;
+  border: none !important;
+  border-bottom: 3px solid #e2e8f0 !important;
+  filter: none !important;}
+.lnr-article .lnr-h3{color: #1e293b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 16.5px !important;
+  font-weight: 800 !important;
+  margin: 1.6em 0 0.6em !important;
+  padding: 0 0 0 12px !important;
+  border: none !important;
+  border-left: 4px solid #7c3aed !important;
+  filter: none !important;}
+.lnr-article .lnr-badge{display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 34px !important;
+  height: 34px !important;
+  border-radius: 8px !important;
+  color: #ffffff !important;
+  background-image: none !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  flex-shrink: 0 !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-badge-1{background-color: #2563eb !important;}
+.lnr-article .lnr-badge-2{background-color: #16a34a !important;}
+.lnr-article .lnr-badge-3{background-color: #dc2626 !important;}
+.lnr-article .lnr-badge-4{background-color: #ea580c !important;}
+.lnr-article .lnr-badge-5{background-color: #7c3aed !important;}
+.lnr-article .lnr-badge-6{background-color: #0891b2 !important;}
+.lnr-article .lnr-figure{margin: 26px 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  text-align: center !important;}
+.lnr-article .lnr-svg{width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  filter: none !important;}
+.lnr-article .lnr-figcaption{color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  margin: 10px 0 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: none !important;
+  text-align: center !important;}
+.lnr-article .lnr-takeaway{background-color: #0f172a !important;
+  background-image: none !important;
+  border-radius: 14px !important;
+  padding: 28px 30px !important;
+  margin: 0 0 26px !important;
+  border: none !important;
+  filter: none !important;}
+.lnr-article .lnr-takeaway *{filter: none !important;
+  border: none !important;}
+.lnr-article .lnr-takeaway-label{color: #fbbf24 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  margin: 0 0 14px !important;
+  padding: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-takeaway-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  list-style: disc !important;}
+.lnr-article .lnr-takeaway-list li{color: #e2e8f0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 14.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-disclaimer{background-color: #f8fafc !important;
+  background-image: none !important;
+  border: 1px dashed #94a3b8 !important;
+  border-radius: 10px !important;
+  padding: 16px 20px !important;
+  margin: 0 !important;
+  filter: none !important;}
+.lnr-article .lnr-disclaimer p{color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 12.5px !important;
+  line-height: 1.8 !important;
+  margin: 0 !important;
+  border: none !important;
+  filter: none !important;}
+@media (max-width: 480px){.lnr-article .lnr-hero{padding: 26px 20px !important;}.lnr-article .lnr-hero-title{font-size: 21px !important;}.lnr-article .lnr-summary, .lnr-article .lnr-glossary{padding: 18px 18px !important;}.lnr-article .lnr-h2{font-size: 18px !important;}.lnr-article .lnr-takeaway{padding: 22px 20px !important;}}

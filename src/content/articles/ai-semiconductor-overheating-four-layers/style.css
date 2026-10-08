@@ -1,0 +1,406 @@
+.ahz-root.ahz-root{display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  backdrop-filter: none !important;
+  transform: none !important;
+  mix-blend-mode: normal !important;
+  isolation: auto !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #16202c !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.95 !important;
+  letter-spacing: 0.01em !important;
+  text-align: left !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;}
+.ahz-root.ahz-root *{visibility: visible !important;
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  backdrop-filter: none !important;
+  mix-blend-mode: normal !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+  font-family: inherit !important;
+  float: none !important;
+  position: static !important;
+  text-transform: none !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  clip-path: none !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  font-style: normal !important;
+  text-decoration-line: none !important;
+  transform: none !important;}
+.ahz-root.ahz-root p{margin: 0 0 1.5em 0 !important;
+  padding: 0 !important;
+  color: #16202c !important;
+  font-size: 16px !important;
+  line-height: 1.95 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-lede{font-size: 17px !important;
+  line-height: 1.9 !important;
+  font-weight: 500 !important;
+  color: #16202c !important;
+  border-left: 4px solid #1f6feb !important;
+  padding: 0 0 0 18px !important;
+  margin: 0 0 2em 0 !important;}
+.ahz-root.ahz-root strong{font-weight: 700 !important;
+  color: #0b1520 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-h2{display: block !important;
+  margin: 3em 0 1.2em 0 !important;
+  padding: 0 0 0.55em 0 !important;
+  border: 0 !important;
+  border-bottom: 2px solid #16202c !important;
+  color: #16202c !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;
+  letter-spacing: 0.01em !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-h3{display: block !important;
+  margin: 2.4em 0 1em 0 !important;
+  padding: 0 0 0 14px !important;
+  border: 0 !important;
+  border-left: 4px solid #1f6feb !important;
+  color: #16202c !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-tldr{display: block !important;
+  margin: 0 0 2.6em 0 !important;
+  padding: 24px 26px !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  background-color: #16202c !important;
+  background-image: none !important;
+  color: #eef3f7 !important;}
+.ahz-root.ahz-root .ahz-tldr *{background-color: transparent !important;
+  background-image: none !important;
+  color: #eef3f7 !important;}
+.ahz-root.ahz-root .ahz-tldr .ahz-tldr-h{margin: 0 0 14px 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  color: #7fb2f5 !important;}
+.ahz-root.ahz-root .ahz-tldr .ahz-tldr-list{list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.ahz-root.ahz-root .ahz-tldr .ahz-tldr-list li{position: relative !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 0 0 20px !important;
+  font-size: 15.5px !important;
+  line-height: 1.8 !important;
+  color: #eef3f7 !important;
+  list-style: none !important;}
+.ahz-root.ahz-root .ahz-tldr .ahz-tldr-list li::before{content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0.75em !important;
+  width: 8px !important;
+  height: 2px !important;
+  background-color: #7fb2f5 !important;
+  opacity: 1 !important;}
+.ahz-root.ahz-root .ahz-tldr .ahz-tldr-list li strong{color: #ffffff !important;
+  font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-note{display: block !important;
+  margin: 0 0 1.8em 0 !important;
+  padding: 16px 20px !important;
+  border: 0 !important;
+  border-left: 3px solid #8494a4 !important;
+  background-color: #f5f8fb !important;
+  background-image: none !important;
+  font-size: 15.5px !important;
+  line-height: 1.9 !important;
+  color: #2a3644 !important;}
+.ahz-root.ahz-root .ahz-callout{display: block !important;
+  margin: 0 0 1.9em 0 !important;
+  padding: 18px 22px !important;
+  border: 1px solid #f0c6b6 !important;
+  border-left: 4px solid #e2603a !important;
+  border-radius: 4px !important;
+  background-color: #fdf6f3 !important;
+  background-image: none !important;
+  font-size: 15.5px !important;
+  line-height: 1.9 !important;
+  color: #2a3644 !important;}
+.ahz-root.ahz-root .ahz-table-wrap{display: block !important;
+  width: 100% !important;
+  margin: 0 0 2.2em 0 !important;
+  padding: 0 !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-table{display: table !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 520px !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  line-height: 1.75 !important;}
+.ahz-root.ahz-root .ahz-table .ahz-th{display: table-cell !important;
+  padding: 12px 14px !important;
+  border: 1px solid #d8dfe6 !important;
+  background-color: #16202c !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+  white-space: nowrap !important;}
+.ahz-root.ahz-root .ahz-table .ahz-td{display: table-cell !important;
+  padding: 12px 14px !important;
+  border: 1px solid #d8dfe6 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #16202c !important;
+  text-align: left !important;
+  vertical-align: top !important;}
+.ahz-root.ahz-root .ahz-table .ahz-sub{display: inline-block !important;
+  margin-top: 2px !important;
+  font-size: 12.5px !important;
+  color: #5a6b7d !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-table .ahz-hl{background-color: #eef4fd !important;
+  background-image: none !important;
+  font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-table .ahz-fast{color: #e2603a !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-table .ahz-mid{color: #b8862c !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-table .ahz-slow{color: #5a6b7d !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-table .ahz-jd-red{color: #e2603a !important; font-weight: 700 !important; white-space: nowrap !important;}
+.ahz-root.ahz-root .ahz-table .ahz-jd-yellow{color: #b8862c !important; font-weight: 700 !important; white-space: nowrap !important;}
+.ahz-root.ahz-root .ahz-table .ahz-jd-green{color: #0f9b8e !important; font-weight: 700 !important; white-space: nowrap !important;}
+.ahz-root.ahz-root .ahz-fig{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 0 2.4em 0 !important;
+  padding: 0 !important;
+  border: 1px solid #d8dfe6 !important;
+  border-radius: 8px !important;
+  background-color: #f5f8fb !important;
+  background-image: none !important;
+  overflow: hidden !important;}
+.ahz-root.ahz-root .ahz-fig .ahz-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow: visible !important;}
+.ahz-root.ahz-root .ahz-fig .ahz-figcap{display: block !important;
+  overflow: visible !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 12px 18px 14px 18px !important;
+  border-top: 1px solid #d8dfe6 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #5a6b7d !important;
+  font-size: 13.5px !important;
+  line-height: 1.75 !important;
+  text-align: left !important;}
+.ahz-root.ahz-root .ahz-svg text{font-family: inherit !important; letter-spacing: 0.01em !important; stroke: none !important; paint-order: normal !important;}
+.ahz-root.ahz-root .ahz-svg line,.ahz-root.ahz-root .ahz-svg polyline{fill: none !important;}
+.ahz-root.ahz-root .ahz-svg rect,.ahz-root.ahz-root .ahz-svg polygon,.ahz-root.ahz-root .ahz-svg circle,.ahz-root.ahz-root .ahz-svg path{stroke: none !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-bg{fill: #f5f8fb !important; stroke: none !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-title{fill: #16202c !important; font-size: 16px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-head{fill: #5a6b7d !important; font-size: 12px !important; font-weight: 700 !important; letter-spacing: 0.1em !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-grid{stroke: #d8dfe6 !important; stroke-width: 1 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-axis{stroke: #8494a4 !important; stroke-width: 1.5 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sep{stroke: #d8dfe6 !important; stroke-width: 1 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-tick{fill: #5a6b7d !important; font-size: 13px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-xtick{fill: #5a6b7d !important; font-size: 13px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-xtick2{fill: #5a6b7d !important; font-size: 12px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-lab{fill: #16202c !important; font-size: 13px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-lab-hi{fill: #e2603a !important; font-size: 13px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-val{fill: #16202c !important; font-size: 14px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-src{fill: #5a6b7d !important; font-size: 12px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-line{stroke: #1f6feb !important; stroke-width: 3 !important; fill: none !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-dot{fill: #1f6feb !important; stroke: #ffffff !important; stroke-width: 2 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-dot-peak{fill: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-dot-end{fill: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-band{fill: #e2603a !important; opacity: 0.13 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-peak{stroke: #e2603a !important; stroke-width: 1.5 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-bar-hot{fill: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-bar-cool{fill: #1f6feb !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-err{stroke: #16202c !important; stroke-width: 1.5 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-node{fill: #ffffff !important; stroke: #1f6feb !important; stroke-width: 1.5 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-node-warn{stroke: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-node-t{fill: #16202c !important; font-size: 13px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-flow{stroke: #1f6feb !important; stroke-width: 1.8 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-arrow{fill: #1f6feb !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-arrow-warn{fill: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc{fill: #ffffff !important; stroke: #1f6feb !important; stroke-width: 1.5 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-n{fill: #1f6feb !important; font-size: 15px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-t{fill: #16202c !important; font-size: 14.5px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-s{fill: #5a6b7d !important; font-size: 12.5px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-r{fill: #16202c !important; font-size: 13.5px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-r2{fill: #5a6b7d !important; font-size: 12.5px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vflow{stroke: #8494a4 !important; stroke-width: 1.5 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-varrow{fill: #8494a4 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-limit{fill: #16202c !important; stroke: none !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-limit-t{fill: #ffffff !important; font-size: 14.5px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-limit-s{fill: #c9d4de !important; font-size: 12.5px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-hub{fill: #16202c !important; stroke: none !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-hub-t{fill: #ffffff !important; font-size: 14px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-branch{stroke-width: 2.4 !important; fill: none !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc{fill: #ffffff !important; stroke-width: 1.8 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-a{stroke: #0f9b8e !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-b{stroke: #d4a03c !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-c{stroke: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-lab{font-size: 13.5px !important; font-weight: 700 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-t{fill: #16202c !important; font-size: 13px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-trig-t{fill: #16202c !important; font-size: 12.5px !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-warn{stroke: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-n-warn{fill: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc-r-warn{fill: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-bar-cool2{fill: #4f8fd6 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-branch-a{stroke: #0f9b8e !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-branch-b{stroke: #d4a03c !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-branch-c{stroke: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-lab-a{fill: #0f9b8e !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-lab-b{fill: #b8862c !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-lab-c{fill: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-trig{stroke: none !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-trig-a{fill: #eaf6f4 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-trig-b{fill: #faf3e2 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-trig-c{fill: #fbeee9 !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-node{stroke: #1f6feb !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-node-warn{stroke: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-vc{stroke: #1f6feb !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-a{stroke: #0f9b8e !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-b{stroke: #d4a03c !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-sc-c{stroke: #e2603a !important;}
+.ahz-root.ahz-root .ahz-svg .ahz-f-dot{stroke: #ffffff !important;}
+.ahz-root.ahz-root .ahz-check{display: block !important;
+  margin: 0 0 2.2em 0 !important;
+  padding: 22px 24px !important;
+  border: 1px solid #d8dfe6 !important;
+  border-radius: 8px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-check .ahz-check-h{margin: 0 0 16px 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  color: #5a6b7d !important;}
+.ahz-root.ahz-root .ahz-check .ahz-check-list{list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.ahz-root.ahz-root .ahz-check .ahz-check-list li{margin: 0 0 14px 0 !important;
+  padding: 0 0 14px 0 !important;
+  border-bottom: 1px dashed #d8dfe6 !important;
+  font-size: 15.5px !important;
+  line-height: 1.85 !important;
+  color: #16202c !important;
+  list-style: none !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-check .ahz-check-list li:last-child{margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: 0 !important;}
+.ahz-root.ahz-root .ahz-check .ahz-tag{display: inline-block !important;
+  margin: 0 10px 0 0 !important;
+  padding: 3px 10px !important;
+  border-radius: 3px !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  color: #ffffff !important;
+  white-space: nowrap !important;
+  vertical-align: 2px !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-check .ahz-tag-1{background-color: #e2603a !important;}
+.ahz-root.ahz-root .ahz-check .ahz-tag-2{background-color: #b8862c !important;}
+.ahz-root.ahz-root .ahz-check .ahz-tag-3{background-color: #0f9b8e !important;}
+.ahz-root.ahz-root .ahz-check .ahz-tag-4{background-color: #1f6feb !important;}
+.ahz-root.ahz-root .ahz-related{display: block !important;
+  margin: 2.6em 0 1.6em 0 !important;
+  padding: 20px 22px !important;
+  border: 0 !important;
+  border-top: 2px solid #16202c !important;
+  background-color: #f5f8fb !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-related .ahz-related-h{margin: 0 0 12px 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  color: #5a6b7d !important;}
+.ahz-root.ahz-root .ahz-related .ahz-related-list{list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.ahz-root.ahz-root .ahz-related .ahz-related-list li{margin: 0 0 9px 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  font-size: 15.5px !important;
+  line-height: 1.8 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-related .ahz-related-a{color: #1f6feb !important;
+  text-decoration-line: underline !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 500 !important;}
+.ahz-root.ahz-root .ahz-disc{display: block !important;
+  margin: 0 !important;
+  padding: 16px 18px !important;
+  border: 1px solid #d8dfe6 !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.ahz-root.ahz-root .ahz-disc .ahz-disc-t{margin: 0 !important;
+  font-size: 13px !important;
+  line-height: 1.85 !important;
+  color: #5a6b7d !important;}
+@media screen and (max-width: 782px){.ahz-root.ahz-root{font-size: 15.5px !important;}.ahz-root.ahz-root .ahz-h2{font-size: 20px !important;}.ahz-root.ahz-root .ahz-h3{font-size: 17px !important;}.ahz-root.ahz-root .ahz-lede{font-size: 16px !important; padding-left: 14px !important;}.ahz-root.ahz-root .ahz-tldr{padding: 20px 18px !important;}.ahz-root.ahz-root .ahz-check{padding: 18px 16px !important;}}
+@media screen and (max-width: 600px){.ahz-root.ahz-root .ahz-fig{overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch !important;}.ahz-root.ahz-root .ahz-fig .ahz-svg{width: 660px !important;
+    min-width: 660px !important;
+    max-width: none !important;}.ahz-root.ahz-root .ahz-fig .ahz-figcap{position: sticky !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 10px 14px 12px 14px !important;
+    font-size: 12.5px !important;}.ahz-root.ahz-root .ahz-fig::after{content: "図は横方向にスクロールできます" !important;
+    display: block !important;
+    position: sticky !important;
+    left: 0 !important;
+    padding: 0 14px 10px 14px !important;
+    color: #8494a4 !important;
+    font-size: 11.5px !important;}.ahz-root.ahz-root .ahz-check .ahz-tag{display: block !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    margin: 0 0 6px 0 !important;}}

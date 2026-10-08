@@ -1,0 +1,227 @@
+.mpm-article{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  color: #1e293b !important;
+  line-height: 1.85 !important;
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.mpm-article .mpm-kicker{display: inline-block !important;
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  color: #b45309 !important;
+  background-color: #fef3c7 !important;
+  background-image: none !important;
+  padding: 4px 12px !important;
+  border-radius: 4px !important;
+  margin: 0 0 16px 0 !important;}
+.mpm-article .mpm-hero{border-bottom: 3px solid #0f2540 !important;
+  padding-bottom: 18px !important;
+  margin-bottom: 22px !important;}
+.mpm-article .mpm-title{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 29px !important;
+  font-weight: 800 !important;
+  line-height: 1.38 !important;
+  color: #0f2540 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 12px 0 !important;}
+.mpm-article .mpm-dek{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 16px !important;
+  color: #475569 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;}
+.mpm-article .mpm-chips{list-style: none !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  padding: 0 !important;
+  margin: 0 0 26px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mpm-article .mpm-chip{flex: 1 1 170px !important;
+  background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border-left: 4px solid #b45309 !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+  margin: 0 !important;}
+.mpm-article .mpm-chip-label{display: block !important;
+  font-size: 12px !important;
+  color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin-bottom: 3px !important;}
+.mpm-article .mpm-chip-value{display: block !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #0f2540 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mpm-article .mpm-summary{background-color: #0f2540 !important;
+  background-image: none !important;
+  color: #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 24px 26px !important;
+  margin: 0 0 30px 0 !important;}
+.mpm-article .mpm-summary .mpm-summary-head{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  color: #fcd34d !important;
+  margin: 0 0 14px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mpm-article .mpm-summary .mpm-summary-list{list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mpm-article .mpm-summary .mpm-summary-item{position: relative !important;
+  color: #e2e8f0 !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  padding: 0 0 0 22px !important;
+  margin: 0 0 12px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mpm-article .mpm-summary .mpm-summary-item:last-child{margin-bottom: 0 !important;}
+.mpm-article .mpm-summary .mpm-summary-item::before{content: "▸" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  color: #fbbf24 !important;}
+.mpm-article .mpm-terms{background-color: #f8fafc !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 22px 24px !important;
+  margin: 0 0 32px 0 !important;}
+.mpm-article .mpm-terms .mpm-terms-head{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #0f2540 !important;
+  margin: 0 0 16px 0 !important;}
+.mpm-article .mpm-terms .mpm-terms-list{margin: 0 !important;
+  padding: 0 !important;}
+.mpm-article .mpm-terms .mpm-term{padding: 12px 0 !important;
+  border-bottom: 1px dashed #cbd5e1 !important;}
+.mpm-article .mpm-terms .mpm-term:last-child{border-bottom: none !important;
+  padding-bottom: 0 !important;}
+.mpm-article .mpm-terms .mpm-term-word{font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #b45309 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 4px 0 !important;}
+.mpm-article .mpm-terms .mpm-term-def{font-size: 14px !important;
+  color: #475569 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;
+  line-height: 1.75 !important;}
+.mpm-article .mpm-section{margin: 0 0 34px 0 !important;}
+.mpm-article .mpm-h2{display: flex !important;
+  align-items: center !important;
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 21px !important;
+  font-weight: 800 !important;
+  color: #0f2540 !important;
+  line-height: 1.4 !important;
+  margin: 0 0 16px 0 !important;
+  padding-bottom: 10px !important;
+  border-bottom: 2px solid #e2e8f0 !important;}
+.mpm-article .mpm-h2 .mpm-badge{display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 34px !important;
+  height: 34px !important;
+  flex: 0 0 34px !important;
+  margin-right: 12px !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background-color: #b45309 !important;
+  background-image: none !important;
+  border-radius: 8px !important;}
+.mpm-article .mpm-p{font-size: 15.5px !important;
+  color: #334155 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 16px 0 !important;}
+.mpm-article .mpm-note{font-size: 14.5px !important;
+  color: #92400e !important;
+  background-color: #fffbeb !important;
+  background-image: none !important;
+  border-left: 4px solid #f59e0b !important;
+  border-radius: 6px !important;
+  padding: 12px 16px !important;
+  margin: 0 !important;}
+.mpm-article .mpm-s2 .mpm-badge{background-color: #2563eb !important;}
+.mpm-article .mpm-s3 .mpm-badge{background-color: #ea580c !important;}
+.mpm-article .mpm-s4 .mpm-badge{background-color: #0891b2 !important;}
+.mpm-article .mpm-s5 .mpm-badge{background-color: #b91c1c !important;}
+.mpm-article .mpm-s6 .mpm-badge{background-color: #0f766e !important;}
+.mpm-article .mpm-fig{margin: 0 0 18px 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.mpm-article .mpm-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 8px !important;
+  box-sizing: border-box !important;}
+.mpm-article .mpm-figcap{font-size: 12.5px !important;
+  color: #64748b !important;
+  margin: 8px 4px 0 4px !important;
+  line-height: 1.6 !important;}
+.mpm-article .mpm-points{list-style: none !important;
+  counter-reset: mpm-pt !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.mpm-article .mpm-point{counter-increment: mpm-pt !important;
+  position: relative !important;
+  background-color: #f8fafc !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  padding: 16px 18px 16px 56px !important;
+  margin: 0 0 12px 0 !important;
+  font-size: 15px !important;
+  color: #334155 !important;}
+.mpm-article .mpm-point::before{content: counter(mpm-pt) !important;
+  position: absolute !important;
+  left: 16px !important;
+  top: 16px !important;
+  width: 28px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background-color: #0f766e !important;
+  background-image: none !important;
+  border-radius: 50% !important;}
+.mpm-article .mpm-point .mpm-point-title{display: block !important;
+  font-weight: 700 !important;
+  color: #0f2540 !important;
+  margin-bottom: 4px !important;}
+.mpm-article .mpm-disclaimer{margin: 30px 0 0 0 !important;
+  padding: 16px 18px !important;
+  background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border-radius: 8px !important;}
+.mpm-article .mpm-disclaimer p{font-size: 12.5px !important;
+  color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;
+  line-height: 1.7 !important;}
+@media (max-width: 600px){.mpm-article .mpm-title{font-size: 23px !important;}.mpm-article .mpm-h2{font-size: 18px !important;}.mpm-article .mpm-chip{flex: 1 1 100% !important;}}

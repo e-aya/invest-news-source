@@ -1,0 +1,355 @@
+.ysp-doc.ysp-doc{display: block !important;
+  box-sizing: border-box !important;
+  margin: 0 0 2rem 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  color: #2c3948 !important;
+  -webkit-text-fill-color: currentColor !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.9 !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: both !important;
+  position: static !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  clip-path: none !important;
+  mask: none !important;
+  mix-blend-mode: normal !important;
+  writing-mode: horizontal-tb !important;
+  max-width: 100% !important;
+  width: auto !important;
+  min-width: 0 !important;
+  overflow-wrap: break-word !important;}
+.ysp-doc.ysp-doc *{box-sizing: border-box !important;
+  border-radius: 0 !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  font-family: inherit !important;
+  font-style: normal !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  position: static !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  clip-path: none !important;
+  mask: none !important;
+  mix-blend-mode: normal !important;
+  writing-mode: horizontal-tb !important;
+  outline-offset: 2px !important;}
+.ysp-doc.ysp-doc::before,.ysp-doc.ysp-doc::after,.ysp-doc.ysp-doc *::before,.ysp-doc.ysp-doc *::after{content: none !important;
+  display: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;}
+.ysp-doc.ysp-doc [class*="ysp-"]::before,.ysp-doc.ysp-doc [class*="ysp-"]::after{content: none !important;
+  display: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  width: 0 !important;
+  height: 0 !important;}
+.ysp-doc.ysp-doc p{display: block !important;
+  margin: 0 0 1.35em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 16px !important;
+  color: #2c3948 !important;}
+.ysp-doc.ysp-doc .ysp-lead{font-size: 17px !important;
+  color: #16202b !important;
+  border-left: 3px solid #1f5f8b !important;
+  padding: 0 0 0 14px !important;
+  margin: 0 0 1.5em 0 !important;}
+.ysp-doc.ysp-doc strong{font-weight: 700 !important;
+  color: #16202b !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ysp-doc.ysp-doc em{font-style: normal !important;
+  font-weight: 600 !important;
+  color: #17496b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  text-decoration: none !important;}
+.ysp-doc.ysp-doc .ysp-h2{display: block !important;
+  margin: 2.4em 0 0.9em 0 !important;
+  padding: 0 0 0.4em 0 !important;
+  border: 0 !important;
+  border-bottom: 2px solid #d3dae2 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #16202b !important;
+  text-align: left !important;}
+.ysp-doc.ysp-doc .ysp-note{font-size: 14px !important;
+  line-height: 1.8 !important;
+  color: #5c6674 !important;
+  background-color: #f4f6f9 !important;
+  background-image: none !important;
+  padding: 12px 14px !important;
+  margin: 0 0 1.35em 0 !important;
+  border: 0 !important;
+  border-left: 3px solid #b9c3ce !important;}
+.ysp-doc.ysp-doc .ysp-disc{font-size: 13px !important;
+  line-height: 1.8 !important;
+  color: #5c6674 !important;
+  margin: 2.2em 0 0 0 !important;
+  padding: 12px 0 0 0 !important;
+  border: 0 !important;
+  border-top: 1px solid #d3dae2 !important;}
+.ysp-doc.ysp-doc .ysp-xl{color: #17496b !important;
+  -webkit-text-fill-color: #17496b !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 600 !important;}
+.ysp-doc.ysp-doc .ysp-ul,.ysp-doc.ysp-doc .ysp-ol,.ysp-doc.ysp-doc .ysp-keylist{display: block !important;
+  margin: 0 0 1.5em 0 !important;
+  padding: 0 0 0 1.5em !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  list-style-position: outside !important;}
+.ysp-doc.ysp-doc .ysp-ul,.ysp-doc.ysp-doc .ysp-keylist{list-style-type: disc !important;}
+.ysp-doc.ysp-doc .ysp-ol{list-style-type: decimal !important;}
+.ysp-doc.ysp-doc li{display: list-item !important;
+  margin: 0 0 0.7em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 16px !important;
+  color: #2c3948 !important;}
+.ysp-doc.ysp-doc .ysp-keypanel{display: block !important;
+  margin: 0 0 1.8em 0 !important;
+  padding: 18px 20px 6px 20px !important;
+  border: 1px solid #cfd9e3 !important;
+  border-top: 4px solid #1f5f8b !important;
+  border-radius: 0 !important;
+  background-color: #f7f9fb !important;
+  background-image: none !important;}
+.ysp-doc.ysp-doc .ysp-keypanel-h{font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #17496b !important;
+  margin: 0 0 0.7em 0 !important;
+  letter-spacing: 0.04em !important;}
+.ysp-doc.ysp-doc .ysp-keypanel .ysp-keylist{margin-bottom: 0 !important;}
+.ysp-doc.ysp-doc .ysp-keypanel li{font-size: 15px !important; line-height: 1.85 !important;}
+.ysp-doc.ysp-doc .ysp-defpanel{display: block !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 16px 18px 2px 18px !important;
+  border: 0 !important;
+  border-left: 4px solid #2b7a78 !important;
+  border-radius: 0 !important;
+  background-color: #f0f5f4 !important;
+  background-image: none !important;}
+.ysp-doc.ysp-doc .ysp-defpanel p{font-size: 15px !important;
+  line-height: 1.85 !important;
+  margin: 0 0 1em 0 !important;}
+.ysp-doc.ysp-doc .ysp-tw{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;}
+.ysp-doc.ysp-doc .ysp-tb{display: table !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  table-layout: auto !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  font-size: 15px !important;}
+.ysp-doc.ysp-doc .ysp-tb thead{display: table-header-group !important;}
+.ysp-doc.ysp-doc .ysp-tb tbody{display: table-row-group !important;}
+.ysp-doc.ysp-doc .ysp-tb tr{display: table-row !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ysp-doc.ysp-doc .ysp-tb th,.ysp-doc.ysp-doc .ysp-tb td{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 10px 12px !important;
+  border: 1px solid #d3dae2 !important;
+  border-radius: 0 !important;
+  background-image: none !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;}
+.ysp-doc.ysp-doc .ysp-tb th{background-color: #eef2f6 !important;
+  font-weight: 700 !important;
+  color: #16202b !important;
+  white-space: nowrap !important;}
+.ysp-doc.ysp-doc .ysp-tb td{background-color: #ffffff !important;
+  color: #2c3948 !important;}
+.ysp-doc.ysp-doc .ysp-tb tbody tr:nth-child(even) td{background-color: #fafbfc !important;}
+.ysp-doc.ysp-doc .ysp-fig{display: block !important;
+  margin: 0 0 1.9em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  width: 100% !important;
+  max-width: 100% !important;}
+.ysp-doc.ysp-doc .ysp-figbody{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #dde3ea !important;
+  border-radius: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  overflow: hidden !important;}
+.ysp-doc.ysp-doc .ysp-figcap{display: block !important;
+  margin: 8px 0 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 13.5px !important;
+  line-height: 1.7 !important;
+  color: #5c6674 !important;
+  text-align: left !important;
+  caption-side: bottom !important;}
+.ysp-doc.ysp-doc .ysp-svg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow: visible !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  vertical-align: middle !important;}
+.ysp-doc.ysp-doc svg *{filter: none !important;
+  opacity: 1 !important;
+  transform-box: view-box !important;
+  paint-order: normal !important;
+  vector-effect: none !important;
+  mix-blend-mode: normal !important;
+  fill: #16202b;
+  stroke: none;
+  stroke-width: 0;}
+.ysp-doc.ysp-doc svg text{font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+  dominant-baseline: auto !important;}
+.ysp-doc.ysp-doc .ysp-t-hd{font-size: 21px !important; font-weight: 700 !important;}
+.ysp-doc.ysp-doc .ysp-t-lg{font-size: 18px !important; font-weight: 700 !important;}
+.ysp-doc.ysp-doc .ysp-t-md{font-size: 16px !important; font-weight: 600 !important;}
+.ysp-doc.ysp-doc .ysp-t-sm{font-size: 14px !important;}
+.ysp-doc.ysp-doc .ysp-t-xs{font-size: 12.5px !important;}
+.ysp-doc.ysp-doc .ysp-t-xxs{font-size: 11px !important;}
+.ysp-doc.ysp-doc .ysp-bg{fill: #ffffff !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-ink{fill: #16202b !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-body{fill: #2c3948 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-mute{fill: #5c6674 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-on{fill: #ffffff !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-dot{fill: #5c6674 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-peak{fill: #a8442a !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-peak-d{fill: #8c3721 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-head{fill: #34506b !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-arrow{fill: #7d8b9a !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-panel{fill: #f4f6f9 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-era1{fill: #cfdfe9 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-era2{fill: #f2f4f6 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-era3{fill: #edf0f3 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-era4{fill: #e8ecef !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-era5{fill: #cfdfe9 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-good{fill: #eef5ef !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-neu{fill: #f1f4f7 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-bad{fill: #f8f0ec !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-goodbar{fill: #3d7a4e !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-neubar{fill: #7d8b9a !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-badbar{fill: #a8442a !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-strong{fill: #e8b4a4 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-mid{fill: #e6d3a8 !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-fill-weak{fill: #cfd8dd !important; stroke: none !important; stroke-width: 0 !important;}
+.ysp-doc.ysp-doc .ysp-stroke-w{fill: none !important; stroke: #ffffff !important; stroke-width: 1.5 !important;}
+.ysp-doc.ysp-doc .ysp-stroke-grid{fill: none !important; stroke: #e3e8ee !important; stroke-width: 1 !important;}
+.ysp-doc.ysp-doc .ysp-stroke-mark{fill: none !important; stroke: #a8442a !important; stroke-width: 1.5 !important; stroke-dasharray: 5 4 !important;}
+.ysp-doc.ysp-doc .ysp-stroke-branch{fill: none !important; stroke: #7d8b9a !important; stroke-width: 1.5 !important;}
+.ysp-doc.ysp-doc .ysp-line{fill: none !important; stroke: #1f5f8b !important; stroke-width: 2.2 !important; stroke-linejoin: round !important; stroke-linecap: round !important; stroke-dasharray: none !important;}
+@media (max-width: 600px){.ysp-doc.ysp-doc{font-size: 15.5px !important; line-height: 1.85 !important;}.ysp-doc.ysp-doc p{font-size: 15.5px !important;}.ysp-doc.ysp-doc li{font-size: 15.5px !important;}.ysp-doc.ysp-doc .ysp-lead{font-size: 16px !important;}.ysp-doc.ysp-doc .ysp-h2{font-size: 19px !important; margin-top: 2em !important;}.ysp-doc.ysp-doc .ysp-keypanel{padding: 15px 15px 4px 15px !important;}.ysp-doc.ysp-doc .ysp-defpanel{padding: 14px 14px 2px 14px !important;}.ysp-doc.ysp-doc .ysp-tb,
+  .ysp-doc.ysp-doc .ysp-tb th,
+  .ysp-doc.ysp-doc .ysp-tb td{font-size: 14px !important;}.ysp-doc.ysp-doc .ysp-tb th,
+  .ysp-doc.ysp-doc .ysp-tb td{padding: 8px 10px !important;}.ysp-doc.ysp-doc .ysp-figcap{font-size: 12.5px !important;}}
+@media (prefers-reduced-motion: reduce){.ysp-doc.ysp-doc,
+  .ysp-doc.ysp-doc *{animation: none !important; transition: none !important;}}

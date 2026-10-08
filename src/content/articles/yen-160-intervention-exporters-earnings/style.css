@@ -1,0 +1,264 @@
+.inv-wrap{max-width: 860px !important;
+  margin: 0 auto !important;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', sans-serif !important;
+  color: #222 !important;
+  line-height: 1.85 !important;}
+.inv-lead{font-size: 1.05rem !important;
+  border-left: 4px solid #2563eb !important;
+  padding: 0.75em 1em !important;
+  background: #f0f6ff !important;
+  border-radius: 0 6px 6px 0 !important;
+  margin-bottom: 2em !important;}
+.inv-toc{background: #f8f9fa !important;
+  border: 1px solid #dee2e6 !important;
+  border-radius: 8px !important;
+  padding: 1.2em 1.5em !important;
+  margin: 2em 0 !important;
+  display: inline-block !important;
+  min-width: 55% !important;}
+.inv-toc-title{font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  margin: 0 0 0.5em !important;
+  color: #333 !important;}
+.inv-toc-list{margin: 0 !important;
+  padding-left: 1.4em !important;}
+.inv-toc-list li{margin: 0.3em 0 !important;
+  font-size: 0.9rem !important;}
+.inv-toc-list a{color: #2563eb !important;
+  text-decoration: none !important;}
+.inv-toc-list a:hover{text-decoration: underline !important;}
+.inv-h2{font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  color: #1e3a5f !important;
+  border-left: 5px solid #2563eb !important;
+  padding: 0.4em 0.8em !important;
+  margin: 2.4em 0 1em !important;
+  background: #f0f6ff !important;
+  border-radius: 0 6px 6px 0 !important;}
+.inv-h3{font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  color: #1e3a5f !important;
+  border-bottom: 2px solid #93c5fd !important;
+  padding-bottom: 0.3em !important;
+  margin: 1.8em 0 0.8em !important;}
+.inv-callout{border-radius: 8px !important;
+  padding: 1em 1.2em !important;
+  margin: 1.5em 0 !important;}
+.inv-callout-title{font-weight: 700 !important;
+  margin: 0 0 0.5em !important;
+  font-size: 0.95rem !important;}
+.inv-callout p:last-child{margin-bottom: 0 !important;}
+.inv-callout-info{background: #fefce8 !important;
+  border: 1px solid #fde68a !important;}
+.inv-callout-blue{background: #eff6ff !important;
+  border: 1px solid #93c5fd !important;}
+.inv-callout-warn{background: #fff7ed !important;
+  border: 1px solid #fdba74 !important;}
+.inv-callout-warn .inv-callout-title{color: #9a3412 !important;}
+.inv-box-grid{display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 1em !important;
+  margin: 1.5em 0 !important;}
+@media (max-width: 640px){.inv-box-grid{grid-template-columns: 1fr !important;}}
+.inv-box{border-radius: 8px !important;
+  padding: 1em 1.2em !important;}
+.inv-box-title{font-weight: 700 !important;
+  font-size: 0.92rem !important;
+  margin: 0 0 0.6em !important;}
+.inv-box ul{margin: 0 !important;
+  padding-left: 1.3em !important;
+  font-size: 0.88rem !important;}
+.inv-box li{margin: 0.35em 0 !important;}
+.inv-box-green{background: #f0fdf4 !important;
+  border: 1px solid #86efac !important;}
+.inv-box-red{background: #fff1f2 !important;
+  border: 1px solid #fca5a5 !important;}
+.inv-table{width: 100% !important;
+  border-collapse: collapse !important;
+  font-size: 0.88rem !important;
+  margin: 1.2em 0 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;}
+.inv-table th{background: #1e3a5f !important;
+  color: #fff !important;
+  padding: 0.7em 1em !important;
+  text-align: left !important;
+  font-weight: 600 !important;}
+.inv-table td{padding: 0.65em 1em !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  vertical-align: top !important;}
+.inv-table tr:nth-child(even) td{background: #f8fafc !important;}
+.inv-table tr:last-child td{border-bottom: none !important;}
+.inv-row-high td{background: #fffbeb !important;}
+.inv-row-critical td{background: #fef2f2 !important;
+  font-weight: 600 !important;}
+.inv-ol{padding-left: 1.5em !important;
+  margin: 0.8em 0 !important;}
+.inv-ol li{margin: 0.4em 0 !important;}
+.inv-summary-box{background: #f8fafc !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 10px !important;
+  padding: 1.3em 1.5em !important;
+  margin: 1.5em 0 !important;}
+.inv-summary-title{font-weight: 700 !important;
+  font-size: 1rem !important;
+  margin: 0 0 0.8em !important;
+  color: #1e3a5f !important;}
+.inv-summary-list{list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.inv-summary-list li{padding: 0.6em 0 !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  font-size: 0.9rem !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.6em !important;
+  flex-wrap: wrap !important;}
+.inv-summary-list li:last-child{border-bottom: none !important;}
+.inv-tag{display: inline-block !important;
+  padding: 0.15em 0.6em !important;
+  border-radius: 4px !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;}
+.inv-tag-green{background: #dcfce7 !important;
+  color: #166534 !important;}
+.inv-tag-red{background: #fee2e2 !important;
+  color: #991b1b !important;}
+.inv-tag-blue{background: #dbeafe !important;
+  color: #1e40af !important;}
+.inv-tag-orange{background: #ffedd5 !important;
+  color: #9a3412 !important;}
+.inv-wrap{max-width: 860px !important;
+  margin: 0 auto !important;
+  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', sans-serif !important;
+  color: #222 !important;
+  line-height: 1.85 !important;}
+.inv-lead{font-size: 1.05rem !important;
+  border-left: 4px solid #2563eb !important;
+  padding: 0.75em 1em !important;
+  background: #f0f6ff !important;
+  border-radius: 0 6px 6px 0 !important;
+  margin-bottom: 2em !important;}
+.inv-toc{background: #f8f9fa !important;
+  border: 1px solid #dee2e6 !important;
+  border-radius: 8px !important;
+  padding: 1.2em 1.5em !important;
+  margin: 2em 0 !important;
+  display: inline-block !important;
+  min-width: 55% !important;}
+.inv-toc-title{font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  margin: 0 0 0.5em !important;
+  color: #333 !important;}
+.inv-toc-list{margin: 0 !important;
+  padding-left: 1.4em !important;}
+.inv-toc-list li{margin: 0.3em 0 !important;
+  font-size: 0.9rem !important;}
+.inv-toc-list a{color: #2563eb !important;
+  text-decoration: none !important;}
+.inv-toc-list a:hover{text-decoration: underline !important;}
+.inv-h2{font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  color: #1e3a5f !important;
+  border-left: 5px solid #2563eb !important;
+  padding: 0.4em 0.8em !important;
+  margin: 2.4em 0 1em !important;
+  background: #f0f6ff !important;
+  border-radius: 0 6px 6px 0 !important;}
+.inv-h3{font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  color: #1e3a5f !important;
+  border-bottom: 2px solid #93c5fd !important;
+  padding-bottom: 0.3em !important;
+  margin: 1.8em 0 0.8em !important;}
+.inv-callout{border-radius: 8px !important;
+  padding: 1em 1.2em !important;
+  margin: 1.5em 0 !important;}
+.inv-callout-title{font-weight: 700 !important;
+  margin: 0 0 0.5em !important;
+  font-size: 0.95rem !important;}
+.inv-callout p:last-child{margin-bottom: 0 !important;}
+.inv-callout-info{background: #fefce8 !important;
+  border: 1px solid #fde68a !important;}
+.inv-callout-blue{background: #eff6ff !important;
+  border: 1px solid #93c5fd !important;}
+.inv-callout-warn{background: #fff7ed !important;
+  border: 1px solid #fdba74 !important;}
+.inv-callout-warn .inv-callout-title{color: #9a3412 !important;}
+.inv-box-grid{display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 1em !important;
+  margin: 1.5em 0 !important;}
+@media (max-width: 640px){.inv-box-grid{grid-template-columns: 1fr !important;}}
+.inv-box{border-radius: 8px !important;
+  padding: 1em 1.2em !important;}
+.inv-box-title{font-weight: 700 !important;
+  font-size: 0.92rem !important;
+  margin: 0 0 0.6em !important;}
+.inv-box ul{margin: 0 !important;
+  padding-left: 1.3em !important;
+  font-size: 0.88rem !important;}
+.inv-box li{margin: 0.35em 0 !important;}
+.inv-box-green{background: #f0fdf4 !important;
+  border: 1px solid #86efac !important;}
+.inv-box-red{background: #fff1f2 !important;
+  border: 1px solid #fca5a5 !important;}
+.inv-table{width: 100% !important;
+  border-collapse: collapse !important;
+  font-size: 0.88rem !important;
+  margin: 1.2em 0 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;}
+.inv-table th{background: #1e3a5f !important;
+  color: #fff !important;
+  padding: 0.7em 1em !important;
+  text-align: left !important;
+  font-weight: 600 !important;}
+.inv-table td{padding: 0.65em 1em !important;
+  border-bottom: 1px solid #e5e7eb !important;
+  vertical-align: top !important;}
+.inv-table tr:nth-child(even) td{background: #f8fafc !important;}
+.inv-table tr:last-child td{border-bottom: none !important;}
+.inv-row-high td{background: #fffbeb !important;}
+.inv-row-critical td{background: #fef2f2 !important;
+  font-weight: 600 !important;}
+.inv-ol{padding-left: 1.5em !important;
+  margin: 0.8em 0 !important;}
+.inv-ol li{margin: 0.4em 0 !important;}
+.inv-summary-box{background: #f8fafc !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 10px !important;
+  padding: 1.3em 1.5em !important;
+  margin: 1.5em 0 !important;}
+.inv-summary-title{font-weight: 700 !important;
+  font-size: 1rem !important;
+  margin: 0 0 0.8em !important;
+  color: #1e3a5f !important;}
+.inv-summary-list{list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.inv-summary-list li{padding: 0.6em 0 !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  font-size: 0.9rem !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.6em !important;
+  flex-wrap: wrap !important;}
+.inv-summary-list li:last-child{border-bottom: none !important;}
+.inv-tag{display: inline-block !important;
+  padding: 0.15em 0.6em !important;
+  border-radius: 4px !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;}
+.inv-tag-green{background: #dcfce7 !important;
+  color: #166534 !important;}
+.inv-tag-red{background: #fee2e2 !important;
+  color: #991b1b !important;}
+.inv-tag-blue{background: #dbeafe !important;
+  color: #1e40af !important;}
+.inv-tag-orange{background: #ffedd5 !important;
+  color: #9a3412 !important;}

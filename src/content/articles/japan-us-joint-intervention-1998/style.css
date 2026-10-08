@@ -1,0 +1,305 @@
+.intv26-root.intv26-root{--intv26-ink: #17202e;
+  --intv26-sub: #4d5a6d;
+  --intv26-navy: #1b3a6b;
+  --intv26-accent: #b3341f;
+  --intv26-line: #d8dee7;
+  --intv26-soft: #f4f6f9;
+  --intv26-band: #fdf0ec;
+  display: block !important;
+  box-sizing: border-box !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  color: var(--intv26-ink) !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  font-size: 16px !important;
+  line-height: 1.9 !important;
+  letter-spacing: 0.02em !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  text-align: left !important;
+  word-break: normal !important;
+  overflow-wrap: anywhere !important;}
+.intv26-root.intv26-root *{box-sizing: border-box !important;
+  visibility: visible !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  max-width: 100% !important;
+  font-family: inherit !important;}
+.intv26-root.intv26-root p{margin: 0 0 1.5em 0 !important;
+  padding: 0 !important;
+  color: var(--intv26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1rem !important;
+  line-height: 1.95 !important;
+  text-indent: 0 !important;}
+.intv26-root.intv26-root strong{color: var(--intv26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid rgba(179, 52, 31, 0.28) !important;
+  padding-bottom: 0.05em !important;}
+.intv26-root.intv26-root .intv26-lead{display: block !important;
+  margin: 0 0 1.7em 0 !important;
+  padding: 1.1em 1.2em !important;
+  background-color: var(--intv26-soft) !important;
+  background-image: none !important;
+  border-left: 4px solid var(--intv26-navy) !important;
+  border-radius: 2px !important;
+  font-size: 1.02rem !important;
+  font-weight: 500 !important;
+  line-height: 1.9 !important;
+  color: var(--intv26-ink) !important;}
+.intv26-root.intv26-root .intv26-link{color: var(--intv26-navy) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  font-weight: 600 !important;}
+.intv26-root.intv26-root .intv26-link:hover{color: var(--intv26-accent) !important;
+  text-decoration: underline !important;}
+.intv26-root.intv26-root .intv26-h2{display: block !important;
+  margin: 2.8em 0 1.1em 0 !important;
+  padding: 0 0 0.45em 0 !important;
+  border: 0 !important;
+  border-bottom: 2px solid var(--intv26-navy) !important;
+  color: var(--intv26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1.34rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.01em !important;}
+.intv26-root.intv26-root .intv26-h3{display: block !important;
+  margin: 2.1em 0 0.85em 0 !important;
+  padding: 0 0 0 0.7em !important;
+  border: 0 !important;
+  border-left: 4px solid var(--intv26-accent) !important;
+  color: var(--intv26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1.12rem !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;}
+.intv26-root.intv26-root .intv26-note,.intv26-root.intv26-root .intv26-cta{display: block !important;
+  font-size: 1rem !important;
+  line-height: 1.9 !important;
+  margin: 2em 0 !important;
+  padding: 1.1em 1.2em !important;
+  background-color: var(--intv26-soft) !important;
+  background-image: none !important;
+  border: 1px solid var(--intv26-line) !important;
+  border-radius: 4px !important;}
+.intv26-root.intv26-root .intv26-note p,.intv26-root.intv26-root .intv26-cta p{margin: 0 0 0.6em 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.95rem !important;
+  line-height: 1.85 !important;}
+.intv26-root.intv26-root .intv26-note p:last-child,.intv26-root.intv26-root .intv26-cta p:last-child{margin-bottom: 0 !important;}
+.intv26-root.intv26-root .intv26-note-h,.intv26-root.intv26-root .intv26-cta-h{color: var(--intv26-navy) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.86rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;}
+.intv26-root.intv26-root .intv26-table-wrap{display: block !important;
+  font-size: 1rem !important;
+  line-height: 1.9 !important;
+  max-width: 100% !important;
+  margin: 1.8em 0 !important;
+  padding: 0 !important;
+  overflow-x: auto !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  -webkit-overflow-scrolling: touch !important;}
+.intv26-root.intv26-root .intv26-table{display: table !important;
+  width: 100% !important;
+  min-width: 460px !important;
+  margin: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  font-size: 0.9rem !important;
+  line-height: 1.7 !important;
+  table-layout: auto !important;}
+.intv26-root.intv26-root .intv26-table thead th{padding: 0.7em 0.85em !important;
+  border: 1px solid var(--intv26-line) !important;
+  background-color: var(--intv26-navy) !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 0.88rem !important;
+  text-align: left !important;
+  white-space: nowrap !important;}
+.intv26-root.intv26-root .intv26-table tbody td{padding: 0.7em 0.85em !important;
+  border: 1px solid var(--intv26-line) !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: var(--intv26-ink) !important;
+  vertical-align: top !important;
+  text-align: left !important;}
+.intv26-root.intv26-root .intv26-table tbody tr:nth-child(even) td{background-color: var(--intv26-soft) !important;
+  background-image: none !important;}
+.intv26-root.intv26-root .intv26-table tbody td:first-child{white-space: nowrap !important;
+  font-weight: 600 !important;}
+.intv26-root.intv26-root .intv26-ol{font-size: 1rem !important;
+  line-height: 1.9 !important;
+  margin: 1.5em 0 1.8em 0 !important;
+  padding: 0 0 0 1.5em !important;
+  list-style-type: decimal !important;
+  list-style-position: outside !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.intv26-root.intv26-root .intv26-ol li{display: list-item !important;
+  margin: 0 0 0.9em 0 !important;
+  padding: 0 0 0 0.2em !important;
+  color: var(--intv26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.98rem !important;
+  line-height: 1.9 !important;
+  list-style-type: decimal !important;}
+.intv26-root.intv26-root .intv26-fig{display: block !important;
+  font-size: 1rem !important;
+  line-height: 1.9 !important;
+  margin: 2.2em 0 !important;
+  padding: 1em 1em 0.9em 1em !important;
+  border: 1px solid var(--intv26-line) !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.intv26-root.intv26-root .intv26-fig svg{display: block !important;
+  visibility: visible !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  overflow: visible !important;}
+.intv26-root.intv26-root .intv26-fig svg *{filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  mix-blend-mode: normal !important;}
+.intv26-root.intv26-root .intv26-fig svg [fill="none"]{fill: none !important;}
+.intv26-root.intv26-root .intv26-fig svg [stroke="none"]{stroke: none !important;}
+.intv26-root.intv26-root .intv26-fig svg text{fill: var(--intv26-ink) !important;
+  stroke: none !important;
+  font-family: inherit !important;
+  paint-order: stroke !important;}
+.intv26-root.intv26-root .intv26-cap{display: block !important;
+  visibility: visible !important;
+  margin: 0.85em 0 0 0 !important;
+  padding: 0.7em 0 0 0 !important;
+  border-top: 1px dotted var(--intv26-line) !important;
+  color: var(--intv26-sub) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.83rem !important;
+  line-height: 1.75 !important;
+  text-align: left !important;}
+.intv26-root.intv26-root .intv26-axis{stroke: #9aa6b6 !important;
+  stroke-width: 1.2 !important;
+  fill: none !important;}
+.intv26-root.intv26-root .intv26-grid{stroke: var(--intv26-line) !important;
+  stroke-width: 1 !important;
+  fill: none !important;
+  stroke-dasharray: 3 3 !important;}
+.intv26-root.intv26-root .intv26-zero{stroke: #9aa6b6 !important;
+  stroke-width: 1 !important;
+  fill: none !important;
+  stroke-dasharray: 5 4 !important;}
+.intv26-root.intv26-root .intv26-band{fill: var(--intv26-band) !important;
+  stroke: none !important;}
+.intv26-root.intv26-root .intv26-line{fill: none !important;
+  stroke: var(--intv26-navy) !important;
+  stroke-width: 2.6 !important;
+  stroke-linejoin: round !important;
+  stroke-linecap: round !important;}
+.intv26-root.intv26-root .intv26-line98{fill: none !important;
+  stroke: #7b8798 !important;
+  stroke-width: 2.4 !important;
+  stroke-linejoin: round !important;
+  stroke-linecap: round !important;}
+.intv26-root.intv26-root .intv26-line26{fill: none !important;
+  stroke: var(--intv26-navy) !important;
+  stroke-width: 2.8 !important;
+  stroke-linejoin: round !important;
+  stroke-linecap: round !important;}
+.intv26-root.intv26-root .intv26-line26-dash{fill: none !important;
+  stroke: var(--intv26-navy) !important;
+  stroke-width: 2 !important;
+  stroke-dasharray: 6 5 !important;
+  stroke-linecap: round !important;}
+.intv26-root.intv26-root .intv26-dot{fill: var(--intv26-navy) !important;
+  stroke: #ffffff !important;
+  stroke-width: 1.4 !important;}
+.intv26-root.intv26-root .intv26-dot-hi{fill: var(--intv26-accent) !important;
+  stroke: #ffffff !important;
+  stroke-width: 1.6 !important;}
+.intv26-root.intv26-root .intv26-bar{fill: #8fa1bb !important;
+  stroke: none !important;}
+.intv26-root.intv26-root .intv26-bar-mid{fill: var(--intv26-navy) !important;
+  stroke: none !important;}
+.intv26-root.intv26-root .intv26-bar-hi{fill: var(--intv26-accent) !important;
+  stroke: none !important;}
+.intv26-root.intv26-root .intv26-key98{fill: #7b8798 !important;
+  stroke: none !important;}
+.intv26-root.intv26-root .intv26-key26{fill: var(--intv26-navy) !important;
+  stroke: none !important;}
+.intv26-root.intv26-root .intv26-svg-title{fill: var(--intv26-ink) !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;}
+.intv26-root.intv26-root .intv26-svg-ylab,.intv26-root.intv26-root .intv26-svg-xlab{fill: var(--intv26-sub) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;}
+.intv26-root.intv26-root .intv26-svg-ylab{text-anchor: end !important;}
+.intv26-root.intv26-root .intv26-svg-xlab{text-anchor: middle !important;}
+.intv26-root.intv26-root .intv26-svg-unit{fill: var(--intv26-sub) !important;
+  font-size: 11px !important;}
+.intv26-root.intv26-root .intv26-svg-anno{fill: var(--intv26-accent) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-anchor: middle !important;}
+.intv26-root.intv26-root .intv26-svg-callout{fill: var(--intv26-sub) !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  text-anchor: middle !important;}
+.intv26-root.intv26-root .intv26-svg-rowlab{fill: var(--intv26-ink) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;}
+.intv26-root.intv26-root .intv26-svg-val{fill: var(--intv26-ink) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;}
+.intv26-root.intv26-root .intv26-svg-val2{fill: var(--intv26-sub) !important;
+  font-size: 12px !important;}
+.intv26-root.intv26-root .intv26-svg-key{fill: var(--intv26-ink) !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;}
+.intv26-root.intv26-root .intv26-svg-keysub{fill: var(--intv26-sub) !important;
+  font-size: 11px !important;}
+.intv26-root.intv26-root .intv26-disc{display: block !important;
+  visibility: visible !important;
+  margin: 2.6em 0 0 0 !important;
+  padding: 0.9em 1em !important;
+  border-top: 1px solid var(--intv26-line) !important;
+  color: var(--intv26-sub) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.8rem !important;
+  line-height: 1.75 !important;}
+@media screen and (max-width: 600px){.intv26-root.intv26-root{font-size: 15px !important;
+    line-height: 1.85 !important;}.intv26-root.intv26-root .intv26-h2{margin-top: 2.2em !important;
+    font-size: 1.18rem !important;}.intv26-root.intv26-root .intv26-h3{font-size: 1.04rem !important;}.intv26-root.intv26-root .intv26-lead{padding: 0.95em 1em !important;
+    font-size: 0.98rem !important;}.intv26-root.intv26-root .intv26-fig{padding: 0.7em 0.6em 0.7em 0.6em !important;}.intv26-root.intv26-root .intv26-table{font-size: 0.82rem !important;
+    min-width: 420px !important;}.intv26-root.intv26-root .intv26-table thead th,
+  .intv26-root.intv26-root .intv26-table tbody td{padding: 0.55em 0.6em !important;}.intv26-root.intv26-root .intv26-ol{padding-left: 1.35em !important;}.intv26-root.intv26-root .intv26-cap{font-size: 0.78rem !important;}}

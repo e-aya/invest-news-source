@@ -1,0 +1,1208 @@
+.nnd-article{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  line-height: 1.85 !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;
+  -webkit-text-size-adjust: 100% !important;}
+.nnd-article *,.nnd-article *::before,.nnd-article *::after{box-sizing: border-box !important;
+  filter: none !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+  mix-blend-mode: normal !important;}
+.nnd-article .nnd-hero{background-color: #10243c !important;
+  background-image: linear-gradient(135deg, #10243c 0%, #1c3d5e 100%) !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  padding: 26px 24px 24px !important;
+  margin: 0 0 16px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-hero .nnd-hero-eyebrow{background-color: transparent !important;
+  background-image: none !important;
+  color: #7fc4ff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-hero .nnd-hero-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 25px !important;
+  font-weight: 800 !important;
+  line-height: 1.45 !important;
+  margin: 0 0 14px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-hero .nnd-hero-lead{background-color: transparent !important;
+  background-image: none !important;
+  color: #d8e6f4 !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-meta{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 28px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-meta .nnd-chip{background-color: #eef3f9 !important;
+  background-image: none !important;
+  color: #37506b !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  border: 1px solid #d3dfeb !important;
+  border-radius: 999px !important;
+  padding: 4px 12px !important;
+  margin: 0 !important;
+  display: inline-block !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-h3{background-color: transparent !important;
+  background-image: none !important;
+  color: #10243c !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  border: 0 !important;
+  border-left: 5px solid #1f6feb !important;
+  border-radius: 0 !important;
+  padding: 2px 0 2px 12px !important;
+  margin: 40px 0 16px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-p{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  font-size: 15.5px !important;
+  line-height: 1.95 !important;
+  margin: 0 0 16px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-strong{background-color: transparent !important;
+  background-image: none !important;
+  color: #0b2b52 !important;
+  font-weight: 800 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-list{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 18px !important;
+  padding: 0 0 0 22px !important;
+  border: 0 !important;
+  list-style-type: disc !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-list .nnd-li{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  font-size: 15.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout{background-color: #f2f7fd !important;
+  background-image: none !important;
+  border: 1px solid #c9ddf3 !important;
+  border-left: 5px solid #1f6feb !important;
+  border-radius: 10px !important;
+  padding: 18px 20px !important;
+  margin: 0 0 24px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout .nnd-callout-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #124a94 !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout .nnd-callout-body{background-color: transparent !important;
+  background-image: none !important;
+  color: #23384f !important;
+  font-size: 14.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout.nnd-callout-alt{background-color: #fff8ec !important;
+  background-image: none !important;
+  border: 1px solid #f2ddb8 !important;
+  border-left: 5px solid #d98218 !important;}
+.nnd-article .nnd-callout.nnd-callout-alt .nnd-callout-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #8a5210 !important;}
+.nnd-article .nnd-callout.nnd-callout-final{background-color: #f1f8f3 !important;
+  background-image: none !important;
+  border: 1px solid #c4e3ce !important;
+  border-left: 5px solid #2e8b57 !important;}
+.nnd-article .nnd-callout.nnd-callout-final .nnd-callout-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f6340 !important;}
+.nnd-article .nnd-layer{background-color: #f7f9fb !important;
+  background-image: none !important;
+  border: 1px solid #dde5ee !important;
+  border-left: 5px solid #8fa4bb !important;
+  border-radius: 10px !important;
+  padding: 16px 18px !important;
+  margin: 0 0 14px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-layer .nnd-layer-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #10243c !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-layer .nnd-layer-body{background-color: transparent !important;
+  background-image: none !important;
+  color: #2b3a4b !important;
+  font-size: 14.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-layer.nnd-layer-hard{background-color: #f0f7f2 !important;
+  background-image: none !important;
+  border-left-color: #2e8b57 !important;}
+.nnd-article .nnd-layer.nnd-layer-mid{background-color: #fdf8ee !important;
+  background-image: none !important;
+  border-left-color: #d98218 !important;}
+.nnd-article .nnd-layer.nnd-layer-soft{background-color: #fdf1f1 !important;
+  background-image: none !important;
+  border-left-color: #c0392b !important;}
+.nnd-article .nnd-table-wrap{background-color: transparent !important;
+  background-image: none !important;
+  overflow-x: auto !important;
+  margin: 0 0 24px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  -webkit-overflow-scrolling: touch !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table{background-color: #ffffff !important;
+  background-image: none !important;
+  border-collapse: collapse !important;
+  border: 1px solid #d7e0ea !important;
+  width: 100% !important;
+  min-width: 520px !important;
+  margin: 0 !important;
+  font-size: 14px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-th{background-color: #eaf1f8 !important;
+  background-image: none !important;
+  color: #10243c !important;
+  font-weight: 800 !important;
+  text-align: left !important;
+  border: 1px solid #d7e0ea !important;
+  padding: 10px 12px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-td{background-color: #ffffff !important;
+  background-image: none !important;
+  color: #23384f !important;
+  border: 1px solid #d7e0ea !important;
+  padding: 10px 12px !important;
+  line-height: 1.7 !important;
+  vertical-align: top !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-td.nnd-td-hot{background-color: #fdecec !important;
+  background-image: none !important;
+  color: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-td.nnd-td-cool{background-color: #e9f3fd !important;
+  background-image: none !important;
+  color: #124a94 !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 28px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  width: 100% !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-figcap{background-color: transparent !important;
+  background-image: none !important;
+  color: #5b6b7d !important;
+  font-size: 13px !important;
+  line-height: 1.75 !important;
+  text-align: left !important;
+  margin: 10px 2px 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg,.nnd-article .nnd-fig .nnd-svg *{filter: none !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  -webkit-filter: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;}
+.nnd-article .nnd-fig .nnd-svg{background-color: transparent !important;
+  background-image: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  border: 1px solid #dfe6ee !important;
+  border-radius: 10px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-bg{fill: #fbfcfe !important;
+  stroke: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-title{fill: #10243c !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-sub{fill: #6d7f93 !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-axis{stroke: #b8c5d3 !important;
+  stroke-width: 1.5 !important;
+  fill: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-earn{stroke: #2e8b57 !important;
+  stroke-width: 3.5 !important;
+  fill: none !important;
+  stroke-linecap: round !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-per{stroke: #d98218 !important;
+  stroke-width: 3.5 !important;
+  fill: none !important;
+  stroke-linecap: round !important;
+  stroke-dasharray: 8 5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-now{stroke: #c0392b !important;
+  stroke-width: 2 !important;
+  stroke-dasharray: 5 4 !important;
+  fill: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-dot-earn{fill: #2e8b57 !important;
+  stroke: #ffffff !important;
+  stroke-width: 2 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-dot-per{fill: #d98218 !important;
+  stroke: #ffffff !important;
+  stroke-width: 2 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-nowlab{fill: #c0392b !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-legend-e{fill: #2e8b57 !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-legend-p{fill: #b96b0c !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-phase{fill: #37506b !important;
+  font-size: 12.5px !important;
+  font-weight: 800 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-phase.nnd-svg-phase-hot{fill: #c0392b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-phasesub{fill: #7a8a9b !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-note{fill: #c0392b !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box{fill: #ffffff !important;
+  stroke: #c9d7e5 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-1{fill: #eef5fd !important;
+  stroke: #a9c8e8 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-2{fill: #eaf2fb !important;
+  stroke: #a9c8e8 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-3{fill: #e6f0fa !important;
+  stroke: #9dbfe2 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-4{fill: #fdf3e6 !important;
+  stroke: #e6c493 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-5{fill: #fdeceb !important;
+  stroke: #e8afa9 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-arrow{stroke: #7f93a8 !important;
+  stroke-width: 2.5 !important;
+  fill: none !important;
+  marker-end: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-lab{fill: #10243c !important;
+  font-size: 13.5px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-lab.nnd-vc-lab-hot{fill: #a3241a !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-val{fill: #3a4d61 !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-side{fill: #f2f6fa !important;
+  stroke: #ccd9e6 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-side.nnd-vc-side-warn{fill: #fdf6f5 !important;
+  stroke: #e8c3bf !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-sidelab{fill: #10243c !important;
+  font-size: 12.5px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-sideval{fill: #4a5c6f !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-sideval.nnd-vc-sideval-hot{fill: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card{fill: #ffffff !important;
+  stroke: #d3dde7 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card.nnd-db-red{fill: #fdf3f2 !important;
+  stroke: #e6bab4 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card.nnd-db-amber{fill: #fdf9f1 !important;
+  stroke: #e8d3ac !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card.nnd-db-blue{fill: #f1f7fd !important;
+  stroke: #b6d0e8 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led{stroke: #ffffff !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led.nnd-db-led-red{fill: #c0392b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led.nnd-db-led-amber{fill: #d98218 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led.nnd-db-led-blue{fill: #1f6feb !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-name{fill: #10243c !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-body{fill: #33475c !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-body.nnd-db-body-hot{fill: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-note{fill: #7a8a9b !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar{stroke: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar.nnd-bar-focus{fill: #c0392b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar.nnd-bar-peer{fill: #6b8299 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar.nnd-bar-ref{fill: #c3cedb !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar-name{fill: #33475c !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-anchor: end !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar-val{fill: #10243c !important;
+  font-size: 12.5px !important;
+  font-weight: 800 !important;
+  text-anchor: start !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-note2{fill: #4a5c6f !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-note2.nnd-svg-note2-hot{fill: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-root{fill: #10243c !important;
+  stroke: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-rootlab{fill: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-rootsub{fill: #b9cde0 !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-branch{stroke: #a3b3c4 !important;
+  stroke-width: 2 !important;
+  fill: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box{stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box.nnd-sc-bull{fill: #f0f7f2 !important;
+  stroke: #a8d3ba !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box.nnd-sc-base{fill: #f7f9fb !important;
+  stroke: #ccd8e4 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box.nnd-sc-bear{fill: #fdf2f1 !important;
+  stroke: #e8bcb6 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name{font-size: 13.5px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name.nnd-sc-name-bull{fill: #1f6340 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name.nnd-sc-name-base{fill: #37506b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name.nnd-sc-name-bear{fill: #a3241a !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-body{fill: #3a4d61 !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-cond{fill: #7a8a9b !important;
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-check{fill: #eef3f9 !important;
+  stroke: #cfdbe7 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-checklab{fill: #10243c !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-checkbody{fill: #4a5c6f !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-disclaimer{background-color: #f4f6f8 !important;
+  background-image: none !important;
+  border: 1px solid #dde3ea !important;
+  border-radius: 10px !important;
+  padding: 16px 18px !important;
+  margin: 32px 0 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-disclaimer .nnd-disc-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #5b6b7d !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  margin: 0 0 6px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-disclaimer .nnd-disc-body{background-color: transparent !important;
+  background-image: none !important;
+  color: #6d7f93 !important;
+  font-size: 12.5px !important;
+  line-height: 1.85 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+@media screen and (max-width: 600px){.nnd-article .nnd-hero{padding: 20px 16px !important;
+    border-radius: 10px !important;}.nnd-article .nnd-hero .nnd-hero-title{font-size: 20px !important;
+    line-height: 1.5 !important;}.nnd-article .nnd-hero .nnd-hero-lead{font-size: 14px !important;}.nnd-article .nnd-h3{font-size: 17.5px !important;
+    margin: 32px 0 14px !important;}.nnd-article .nnd-p,
+  .nnd-article .nnd-list .nnd-li{font-size: 15px !important;
+    line-height: 1.9 !important;}.nnd-article .nnd-callout,
+  .nnd-article .nnd-layer{padding: 14px 14px !important;}.nnd-article .nnd-callout .nnd-callout-body,
+  .nnd-article .nnd-layer .nnd-layer-body{font-size: 13.5px !important;}.nnd-article .nnd-table-wrap .nnd-table{font-size: 13px !important;}.nnd-article .nnd-fig .nnd-figcap{font-size: 12px !important;}}
+.nnd-article{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  line-height: 1.85 !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;
+  -webkit-text-size-adjust: 100% !important;}
+.nnd-article *,.nnd-article *::before,.nnd-article *::after{box-sizing: border-box !important;
+  filter: none !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+  mix-blend-mode: normal !important;}
+.nnd-article .nnd-hero{background-color: #10243c !important;
+  background-image: linear-gradient(135deg, #10243c 0%, #1c3d5e 100%) !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  padding: 26px 24px 24px !important;
+  margin: 0 0 16px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-hero .nnd-hero-eyebrow{background-color: transparent !important;
+  background-image: none !important;
+  color: #7fc4ff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-hero .nnd-hero-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 25px !important;
+  font-weight: 800 !important;
+  line-height: 1.45 !important;
+  margin: 0 0 14px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-hero .nnd-hero-lead{background-color: transparent !important;
+  background-image: none !important;
+  color: #d8e6f4 !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-meta{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 28px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-meta .nnd-chip{background-color: #eef3f9 !important;
+  background-image: none !important;
+  color: #37506b !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  border: 1px solid #d3dfeb !important;
+  border-radius: 999px !important;
+  padding: 4px 12px !important;
+  margin: 0 !important;
+  display: inline-block !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-h3{background-color: transparent !important;
+  background-image: none !important;
+  color: #10243c !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  border: 0 !important;
+  border-left: 5px solid #1f6feb !important;
+  border-radius: 0 !important;
+  padding: 2px 0 2px 12px !important;
+  margin: 40px 0 16px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-p{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  font-size: 15.5px !important;
+  line-height: 1.95 !important;
+  margin: 0 0 16px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-strong{background-color: transparent !important;
+  background-image: none !important;
+  color: #0b2b52 !important;
+  font-weight: 800 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-list{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 18px !important;
+  padding: 0 0 0 22px !important;
+  border: 0 !important;
+  list-style-type: disc !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-list .nnd-li{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  font-size: 15.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout{background-color: #f2f7fd !important;
+  background-image: none !important;
+  border: 1px solid #c9ddf3 !important;
+  border-left: 5px solid #1f6feb !important;
+  border-radius: 10px !important;
+  padding: 18px 20px !important;
+  margin: 0 0 24px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout .nnd-callout-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #124a94 !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout .nnd-callout-body{background-color: transparent !important;
+  background-image: none !important;
+  color: #23384f !important;
+  font-size: 14.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-callout.nnd-callout-alt{background-color: #fff8ec !important;
+  background-image: none !important;
+  border: 1px solid #f2ddb8 !important;
+  border-left: 5px solid #d98218 !important;}
+.nnd-article .nnd-callout.nnd-callout-alt .nnd-callout-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #8a5210 !important;}
+.nnd-article .nnd-callout.nnd-callout-final{background-color: #f1f8f3 !important;
+  background-image: none !important;
+  border: 1px solid #c4e3ce !important;
+  border-left: 5px solid #2e8b57 !important;}
+.nnd-article .nnd-callout.nnd-callout-final .nnd-callout-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #1f6340 !important;}
+.nnd-article .nnd-layer{background-color: #f7f9fb !important;
+  background-image: none !important;
+  border: 1px solid #dde5ee !important;
+  border-left: 5px solid #8fa4bb !important;
+  border-radius: 10px !important;
+  padding: 16px 18px !important;
+  margin: 0 0 14px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-layer .nnd-layer-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #10243c !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin: 0 0 8px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-layer .nnd-layer-body{background-color: transparent !important;
+  background-image: none !important;
+  color: #2b3a4b !important;
+  font-size: 14.5px !important;
+  line-height: 1.9 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-layer.nnd-layer-hard{background-color: #f0f7f2 !important;
+  background-image: none !important;
+  border-left-color: #2e8b57 !important;}
+.nnd-article .nnd-layer.nnd-layer-mid{background-color: #fdf8ee !important;
+  background-image: none !important;
+  border-left-color: #d98218 !important;}
+.nnd-article .nnd-layer.nnd-layer-soft{background-color: #fdf1f1 !important;
+  background-image: none !important;
+  border-left-color: #c0392b !important;}
+.nnd-article .nnd-table-wrap{background-color: transparent !important;
+  background-image: none !important;
+  overflow-x: auto !important;
+  margin: 0 0 24px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  -webkit-overflow-scrolling: touch !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table{background-color: #ffffff !important;
+  background-image: none !important;
+  border-collapse: collapse !important;
+  border: 1px solid #d7e0ea !important;
+  width: 100% !important;
+  min-width: 520px !important;
+  margin: 0 !important;
+  font-size: 14px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-th{background-color: #eaf1f8 !important;
+  background-image: none !important;
+  color: #10243c !important;
+  font-weight: 800 !important;
+  text-align: left !important;
+  border: 1px solid #d7e0ea !important;
+  padding: 10px 12px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-td{background-color: #ffffff !important;
+  background-image: none !important;
+  color: #23384f !important;
+  border: 1px solid #d7e0ea !important;
+  padding: 10px 12px !important;
+  line-height: 1.7 !important;
+  vertical-align: top !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-td.nnd-td-hot{background-color: #fdecec !important;
+  background-image: none !important;
+  color: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-table-wrap .nnd-table .nnd-td.nnd-td-cool{background-color: #e9f3fd !important;
+  background-image: none !important;
+  color: #124a94 !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 28px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  width: 100% !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-figcap{background-color: transparent !important;
+  background-image: none !important;
+  color: #5b6b7d !important;
+  font-size: 13px !important;
+  line-height: 1.75 !important;
+  text-align: left !important;
+  margin: 10px 2px 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg,.nnd-article .nnd-fig .nnd-svg *{filter: none !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  -webkit-filter: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;}
+.nnd-article .nnd-fig .nnd-svg{background-color: transparent !important;
+  background-image: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  border: 1px solid #dfe6ee !important;
+  border-radius: 10px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-bg{fill: #fbfcfe !important;
+  stroke: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-title{fill: #10243c !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-sub{fill: #6d7f93 !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-axis{stroke: #b8c5d3 !important;
+  stroke-width: 1.5 !important;
+  fill: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-earn{stroke: #2e8b57 !important;
+  stroke-width: 3.5 !important;
+  fill: none !important;
+  stroke-linecap: round !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-per{stroke: #d98218 !important;
+  stroke-width: 3.5 !important;
+  fill: none !important;
+  stroke-linecap: round !important;
+  stroke-dasharray: 8 5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-now{stroke: #c0392b !important;
+  stroke-width: 2 !important;
+  stroke-dasharray: 5 4 !important;
+  fill: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-dot-earn{fill: #2e8b57 !important;
+  stroke: #ffffff !important;
+  stroke-width: 2 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-dot-per{fill: #d98218 !important;
+  stroke: #ffffff !important;
+  stroke-width: 2 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-nowlab{fill: #c0392b !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-legend-e{fill: #2e8b57 !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-legend-p{fill: #b96b0c !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-phase{fill: #37506b !important;
+  font-size: 12.5px !important;
+  font-weight: 800 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-phase.nnd-svg-phase-hot{fill: #c0392b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-phasesub{fill: #7a8a9b !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-note{fill: #c0392b !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box{fill: #ffffff !important;
+  stroke: #c9d7e5 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-1{fill: #eef5fd !important;
+  stroke: #a9c8e8 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-2{fill: #eaf2fb !important;
+  stroke: #a9c8e8 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-3{fill: #e6f0fa !important;
+  stroke: #9dbfe2 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-4{fill: #fdf3e6 !important;
+  stroke: #e6c493 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-box.nnd-vc-box-5{fill: #fdeceb !important;
+  stroke: #e8afa9 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-arrow{stroke: #7f93a8 !important;
+  stroke-width: 2.5 !important;
+  fill: none !important;
+  marker-end: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-lab{fill: #10243c !important;
+  font-size: 13.5px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-lab.nnd-vc-lab-hot{fill: #a3241a !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-val{fill: #3a4d61 !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-side{fill: #f2f6fa !important;
+  stroke: #ccd9e6 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-side.nnd-vc-side-warn{fill: #fdf6f5 !important;
+  stroke: #e8c3bf !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-sidelab{fill: #10243c !important;
+  font-size: 12.5px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-sideval{fill: #4a5c6f !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-vc-sideval.nnd-vc-sideval-hot{fill: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card{fill: #ffffff !important;
+  stroke: #d3dde7 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card.nnd-db-red{fill: #fdf3f2 !important;
+  stroke: #e6bab4 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card.nnd-db-amber{fill: #fdf9f1 !important;
+  stroke: #e8d3ac !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-card.nnd-db-blue{fill: #f1f7fd !important;
+  stroke: #b6d0e8 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led{stroke: #ffffff !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led.nnd-db-led-red{fill: #c0392b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led.nnd-db-led-amber{fill: #d98218 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-led.nnd-db-led-blue{fill: #1f6feb !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-name{fill: #10243c !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-body{fill: #33475c !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-body.nnd-db-body-hot{fill: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-db-note{fill: #7a8a9b !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar{stroke: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar.nnd-bar-focus{fill: #c0392b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar.nnd-bar-peer{fill: #6b8299 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar.nnd-bar-ref{fill: #c3cedb !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar-name{fill: #33475c !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-anchor: end !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-bar-val{fill: #10243c !important;
+  font-size: 12.5px !important;
+  font-weight: 800 !important;
+  text-anchor: start !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-note2{fill: #4a5c6f !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-svg-note2.nnd-svg-note2-hot{fill: #a3241a !important;
+  font-weight: 800 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-root{fill: #10243c !important;
+  stroke: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-rootlab{fill: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-rootsub{fill: #b9cde0 !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  text-anchor: middle !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-branch{stroke: #a3b3c4 !important;
+  stroke-width: 2 !important;
+  fill: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box{stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box.nnd-sc-bull{fill: #f0f7f2 !important;
+  stroke: #a8d3ba !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box.nnd-sc-base{fill: #f7f9fb !important;
+  stroke: #ccd8e4 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-box.nnd-sc-bear{fill: #fdf2f1 !important;
+  stroke: #e8bcb6 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name{font-size: 13.5px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name.nnd-sc-name-bull{fill: #1f6340 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name.nnd-sc-name-base{fill: #37506b !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-name.nnd-sc-name-bear{fill: #a3241a !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-body{fill: #3a4d61 !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-cond{fill: #7a8a9b !important;
+  font-size: 10.5px !important;
+  font-weight: 600 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-check{fill: #eef3f9 !important;
+  stroke: #cfdbe7 !important;
+  stroke-width: 1.5 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-checklab{fill: #10243c !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-fig .nnd-svg .nnd-sc-checkbody{fill: #4a5c6f !important;
+  font-size: 10.5px !important;
+  font-weight: 500 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-disclaimer{background-color: #f4f6f8 !important;
+  background-image: none !important;
+  border: 1px solid #dde3ea !important;
+  border-radius: 10px !important;
+  padding: 16px 18px !important;
+  margin: 32px 0 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-disclaimer .nnd-disc-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #5b6b7d !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  margin: 0 0 6px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.nnd-article .nnd-disclaimer .nnd-disc-body{background-color: transparent !important;
+  background-image: none !important;
+  color: #6d7f93 !important;
+  font-size: 12.5px !important;
+  line-height: 1.85 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+@media screen and (max-width: 600px){.nnd-article .nnd-hero{padding: 20px 16px !important;
+    border-radius: 10px !important;}.nnd-article .nnd-hero .nnd-hero-title{font-size: 20px !important;
+    line-height: 1.5 !important;}.nnd-article .nnd-hero .nnd-hero-lead{font-size: 14px !important;}.nnd-article .nnd-h3{font-size: 17.5px !important;
+    margin: 32px 0 14px !important;}.nnd-article .nnd-p,
+  .nnd-article .nnd-list .nnd-li{font-size: 15px !important;
+    line-height: 1.9 !important;}.nnd-article .nnd-callout,
+  .nnd-article .nnd-layer{padding: 14px 14px !important;}.nnd-article .nnd-callout .nnd-callout-body,
+  .nnd-article .nnd-layer .nnd-layer-body{font-size: 13.5px !important;}.nnd-article .nnd-table-wrap .nnd-table{font-size: 13px !important;}.nnd-article .nnd-fig .nnd-figcap{font-size: 12px !important;}}

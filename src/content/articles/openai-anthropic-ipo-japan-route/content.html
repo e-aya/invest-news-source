@@ -1,0 +1,309 @@
+<div class="air-article">
+  
+  <div class="air-kicker"><span class="air-kicker-cat">米国大型IPO</span><span class="air-kicker-sep">/</span><span class="air-kicker-tag">AI・生成AI</span></div>
+  
+  <div class="air-hero">
+    <h1 class="air-hero-title">OpenAI vs Anthropic、メガIPOレースに日本の個人投資家はどう乗るか</h1>
+    <p class="air-hero-lead">1兆ドル級のAI企業2社が、ほぼ同時に上場へ動き出した。だが日本の個人投資家は、どちらの株も「直接は買えない」。本稿では、両社の財務構造の対照を整理したうえで、関連銘柄とETFという「間接ルート」を分解し、メガIPOに伴う固有のタイミング・リスクまで一気通貫で読み解く。</p>
+  </div>
+  
+  <div class="air-chips">
+    <div class="air-chip"><span class="air-chip-num">約1兆ドル</span><span class="air-chip-label">OpenAI IPO目標評価額（報道ベース）</span></div>
+    <div class="air-chip"><span class="air-chip-num">約9,650億ドル</span><span class="air-chip-label">Anthropic 申請時の想定評価額（報道）</span></div>
+    <div class="air-chip"><span class="air-chip-num">40% &gt; 27%</span><span class="air-chip-label">法人LLMシェア Anthropic／OpenAI（2025年末・Menlo推計）</span></div>
+    <div class="air-chip"><span class="air-chip-num">9984のみ</span><span class="air-chip-label">OpenAIへ直接出資する日本上場企業</span></div>
+  </div>
+  
+  <div class="air-summary">
+    <div class="air-summary-head">この記事の要点</div>
+    <ul class="air-summary-list">
+      <li>両社とも日本の個人が公募・直接購入する手段は事実上ない。現実解は「出資企業の株」か「AI関連ETF」の二択になる。</li>
+      <li>財務構造は対照的。<strong>「収益性のAnthropic、規模のOpenAI」</strong>——同じ"AIスタートアップ"でも黒字化のタイミングと売上規模が大きく異なる。</li>
+      <li>メガIPO＝即値上がり、ではない。上場直後に公募価格を割り込んだ過去事例もあり、「高値で夢を買わない」姿勢が問われる。</li>
+    </ul>
+  </div>
+  
+  <div class="air-terms">
+    <div class="air-terms-head">先に押さえる用語</div>
+    <dl class="air-terms-list">
+      <div class="air-term"><dt class="air-term-t">ARR（年換算経常収益）</dt><dd class="air-term-d">直近の月次経常収益などを12倍して年換算した、サブスク型ビジネスの売上規模を表す指標。成長スピードの比較に使われる。</dd></div>
+      <div class="air-term"><dt class="air-term-t">バーンレート</dt><dd class="air-term-d">企業が現金を燃やす速度。売上を上回る支出で赤字を出している場合、その赤字額が実質的なバーンになる。</dd></div>
+      <div class="air-term"><dt class="air-term-t">機密申請（confidential S-1）</dt><dd class="air-term-d">財務情報を一般公開せずにSECの審査を先行させる上場準備手続き。一般公開は上場の数週間前になることが多い。</dd></div>
+      <div class="air-term"><dt class="air-term-t">ロックアップ</dt><dd class="air-term-d">上場後の一定期間、既存株主が株式を売却できないよう制限する取り決め。解除日に売り圧力が高まりやすい。</dd></div>
+      <div class="air-term"><dt class="air-term-t">SPV</dt><dd class="air-term-d">特定資産に投資するために組成される器（特別目的事業体）。未公開株への間接エクスポージャーを持つ一部ファンドが用いる。</dd></div>
+    </dl>
+  </div>
+  
+  <div class="air-section air-s1">
+    <h2 class="air-h2"><span class="air-badge">01</span>2社の現在地——評価額と申請状況</h2>
+    <p class="air-p">まず両社が「いまどこにいるのか」を整理する。Anthropicは2026年6月1日にSECへS-1の機密申請を提出し、OpenAIも6月にこれを追う形で申請に動いた。報道ベースの想定評価額は、OpenAIが上場時に最大1兆ドル規模、Anthropicが申請時点で約9,650億ドルとされ、いずれも「1兆ドル級」の水準にある。比較対象として、2025年通年の米国IPO市場全体の調達額は約450億ドルにすぎず、メガIPO1社の想定規模がそれを大きく上回るという異例の構図だ。</p>
+    <p class="air-p">評価額の推移を時系列で見ると、両社とも直近1年で評価額を数倍に切り上げている。下図は、参考として既に上場したSpaceXを含む3社の評価額の動きを並べたものだ。</p>
+    
+    <figure class="air-fig">
+      <figcaption class="air-fig-cap">図1：評価額の推移（3社比較・報道/開示ベースの概算、単位＝兆ドル）</figcaption>
+      <svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OpenAI・Anthropic・SpaceXの評価額推移">
+        <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+        
+        <line x1="70" y1="40" x2="70" y2="320" stroke="#9aa6b2" stroke-width="1.5"/>
+        <line x1="70" y1="320" x2="690" y2="320" stroke="#9aa6b2" stroke-width="1.5"/>
+        
+        <g font-family="sans-serif" font-size="11" fill="#5b6b72">
+          <line x1="70" y1="320" x2="690" y2="320" stroke="#e4e8ec" stroke-width="1"/>
+          <line x1="70" y1="270" x2="690" y2="270" stroke="#e4e8ec" stroke-width="1"/>
+          <line x1="70" y1="220" x2="690" y2="220" stroke="#e4e8ec" stroke-width="1"/>
+          <line x1="70" y1="170" x2="690" y2="170" stroke="#e4e8ec" stroke-width="1"/>
+          <line x1="70" y1="120" x2="690" y2="120" stroke="#e4e8ec" stroke-width="1"/>
+          <line x1="70" y1="70" x2="690" y2="70" stroke="#e4e8ec" stroke-width="1"/>
+        </g>
+        <g font-family="sans-serif" font-size="11" fill="#5b6b72">
+          <text x="60" y="324" text-anchor="end">0</text>
+          <text x="60" y="274" text-anchor="end">0.5</text>
+          <text x="60" y="224" text-anchor="end">1.0</text>
+          <text x="60" y="174" text-anchor="end">1.5</text>
+          <text x="60" y="124" text-anchor="end">2.0</text>
+          <text x="60" y="74" text-anchor="end">2.5</text>
+        </g>
+        
+        <g font-family="sans-serif" font-size="11" fill="#5b6b72" text-anchor="middle">
+          <text x="160" y="340">2026/1</text>
+          <text x="320" y="340">2026/3</text>
+          <text x="480" y="340">2026/5</text>
+          <text x="620" y="340">IPO目標</text>
+        </g>
+        
+        <polyline points="160,300 320,250 480,150 620,55" fill="none" stroke="#7b8794" stroke-width="2.5" stroke-dasharray="5 4"/>
+        <circle cx="620" cy="55" r="4" fill="#7b8794"/>
+        <text x="628" y="50" font-family="sans-serif" font-size="11" fill="#7b8794">SpaceX 約2.65兆（上場済）</text>
+        
+        <polyline points="160,270 320,135 480,120 620,120" fill="none" stroke="#0e8f78" stroke-width="3"/>
+        <circle cx="160" cy="270" r="4" fill="#0e8f78"/>
+        <circle cx="320" cy="135" r="4" fill="#0e8f78"/>
+        <circle cx="620" cy="120" r="5" fill="#0e8f78"/>
+        <text x="330" y="128" font-family="sans-serif" font-size="11" fill="#0e8f78">0.852兆（3月調達）</text>
+        <text x="450" y="112" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0e8f78">OpenAI ~1兆</text>
+        
+        <polyline points="320,182 480,135 620,128" fill="none" stroke="#c8643f" stroke-width="3"/>
+        <circle cx="320" cy="182" r="4" fill="#c8643f"/>
+        <circle cx="620" cy="128" r="5" fill="#c8643f"/>
+        <text x="250" y="196" font-family="sans-serif" font-size="11" fill="#c8643f">0.38兆（2月 Series G）</text>
+        <text x="445" y="148" font-family="sans-serif" font-size="12" font-weight="bold" fill="#c8643f">Anthropic ~0.965兆</text>
+      </svg>
+      <p class="air-fig-note">※評価額は資金調達ラウンドや報道に基づく概算で、確定した上場評価額ではない。SpaceXは上場後の時価総額（参考）。</p>
+    </figure>
+  </div>
+  
+  <div class="air-section air-s2">
+    <h2 class="air-h2"><span class="air-badge">02</span>財務構造の対照——「収益性のAnthropic、規模のOpenAI」</h2>
+    <p class="air-p">評価額が近いからといって、中身が同じわけではない。両社の財務は、むしろ正反対の様相を見せている。</p>
+    <p class="air-p"><strong>OpenAI（規模）</strong>は、消費者向けの圧倒的なスケールを背景に売上を伸ばす一方、巨額の先行投資で赤字が続く。2026年第1四半期は売上57億ドルに対し支出37億ドルと報じられ、通期では約140億ドルの赤字が見込まれている。同社はキャッシュフローの黒字化を2030年と見込んでおり、推論コストの重さが当面の利益を圧迫する。</p>
+    <p class="air-p"><strong>Anthropic（収益性）</strong>は、法人向けに軸足を置くことで先に採算ラインへ到達しつつある。ARRは2023年の約1億ドルから、2024年約10億ドル、2025年7月時点で推定45億ドル、2026年4月には収益ランレートで約300億ドルへと急拡大した。2026年4〜6月期には四半期売上が約109億ドル、営業利益が約5.59億ドルとなり、創業以来初の四半期黒字となる見通しが報じられている。推論インフラの粗利率も1年で38%から70%超へ改善したとされる。</p>
+
+    
+    <figure class="air-fig">
+      <figcaption class="air-fig-cap">図2：売上と損益の構造イメージ（報道ベースの概算）</figcaption>
+      <svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OpenAIとAnthropicの売上・損益構造">
+        <rect x="0" y="0" width="720" height="360" fill="#ffffff"/>
+        <line x1="60" y1="40" x2="60" y2="250" stroke="#9aa6b2" stroke-width="1.5"/>
+        <line x1="60" y1="250" x2="690" y2="250" stroke="#9aa6b2" stroke-width="1.5"/>
+        
+        <text x="200" y="62" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0e8f78">OpenAI（規模・先行投資型）</text>
+        
+        <rect x="120" y="150" width="60" height="100" fill="#0e8f78"/>
+        <text x="150" y="143" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#222">売上 57</text>
+        <text x="150" y="266" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b6b72">Q1売上</text>
+        
+        <rect x="200" y="185" width="60" height="65" fill="#d9b8a8"/>
+        <text x="230" y="178" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#222">支出 37</text>
+        <text x="230" y="266" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b6b72">Q1支出</text>
+        
+        <rect x="120" y="285" width="160" height="46" rx="6" fill="#fdecea"/>
+        <text x="200" y="304" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#b3261e">通期 約▲140億ドルの赤字見込み</text>
+        <text x="200" y="321" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#b3261e">CF黒字化は2030年見込み</text>
+        
+        <line x1="360" y1="55" x2="360" y2="331" stroke="#e4e8ec" stroke-width="1.5"/>
+        
+        <text x="520" y="62" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c8643f">Anthropic（収益性・法人型）</text>
+        
+        <rect x="440" y="95" width="60" height="155" fill="#c8643f"/>
+        <text x="470" y="88" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#222">売上 109</text>
+        <text x="470" y="266" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b6b72">Q2売上</text>
+        
+        <rect x="520" y="232" width="60" height="18" fill="#2f9e6e"/>
+        <text x="550" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#222">営業益 5.6</text>
+        <text x="550" y="266" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b6b72">Q2営業利益</text>
+        
+        <rect x="440" y="285" width="160" height="46" rx="6" fill="#e7f4ec"/>
+        <text x="520" y="304" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f7a4d">創業来 初の四半期黒字の見通し</text>
+        <text x="520" y="321" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1f7a4d">推論粗利率 38%→70%超</text>
+        <text x="375" y="40" font-family="sans-serif" font-size="10" fill="#5b6b72">単位：億ドル（四半期）</text>
+      </svg>
+      <p class="air-fig-note">※OpenAIはQ1（1〜3月）、AnthropicはQ2（4〜6月）の報道値で時点が異なる。あくまで構造の対照を示すイメージ図。</p>
+    </figure>
+  </div>
+  
+  <div class="air-section air-s3">
+    <h2 class="air-h2"><span class="air-badge">03</span>なぜ法人シェアが逆転したのか</h2>
+    <p class="air-p">Anthropicの収益性を支えるのが、法人（エンタープライズ）市場でのシェア拡大だ。ベンチャーキャピタルMenlo Venturesの推計では、米国の大企業向けLLM接続料市場におけるAnthropicのシェアは、2023年の約12%から2025年半ばに約32%へ拡大し、同市場で最大手に立った。一方、OpenAIのシェアは同期間に約50%から約25%へ低下したとされる。年末時点ではAnthropic約40%・OpenAI約27%という推計もある。</p>
+    <p class="air-p">ただし、これは「法人API市場」という切り口での話だ。コンシューマー領域では依然としてOpenAIが圧倒的で、ChatGPTの週間アクティブユーザーは約9億人規模に達するとされる。Anthropicの売上は約8割が法人向けに偏る一方、OpenAIは個人向けサブスクの比重が高い。つまり「どちらが勝者か」は、どの市場を見るかで答えが変わる。</p>
+    
+    <figure class="air-fig">
+      <figcaption class="air-fig-cap">図3：法人LLM市場シェアの逆転とコンシューマーの非対称（Menlo推計ほか）</figcaption>
+      <svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="法人シェアの推移とコンシューマー比較">
+        <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+        <text x="40" y="40" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">法人LLM API市場シェア（米国・推計）</text>
+        
+        <g font-family="sans-serif" font-size="11" fill="#5b6b72" text-anchor="middle">
+          <text x="150" y="300">2023年</text>
+          <text x="360" y="300">2025年央</text>
+          <text x="570" y="300">2025年末</text>
+        </g>
+        
+        <rect x="120" y="90" width="50" height="170" fill="#0e8f78"/>
+        <text x="145" y="83" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#0e8f78">50%</text>
+        <rect x="330" y="175" width="50" height="85" fill="#0e8f78"/>
+        <text x="355" y="168" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#0e8f78">25%</text>
+        <rect x="540" y="168" width="50" height="92" fill="#0e8f78"/>
+        <text x="565" y="161" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#0e8f78">27%</text>
+        
+        <rect x="172" y="219" width="50" height="41" fill="#c8643f"/>
+        <text x="197" y="212" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#c8643f">12%</text>
+        <rect x="382" y="151" width="50" height="109" fill="#c8643f"/>
+        <text x="407" y="144" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#c8643f">32%</text>
+        <rect x="592" y="124" width="50" height="136" fill="#c8643f"/>
+        <text x="617" y="117" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#c8643f">40%</text>
+        <line x1="110" y1="260" x2="660" y2="260" stroke="#9aa6b2" stroke-width="1.5"/>
+        
+        <rect x="430" y="28" width="12" height="12" fill="#0e8f78"/><text x="447" y="38" font-family="sans-serif" font-size="11" fill="#222">OpenAI</text>
+        <rect x="520" y="28" width="12" height="12" fill="#c8643f"/><text x="537" y="38" font-family="sans-serif" font-size="11" fill="#222">Anthropic</text>
+        
+        <rect x="40" y="312" width="640" height="22" fill="#f4f6f8"/>
+        <text x="50" y="327" font-family="sans-serif" font-size="11" fill="#5b6b72">コンシューマーは非対称：ChatGPT 週間アクティブ 約9億人。Anthropicは売上の約8割が法人向け。</text>
+      </svg>
+      <p class="air-fig-note">※シェアは第三者（Menlo Ventures等）の推計で、調査ごとに数値・時点が異なる。傾向の把握用として参照されたい。</p>
+    </figure>
+  </div>
+  
+  <div class="air-section air-s4">
+    <h2 class="air-h2"><span class="air-badge">04</span>IPOスケジュールとロックアップ</h2>
+    <p class="air-p">上場時期は流動的だ。Anthropicは早ければ2026年10月の上場が取り沙汰され、600億ドル超の調達を目指すとされる。OpenAIは2026年第4四半期（9月観測もあり）を狙うが、サラ・フライヤーCFOが時期に難色を示し2027年への延期案も残るとの報道もある。引受候補にはゴールドマン・サックス、JPモルガン、モルガン・スタンレーの名が挙がる。</p>
+    <p class="air-p">注意したいのが、上場後の<strong>ロックアップ解除</strong>だ。先行して上場したSpaceXでは異例に厳格なロックアップが敷かれ、最短で上場後まもなく一部株式が解除される設計だった。一般にロックアップ明けは需給が緩み、株価の下押し要因になりやすい。新規上場直後に飛びつくと、この解除局面で含み損を抱えるリスクがある。</p>
+    
+    <figure class="air-fig">
+      <figcaption class="air-fig-cap">図4：IPOスケジュールとロックアップの論点（報道ベース）</figcaption>
+      <svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="IPOスケジュールとロックアップ">
+        <rect x="0" y="0" width="720" height="300" fill="#ffffff"/>
+        
+        <line x1="60" y1="150" x2="680" y2="150" stroke="#9aa6b2" stroke-width="2"/>
+        <g font-family="sans-serif" font-size="11" fill="#5b6b72" text-anchor="middle">
+          <text x="120" y="175">6月</text>
+          <text x="270" y="175">9月</text>
+          <text x="420" y="175">10月〜12月</text>
+          <text x="600" y="175">上場後</text>
+        </g>
+        
+        <circle cx="120" cy="150" r="6" fill="#3257a8"/>
+        <rect x="60" y="86" width="150" height="50" rx="6" fill="#eaf0fb"/>
+        <text x="135" y="104" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#3257a8">6/1 Anthropic申請</text>
+        <text x="135" y="122" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#3257a8">6月 OpenAI申請</text>
+        
+        <circle cx="270" cy="150" r="6" fill="#0e8f78"/>
+        <rect x="220" y="200" width="120" height="44" rx="6" fill="#e7f3f0"/>
+        <text x="280" y="218" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#0e8f78">OpenAI Q4目標</text>
+        <text x="280" y="234" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#0e8f78">（9月観測〜延期案も）</text>
+        
+        <circle cx="420" cy="150" r="6" fill="#c8643f"/>
+        <rect x="360" y="86" width="140" height="44" rx="6" fill="#f9ece6"/>
+        <text x="430" y="104" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#c8643f">Anthropic 早ければ10月</text>
+        <text x="430" y="120" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#c8643f">調達600億ドル超目標</text>
+        
+        <circle cx="600" cy="150" r="6" fill="#b3261e"/>
+        <rect x="525" y="200" width="160" height="60" rx="6" fill="#fdecea"/>
+        <text x="605" y="220" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#b3261e">ロックアップ解除に注意</text>
+        <text x="605" y="237" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#b3261e">解除日に売り圧力が</text>
+        <text x="605" y="251" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#b3261e">高まりやすい</text>
+        <text x="360" y="40" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#222">2026年 想定タイムライン</text>
+      </svg>
+      <p class="air-fig-note">※時期はいずれも報道・観測ベースで未確定。引受候補にGS／JPM／MSの名が挙がる。</p>
+    </figure>
+  </div>
+  
+  <div class="air-section air-s5">
+    <h2 class="air-h2"><span class="air-badge">05</span>日本の個人投資家の「間接ルート」を分解する</h2>
+    <p class="air-p">ここが本稿の核心だ。OpenAIもAnthropicも、日本居住の個人が公募価格で買う手段は基本的にない。米国のセカンダリー市場（Forge、EquityZenなど）は適格投資家向けが中心で、ハードルが高い。そこで現実的な選択肢は、<strong>①出資している上場企業の株を買う</strong>か、<strong>②AI関連ETFを通じて間接的にエクスポージャーを取る</strong>かに絞られる。</p>
+    <h3 class="air-h3">ルート①：出資企業の株を通じた間接保有</h3>
+    <p class="air-p"><strong>OpenAI</strong>に直接出資する日本の上場企業はソフトバンクグループ（9984）が代表格だ。同社は2026年2月に300億ドルの追加出資を決め、累計646億ドル・持分約13%となる見込みと発表している。OpenAIの評価額上昇は、すでにSBGの会計上の評価益として大きく寄与してきた。ただしSBGはアーム（ARM）など複数の大型資産を抱える複合体であり、「OpenAIの純粋な代理銘柄」ではない点に注意がいる。また、巨額出資に伴う流動性懸念から、格付け会社が見通しを引き下げる動きもあった。なお国内では、データセンター関連としてさくらインターネット（3778）などがAIインフラ需要の受益候補として語られることもある。</p>
+    <p class="air-p"><strong>Anthropic</strong>側は、米国の親会社経由が中心になる。アマゾン（AMZN）は累計80億ドルを出資し、商業マイルストーン達成で最大330億ドル規模まで出資枠を広げる契約を持つ主要株主だ。アルファベット（GOOGL）も約30億ドルを出資し、持分は約14%とされる。両社の四半期決算では、Anthropic関連の含み益が利益を大きく押し上げる場面が出ており、「AI企業の評価が親会社の業績に直結する」構造になっている。半導体ではエヌビディア（NVDA）やブロードコム（AVGO）が計算資源の供給側として関連する。</p>
+    
+    <figure class="air-fig">
+      <figcaption class="air-fig-cap">図5：日本の個人投資家から見た「間接ルート」マップ</figcaption>
+      <svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="間接投資ルートの整理図">
+        <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+        
+        <rect x="290" y="20" width="140" height="40" rx="8" fill="#1f2d3d"/>
+        <text x="360" y="45" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">日本の個人投資家</text>
+        
+        <line x1="360" y1="60" x2="180" y2="100" stroke="#9aa6b2" stroke-width="1.5"/>
+        <line x1="360" y1="60" x2="540" y2="100" stroke="#9aa6b2" stroke-width="1.5"/>
+        
+        <rect x="80" y="100" width="200" height="32" rx="6" fill="#eaf0fb"/>
+        <text x="180" y="121" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#3257a8">ルート① 出資企業の株</text>
+        <rect x="440" y="100" width="200" height="32" rx="6" fill="#f4ecdb"/>
+        <text x="540" y="121" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#9a6b16">ルート② AI関連ETF</text>
+        
+        <text x="135" y="158" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#0e8f78">OpenAI系</text>
+        <rect x="70" y="166" width="130" height="26" rx="5" fill="#e7f3f0"/>
+        <text x="135" y="183" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">SBG 9984（持分約13%）</text>
+        <rect x="70" y="198" width="130" height="26" rx="5" fill="#e7f3f0"/>
+        <text x="135" y="215" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">MSFT（OpenAI株主）</text>
+        <rect x="70" y="230" width="130" height="26" rx="5" fill="#e7f3f0"/>
+        <text x="135" y="247" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">3778 など国内DC関連</text>
+        
+        <text x="245" y="158" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#c8643f">Anthropic系</text>
+        <rect x="210" y="166" width="120" height="26" rx="5" fill="#f9ece6"/>
+        <text x="270" y="183" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">AMZN（最大330億枠）</text>
+        <rect x="210" y="198" width="120" height="26" rx="5" fill="#f9ece6"/>
+        <text x="270" y="215" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">GOOGL（持分約14%）</text>
+        <rect x="210" y="230" width="120" height="26" rx="5" fill="#f9ece6"/>
+        <text x="270" y="247" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">NVDA／AVGO（計算資源）</text>
+        
+        <rect x="450" y="150" width="180" height="26" rx="5" fill="#fbf4e4"/>
+        <text x="540" y="167" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">AGIX（Anthropic等を一部保有）</text>
+        <rect x="450" y="182" width="180" height="26" rx="5" fill="#fbf4e4"/>
+        <text x="540" y="199" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">DXYZ（OpenAIにSPV経由）</text>
+        <rect x="450" y="214" width="180" height="26" rx="5" fill="#fbf4e4"/>
+        <text x="540" y="231" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">ARKK／ARKW 等</text>
+        <rect x="450" y="246" width="180" height="26" rx="5" fill="#fbf4e4"/>
+        <text x="540" y="263" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#222">MSFT中心の広域AI ETF</text>
+        
+        <rect x="70" y="300" width="570" height="56" rx="8" fill="#fdf6e3"/>
+        <text x="85" y="322" font-family="sans-serif" font-size="11" font-weight="bold" fill="#9a6b16">確認すべき点</text>
+        <text x="85" y="340" font-family="sans-serif" font-size="10.5" fill="#6b5a2e">ETFは構成銘柄・経費率・国内/米国上場・NISA買付可否が商品ごとに異なる。「銘柄名」ではなく「中身」を口座画面で要確認。</text>
+        <text x="85" y="353" font-family="sans-serif" font-size="10.5" fill="#6b5a2e">未公開株保有比率は時点で変動。間接エクスポージャーは想像より小さいことが多い。</text>
+      </svg>
+      <p class="air-fig-note">※特定銘柄・ファンドの保有比率は時点で変動し、推奨を意図しない。最新の構成と制度対応は各証券会社で確認のこと。</p>
+    </figure>
+    <h3 class="air-h3">ルート②：AI関連ETFを通じた分散</h3>
+    <p class="air-p">未公開のAI企業に一部エクスポージャーを持つETFも存在する。たとえばKraneSharesのAGIXは、上場企業に加えてAnthropicやxAIなど一部の非上場AI企業のポジションを持つと説明されている。OpenAIについては、SPV経由で間接保有するとされるファンドや、組入比率の小さいアクティブETFを通じてアクセスする方法が語られる。最も手軽なのはマイクロソフト（MSFT）など主要株主株を含む広域AI ETFだが、その分エクスポージャーは最も間接的になる。</p>
+    <p class="air-p">いずれの場合も、ETFは「名前」ではなく「中身」で選ぶ必要がある。構成銘柄・経費率・国内上場か米国上場か・NISA成長投資枠で買えるかは商品ごとに異なる。NISAで米国株やETFを買えば国内での売却益・配当は非課税扱いになるが、米国側の現地課税は別途発生する点も押さえておきたい。</p>
+  </div>
+  
+  <div class="air-section air-s6">
+    <h2 class="air-h2"><span class="air-badge">06</span>リスクと向き合い方——「良い会社、悪いタイミング」を避ける</h2>
+    <p class="air-p">最後に、テーマ性と買い時を切り分けておきたい。「AIは長期の成長テーマである一方、短期では過熱リスクを伴う」という二重構造の評価が市場の主流だ。非公開株の大型ラウンド価格は、その時点で特定の投資家が合意した価格にすぎず、上場後の株価がそれを上回る保証はない。過去には、メタ（旧Facebook）が上場直後に公募価格を割り込み、しばらく低迷した例もある。</p>
+    <p class="air-p">「メガIPO＝即値上がり」「話題の企業＝買い」という発想は、高値掴みの典型的な入り口になりやすい。優れた企業であっても、入る価格とタイミングを誤れば損失は出る。間接ルートを使う場合も、出資企業の株はOpenAI/Anthropic以外の事業リスクを丸ごと抱える点、ETFは想像より組入比率が小さい点を、それぞれ理解したうえで持ち分を決めたい。焦って最速で飛びつくより、上場後の値動きとロックアップ解除を見極める時間的余裕を持つことが、結果的に下振れを抑えやすい。</p>
+  </div>
+  
+  <div class="air-takeaway">
+    <div class="air-takeaway-head">まとめ</div>
+    <ul class="air-takeaway-list">
+      <li>日本の個人が両社を直接買う手段は実質ない。現実解は「出資企業の株（9984／AMZN／GOOGL等）」か「AI関連ETF」。</li>
+      <li>財務は対照的——収益性で先行するAnthropic、消費者スケールで圧倒するOpenAI。評価額の近さに惑わされない。</li>
+      <li>間接ルートは"純度"が低い。出資企業株は他事業リスク込み、ETFは組入比率が小さいことが多い。</li>
+      <li>メガIPOでも高値掴みは損になる。ロックアップ解除と上場後の値動きを見極める余裕を持つ。</li>
+    </ul>
+  </div>
+  
+  <div class="air-disc">
+    <p>本記事は公開情報・報道に基づく情報提供を目的としたものであり、特定の銘柄・金融商品の売買を推奨するものではありません。評価額・財務数値・市場シェア・出資比率等は報道や第三者推計に基づく概算で、時点により変動し、確定値とは異なる場合があります。投資の最終判断はご自身の責任において行ってください。</p>
+  </div>
+</div>

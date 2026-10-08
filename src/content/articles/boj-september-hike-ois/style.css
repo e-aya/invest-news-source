@@ -1,0 +1,159 @@
+.bjs-root.bjs-root{all: unset !important;
+  display: block !important;
+  max-width: 780px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif !important;
+  color: #222222 !important;
+  line-height: 1.9 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.bjs-root.bjs-root *{box-sizing: border-box !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+  border-color: currentColor !important;
+  -webkit-text-fill-color: currentColor !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.bjs-root.bjs-root p{margin: 0 0 1.4em 0 !important;
+  font-size: 16px !important;
+  color: #222222 !important;}
+.bjs-root.bjs-root .bjs-lead{font-size: 17px !important;
+  font-weight: 500 !important;
+  color: #1a1a2e !important;
+  background-color: #f4f6fb !important;
+  background-image: none !important;
+  border-left: 4px solid #2b4c8c !important;
+  padding: 16px 20px !important;
+  border-radius: 4px !important;}
+.bjs-root.bjs-root .bjs-toc{background-color: #f8f9fb !important;
+  background-image: none !important;
+  border: 1px solid #dde2ea !important;
+  border-radius: 6px !important;
+  padding: 18px 22px !important;
+  margin: 24px 0 !important;}
+.bjs-root.bjs-root .bjs-toc *{background-color: transparent !important;}
+.bjs-root.bjs-root .bjs-toc-title{font-weight: 700 !important;
+  margin: 0 0 8px 0 !important;
+  color: #1a1a2e !important;}
+.bjs-root.bjs-root .bjs-toc ul{margin: 0 !important;
+  padding-left: 1.2em !important;
+  list-style: decimal !important;}
+.bjs-root.bjs-root .bjs-toc li{margin-bottom: 4px !important; font-size: 14px !important;}
+.bjs-root.bjs-root .bjs-toc a{color: #2b4c8c !important;
+  text-decoration: none !important;}
+.bjs-root.bjs-root .bjs-toc a:hover{text-decoration: underline !important;}
+.bjs-root.bjs-root .bjs-h2{font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #1a1a2e !important;
+  margin: 40px 0 18px 0 !important;
+  padding-bottom: 10px !important;
+  border-bottom: 3px solid #2b4c8c !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.bjs-root.bjs-root .bjs-figpanel{background-color: #ffffff !important;
+  background-image: none !important;
+  border: 1px solid #e0e4eb !important;
+  border-radius: 8px !important;
+  padding: 20px !important;
+  margin: 24px 0 !important;
+  text-align: center !important;}
+.bjs-root.bjs-root .bjs-figpanel *{background-color: transparent !important;}
+.bjs-root.bjs-root .bjs-svg{width: 100% !important;
+  height: auto !important;
+  max-width: 700px !important;
+  display: inline-block !important;}
+.bjs-root.bjs-root .bjs-fig-caption{font-size: 13px !important;
+  color: #5a5f6b !important;
+  margin: 12px 0 0 0 !important;
+  text-align: left !important;}
+.bjs-root.bjs-root .bjs-keypanel{background-color: #eef3fc !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  padding: 20px 24px !important;
+  margin: 22px 0 !important;}
+.bjs-root.bjs-root .bjs-keypanel *{background-color: transparent !important;}
+.bjs-root.bjs-root .bjs-keypanel-title{font-weight: 700 !important;
+  color: #1a1a2e !important;
+  margin: 0 0 10px 0 !important;}
+.bjs-root.bjs-root .bjs-keypanel ul{margin: 0 !important; padding-left: 1.2em !important;}
+.bjs-root.bjs-root .bjs-keypanel li{margin-bottom: 8px !important; font-size: 15px !important;}
+.bjs-root.bjs-root .bjs-flowpanel{background-color: #fafbfc !important;
+  background-image: none !important;
+  border: 1px dashed #b8c2d4 !important;
+  border-radius: 8px !important;
+  padding: 22px !important;
+  margin: 22px 0 !important;
+  text-align: center !important;}
+.bjs-root.bjs-root .bjs-flowpanel *{background-color: transparent !important;}
+.bjs-root.bjs-root .bjs-flow-step{display: inline-block !important;
+  background-color: #ffffff !important;
+  border: 1px solid #cbd4e3 !important;
+  border-radius: 20px !important;
+  padding: 8px 18px !important;
+  font-size: 14px !important;
+  margin: 4px 0 !important;}
+.bjs-root.bjs-root .bjs-flow-num{display: inline-block !important;
+  background-color: #2b4c8c !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  font-size: 12px !important;
+  margin-right: 8px !important;}
+.bjs-root.bjs-root .bjs-flow-arrow{margin: 2px 0 !important;
+  color: #8892a6 !important;
+  font-size: 16px !important;}
+.bjs-root.bjs-root .bjs-summarypanel{background-color: #f4f6fb !important;
+  background-image: none !important;
+  border-left: 4px solid #2b4c8c !important;
+  border-radius: 4px !important;
+  padding: 18px 24px !important;
+  margin: 24px 0 !important;}
+.bjs-root.bjs-root .bjs-summarypanel *{background-color: transparent !important;}
+.bjs-root.bjs-root .bjs-summarypanel ul{margin: 0 !important; padding-left: 1.2em !important;}
+.bjs-root.bjs-root .bjs-summarypanel li{margin-bottom: 8px !important; font-size: 15px !important;}
+.bjs-root.bjs-root .bjs-crosslink{text-align: right !important;
+  font-size: 14px !important;
+  margin-top: 30px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid #e0e4eb !important;}
+.bjs-root.bjs-root .bjs-crosslink a{color: #2b4c8c !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;}
+.bjs-root.bjs-root .bjs-crosslink a:hover{text-decoration: underline !important;}
+.bjs-root.bjs-root strong{font-weight: 700 !important; color: #1a1a2e !important;}
+.bjs-root.bjs-root table,.bjs-root.bjs-root thead,.bjs-root.bjs-root tbody,.bjs-root.bjs-root tr,.bjs-root.bjs-root th,.bjs-root.bjs-root td{display: revert !important;}
+.bjs-svg *{filter: none !important; opacity: 1 !important;}
+.bjs-svg text{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif !important;}
+.bjs-chart-title{font-size: 16px !important; font-weight: 700 !important; fill: #1a1a2e !important;}
+.bjs-gridline{stroke: #e6e9ef !important; stroke-width: 1 !important;}
+.bjs-axis{stroke: #444444 !important; stroke-width: 1.5 !important;}
+.bjs-axis-label{font-size: 11px !important; fill: #5a5f6b !important;}
+.bjs-rate-label{font-size: 11px !important; fill: #2b4c8c !important; font-weight: 600 !important;}
+.bjs-rate-label-current{font-size: 12px !important; fill: #c0392b !important; font-weight: 700 !important;}
+.bjs-section-label{font-size: 11px !important; fill: #5a5f6b !important;}
+.bjs-legend-text{font-size: 11px !important; fill: #444444 !important;}
+.bjs-line-actual{stroke: #2b4c8c !important; stroke-width: 3 !important;}
+.bjs-line-projected{stroke: #2b4c8c !important; stroke-width: 3 !important; stroke-dasharray: 5,5 !important;}
+.bjs-point{fill: #2b4c8c !important; stroke: #ffffff !important; stroke-width: 2 !important; display: inline !important;}
+.bjs-point-current{fill: #c0392b !important; stroke: #ffffff !important; stroke-width: 2 !important; r: 6 !important; display: inline !important;}
+.bjs-bar-sep{fill: #a9c0e8 !important; display: inline !important;}
+.bjs-bar-oct{fill: #2b4c8c !important; display: inline !important;}
+.bjs-bar-label{font-size: 13px !important; fill: #1a1a2e !important; font-weight: 700 !important;}
+.bjs-root-box{fill: #1a1a2e !important; stroke: none !important;}
+.bjs-branch-box-high{fill: #eef3fc !important; stroke: #2b4c8c !important; stroke-width: 1.5 !important;}
+.bjs-branch-box-main{fill: #2b4c8c !important; stroke: none !important;}
+.bjs-branch-box-low{fill: #fbecec !important; stroke: #c0392b !important; stroke-width: 1.5 !important;}
+.bjs-impact-box{fill: #fafbfc !important; stroke: #dde2ea !important; stroke-width: 1 !important;}
+.bjs-connector{stroke: #8892a6 !important; stroke-width: 1.5 !important;}
+.bjs-node-title{font-size: 14px !important; font-weight: 700 !important; fill: #1a1a2e !important;}
+.bjs-node-title-white{font-size: 14px !important; font-weight: 700 !important; fill: #ffffff !important; -webkit-text-fill-color: #ffffff !important;}
+.bjs-node-sub{font-size: 11px !important; fill: #5a5f6b !important;}
+.bjs-node-sub-white{font-size: 11px !important; fill: #e6ebf5 !important; -webkit-text-fill-color: #e6ebf5 !important;}
+.bjs-impact-title{font-size: 12px !important; font-weight: 700 !important; fill: #1a1a2e !important;}
+.bjs-impact-line{font-size: 11px !important; fill: #444444 !important;}

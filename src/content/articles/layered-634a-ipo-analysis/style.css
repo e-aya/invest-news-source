@@ -1,0 +1,410 @@
+.lyd-doc.lyd-doc{display: block !important;
+  box-sizing: border-box !important;
+  margin: 0 0 2em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  background-attachment: scroll !important;
+  color: #16202b !important;
+  -webkit-text-fill-color: currentColor !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.85 !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  clip-path: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: auto !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-width: auto !important;
+  column-gap: normal !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  overflow: visible !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  list-style: none !important;
+  content-visibility: visible !important;
+  isolation: auto !important;
+  mix-blend-mode: normal !important;}
+.lyd-doc.lyd-doc *{box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  background-attachment: scroll !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-style: normal !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  clip-path: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: auto !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-width: auto !important;
+  column-gap: normal !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  outline: 0 !important;
+  content-visibility: visible !important;
+  isolation: auto !important;
+  mix-blend-mode: normal !important;
+  vertical-align: baseline !important;}
+.lyd-doc.lyd-doc *:not(svg):not(svg *){overflow: visible !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;}
+.lyd-doc.lyd-doc[class]::before,.lyd-doc.lyd-doc[class]::after,.lyd-doc.lyd-doc *[class]::before,.lyd-doc.lyd-doc *[class]::after{content: none !important;
+  display: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;
+  transform: none !important;
+  animation: none !important;}
+.lyd-doc.lyd-doc .lyd-lead,.lyd-doc.lyd-doc .lyd-p{display: block !important;
+  margin: 0 0 1.15em 0 !important;
+  padding: 0 !important;}
+.lyd-doc.lyd-doc .lyd-lead{font-size: 17px !important;
+  line-height: 1.9 !important;
+  font-weight: 600 !important;
+  color: #12303d !important;}
+.lyd-doc.lyd-doc .lyd-h2{display: block !important;
+  margin: 2.1em 0 0.9em 0 !important;
+  padding: 0 0 0.42em 0 !important;
+  border-bottom: 3px solid #15607a !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.45 !important;
+  color: #12303d !important;}
+.lyd-doc.lyd-doc .lyd-h3{display: block !important;
+  margin: 1.7em 0 0.65em 0 !important;
+  padding: 0 0 0 0.6em !important;
+  border-left: 5px solid #a35407 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #16202b !important;}
+.lyd-doc.lyd-doc .lyd-strong{display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  color: #0f4a5e !important;}
+.lyd-doc.lyd-doc .lyd-em{display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  color: #8f3f06 !important;}
+.lyd-doc.lyd-doc .lyd-list{display: block !important;
+  margin: 0 0 1.2em 0 !important;
+  padding: 0 !important;
+  list-style: none !important;}
+.lyd-doc.lyd-doc .lyd-li{display: block !important;
+  margin: 0 0 0.55em 0 !important;
+  padding: 0 0 0 1.15em !important;
+  border-left: 3px solid #cfdbe3 !important;
+  list-style: none !important;}
+.lyd-doc.lyd-doc .lyd-panelbar{display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 1.05em 1.15em !important;
+  border: 1px solid #d8e1e8 !important;
+  border-left: 6px solid #15607a !important;
+  border-radius: 6px !important;
+  background-color: #f4f7f9 !important;}
+.lyd-doc.lyd-doc .lyd-warn{display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 1.05em 1.15em !important;
+  border: 1px solid #e5cfc4 !important;
+  border-left: 6px solid #a35407 !important;
+  border-radius: 6px !important;
+  background-color: #fbf5ee !important;}
+.lyd-doc.lyd-doc .lyd-ptitle{display: block !important;
+  margin: 0 0 0.5em 0 !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #0f4a5e !important;}
+.lyd-doc.lyd-doc .lyd-warn .lyd-ptitle{color: #8f3f06 !important;}
+.lyd-doc.lyd-doc .lyd-tblwrap{display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 0 !important;
+  overflow-x: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;}
+.lyd-doc.lyd-doc .lyd-tbl{display: table !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  table-layout: auto !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;}
+.lyd-doc.lyd-doc .lyd-tbl tbody{display: table-row-group !important;}
+.lyd-doc.lyd-doc .lyd-tbl tr{display: table-row !important;}
+.lyd-doc.lyd-doc .lyd-th,.lyd-doc.lyd-doc .lyd-td{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  padding: 0.62em 0.8em !important;
+  border: 1px solid #d8e1e8 !important;
+  border-radius: 0 !important;
+  vertical-align: top !important;
+  text-align: left !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: anywhere !important;}
+.lyd-doc.lyd-doc .lyd-th{width: 34% !important;
+  background-color: #eef3f6 !important;
+  font-weight: 700 !important;
+  color: #12303d !important;}
+.lyd-doc.lyd-doc .lyd-td{background-color: #ffffff !important;}
+.lyd-doc.lyd-doc .lyd-fig{display: block !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;}
+.lyd-doc.lyd-doc .lyd-svg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #d8e1e8 !important;
+  border-radius: 6px !important;
+  overflow: visible !important;}
+.lyd-doc.lyd-doc .lyd-svg-m{display: none !important;}
+.lyd-doc.lyd-doc .lyd-svg-d{display: block !important;}
+.lyd-doc.lyd-doc .lyd-cap{display: block !important;
+  margin: 0.55em 0 0 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  color: #4f5d6a !important;}
+.lyd-doc.lyd-doc .lyd-bg{fill: #ffffff !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 0 !important;
+  ry: 0 !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc .lyd-panel{fill: #f4f7f9 !important;
+  stroke: #d8e1e8 !important;
+  stroke-width: 1px !important;
+  rx: 6px !important;
+  ry: 6px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc .lyd-bar-a{fill: #15607a !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc .lyd-bar-b{fill: #a35407 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc .lyd-bar-c{fill: #64748b !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc .lyd-bar-neg{fill: #b3261e !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc .lyd-grid{fill: none !important;
+  stroke: #dde5eb !important;
+  stroke-width: 1px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  rx: 0 !important;
+  ry: 0 !important;}
+.lyd-doc.lyd-doc .lyd-axis{fill: none !important;
+  stroke: #8c9aa6 !important;
+  stroke-width: 1.5px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  rx: 0 !important;
+  ry: 0 !important;}
+.lyd-doc.lyd-doc text.lyd-t-title{font-size: 17px !important;
+  font-weight: 700 !important;
+  fill: #12303d !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc text.lyd-t-sub{font-size: 12px !important;
+  font-weight: 400 !important;
+  fill: #4f5d6a !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc text.lyd-t-lab{font-size: 13px !important;
+  font-weight: 700 !important;
+  fill: #16202b !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc text.lyd-t-val{font-size: 14px !important;
+  font-weight: 700 !important;
+  fill: #12303d !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc text.lyd-t-note{font-size: 11.5px !important;
+  font-weight: 400 !important;
+  fill: #4f5d6a !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc text.lyd-t-big{font-size: 22px !important;
+  font-weight: 700 !important;
+  fill: #15607a !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc text.lyd-t-onbar{font-size: 14px !important;
+  font-weight: 700 !important;
+  fill: #ffffff !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.lyd-doc.lyd-doc .lyd-svg title,.lyd-doc.lyd-doc .lyd-svg desc{display: none !important;}
+.lyd-doc.lyd-doc .lyd-a{display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #0f4a5e !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.lyd-doc.lyd-doc .lyd-src{display: block !important;
+  margin: 2em 0 0 0 !important;
+  padding: 0.9em 1em !important;
+  border: 1px solid #d8e1e8 !important;
+  border-radius: 6px !important;
+  background-color: #f8fafb !important;
+  font-size: 13px !important;
+  line-height: 1.75 !important;
+  color: #4f5d6a !important;}
+@media screen and (max-width: 600px){.lyd-doc.lyd-doc .lyd-svg-d{display: none !important;}.lyd-doc.lyd-doc .lyd-svg-m{display: block !important;}.lyd-doc.lyd-doc{font-size: 16px !important;}.lyd-doc.lyd-doc .lyd-h2{font-size: 19px !important;}.lyd-doc.lyd-doc .lyd-h3{font-size: 17px !important;}.lyd-doc.lyd-doc .lyd-lead{font-size: 16px !important;}.lyd-doc.lyd-doc .lyd-th{width: 38% !important;}.lyd-doc.lyd-doc .lyd-th,
+  .lyd-doc.lyd-doc .lyd-td{font-size: 14px !important;
+    padding: 0.55em 0.6em !important;}.lyd-doc.lyd-doc .lyd-tbl{font-size: 14px !important;}}

@@ -1,0 +1,157 @@
+<div class="ibx-root">
+<div class="ibx-hero">
+<p class="ibx-hero-date">2026年7月15日｜米国株・決算分析</p>
+<p class="ibx-hero-catch">売上のミスは3.7%。株価の下落は25%。</p>
+<p class="ibx-hero-lead">2026年7月14日、IBM株は1日で25.21%下落し、記録が遡れる1968年以降で最悪の下落率となった。1987年のブラックマンデー（▲23.7%）すら上回る歴史的な急落だが、引き金となった業績の未達幅は売上高でわずか3.7%にすぎない。本稿では「小さなミスが巨大な下落に増幅される仕組み」を、バリュエーション再評価のメカニズムから解剖する。</p>
+</div>
+<div class="ibx-summary">
+<p class="ibx-summary-title">この記事のポイント</p>
+<ul class="ibx-summary-list">
+<li class="ibx-summary-item">IBMは7/14に4-6月期の暫定値を公表。売上高172億ドル（予想178.6億ドル）、調整後EPS2.93ドル（予想3.01ドル）でともに未達</li>
+<li class="ibx-summary-item">株価は290.23ドル→217.07ドルへ25.21%下落。時価総額は約670〜700億ドル消失し、同社史上最悪の1日となった</li>
+<li class="ibx-summary-item">下落の主因は業績（E）ではなく期待（PER）の圧縮。予想PERは約23倍から約17倍へ切り下がった</li>
+<li class="ibx-summary-item">背景には顧客企業のcapex（設備投資予算）がAIインフラへ振り替えられた構造がある。7/22の正式決算で「ずれた」のか「消えた」のかが判明する</li>
+</ul>
+</div>
+<h2 class="ibx-h2">何が起きたのか：数字の整理</h2>
+<p class="ibx-p">発端は7月14日朝、クリシュナCEOが投資家宛に公表した予定外の書簡だった。7月22日に予定される正式な決算発表の8日前に、4-6月期の暫定値を先行開示するという異例の対応で、内容は「予想を下回った」という事前警告である。</p>
+<table class="ibx-table">
+<thead class="ibx-thead">
+<tr class="ibx-tr"><th class="ibx-th">項目</th><th class="ibx-th">内容</th></tr>
+</thead>
+<tbody class="ibx-tbody">
+<tr class="ibx-tr"><td class="ibx-td">暫定売上高</td><td class="ibx-td">172億ドル（前年同期比+1%）。市場予想178.6億ドルを約3.7%下回る</td></tr>
+<tr class="ibx-tr"><td class="ibx-td">調整後EPS</td><td class="ibx-td">2.93ドル。市場予想3.01ドルを8セント（約2.7%）下回る</td></tr>
+<tr class="ibx-tr"><td class="ibx-td">部門別</td><td class="ibx-td">インフラ部門の売上高が前年比7%減と大きく落ち込み</td></tr>
+<tr class="ibx-tr"><td class="ibx-td">株価</td><td class="ibx-td">終値217.07ドル（▲25.21%）。取引時間中の安値は213.22ドル</td></tr>
+<tr class="ibx-tr"><td class="ibx-td">時価総額</td><td class="ibx-td">約670〜700億ドル消失（報道により幅）。約2,050億ドルへ</td></tr>
+<tr class="ibx-tr"><td class="ibx-td">記録</td><td class="ibx-td">1987年10月19日（▲23.7%）を超え、記録上最悪の1日下落率</td></tr>
+<tr class="ibx-tr"><td class="ibx-td">通期見通し</td><td class="ibx-td">更新も再確認もされず（＝空白状態）。正式決算は7月22日</td></tr>
+</tbody>
+</table>
+<p class="ibx-p">注目すべきは、未達の「幅」と株価反応の「深さ」がまったく釣り合っていない点だ。売上のミスは3.7%、EPSのミスは2.7%。それに対して株価は4分の1が吹き飛んだ。この非対称こそが、今回のIBMショックを理解する入口になる。</p>
+<figure class="ibx-figure" id="ibx-fig1">
+<svg class="ibx-svg" viewBox="0 0 700 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="未達幅と株価反応の非対称を示す横棒グラフ">
+<text x="350" y="36" text-anchor="middle" class="ibx-svg-title">未達幅と株価反応の非対称</text>
+<text x="350" y="62" text-anchor="middle" class="ibx-svg-sub">2026年4-6月期 暫定値ベース（対市場予想／対前日終値）</text>
+<g class="ibx-svg-row">
+<text x="20" y="118" class="ibx-svg-label" data-qa="label">売上未達</text>
+<rect x="190" y="98" width="67" height="30" rx="4" class="ibx-bar-neutral"></rect>
+<text x="267" y="119" class="ibx-svg-value" data-qa="label">▲3.7%</text>
+</g>
+<g class="ibx-svg-row">
+<text x="20" y="182" class="ibx-svg-label" data-qa="label">EPS未達</text>
+<rect x="190" y="162" width="49" height="30" rx="4" class="ibx-bar-neutral"></rect>
+<text x="249" y="183" class="ibx-svg-value" data-qa="label">▲2.7%</text>
+</g>
+<g class="ibx-svg-row">
+<text x="20" y="246" class="ibx-svg-label" data-qa="label">予想PER圧縮</text>
+<rect x="190" y="226" width="454" height="30" rx="4" class="ibx-bar-alert"></rect>
+<text x="417" y="247" text-anchor="middle" class="ibx-svg-valuein" data-qa="label">▲25%（約23倍→約17倍）</text>
+</g>
+<g class="ibx-svg-row">
+<text x="20" y="310" class="ibx-svg-label" data-qa="label">株価下落</text>
+<rect x="190" y="290" width="456" height="30" rx="4" class="ibx-bar-dark"></rect>
+<text x="418" y="311" text-anchor="middle" class="ibx-svg-valuein" data-qa="label">▲25.2%</text>
+</g>
+<rect x="40" y="340" width="620" height="36" rx="6" class="ibx-svg-band"></rect>
+<text x="350" y="364" text-anchor="middle" class="ibx-svg-bandtext">下落の主因は業績（E）ではなく、期待（PER）の圧縮</text>
+</svg>
+<figcaption class="ibx-figcap">図1：売上・EPSの未達幅に対し、株価下落率とPER圧縮率が突出して大きい。株価＝EPS×PERと分解すると、今回の下落はほぼ全額が「PERの切り下がり」で説明できる。</figcaption>
+</figure>
+<h2 class="ibx-h2">3.7%のミスが25%の下落になる仕組み</h2>
+<p class="ibx-p">株価は「EPS（1株利益）×PER（株価収益率＝利益の何倍まで買われているか）」に分解できる。今回、市場が下方修正したEPS予想は3%弱。それだけなら株価も3%程度の下落で済むはずだ。実際に起きたのは、PERそのものの切り下がりである。</p>
+<p class="ibx-p">前日終値290.23ドルは、予想EPSベースでPER約23倍に相当する水準だった。これは6月の高値332.46ドルから既に調整した後の株価であってなお、「二桁のソフトウェア成長が続く」ことを織り込んだバリュエーションだった。実際、直前の1-3月期はソフトウェア部門売上が前年比11%増の70.5億ドルと、期待どおりの絵を描けていた。</p>
+<p class="ibx-p">その前提企業が「売上+1%」の数字を出し、しかも通期見通しを更新も再確認もしなかった。投資家が再評価したのは当四半期の業績ではなく、将来の収益ストリーム全体である。二桁成長前提の23倍は正当化できない――この一点で、PERは約17倍まで一気に圧縮された。ミス幅3.7%に対して時価総額の4分の1が消えた計算の内訳は、こう読み解ける。</p>
+<div class="ibx-callout">
+<p class="ibx-callout-title">中級メモ：ガイダンス空白の破壊力</p>
+<p class="ibx-callout-text">悪い数字より怖いのが「見通しの不在」だ。ガイダンス（会社側の業績予想）が下方修正されれば、市場は新しい前提で計算し直せる。しかし「更新も再確認もしない」状態では、最悪ケースの想定に不確実性プレミアムが上乗せされる。IBMの通期売上・フリーキャッシュフロー見通しは7/22まで空白のままであり、この空白自体が売り圧力の一部になっている。</p>
+</div>
+<h2 class="ibx-h2">資金はどこへ消えたのか：capexの再優先配分</h2>
+<p class="ibx-p">では、なぜ売上が未達になったのか。クリシュナCEOの書簡の説明はこうだ。6月最後の数週間、顧客企業は値上げ観測を前に、供給が逼迫するサーバー・ストレージ・メモリの確保へ四半期のcapex（設備投資予算）を振り向けた。サプライチェーン関連の影響はある程度想定していたが、この再優先配分の規模は想定を超えていた――。その結果、IBMの主戦場であるソフトウェアやメインフレームの大型案件は、想定したタイムラインで成約しなかったという。</p>
+<figure class="ibx-figure" id="ibx-fig2">
+<svg class="ibx-svg" viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="企業IT予算がAIインフラへ振り替えられる経路の図解">
+<defs>
+<marker id="ibx-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" class="ibx-arrowhead"></path>
+</marker>
+</defs>
+<text x="350" y="36" text-anchor="middle" class="ibx-svg-title">capex再優先配分の経路</text>
+<rect x="240" y="62" width="220" height="76" rx="8" class="ibx-box-trigger"></rect>
+<text x="350" y="92" text-anchor="middle" class="ibx-svg-boxtitle">6月下旬：供給逼迫×値上げ観測</text>
+<text x="350" y="118" text-anchor="middle" class="ibx-svg-boxtext">（メモリ・サーバー価格の先高観）</text>
+<line x1="350" y1="138" x2="350" y2="200" class="ibx-arrow" marker-end="url(#ibx-ah)"></line>
+<rect x="20" y="200" width="170" height="90" rx="8" class="ibx-box"></rect>
+<text x="105" y="238" text-anchor="middle" class="ibx-svg-boxtitle">企業IT部門の</text>
+<text x="105" y="264" text-anchor="middle" class="ibx-svg-boxtitle">四半期予算</text>
+<line x1="190" y1="230" x2="466" y2="150" class="ibx-arrow-thick" marker-end="url(#ibx-ah)"></line>
+<line x1="190" y1="262" x2="466" y2="322" class="ibx-arrow-thin" marker-end="url(#ibx-ah)"></line>
+<rect x="470" y="96" width="210" height="110" rx="8" class="ibx-box-accent"></rect>
+<text x="575" y="130" text-anchor="middle" class="ibx-svg-boxtitle-inv">AIインフラ確保</text>
+<text x="575" y="156" text-anchor="middle" class="ibx-svg-boxtext-inv">サーバー／ストレージ／メモリ</text>
+<text x="575" y="184" text-anchor="middle" class="ibx-svg-boxtext-inv">→ 前倒し購入・拡大</text>
+<rect x="470" y="268" width="210" height="110" rx="8" class="ibx-box-alert"></rect>
+<text x="575" y="302" text-anchor="middle" class="ibx-svg-boxtitle-inv">ソフトウェア／</text>
+<text x="575" y="328" text-anchor="middle" class="ibx-svg-boxtitle-inv">メインフレーム</text>
+<text x="575" y="356" text-anchor="middle" class="ibx-svg-boxtext-inv">→ 大型案件の成約遅延</text>
+<rect x="40" y="392" width="620" height="30" rx="6" class="ibx-svg-band"></rect>
+<text x="350" y="413" text-anchor="middle" class="ibx-svg-bandtext">予算総額は不変でも、配分は数週間で入れ替わる</text>
+</svg>
+<figcaption class="ibx-figcap">図2：CEO書簡が説明するcapex再優先配分の構図。太い矢印（AIインフラ）に予算が流れ、細い矢印（ソフト・メインフレーム＝IBMの収益源）が痩せた。</figcaption>
+</figure>
+<p class="ibx-p">重要なのは、この説明が「一時的なタイミング要因」と「構造的な需要シフト」のどちらとも読める点だ。前者なら、案件は消えておらず3Q以降に成約する。後者なら、AI投資ブームが続く限りソフトウェア予算は恒常的に侵食され続ける。バークレイズのアナリストが指摘したAIモデル起因のサイバーセキュリティ懸念によるソフト購入延期説も含め、市場はまだどちらか判定できていない。判定材料が出るのが、7月22日の正式決算である。</p>
+<h2 class="ibx-h2">7月22日に何を見るか：シナリオ分岐</h2>
+<figure class="ibx-figure" id="ibx-fig3">
+<svg class="ibx-svg" viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="7月22日決算のシナリオ分岐図">
+<defs>
+<marker id="ibx-ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" class="ibx-arrowhead"></path>
+</marker>
+</defs>
+<text x="350" y="36" text-anchor="middle" class="ibx-svg-title">7月22日決算の分岐</text>
+<rect x="240" y="58" width="220" height="72" rx="8" class="ibx-box"></rect>
+<text x="350" y="88" text-anchor="middle" class="ibx-svg-boxtitle">7/22 正式決算</text>
+<text x="350" y="114" text-anchor="middle" class="ibx-svg-boxtext">通期見通しは現時点で空白</text>
+<line x1="290" y1="130" x2="185" y2="196" class="ibx-arrow" marker-end="url(#ibx-ah2)"></line>
+<line x1="410" y1="130" x2="515" y2="196" class="ibx-arrow" marker-end="url(#ibx-ah2)"></line>
+<rect x="40" y="200" width="290" height="130" rx="8" class="ibx-box-accent"></rect>
+<text x="185" y="232" text-anchor="middle" class="ibx-svg-boxtitle-inv">分岐A「ずれた」</text>
+<text x="185" y="260" text-anchor="middle" class="ibx-svg-boxtext-inv">＝タイミング要因</text>
+<text x="185" y="288" text-anchor="middle" class="ibx-svg-boxtext-inv">・大型案件が3Qに成約</text>
+<text x="185" y="314" text-anchor="middle" class="ibx-svg-boxtext-inv">・通期ガイダンス維持</text>
+<rect x="370" y="200" width="290" height="130" rx="8" class="ibx-box-alert"></rect>
+<text x="515" y="232" text-anchor="middle" class="ibx-svg-boxtitle-inv">分岐B「消えた」</text>
+<text x="515" y="260" text-anchor="middle" class="ibx-svg-boxtext-inv">＝構造要因</text>
+<text x="515" y="288" text-anchor="middle" class="ibx-svg-boxtext-inv">・ソフト成長率の下方修正</text>
+<text x="515" y="314" text-anchor="middle" class="ibx-svg-boxtext-inv">・ガイダンス引き下げ</text>
+<line x1="185" y1="330" x2="185" y2="372" class="ibx-arrow" marker-end="url(#ibx-ah2)"></line>
+<line x1="515" y1="330" x2="515" y2="372" class="ibx-arrow" marker-end="url(#ibx-ah2)"></line>
+<rect x="40" y="376" width="290" height="64" rx="8" class="ibx-box"></rect>
+<text x="185" y="414" text-anchor="middle" class="ibx-svg-boxtitle">PERの回復余地</text>
+<rect x="370" y="376" width="290" height="64" rx="8" class="ibx-box"></rect>
+<text x="515" y="414" text-anchor="middle" class="ibx-svg-boxtitle">低PERの定着リスク</text>
+</svg>
+<figcaption class="ibx-figcap">図3：7/22の正式決算は「失った売上が3Qにずれ込んだだけか、それとも構造的に消えたのか」を判定する場になる。分岐を分けるのは通期ガイダンスの扱いだ。</figcaption>
+</figure>
+<p class="ibx-p">チェックポイントを具体化しておこう。</p>
+<div class="ibx-chips">
+<span class="ibx-chip">通期売上・FCFガイダンスの提示有無と水準</span>
+<span class="ibx-chip">ソフトウェア部門の成約パイプライン（遅延案件の行方）</span>
+<span class="ibx-chip">インフラ部門▲7%の内訳（メインフレーム需要の実勢）</span>
+<span class="ibx-chip">経営陣が「シフトの持続性」をどう説明するか</span>
+</div>
+<h2 class="ibx-h2">リスクと視点：安くなった、は結論ではない</h2>
+<div class="ibx-risk">
+<p class="ibx-risk-title">逆張り前の3つの確認</p>
+<p class="ibx-risk-text">PER約17倍という水準は、IBMの5年中央値（25倍程度）と比べれば一見割安に映る。しかしこの「17倍」は分母のEPS予想が下方修正される前の計算であり、7/22にEが切り下がればPERは再び膨らむ。第二に、通期見通しが空白の間は不確実性プレミアムが剥がれない。第三に、今回の下落が示したのは「高い期待を織り込んだ株は、小さなミスで最大級に罰せられる」という一般則であり、これはIBMに限らずAI関連の高PER銘柄すべてに跳ね返る教訓だ。安くなったことと、買っていいことは別問題である。</p>
+</div>
+<p class="ibx-p">なお、IBMから抜けた予算が「どこへ流れたか」は、同日発表されたASMLの決算がほぼ答え合わせになっている。企業のcapexがAIインフラ側へ傾いた構図を、勝者側の数字から検証したのが姉妹記事だ。あわせて読むと、今回の資金シフトの全体像がつかめるはずだ。</p>
+
+<div class="ibx-crosslink">
+<p class="ibx-crosslink-label">あわせて読みたい（姉妹記事）</p>
+<p class="ibx-crosslink-text"><a class="ibx-crosslink-anchor" href="/asml-guidance-raise/">ASML通期再上方修正の中身：IBMから抜けた資金の行き先を勝者側から検証する</a></p>
+</div>
+<div class="ibx-note">
+<p class="ibx-note-text">本記事は情報提供を目的としたものであり、特定銘柄の売買を推奨するものではありません。数値は2026年7月15日時点の報道・会社発表（暫定値を含む）に基づきます。IBMの正式な決算は7月22日に発表予定であり、暫定値から変更される可能性があります。投資判断はご自身の責任でお願いします。</p>
+</div>
+</div>

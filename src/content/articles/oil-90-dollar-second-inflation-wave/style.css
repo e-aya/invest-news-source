@@ -1,0 +1,163 @@
+.crw-article{max-width: 760px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 8px 4px 40px;
+  color: #2b3445;
+  font-size: 16px;
+  line-height: 1.9;
+  -webkit-font-smoothing: antialiased;}
+.crw-article .crw-kicker{display: inline-block;
+  background-color: #9a3412 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 6px 14px !important;
+  border-radius: 999px;
+  margin-bottom: 18px;}
+.crw-article .crw-hero{border-bottom: 3px solid #9a3412;
+  padding-bottom: 22px;
+  margin-bottom: 24px;}
+.crw-article .crw-hero .crw-hero-title{font-size: 28px !important;
+  line-height: 1.45 !important;
+  font-weight: 800 !important;
+  color: #3b2a1a !important;
+  margin: 0 0 14px !important;
+  padding: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.crw-article .crw-hero .crw-hero-dek{font-size: 16px !important;
+  line-height: 1.85 !important;
+  color: #5a5246 !important;
+  margin: 0 0 10px !important;}
+.crw-article .crw-hero .crw-hero-date{font-size: 13px !important;
+  color: #9a917f !important;
+  margin: 0 !important;}
+.crw-article .crw-chips{display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 28px;}
+.crw-article .crw-chips .crw-chip{display: inline-flex;
+  flex-direction: column;
+  background-color: #faf7f2 !important;
+  background-image: none !important;
+  border: 1px solid #e6ddd0 !important;
+  border-radius: 10px;
+  padding: 8px 14px !important;
+  min-width: 116px;}
+.crw-article .crw-chips .crw-chip .crw-chip-label{font-size: 11px !important;
+  color: #8a8170 !important;
+  font-weight: 600;
+  line-height: 1.4 !important;}
+.crw-article .crw-chips .crw-chip .crw-chip-value{font-size: 16px !important;
+  font-weight: 800;
+  color: #3b2a1a !important;
+  line-height: 1.5 !important;}
+.crw-article .crw-chips .crw-chip .crw-chip-value.crw-chip-up{color: #c2410c !important;}
+.crw-article .crw-chips .crw-chip .crw-chip-value.crw-chip-down{color: #b91c1c !important;}
+.crw-article .crw-summary{background-color: #2a1d10 !important;
+  background-image: linear-gradient(135deg, #2a1d10 0%, #4a2e15 100%) !important;
+  border-radius: 14px;
+  padding: 26px 28px !important;
+  margin: 0 0 30px;
+  border: none !important;}
+.crw-article .crw-summary .crw-summary-head{color: #f3c989 !important;
+  font-size: 13px !important;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  margin-bottom: 14px;}
+.crw-article .crw-summary .crw-summary-list{margin: 0 !important;
+  padding-left: 20px !important;
+  list-style: disc !important;}
+.crw-article .crw-summary .crw-summary-list .crw-summary-item{color: #f5efe5 !important;
+  font-size: 15px !important;
+  line-height: 1.95 !important;
+  margin-bottom: 12px !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.crw-article .crw-summary .crw-summary-list .crw-summary-item::marker{color: #f3c989 !important;}
+.crw-article .crw-summary .crw-summary-list .crw-summary-item .crw-summary-strong{color: #ffd166 !important;
+  font-weight: 800;}
+.crw-article .crw-terms{background-color: #faf7f2 !important;
+  background-image: none !important;
+  border-left: 4px solid #9a3412 !important;
+  border-radius: 0 10px 10px 0;
+  padding: 20px 24px !important;
+  margin: 0 0 34px;}
+.crw-article .crw-terms .crw-terms-head{font-size: 14px !important;
+  font-weight: 800;
+  color: #3b2a1a !important;
+  margin-bottom: 12px;
+  letter-spacing: 0.06em;}
+.crw-article .crw-terms .crw-terms-list{margin: 0 !important;}
+.crw-article .crw-terms .crw-terms-list .crw-term{font-weight: 800;
+  color: #7c3a12 !important;
+  font-size: 14.5px !important;
+  margin-top: 10px;}
+.crw-article .crw-terms .crw-terms-list .crw-term-def{margin: 4px 0 0 0 !important;
+  color: #5a5246 !important;
+  font-size: 14px !important;
+  line-height: 1.85 !important;}
+.crw-article .crw-section{margin: 0 0 40px;}
+.crw-article .crw-section .crw-h2{display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 21px !important;
+  font-weight: 800 !important;
+  color: #3b2a1a !important;
+  line-height: 1.5 !important;
+  margin: 0 0 18px !important;
+  padding: 0 0 10px !important;
+  border-bottom: 2px solid #e6ddd0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.crw-article .crw-section .crw-h2 .crw-h2-num{flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background-color: #9a3412 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+  font-size: 17px !important;
+  font-weight: 800;}
+.crw-article .crw-section .crw-p{margin: 0 0 18px !important;
+  color: #2b3445 !important;
+  font-size: 16px !important;
+  line-height: 1.95 !important;}
+.crw-article .crw-section .crw-p .crw-strong{color: #3b2a1a !important;
+  font-weight: 800;
+  background-color: transparent !important;
+  background-image: linear-gradient(transparent 62%, #fcd9a8 62%) !important;}
+.crw-article .crw-section .crw-p .crw-link{color: #1d4ed8 !important;
+  text-decoration: underline !important;
+  font-weight: 600;}
+.crw-article .crw-figure{margin: 26px 0 !important;
+  padding: 0 !important;
+  border: 1px solid #e8e1d5 !important;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.crw-article .crw-figure svg{display: block;
+  width: 100%;
+  height: auto;}
+.crw-article .crw-figure .crw-figcaption{font-size: 12.5px !important;
+  color: #8a8170 !important;
+  line-height: 1.7 !important;
+  padding: 10px 16px 12px !important;
+  border-top: 1px solid #f0ebe1 !important;
+  background-color: #fcfaf6 !important;
+  background-image: none !important;}
+.crw-article .crw-disclaimer{border-top: 1px solid #e6ddd0;
+  margin-top: 36px;
+  padding-top: 18px;}
+.crw-article .crw-disclaimer .crw-disclaimer-text{font-size: 12.5px !important;
+  color: #9a917f !important;
+  line-height: 1.8 !important;
+  margin: 0 !important;}
+@media (max-width: 600px){.crw-article .crw-hero .crw-hero-title{font-size: 23px !important;}.crw-article .crw-section .crw-h2{font-size: 18.5px !important;}.crw-article .crw-summary{padding: 20px 18px !important;}.crw-article .crw-chips .crw-chip{min-width: 46%;}}

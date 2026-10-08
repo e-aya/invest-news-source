@@ -1,0 +1,224 @@
+<div class="sca-article">
+  <div class="sca-hero">
+    <span class="sca-eyebrow">AIインフラ投資 ／ メモリ構造論</span>
+    <h1 class="sca-title">メモリは「戦略資産」になったのか ― マイクロンSCA16件が問う、コモディティ循環の終焉</h1>
+    <p class="sca-deck">過去最高決算より重い、テイク・オア・ペイの長期契約。価格変動の塊だったメモリを「予見可能な収益」に変える構造転換が本物か、それとも循環の頂点が見せる蜃気楼か。収益構造の分解から検証する。</p>
+  </div>
+  <p class="sca-lead">2026年6月24日（米国時間）に発表されたマイクロンのFY2026第3四半期決算は、半導体メモリの歴史でも例を見ない数字を並べた。だが相場を動かした本当の材料は、売上や利益の絶対値ではない。決算リリースの副題に置かれた一文 ― 「変革的な戦略的顧客契約（SCA）の締結」 ― にこそ、この記事で分解すべき構造変化が凝縮されている。</p>
+  <div class="sca-stats">
+    <div class="sca-stat">
+      <span class="sca-stat-num">$41.46<span class="sca-stat-unit">B</span></span>
+      <span class="sca-stat-label">FQ3売上高</span>
+      <span class="sca-stat-sub">前年同期比 +346%（$9.30B→）</span>
+    </div>
+    <div class="sca-stat">
+      <span class="sca-stat-num">84.6<span class="sca-stat-unit">%</span></span>
+      <span class="sca-stat-label">GAAP粗利率</span>
+      <span class="sca-stat-sub">前年同期 37.7% → 約2.2倍</span>
+    </div>
+    <div class="sca-stat">
+      <span class="sca-stat-num">15<span class="sca-stat-unit">倍</span></span>
+      <span class="sca-stat-label">純利益の伸び</span>
+      <span class="sca-stat-sub">$1,885M → $28,243M（YoY）</span>
+    </div>
+    <div class="sca-stat">
+      <span class="sca-stat-num">$50.0<span class="sca-stat-unit">B</span></span>
+      <span class="sca-stat-label">FQ4売上ガイダンス</span>
+      <span class="sca-stat-sub">±$1.0B／粗利率 約86%</span>
+    </div>
+  </div>
+  <p class="sca-source-inline">出所：マイクロン FY2026 第3四半期 決算リリース（SEC Form 8-K、2026年6月24日）。GAAPベース、四半期は5月28日締め。</p>
+  <div class="sca-section">
+    <p class="sca-kicker">01 ― 数字の正体</p>
+    <h2 class="sca-h2">売上が4.5倍化しても、売上原価はほぼ動かなかった</h2>
+    <p class="sca-body">まず、84.6%という粗利率がどこから来たのかを押さえておきたい。この四半期、売上高は前年同期の$9,301Mから$41,456Mへと約4.5倍に膨張した。ところが<span class="sca-mark">売上原価（COGS）は$5,793Mから$6,400Mへ、わずか1割程度しか増えていない</span>。生産数量ではなく単価が利益のほぼ全量を生んだ、という構図である。</p>
+    <p class="sca-body">これはメモリ事業の本来の姿ではない。従来のDRAM／NANDは、設備を回せば回すほど供給が増え、好況の最終局面では各社の増産が一斉に効いて価格が崩れる ― 典型的なコモディティ循環をたどってきた。今回の数字は、その需給バランスが供給制約側に大きく振れていることを示す。だが「需給が締まっている」だけなら、いずれ平均回帰する。問題は、マイクロンがその循環そのものを契約で封じ込めにいった点にある。</p>
+  </div>
+  <div class="sca-section">
+    <p class="sca-kicker">02 ― 本題</p>
+    <h2 class="sca-h2">SCAの収益構造を分解する ― テイク・オア・ペイと価格バンド</h2>
+    <p class="sca-body">マイクロンが今回開示した戦略的顧客契約（SCA：Strategic Customer Agreements）は、メモリを「スポット価格で売り買いするコモディティ」から「長期固定の供給契約に基づく予見可能な収益」へと組み替える試みである。決算説明会で示された設計を、収益構造の観点から3つの仕掛けに分解する。</p>
+    <div class="sca-figure">
+      <svg class="sca-svg" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SCA収益構造の概念図">
+        <rect x="0" y="0" width="720" height="420" fill="#ffffff"/>
+        
+        <text x="40" y="42" font-family="sans-serif" font-size="15" font-weight="700" fill="#14233a">価格バンド構造（フロア／シーリング）</text>
+        
+        <line x1="120" y1="80" x2="120" y2="300" stroke="#c9d2dc" stroke-width="1.5"/>
+        <line x1="120" y1="300" x2="600" y2="300" stroke="#c9d2dc" stroke-width="1.5"/>
+        <text x="92" y="86" font-family="sans-serif" font-size="11" fill="#5d6b7a" text-anchor="end">価格</text>
+        <text x="600" y="318" font-family="sans-serif" font-size="11" fill="#5d6b7a" text-anchor="end">時間（5年）</text>
+        
+        <line x1="120" y1="110" x2="600" y2="110" stroke="#b23c2e" stroke-width="2" stroke-dasharray="7 4"/>
+        <text x="608" y="114" font-family="sans-serif" font-size="12" font-weight="700" fill="#b23c2e">シーリング（上限）</text>
+        
+        <line x1="120" y1="232" x2="600" y2="232" stroke="#1f7a4d" stroke-width="2" stroke-dasharray="7 4"/>
+        <text x="608" y="236" font-family="sans-serif" font-size="12" font-weight="700" fill="#1f7a4d">フロア（下限）</text>
+        
+        <rect x="120" y="110" width="480" height="122" fill="#f6edd8" opacity="0.85"/>
+        <text x="360" y="176" font-family="sans-serif" font-size="13" font-weight="700" fill="#9a6f1f" text-anchor="middle">契約で確保される収益帯</text>
+        
+        <line x1="120" y1="270" x2="600" y2="270" stroke="#94a2b2" stroke-width="1.5" stroke-dasharray="2 4"/>
+        <text x="124" y="288" font-family="sans-serif" font-size="11" fill="#5d6b7a">過去サイクルのピーク利益率水準</text>
+        
+        <line x1="540" y1="270" x2="540" y2="234" stroke="#1f7a4d" stroke-width="1.5"/>
+        <polygon points="540,232 536,242 544,242" fill="#1f7a4d"/>
+        <text x="556" y="256" font-family="sans-serif" font-size="11" font-weight="700" fill="#1f7a4d">下限でも過去ピーク超</text>
+        
+        <rect x="120" y="334" width="480" height="60" rx="6" fill="#14233a"/>
+        <text x="140" y="360" font-family="sans-serif" font-size="13" font-weight="700" fill="#f6edd8">テイク・オア・ペイ</text>
+        <text x="140" y="380" font-family="sans-serif" font-size="12" fill="#cdd6e0">買わなくても支払い義務が生じる＝数量を契約で固定</text>
+      </svg>
+      <p class="sca-figcap">図1：SCAの価格バンド構造。価格はフロアとシーリングの帯に固定され、下限ですら過去サイクルのピーク利益率を上回るとされる。数量はテイク・オア・ペイで拘束される。（出所：決算説明会の説明をもとに作成）</p>
+    </div>
+    <div class="sca-mech">
+      <div class="sca-mech-item">
+        <span class="sca-mech-no">仕掛け1</span>
+        <span class="sca-mech-head">数量の固定 ― テイク・オア・ペイ</span>
+        <p class="sca-mech-body">顧客は契約数量を引き取らなくても代金を支払う義務を負う。マイクロン側から見れば、需要の可視性が一気に高まり、巨額の設備投資判断の前提が立てやすくなる。CFOも「コミットされた数量だから、自信を持って投資できる」という趣旨を述べている。</p>
+      </div>
+      <div class="sca-mech-item">
+        <span class="sca-mech-no">仕掛け2</span>
+        <span class="sca-mech-head">価格の固定 ― フロアとシーリング</span>
+        <p class="sca-mech-body">価格はスポットに委ねず、下限（フロア）と上限（シーリング）の帯に収める。会社側は「フロア価格でも、過去のどのサイクルのピークマージンをも上回る」とする。下方リスクの遮断が、この契約の収益面での本質である。</p>
+      </div>
+      <div class="sca-mech-item">
+        <span class="sca-mech-no">仕掛け3</span>
+        <span class="sca-mech-head">期間の固定 ― 複数年・前払いデポジット</span>
+        <p class="sca-mech-body">契約は原則複数年（5年規模）に及び、財務コミットメントは約$22B。CEOは「完了すれば会社売上の半分以上がSCA下に入る」との見通しを示した。前払い的な性格のデポジットも、需要の確度を担保する。</p>
+      </div>
+    </div>
+    <div class="sca-callout">
+      <span class="sca-callout-label">構造の要点</span>
+      <p class="sca-callout-body">数量・価格・期間の3軸をすべて契約で固定する。これは「メモリ＝価格変動の激しいコモディティ」という前提の否定であり、もし定着すれば、メモリメーカーの収益はユーティリティ（公益事業）に近い予見可能性を帯びる。マイクロンが自社決算を「AI時代におけるメモリの戦略的価値」と位置づけるのは、この意味においてである。</p>
+    </div>
+  </div>
+  <div class="sca-section">
+    <p class="sca-kicker">03 ― 循環論の再定義</p>
+    <h2 class="sca-h2">「良い会社、悪いタイミング」のタイミング軸を、契約は消せるか</h2>
+    <p class="sca-body">メモリ株がこれまで「良い会社、悪いタイミング」の典型だったのは、企業の実力（コスト競争力・技術）がどれほど高くても、循環の頂点で買えば必ず損をする構造だったからだ。利益のピークとPERのボトムが重なり、見かけの割安が罠になる。SCAが狙うのは、まさにこの「タイミング軸」の振幅を契約で圧縮することにある。</p>
+    <div class="sca-figure">
+      <svg class="sca-svg" viewBox="0 0 760 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="従来のメモリ循環と構造転換仮説の比較">
+        <rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+        
+        <text x="40" y="42" font-family="sans-serif" font-size="14" font-weight="700" fill="#14233a">従来のメモリ循環</text>
+        <line x1="40" y1="200" x2="350" y2="200" stroke="#c9d2dc" stroke-width="1.2"/>
+        <path d="M40,200 C 90,90 130,90 175,200 C 220,310 260,310 305,200 C 330,150 345,140 350,150" fill="none" stroke="#b23c2e" stroke-width="2.5"/>
+        <text x="150" y="80" font-family="sans-serif" font-size="11" fill="#5d6b7a" text-anchor="middle">好況・増産</text>
+        <text x="240" y="332" font-family="sans-serif" font-size="11" fill="#5d6b7a" text-anchor="middle">供給過剰・価格暴落</text>
+        <text x="195" y="226" font-family="sans-serif" font-size="11" font-style="italic" fill="#94a2b2" text-anchor="middle">大きな振幅 ＝ タイミングリスク</text>
+        
+        <line x1="385" y1="50" x2="385" y2="330" stroke="#e2e7ee" stroke-width="1.5"/>
+        
+        <text x="420" y="42" font-family="sans-serif" font-size="14" font-weight="700" fill="#14233a">構造転換の仮説（SCA後）</text>
+        <line x1="420" y1="200" x2="730" y2="200" stroke="#c9d2dc" stroke-width="1.2"/>
+        
+        <line x1="420" y1="238" x2="730" y2="238" stroke="#1f7a4d" stroke-width="2" stroke-dasharray="6 4"/>
+        <text x="724" y="256" font-family="sans-serif" font-size="11" font-weight="700" fill="#1f7a4d" text-anchor="end">SCAフロアが谷を遮断</text>
+        
+        <path d="M420,200 C 470,100 510,100 555,200 C 580,238 600,238 625,200 C 670,110 705,110 730,170" fill="none" stroke="#21456e" stroke-width="2.5"/>
+        <text x="575" y="80" font-family="sans-serif" font-size="11" fill="#5d6b7a" text-anchor="middle">上値は伸び、下値は</text>
+        <text x="575" y="95" font-family="sans-serif" font-size="11" fill="#5d6b7a" text-anchor="middle">フロアで切り上げ</text>
+      </svg>
+      <p class="sca-figcap">図2：従来の急峻なブーム・バストに対し、SCAの仮説は谷をフロアで遮断し、循環の下方を切り上げる。これが成立すれば「悪いタイミング」の損失幅が構造的に縮む。</p>
+    </div>
+    <p class="sca-body">ただし、これはあくまで<span class="sca-mark">仮説の段階</span>である。契約が需給の一部しかカバーしないこと、契約の外側ではスポット価格が依然として循環すること、そして契約自体が新たなサイクルの頂点で結ばれている可能性 ― 検証すべき論点は後段の反証パートで扱う。</p>
+  </div>
+  <div class="sca-section">
+    <p class="sca-kicker">04 ― 日本への波及</p>
+    <h2 class="sca-h2">バリューチェーン分解 ― 記録的設備投資はどこに落ちるか</h2>
+    <p class="sca-body">マイクロンの数字が日本株に直結するのは、相場の連想だけが理由ではない。SCAで需要を固定したマイクロンは、その供給を満たすために記録的な設備投資を継続する。9ヶ月累計の設備投資は約$19.6Bに達し、前年同期のほぼ倍。この投資が、世界的競争力を持つ日本の製造装置・素材セクターの受注に変換される。価値連鎖に沿って波及経路を分解する。</p>
+    <div class="sca-figure">
+      <svg class="sca-svg" viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="マイクロンから日本の半導体関連セクターへの波及マップ">
+        <rect x="0" y="0" width="760" height="470" fill="#ffffff"/>
+        
+        <rect x="30" y="180" width="170" height="110" rx="8" fill="#14233a"/>
+        <text x="115" y="218" font-family="sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">マイクロン</text>
+        <text x="115" y="242" font-family="sans-serif" font-size="11" fill="#cdd6e0" text-anchor="middle">記録的決算 ＋</text>
+        <text x="115" y="258" font-family="sans-serif" font-size="11" fill="#cdd6e0" text-anchor="middle">設備投資の継続</text>
+        <text x="115" y="278" font-family="sans-serif" font-size="11" font-weight="700" fill="#f6edd8" text-anchor="middle">9ヶ月累計 約$19.6B</text>
+        
+        <line x1="200" y1="210" x2="320" y2="120" stroke="#21456e" stroke-width="2"/>
+        <polygon points="320,120 308,121 314,131" fill="#21456e"/>
+        <line x1="200" y1="260" x2="320" y2="350" stroke="#21456e" stroke-width="2"/>
+        <polygon points="320,350 314,339 308,349" fill="#21456e"/>
+        
+        <rect x="320" y="60" width="410" height="170" rx="8" fill="#f5f7fa" stroke="#21456e" stroke-width="1.5"/>
+        <text x="340" y="86" font-family="sans-serif" font-size="13" font-weight="700" fill="#21456e">製造装置 ― 増産投資が直撃</text>
+        <text x="340" y="112" font-family="sans-serif" font-size="12" fill="#14233a">東京エレクトロン（8035）成膜・エッチング</text>
+        <text x="340" y="136" font-family="sans-serif" font-size="12" fill="#14233a">アドバンテスト（6857）HBM検査工程</text>
+        <text x="340" y="160" font-family="sans-serif" font-size="12" fill="#14233a">ディスコ（6146）ダイシング・研削</text>
+        <text x="340" y="184" font-family="sans-serif" font-size="12" fill="#14233a">レーザーテック（6920）マスク検査</text>
+        <text x="340" y="212" font-family="sans-serif" font-size="11" font-style="italic" fill="#5d6b7a">伝達：設備発注 → 受注残・装置売上</text>
+        
+        <rect x="320" y="300" width="410" height="140" rx="8" fill="#f5f7fa" stroke="#1f7a4d" stroke-width="1.5"/>
+        <text x="340" y="326" font-family="sans-serif" font-size="13" font-weight="700" fill="#1f7a4d">素材・ウエハ ― 数量増に連動</text>
+        <text x="340" y="352" font-family="sans-serif" font-size="12" fill="#14233a">信越化学工業（4063）シリコンウエハ</text>
+        <text x="340" y="376" font-family="sans-serif" font-size="12" fill="#14233a">SUMCO（3436）シリコンウエハ</text>
+        <text x="340" y="404" font-family="sans-serif" font-size="11" font-style="italic" fill="#5d6b7a">伝達：メモリ増産 → ウエハ投入数量の増加</text>
+        <text x="340" y="424" font-family="sans-serif" font-size="11" fill="#94a2b2">※装置と異なり数量ドライブ。価格より枚数</text>
+      </svg>
+      <p class="sca-figcap">図3：波及は一様ではない。製造装置は「設備発注」に、素材・ウエハは「生産数量」に連動する。同じ半導体関連でもドライバーが異なる点が、銘柄選別の分岐になる。（個別銘柄は波及経路の例示であり、推奨ではない）</p>
+    </div>
+    <p class="sca-body">実際、本日（6/25）の東京市場では、アドバンテスト・東京エレクトロン・キオクシアの3銘柄だけで日経平均を約1,700円押し上げた。日経平均が史上4位の上げ幅（+3,191円）を記録した一日の中身は、この波及の即時反映でもある。ただし、後述するNT倍率の歪み（少数銘柄への集中）というリスクと表裏一体である点は、当ブログの別稿で扱ったとおりだ。</p>
+  </div>
+  <div class="sca-section sca-bear">
+    <p class="sca-kicker sca-kicker-bear">05 ― 反証</p>
+    <h2 class="sca-h2">それでも循環は死なない ― 設備投資ピークアウトという対抗仮説</h2>
+    <p class="sca-body">ここまでSCAの強気構造を分解してきたが、構造分析は反証の検証まで含めて初めて完結する。「契約が循環を殺した」という見立てには、複数の反論が成り立つ。最大の論点は、需要側 ― AIインフラの設備投資 ― の持続性である。</p>
+    <div class="sca-figure">
+      <svg class="sca-svg" viewBox="0 0 760 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="強気と弱気のシナリオ分岐ツリー">
+        <rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+        
+        <rect x="270" y="30" width="220" height="64" rx="8" fill="#14233a"/>
+        <text x="380" y="58" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2026後半〜2027</text>
+        <text x="380" y="78" font-family="sans-serif" font-size="13" font-weight="700" fill="#f6edd8" text-anchor="middle">分岐点</text>
+        
+        <line x1="340" y1="94" x2="195" y2="150" stroke="#1f7a4d" stroke-width="2"/>
+        <line x1="420" y1="94" x2="565" y2="150" stroke="#b23c2e" stroke-width="2"/>
+        
+        <rect x="30" y="150" width="330" height="250" rx="8" fill="#e9f3ed" stroke="#1f7a4d" stroke-width="1.5"/>
+        <text x="50" y="178" font-family="sans-serif" font-size="14" font-weight="700" fill="#1f7a4d">強気：構造転換が本物</text>
+        <text x="50" y="212" font-family="sans-serif" font-size="12" fill="#14233a">① SCAで需給が可視化</text>
+        <text x="50" y="240" font-family="sans-serif" font-size="12" fill="#14233a">② 下方リスクが契約で遮断</text>
+        <text x="50" y="268" font-family="sans-serif" font-size="12" fill="#14233a">③ 収益のブレ縮小 → 予見性向上</text>
+        <text x="50" y="296" font-family="sans-serif" font-size="12" fill="#14233a">④ 循環株ディスカウントの解消</text>
+        <text x="50" y="324" font-family="sans-serif" font-size="12" font-weight="700" fill="#1f7a4d">→ PERの再評価（リレーティング）</text>
+        <text x="50" y="360" font-family="sans-serif" font-size="11" fill="#5d6b7a">条件：契約カバー率の拡大と、</text>
+        <text x="50" y="376" font-family="sans-serif" font-size="11" fill="#5d6b7a">　　　契約外スポットの安定持続</text>
+        
+        <rect x="400" y="150" width="330" height="250" rx="8" fill="#f7e8e4" stroke="#b23c2e" stroke-width="1.5"/>
+        <text x="420" y="178" font-family="sans-serif" font-size="14" font-weight="700" fill="#b23c2e">弱気：循環は死なず</text>
+        <text x="420" y="212" font-family="sans-serif" font-size="12" fill="#14233a">① ハイパースケーラー設備投資が</text>
+        <text x="438" y="230" font-family="sans-serif" font-size="12" fill="#14233a">2026後半にピークアウト（野村）</text>
+        <text x="420" y="258" font-family="sans-serif" font-size="12" fill="#14233a">② 半導体指数は設備投資に約1Q先行</text>
+        <text x="420" y="286" font-family="sans-serif" font-size="12" fill="#14233a">③ 3社協調増産で価格が正常化</text>
+        <text x="420" y="314" font-family="sans-serif" font-size="12" font-weight="700" fill="#b23c2e">→ 「セル・ザ・ニュース」リスク</text>
+        <text x="420" y="350" font-family="sans-serif" font-size="11" fill="#5d6b7a">傍証：前回決算は予想超でも株価8%安。</text>
+        <text x="420" y="366" font-family="sans-serif" font-size="11" fill="#5d6b7a">　　　売掛金の急増（QoEの論点）も。</text>
+      </svg>
+      <p class="sca-figcap">図4：強気・弱気の分岐ツリー。鍵を握るのは需要側の設備投資サイクルと、契約がカバーしきれないスポット市場の挙動。投資家が監視すべきは「契約カバー率」と「ハイパースケーラーの設備投資ガイダンス」。</p>
+    </div>
+    <h3 class="sca-h3">反論1：需要のピークは契約では止められない</h3>
+    <p class="sca-body">SCAは供給側の収益を安定させるが、需要そのものを創出するわけではない。野村證券は、米ハイパースケーラーの設備投資の伸びが2026年後半にピークアウトすると見ており、半導体指数は設備投資動向に1四半期ほど先行して連動する傾向がある。需要の伸びが鈍化すれば、契約数量の更新局面で価格バンドそのものが下方に再設定されうる。</p>
+    <h3 class="sca-h3">反論2：契約は循環の頂点で結ばれた可能性</h3>
+    <p class="sca-body">3社（マイクロン・SKハイニックス・サムスン）の協調的な増産が数年後に効けば、メモリ価格は再び正常化（＝下落）方向へ平均回帰しうる。前回FQ2決算では、予想を上回りながら「材料出尽くし」で株価が8%下落した。好決算が織り込み済みであるほど、わずかな慎重な見通しが失望売りを招く ― この非対称性は今回も残る。</p>
+    <h3 class="sca-h3">反論3：利益の質（QoE）</h3>
+    <p class="sca-body">バランスシート上、売掛金は前期末の$9,265Mから$31,025Mへ急増した。キャッシュフロー計算書でも売掛金が約$19,953Mの資金流出要因となっている。売上認識のスピードに現金回収が追いついていない局面であり、契約デポジットの前受けと併せ、利益の質を継続的に点検する必要がある。</p>
+    <div class="sca-callout sca-callout-bear">
+      <span class="sca-callout-label">反証パートの結論</span>
+      <p class="sca-callout-body">SCAは「悪いタイミングの損失幅」を縮める可能性を持つが、「タイミングそのもの」を消すわけではない。構造転換が本物かどうかは、今後数四半期の契約カバー率の拡大と、需要側設備投資の持続で検証される。現時点では「強気構造説」と「循環ピーク説」のどちらも棄却できない ― これが誠実な結論である。</p>
+    </div>
+  </div>
+  <div class="sca-section">
+    <p class="sca-kicker">06 ― 投資家への含意</p>
+    <h2 class="sca-h2">監視すべき2つの指標</h2>
+    <p class="sca-body">本記事の構造分解からの含意は、方向性の断定ではなく「何を見れば分岐が分かるか」に尽きる。第一に<span class="sca-mark">契約カバー率</span> ― マイクロンが言う「売上の半分以上」が実際にどこまで進むか。これが進むほど強気構造説の確度が上がる。第二に<span class="sca-mark">ハイパースケーラーの設備投資ガイダンス</span> ― 半導体指数に先行する需要側の変曲点。装置株（設備発注ドライブ）と素材株（数量ドライブ）でも感応度が異なる点を踏まえ、波及経路ごとに監視したい。</p>
+    <p class="sca-body">「良い会社、悪いタイミング」のフレームでいえば、マイクロンが「良い会社」であることは決算が証明した。残る問いは、SCAが「タイミング」の概念を本当に書き換えたのか、である。その答えは、近いうちに需給データが示す。</p>
+  </div>
+  <div class="sca-linkpair">
+    <span class="sca-linkpair-label">あわせて読みたい</span>
+    <p class="sca-linkpair-body">本記事の反証パートで触れたAIインフラ設備投資のピークアウト論を、需要側から単独で深掘りした続編を準備中です。<span class="sca-linkpair-pending">（内部リンク：<a href="/micron-fy2026-q3-earnings/">マイクロン決算2026 Q3を構造分析 ― 売上+346%・粗利率84.6%の半導体株への波及</a>）</span></p>
+  </div>
+  <p class="sca-disclaimer">本記事は決算リリース（SEC Form 8-K）および決算説明会の公開情報をもとに、構造分析の観点から整理したものです。特定銘柄の売買を推奨するものではなく、投資判断はご自身の責任で行ってください。数値はGAAPベース、断りのない限りFY2026第3四半期（2026年5月28日締め）。</p>
+</div>

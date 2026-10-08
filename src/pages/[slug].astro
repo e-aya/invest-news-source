@@ -32,6 +32,8 @@ const css = readStyle(article.id);
 const minutes = readingMinutes(body);
 const updated = d.updatedAt && d.updatedAt > d.publishedAt ? d.updatedAt : undefined;
 const legacy = d.format === 'legacy';
+// 旧記事の本文に独自の大見出し（h1）がある場合だけ、ページ側のタイトルを出さない
+const ownTitle = legacy && /<h1[\s>]/i.test(body);
 
 // 新テンプレートの記事だけ、第2セクションの後に記事内広告を差し込む。
 // 旧記事は記事CSSの全称リセットが広告枠に効いてしまうため、本文の後に置く。
@@ -113,7 +115,7 @@ const jsonLd = [
         ))}
       </div>
 
-      {!legacy && <h1 class="post__title">{d.title}</h1>}
+      {!ownTitle && <h1 class="post__title">{d.title}</h1>}
 
       <div class="byline">
         <a class="byline__who" href="#author">
@@ -150,7 +152,7 @@ const jsonLd = [
         )
       }
 
-      <div class="post__body" data-article-body data-pagefind-body>
+      <div class:list={['post__body', legacy && !css.trim() && 'is-bare']} data-article-body data-pagefind-body>
         <Fragment set:html={bodyHead} />
         {!legacy && bodyTail && <AdSlot kind="inArticle" height={280} />}
         {!legacy && <Fragment set:html={bodyTail} />}
@@ -225,6 +227,13 @@ const jsonLd = [
   .post__body :global(figure) { margin: 24px 0 0; }
   .post__body :global(figcaption) { margin-top: 8px; font-size: 13px; color: var(--mu); }
   .post__body > :global(aside.ad) { margin-block: 36px; }
+  /* 専用CSSのない旧記事向けの最低限の体裁（専用CSSがある記事ではそちらが優先される） */
+  .post__body.is-bare :global(table) { width: 100%; border-collapse: collapse; margin-block: 16px; font-size: 15px; display: block; overflow-x: auto; }
+  .post__body.is-bare :global(th), .post__body.is-bare :global(td) { border: 1px solid var(--ln); padding: 8px 10px; text-align: left; }
+  .post__body.is-bare :global(th) { background: var(--sf2); }
+  .post__body.is-bare :global(h2) { margin-top: 32px; }
+  .post__body.is-bare :global(h3) { margin-top: 24px; }
+  .post__body.is-bare :global(p + p) { margin-top: 12px; }
   .series-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
   .series-nav a {
     display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid var(--ln);

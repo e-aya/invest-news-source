@@ -1,0 +1,582 @@
+.yhk-doc.yhk-doc{display: block !important;
+  position: static !important;
+  float: none !important;
+  clear: both !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 0 2.4em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  color: #0f172a !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.85 !important;
+  letter-spacing: 0.01em !important;
+  text-align: left !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  mix-blend-mode: normal !important;
+  isolation: auto !important;
+  clip-path: none !important;
+  mask: none !important;
+  mask-image: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  zoom: 1 !important;}
+.yhk-doc.yhk-doc *:not(svg):not(svg *){background-color: transparent !important;
+  background-image: none !important;
+  position: static !important;
+  float: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  mix-blend-mode: normal !important;
+  clip-path: none !important;
+  mask: none !important;
+  mask-image: none !important;
+  border-radius: 0 !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  columns: auto !important;
+  column-count: auto !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  letter-spacing: inherit !important;
+  list-style-image: none !important;
+  outline: none !important;
+  zoom: 1 !important;
+  writing-mode: horizontal-tb !important;}
+.yhk-doc.yhk-doc::before,.yhk-doc.yhk-doc::after,.yhk-doc.yhk-doc [class*="yhk-"]::before,.yhk-doc.yhk-doc [class*="yhk-"]::after{content: none !important;
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  transform: none !important;
+  filter: none !important;
+  clip-path: none !important;
+  mask: none !important;
+  box-shadow: none !important;
+  position: static !important;
+  float: none !important;
+  opacity: 1 !important;}
+.yhk-doc.yhk-doc p,.yhk-doc.yhk-doc div,.yhk-doc.yhk-doc span,.yhk-doc.yhk-doc li,.yhk-doc.yhk-doc td,.yhk-doc.yhk-doc th,.yhk-doc.yhk-doc a,.yhk-doc.yhk-doc strong,.yhk-doc.yhk-doc em,.yhk-doc.yhk-doc figcaption{font-size: 16px !important;
+  font-family: inherit !important;
+  line-height: 1.85 !important;
+  color: inherit !important;}
+.yhk-doc.yhk-doc div,.yhk-doc.yhk-doc figure,.yhk-doc.yhk-doc figcaption,.yhk-doc.yhk-doc section{display: block !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc p{display: block !important;
+  margin: 0 0 1.15em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #1e293b !important;
+  text-indent: 0 !important;}
+.yhk-doc.yhk-doc strong,.yhk-doc.yhk-doc .yhk-em{display: inline !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-num{display: inline !important;
+  font-weight: 700 !important;
+  color: #b91c1c !important;
+  font-feature-settings: "tnum" 1 !important;}
+.yhk-doc.yhk-doc .yhk-kick{display: inline-block !important;
+  margin: 0 0 12px 0 !important;
+  padding: 5px 13px !important;
+  border: 0 !important;
+  background-color: #b91c1c !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.09em !important;}
+.yhk-doc.yhk-doc .yhk-intro{display: block !important;
+  margin: 0 0 20px 0 !important;
+  padding: 26px 24px 24px 24px !important;
+  border: 0 !important;
+  border-left: 6px solid #b91c1c !important;
+  background-color: #111827 !important;
+  background-image: none !important;
+  color: #f8fafc !important;}
+.yhk-doc.yhk-doc .yhk-intro *{background-color: transparent !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-ttl{display: block !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: #ffffff !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;}
+.yhk-doc.yhk-doc .yhk-lede{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #cbd5e1 !important;
+  font-size: 15px !important;
+  line-height: 1.85 !important;}
+.yhk-doc.yhk-doc .yhk-chips{display: block !important;
+  margin: 0 0 22px 0 !important;
+  padding: 0 !important;
+  font-size: 0 !important;}
+.yhk-doc.yhk-doc .yhk-chip{display: inline-block !important;
+  width: auto !important;
+  margin: 0 8px 8px 0 !important;
+  padding: 9px 14px !important;
+  border: 1px solid #e2e8f0 !important;
+  border-left: 4px solid #b91c1c !important;
+  background-color: #f8fafc !important;
+  background-image: none !important;
+  vertical-align: top !important;}
+.yhk-doc.yhk-doc .yhk-chip-l{display: block !important;
+  margin: 0 0 2px 0 !important;
+  color: #64748b !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.04em !important;}
+.yhk-doc.yhk-doc .yhk-chip-v{display: block !important;
+  margin: 0 !important;
+  color: #0f172a !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  font-feature-settings: "tnum" 1 !important;}
+.yhk-doc.yhk-doc .yhk-brief{display: block !important;
+  margin: 0 0 30px 0 !important;
+  padding: 22px 24px !important;
+  border: 0 !important;
+  background-color: #0f172a !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-brief *{background-color: transparent !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-brief-h{display: block !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 0 10px 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #334155 !important;
+  color: #fca5a5 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.09em !important;}
+.yhk-doc.yhk-doc .yhk-brief-ul{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  list-style: none !important;
+  list-style-type: none !important;}
+.yhk-doc.yhk-doc .yhk-brief-li{display: block !important;
+  margin: 0 0 9px 0 !important;
+  padding: 0 0 0 18px !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(#fca5a5, #fca5a5) !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 11px !important;
+  background-size: 8px 2px !important;
+  color: #e2e8f0 !important;
+  font-size: 14.5px !important;
+  line-height: 1.8 !important;
+  list-style: none !important;}
+.yhk-doc.yhk-doc .yhk-sec{display: block !important;
+  margin: 0 0 34px 0 !important;}
+.yhk-doc.yhk-doc .yhk-h2{display: block !important;
+  margin: 0 0 16px 0 !important;
+  padding: 0 0 10px 0 !important;
+  border: 0 !important;
+  border-bottom: 2px solid #e2e8f0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #0f172a !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;}
+.yhk-doc.yhk-doc .yhk-badge{display: inline-block !important;
+  width: 27px !important;
+  min-width: 27px !important;
+  height: 27px !important;
+  margin: 0 10px 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: #b91c1c !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 27px !important;
+  text-align: center !important;
+  vertical-align: 2px !important;}
+.yhk-doc.yhk-doc .yhk-b2{background-color: #1d4ed8 !important;}
+.yhk-doc.yhk-doc .yhk-b3{background-color: #047857 !important;}
+.yhk-doc.yhk-doc .yhk-b4{background-color: #b45309 !important;}
+.yhk-doc.yhk-doc .yhk-b5{background-color: #6d28d9 !important;}
+.yhk-doc.yhk-doc .yhk-b6{background-color: #0f766e !important;}
+.yhk-doc.yhk-doc .yhk-h3{display: block !important;
+  margin: 22px 0 10px 0 !important;
+  padding: 0 0 0 11px !important;
+  border: 0 !important;
+  border-left: 4px solid #94a3b8 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #0f172a !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;}
+.yhk-doc.yhk-doc .yhk-term{display: block !important;
+  margin: 18px 0 20px 0 !important;
+  padding: 16px 18px !important;
+  border: 1px solid #bfdbfe !important;
+  background-color: #eff6ff !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-term-h{display: block !important;
+  margin: 0 0 7px 0 !important;
+  padding: 0 !important;
+  color: #1d4ed8 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.05em !important;}
+.yhk-doc.yhk-doc .yhk-term-p{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #1e293b !important;
+  font-size: 14.5px !important;
+  line-height: 1.8 !important;}
+.yhk-doc.yhk-doc .yhk-call{display: block !important;
+  margin: 18px 0 20px 0 !important;
+  padding: 16px 18px !important;
+  border: 1px solid #fed7aa !important;
+  background-color: #fff7ed !important;
+  background-image: none !important;
+  color: #1e293b !important;
+  font-size: 14.5px !important;
+  line-height: 1.8 !important;}
+.yhk-doc.yhk-doc .yhk-ul{display: block !important;
+  margin: 0 0 1.15em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  list-style: none !important;
+  list-style-type: none !important;}
+.yhk-doc.yhk-doc .yhk-li{display: block !important;
+  margin: 0 0 8px 0 !important;
+  padding: 0 0 0 17px !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(#b91c1c, #b91c1c) !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 12px !important;
+  background-size: 7px 2px !important;
+  color: #1e293b !important;
+  font-size: 15.5px !important;
+  line-height: 1.85 !important;
+  list-style: none !important;}
+.yhk-doc.yhk-doc .yhk-tbl{display: table !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 !important;
+  border: 1px solid #e2e8f0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  table-layout: auto !important;
+  font-size: 14px !important;}
+.yhk-doc.yhk-doc .yhk-tbl thead{display: table-header-group !important;}
+.yhk-doc.yhk-doc .yhk-tbl tbody{display: table-row-group !important;}
+.yhk-doc.yhk-doc .yhk-tbl tr{display: table-row !important;}
+.yhk-doc.yhk-doc .yhk-tbl th,.yhk-doc.yhk-doc .yhk-tbl td{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 9px 11px !important;
+  border: 1px solid #e2e8f0 !important;
+  background-image: none !important;
+  font-size: 14px !important;
+  line-height: 1.65 !important;
+  vertical-align: middle !important;
+  text-align: left !important;
+  white-space: normal !important;
+  word-break: normal !important;}
+.yhk-doc.yhk-doc .yhk-tbl th{background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  font-weight: 700 !important;}
+.yhk-doc.yhk-doc .yhk-tbl td{background-color: #ffffff !important;
+  color: #1e293b !important;
+  font-weight: 400 !important;}
+.yhk-doc.yhk-doc .yhk-tbl .yhk-r{text-align: right !important;
+  font-feature-settings: "tnum" 1 !important;
+  white-space: nowrap !important;}
+.yhk-doc.yhk-doc .yhk-tbl .yhk-dn{color: #b91c1c !important; font-weight: 700 !important;}
+.yhk-doc.yhk-doc .yhk-tbl .yhk-upp{color: #047857 !important; font-weight: 700 !important;}
+.yhk-doc.yhk-doc .yhk-fg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 22px 0 22px 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-fig{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #e2e8f0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  overflow: hidden !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;}
+.yhk-doc.yhk-doc figure .yhk-fig{border: 1px solid #e2e8f0 !important;
+  width: 100% !important;
+  height: auto !important;}
+.yhk-doc.yhk-doc .yhk-cap{display: block !important;
+  margin: 9px 0 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #64748b !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  text-align: left !important;}
+.yhk-doc.yhk-doc .yhk-only-m{display: none !important;}
+.yhk-doc.yhk-doc .yhk-only-d{display: block !important;}
+@media (max-width: 600px){.yhk-doc.yhk-doc .yhk-only-m{display: block !important;}.yhk-doc.yhk-doc .yhk-only-d{display: none !important;}.yhk-doc.yhk-doc .yhk-ttl{font-size: 21px !important;}.yhk-doc.yhk-doc .yhk-h2{font-size: 18.5px !important;}.yhk-doc.yhk-doc .yhk-intro{padding: 20px 17px !important;}.yhk-doc.yhk-doc .yhk-brief{padding: 18px 17px !important;}.yhk-doc.yhk-doc .yhk-chip{margin: 0 6px 6px 0 !important; padding: 8px 11px !important;}.yhk-doc.yhk-doc .yhk-chip-v{font-size: 15px !important;}.yhk-doc.yhk-doc .yhk-tbl,
+  .yhk-doc.yhk-doc .yhk-tbl th,
+  .yhk-doc.yhk-doc .yhk-tbl td{font-size: 13px !important;}.yhk-doc.yhk-doc .yhk-tbl th,
+  .yhk-doc.yhk-doc .yhk-tbl td{padding: 7px 8px !important;}}
+.yhk-doc.yhk-doc .yhk-fig,.yhk-doc.yhk-doc .yhk-fig *{transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  transform-origin: 50% 50% !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  mix-blend-mode: normal !important;
+  isolation: auto !important;
+  clip-path: none !important;
+  mask: none !important;
+  mask-image: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  text-shadow: none !important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  position: static !important;
+  float: none !important;
+  border: 0 none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  zoom: 1 !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;}
+.yhk-doc.yhk-doc .yhk-fig text{font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  paint-order: normal !important;
+  dominant-baseline: auto !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-s9{font-size: 9px !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-s10{font-size: 10px !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-s11{font-size: 11px !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-s12{font-size: 12px !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-s13{font-size: 13px !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-s15{font-size: 15px !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-ck{fill: #0f172a !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-cm{fill: #64748b !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-cd{fill: #b91c1c !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-cu{fill: #047857 !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-cf{fill: #1d4ed8 !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-cw{fill: #ffffff !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-b{font-weight: 700 !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-bgp{fill: #ffffff !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-plot{fill: #f8fafc !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-note{fill: #fef2f2 !important; stroke: #fecaca !important; stroke-width: 1px !important;
+  stroke-dasharray: none !important; stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-band{fill: #fee2e2 !important; stroke: #fca5a5 !important; stroke-width: 1px !important;
+  stroke-dasharray: none !important; stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-npnl{fill: #ffffff !important; stroke: #cbd5e1 !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; stroke-linejoin: round !important;
+  paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-npnl2{fill: #fee2e2 !important; stroke: #f87171 !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; stroke-linejoin: round !important;
+  paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-npnl3{fill: #dbeafe !important; stroke: #60a5fa !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; stroke-linejoin: round !important;
+  paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-npnl4{fill: #d1fae5 !important; stroke: #34d399 !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; stroke-linejoin: round !important;
+  paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-bd{fill: #f87171 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-bh{fill: #b91c1c !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-bu{fill: #059669 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-grid{fill: none !important; stroke: #e2e8f0 !important; stroke-width: 1px !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-axis{fill: none !important; stroke: #94a3b8 !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-tick{fill: none !important; stroke: #94a3b8 !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-zero{fill: none !important; stroke: #94a3b8 !important; stroke-width: 1.5px !important;
+  stroke-dasharray: 5 4 !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-sep{fill: none !important; stroke: #cbd5e1 !important; stroke-width: 1px !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-lead{fill: none !important; stroke: #cbd5e1 !important; stroke-width: 1px !important;
+  stroke-dasharray: 3 3 !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-aline{fill: none !important; stroke: #94a3b8 !important; stroke-width: 2px !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-arw{fill: #94a3b8 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-nk{fill: none !important; stroke: #dc2626 !important; stroke-width: 2.5px !important;
+  stroke-dasharray: none !important; stroke-linecap: round !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-fx{fill: none !important; stroke: #1d4ed8 !important; stroke-width: 2.5px !important;
+  stroke-dasharray: none !important; stroke-linecap: round !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-fxd{fill: none !important; stroke: #93c5fd !important; stroke-width: 2.5px !important;
+  stroke-dasharray: 6 5 !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-dot{fill: #dc2626 !important; stroke: #ffffff !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-dotf{fill: #1d4ed8 !important; stroke: #ffffff !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-fig .yhk-dotk{fill: #334155 !important; stroke: #ffffff !important; stroke-width: 1.5px !important;
+  stroke-dasharray: none !important; paint-order: normal !important;}
+.yhk-doc.yhk-doc .yhk-xl{display: block !important;
+  margin: 30px 0 22px 0 !important;
+  padding: 18px 20px !important;
+  border: 1px solid #e2e8f0 !important;
+  background-color: #f8fafc !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-xl-h{display: block !important;
+  margin: 0 0 11px 0 !important;
+  padding: 0 !important;
+  color: #0f172a !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.05em !important;}
+.yhk-doc.yhk-doc .yhk-xl-ul{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  list-style-type: none !important;}
+.yhk-doc.yhk-doc .yhk-xl-li{display: block !important;
+  margin: 0 0 8px 0 !important;
+  padding: 0 0 0 16px !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(#94a3b8, #94a3b8) !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 11px !important;
+  background-size: 7px 2px !important;
+  list-style: none !important;
+  line-height: 1.75 !important;}
+.yhk-doc.yhk-doc .yhk-xl-a{display: inline !important;
+  color: #1d4ed8 !important;
+  font-size: 14.5px !important;
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.yhk-doc.yhk-doc .yhk-disc{display: block !important;
+  margin: 26px 0 0 0 !important;
+  padding: 15px 17px !important;
+  border: 1px solid #e2e8f0 !important;
+  background-color: #f1f5f9 !important;
+  background-image: none !important;
+  color: #475569 !important;
+  font-size: 12.5px !important;
+  line-height: 1.8 !important;}

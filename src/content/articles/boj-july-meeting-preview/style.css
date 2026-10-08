@@ -1,0 +1,141 @@
+.rfn-root{max-width: 860px !important;
+  margin: 0 auto !important;
+  padding: 0 4px !important;
+  font-feature-settings: "palt" !important;
+  line-height: 1.9 !important;
+  color: #22262e !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.rfn-root .rfn-hero{background-color: #1a2340 !important;
+  background-image: linear-gradient(135deg, #1a2340 0%, #232f56 100%) !important;
+  border-radius: 14px !important;
+  padding: 28px 26px 24px !important;
+  margin: 0 0 22px !important;
+  border: 1px solid #2c3a66 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.rfn-root .rfn-hero-label{color: #d9a441 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.82rem !important;
+  letter-spacing: 0.08em !important;
+  margin: 0 0 10px !important;
+  font-weight: 700 !important;}
+.rfn-root .rfn-hero-title{color: #f4f6fb !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1.42rem !important;
+  line-height: 1.5 !important;
+  margin: 0 0 14px !important;
+  border: none !important;
+  padding: 0 !important;}
+.rfn-root .rfn-hero-lead{color: #c3cbe0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.95rem !important;
+  margin: 0 !important;}
+.rfn-root .rfn-summary{background-color: #f6f2e8 !important;
+  background-image: none !important;
+  border-left: 5px solid #d9a441 !important;
+  border-radius: 0 10px 10px 0 !important;
+  padding: 18px 22px !important;
+  margin: 0 0 30px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.rfn-root .rfn-summary-title{color: #8a6a1f !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1rem !important;
+  margin: 0 0 10px !important;
+  border: none !important;
+  padding: 0 !important;}
+.rfn-root .rfn-summary-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.rfn-root .rfn-summary-list li{color: #4a4433 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.93rem !important;
+  margin: 0 0 8px !important;
+  line-height: 1.75 !important;}
+.rfn-root .rfn-h2{color: #1a2340 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1.28rem !important;
+  line-height: 1.5 !important;
+  margin: 40px 0 16px !important;
+  padding: 0 0 10px !important;
+  border: none !important;
+  border-bottom: 3px solid #d9a441 !important;}
+.rfn-root .rfn-p{color: #22262e !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1rem !important;
+  margin: 0 0 18px !important;}
+.rfn-root .rfn-figure{margin: 26px 0 30px !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.rfn-root .rfn-figcaption{color: #6b7280 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.82rem !important;
+  line-height: 1.7 !important;
+  margin: 10px 0 0 !important;
+  padding: 0 !important;}
+.rfn-root .rfn-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background-color: #fbfaf6 !important;
+  background-image: none !important;
+  border: 1px solid #e3ddcf !important;
+  border-radius: 10px !important;
+  filter: none !important;
+  opacity: 1 !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.rfn-root .rfn-svg *{filter: none !important;
+  opacity: 1 !important;}
+.rfn-root .rfn-svg text{font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif !important;}
+.rfn-root .rfn-svg-title{fill: #1a2340 !important; font-size: 15px !important; font-weight: 700 !important;}
+.rfn-root .rfn-axis{stroke: #8b8fa0 !important; stroke-width: 1.5 !important;}
+.rfn-root .rfn-grid{stroke: #ddd8ca !important; stroke-width: 1 !important; stroke-dasharray: 3 4 !important;}
+.rfn-root .rfn-tick,.rfn-root .rfn-xtick{fill: #6b7280 !important; font-size: 11px !important;}
+.rfn-root .rfn-note{fill: #8a8574 !important; font-size: 10.5px !important;}
+.rfn-root .rfn-path-actual{fill: none !important; stroke: #1a2340 !important; stroke-width: 3 !important;}
+.rfn-root .rfn-path-early{fill: none !important; stroke: #c2542e !important; stroke-width: 2.5 !important; stroke-dasharray: 6 5 !important;}
+.rfn-root .rfn-path-main{fill: none !important; stroke: #d9a441 !important; stroke-width: 2.5 !important; stroke-dasharray: 6 5 !important;}
+.rfn-root .rfn-path-hold{fill: none !important; stroke: #8b8fa0 !important; stroke-width: 2 !important; stroke-dasharray: 2 5 !important;}
+.rfn-root .rfn-dot{fill: #1a2340 !important;}
+.rfn-root .rfn-dot-now{fill: #fbfaf6 !important; stroke: #1a2340 !important; stroke-width: 2.5 !important;}
+.rfn-root .rfn-label-early{fill: #c2542e !important; font-size: 11.5px !important; font-weight: 700 !important;}
+.rfn-root .rfn-label-main{fill: #a87c22 !important; font-size: 11.5px !important; font-weight: 700 !important;}
+.rfn-root .rfn-label-hold{fill: #6b7280 !important; font-size: 11.5px !important;}
+.rfn-root .rfn-node-root{fill: #1a2340 !important; stroke: none !important;}
+.rfn-root .rfn-node-root-text{fill: #f4f6fb !important; font-size: 13px !important; font-weight: 700 !important;}
+.rfn-root .rfn-branch{stroke: #b3ac99 !important; stroke-width: 1.5 !important;}
+.rfn-root .rfn-node-a{fill: #eef1f8 !important; stroke: #8b8fa0 !important; stroke-width: 1 !important;}
+.rfn-root .rfn-node-b{fill: #f6ecd7 !important; stroke: #d9a441 !important; stroke-width: 1.5 !important;}
+.rfn-root .rfn-node-c{fill: #f8e8e1 !important; stroke: #c2542e !important; stroke-width: 1 !important;}
+.rfn-root .rfn-node-head{fill: #22262e !important; font-size: 12.5px !important; font-weight: 700 !important;}
+.rfn-root .rfn-node-sub{fill: #6b7280 !important; font-size: 10.5px !important;}
+.rfn-root .rfn-node-out{fill: #ffffff !important; stroke: #ddd8ca !important; stroke-width: 1 !important;}
+.rfn-root .rfn-out-line{fill: #3a3f4a !important; font-size: 11.5px !important;}
+.rfn-root .rfn-disclaimer{background-color: #f1f2f4 !important;
+  background-image: none !important;
+  border-radius: 10px !important;
+  padding: 14px 18px !important;
+  margin: 36px 0 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.rfn-root .rfn-disclaimer-p{color: #6b7280 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.8rem !important;
+  line-height: 1.7 !important;
+  margin: 0 !important;}
+@media (max-width: 480px){.rfn-root .rfn-hero{padding: 20px 16px 18px !important;}.rfn-root .rfn-hero-title{font-size: 1.18rem !important;}.rfn-root .rfn-h2{font-size: 1.12rem !important;}.rfn-root .rfn-summary{padding: 14px 16px !important;}}

@@ -1,0 +1,170 @@
+.aec-article{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif !important;
+  color:#1a2330 !important;
+  line-height:1.85 !important;
+  max-width:760px !important;
+  margin:0 auto !important;
+  background-color:#ffffff !important;
+  background-image:none !important;}
+.aec-article *{box-sizing:border-box !important;}
+.aec-article .aec-kicker{display:inline-block !important;
+  font-size:12px !important;
+  font-weight:700 !important;
+  letter-spacing:.08em !important;
+  color:#b3402a !important;
+  background-color:#fbeae6 !important;
+  background-image:none !important;
+  padding:5px 12px !important;
+  border-radius:4px !important;
+  margin:0 0 14px 0 !important;}
+.aec-article .aec-hero{margin:0 0 26px 0 !important;}
+.aec-article .aec-title{font-size:30px !important;
+  font-weight:800 !important;
+  line-height:1.4 !important;
+  color:#0f1b2d !important;
+  margin:0 0 14px 0 !important;
+  letter-spacing:.01em !important;}
+.aec-article .aec-dek{font-size:16px !important;
+  color:#3a4654 !important;
+  line-height:1.9 !important;
+  margin:0 !important;}
+.aec-article .aec-chips{list-style:none !important;
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:12px !important;
+  padding:0 !important;
+  margin:0 0 30px 0 !important;}
+.aec-article .aec-chip{flex:1 1 calc(50% - 12px) !important;
+  min-width:200px !important;
+  background-color:#f5f7fa !important;
+  background-image:none !important;
+  border-left:4px solid #b3402a !important;
+  border-radius:6px !important;
+  padding:14px 16px !important;
+  margin:0 !important;}
+.aec-article .aec-chip-num{display:block !important;
+  font-size:19px !important;
+  font-weight:800 !important;
+  color:#0f1b2d !important;
+  background-color:transparent !important;
+  margin:0 0 4px 0 !important;}
+.aec-article .aec-chip-lbl{display:block !important;
+  font-size:12.5px !important;
+  color:#5a6776 !important;
+  background-color:transparent !important;
+  line-height:1.55 !important;}
+.aec-article .aec-summary{background-color:#14202e !important;
+  background-image:none !important;
+  border-radius:12px !important;
+  padding:24px 26px !important;
+  margin:0 0 30px 0 !important;}
+.aec-article .aec-summary-head{font-size:15px !important;
+  font-weight:800 !important;
+  color:#f0a36b !important;
+  background-color:transparent !important;
+  margin:0 0 14px 0 !important;
+  letter-spacing:.04em !important;}
+.aec-article .aec-summary-list{list-style:none !important;
+  padding:0 !important;
+  margin:0 !important;
+  background-color:transparent !important;}
+.aec-article .aec-summary-item{position:relative !important;
+  padding:0 0 0 22px !important;
+  margin:0 0 12px 0 !important;
+  background-color:transparent !important;}
+.aec-article .aec-summary-item:last-child{margin-bottom:0 !important;}
+.aec-article .aec-summary-item:before{content:"" !important;
+  position:absolute !important;
+  left:2px !important;
+  top:11px !important;
+  width:8px !important;
+  height:8px !important;
+  border-radius:50% !important;
+  background-color:#f0a36b !important;
+  background-image:none !important;}
+.aec-article .aec-summary-text{font-size:14.5px !important;
+  color:#e6ecf3 !important;
+  background-color:transparent !important;
+  line-height:1.8 !important;}
+.aec-article .aec-terms{background-color:#f5f7fa !important;
+  background-image:none !important;
+  border:1px solid #e2e8ef !important;
+  border-radius:10px !important;
+  padding:20px 24px !important;
+  margin:0 0 34px 0 !important;}
+.aec-article .aec-terms-head{font-size:14px !important;
+  font-weight:800 !important;
+  color:#0f1b2d !important;
+  background-color:transparent !important;
+  margin:0 0 12px 0 !important;}
+.aec-article .aec-terms-list{margin:0 !important;background-color:transparent !important;}
+.aec-article .aec-term-dt{font-size:13.5px !important;
+  font-weight:700 !important;
+  color:#b3402a !important;
+  background-color:transparent !important;
+  margin:10px 0 2px 0 !important;}
+.aec-article .aec-term-dd{font-size:13.5px !important;
+  color:#41505f !important;
+  background-color:transparent !important;
+  margin:0 !important;
+  line-height:1.7 !important;}
+.aec-article .aec-section{margin:0 0 34px 0 !important;}
+.aec-article .aec-h2{display:flex !important;
+  align-items:center !important;
+  gap:12px !important;
+  font-size:21px !important;
+  font-weight:800 !important;
+  color:#0f1b2d !important;
+  line-height:1.45 !important;
+  margin:0 0 16px 0 !important;
+  padding:0 0 12px 0 !important;
+  border-bottom:2px solid #eef1f5 !important;}
+.aec-article .aec-badge{flex:0 0 auto !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:38px !important;
+  height:38px !important;
+  border-radius:9px !important;
+  font-size:15px !important;
+  font-weight:800 !important;
+  color:#ffffff !important;
+  background-image:none !important;}
+.aec-article .aec-badge-1{background-color:#2f6f8f !important;}
+.aec-article .aec-badge-2{background-color:#b3402a !important;}
+.aec-article .aec-badge-3{background-color:#c98a2b !important;}
+.aec-article .aec-badge-4{background-color:#5a7d3c !important;}
+.aec-article .aec-badge-5{background-color:#6a5a9c !important;}
+.aec-article .aec-badge-6{background-color:#14202e !important;}
+.aec-article .aec-badge-7{background-color:#4a5a68 !important;}
+.aec-article .aec-p{font-size:15.5px !important;
+  color:#26323f !important;
+  line-height:1.9 !important;
+  margin:0 0 15px 0 !important;
+  background-color:transparent !important;}
+.aec-article .aec-fig{margin:22px 0 6px 0 !important;
+  padding:0 !important;
+  background-color:transparent !important;}
+.aec-article .aec-figcap{font-size:13px !important;
+  font-weight:700 !important;
+  color:#5a6776 !important;
+  background-color:transparent !important;
+  margin:0 0 8px 0 !important;
+  line-height:1.5 !important;}
+.aec-article .aec-fig svg{width:100% !important;
+  height:auto !important;
+  display:block !important;
+  border:1px solid #eef1f5 !important;
+  border-radius:10px !important;
+  background-color:#ffffff !important;}
+.aec-article .aec-disclaimer{margin:36px 0 0 0 !important;
+  padding:16px 18px !important;
+  background-color:#f7f8f9 !important;
+  background-image:none !important;
+  border-radius:8px !important;
+  border-top:3px solid #d6dbe1 !important;}
+.aec-article .aec-disclaimer-text{font-size:11.5px !important;
+  color:#7a8694 !important;
+  background-color:transparent !important;
+  line-height:1.7 !important;
+  margin:0 !important;}
+@media (max-width:600px){.aec-article .aec-title{font-size:24px !important;}.aec-article .aec-h2{font-size:18px !important;}.aec-article .aec-chip{flex:1 1 100% !important;}.aec-article .aec-badge{width:32px !important;height:32px !important;font-size:13px !important;}}

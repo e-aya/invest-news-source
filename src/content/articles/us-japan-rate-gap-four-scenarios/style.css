@@ -1,0 +1,783 @@
+.dvg-doc.dvg-doc{display: block !important;
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+  color: #10151f !important;
+  -webkit-text-fill-color: #10151f !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-stretch: normal !important;
+  line-height: 1.9 !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  z-index: auto !important;
+  overflow: visible !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  white-space: normal !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-rule: none !important;
+  clip-path: none !important;
+  mask: none !important;
+  mix-blend-mode: normal !important;
+  isolation: auto !important;
+  contain: none !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  list-style: none !important;
+  outline: none !important;
+  vertical-align: baseline !important;}
+.dvg-doc.dvg-doc::before,.dvg-doc.dvg-doc::after{content: none !important;
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 0 !important;
+  position: static !important;
+  clip-path: none !important;
+  mask: none !important;
+  border-radius: 0 !important;
+  float: none !important;
+  clear: none !important;}
+.dvg-doc.dvg-doc *{box-sizing: border-box !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  font-style: inherit !important;
+  font-variant: normal !important;
+  font-stretch: normal !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  border-color: currentColor !important;
+  text-transform: none !important;
+  text-indent: 0 !important;
+  text-shadow: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+  mask: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  z-index: auto !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-rule: none !important;
+  mix-blend-mode: normal !important;
+  isolation: auto !important;
+  contain: none !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  outline: none !important;
+  vertical-align: baseline !important;
+  list-style: none !important;
+  quotes: none !important;
+  counter-reset: none !important;
+  counter-increment: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;}
+.dvg-doc.dvg-doc *:not(svg):not(svg *){width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 100% !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;}
+.dvg-doc.dvg-doc *::before,.dvg-doc.dvg-doc *::after{content: none !important;
+  display: none !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  border-radius: 0 !important;
+  clip-path: none !important;
+  mask: none !important;
+  transform: none !important;
+  filter: none !important;
+  box-shadow: none !important;
+  position: static !important;
+  float: none !important;}
+.dvg-doc.dvg-doc p,.dvg-doc.dvg-doc div,.dvg-doc.dvg-doc span,.dvg-doc.dvg-doc a,.dvg-doc.dvg-doc ul,.dvg-doc.dvg-doc ol,.dvg-doc.dvg-doc li,.dvg-doc.dvg-doc dl,.dvg-doc.dvg-doc dt,.dvg-doc.dvg-doc dd,.dvg-doc.dvg-doc h2,.dvg-doc.dvg-doc h3,.dvg-doc.dvg-doc h4,.dvg-doc.dvg-doc table,.dvg-doc.dvg-doc thead,.dvg-doc.dvg-doc tbody,.dvg-doc.dvg-doc tr,.dvg-doc.dvg-doc th,.dvg-doc.dvg-doc td,.dvg-doc.dvg-doc figure,.dvg-doc.dvg-doc figcaption,.dvg-doc.dvg-doc strong,.dvg-doc.dvg-doc em,.dvg-doc.dvg-doc small,.dvg-doc.dvg-doc b{font-size: inherit !important;}
+.dvg-doc.dvg-doc table{display: table !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  table-layout: auto !important;}
+.dvg-doc.dvg-doc thead{display: table-header-group !important;}
+.dvg-doc.dvg-doc tbody{display: table-row-group !important;}
+.dvg-doc.dvg-doc tr{display: table-row !important;}
+.dvg-doc.dvg-doc th,.dvg-doc.dvg-doc td{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  vertical-align: top !important;
+  text-align: left !important;}
+.dvg-doc.dvg-doc .dvg-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  overflow: visible !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  clip-path: none !important;
+  mask: none !important;
+  box-shadow: none !important;
+  position: static !important;
+  float: none !important;
+  vertical-align: middle !important;
+  shape-rendering: auto !important;
+  text-rendering: auto !important;}
+.dvg-doc.dvg-doc .dvg-svg *{vector-effect: none !important;
+  paint-order: normal !important;
+  stroke-dasharray: none !important;
+  stroke-dashoffset: 0 !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  stroke-miterlimit: 4 !important;
+  stroke-opacity: 1 !important;
+  fill-opacity: 1 !important;
+  fill-rule: nonzero !important;
+  clip-rule: nonzero !important;
+  color-interpolation: sRGB !important;
+  shape-rendering: auto !important;
+  dominant-baseline: auto !important;
+  alignment-baseline: auto !important;}
+.dvg-doc.dvg-doc .dvg-bandA{fill: #fdf6e8 !important; stroke: #e6d5b0 !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-bandB{fill: #eef3fa !important; stroke: #c5d5ea !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-bandtx{fill: #6b5a35 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-rail{fill: none !important; stroke: #9aa7bb !important; stroke-width: 2 !important;
+  stroke-dasharray: none !important; stroke-linecap: round !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nodeA{fill: #c07a10 !important; stroke: #ffffff !important; stroke-width: 2 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nodeAh{fill: #c07a10 !important; stroke: #ffffff !important; stroke-width: 3 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nodeB{fill: #1f4e8c !important; stroke: #ffffff !important; stroke-width: 2 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nodeBh{fill: #1f4e8c !important; stroke: #ffffff !important; stroke-width: 3 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nodec{fill: #ffffff !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-paneA{fill: #ffffff !important; stroke: #e0cfa8 !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-paneAh{fill: #fffaf0 !important; stroke: #c07a10 !important; stroke-width: 2 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-paneB{fill: #ffffff !important; stroke: #c9d7e9 !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-paneBh{fill: #f6f9fd !important; stroke: #1f4e8c !important; stroke-width: 2 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-chip{fill: #b3452e !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-chiptx{fill: #ffffff !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-dt{fill: #10151f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-tm{fill: #7a8598 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-ttl{fill: #10151f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-sub{fill: #5c6879 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-why{fill: #45505f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-hair{fill: none !important; stroke: #dde3ec !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-hair2{fill: none !important; stroke: #ffffff !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-ruleln{fill: none !important; stroke: #e6eaf1 !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-axisl{fill: none !important; stroke: #9aa7bb !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-axis{fill: #6b7686 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-gapfill{fill: #dce7f5 !important; stroke: none !important; stroke-width: 0 !important;
+  fill-opacity: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-lineus{fill: none !important; stroke: #1f4e8c !important; stroke-width: 2.6 !important;
+  stroke-dasharray: none !important; stroke-linecap: round !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-linejp{fill: none !important; stroke: #b3452e !important; stroke-width: 2.6 !important;
+  stroke-dasharray: none !important; stroke-linecap: round !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-dotus{fill: #1f4e8c !important; stroke: #ffffff !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-dotjp{fill: #b3452e !important; stroke: #ffffff !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-sname_us{fill: #1f4e8c !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-sname_jp{fill: #b3452e !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-note{fill: #ffffff !important; stroke: #1f4e8c !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-notetx{fill: #5c6879 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-notev{fill: #1f4e8c !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-cap{fill: #10151f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-capsub{fill: #6b7686 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-sgood{fill: #e8f4ee !important; stroke: #1d7a5f !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-sbad{fill: #fbeceA !important; stroke: #b3452e !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-sflat{fill: #f2f4f7 !important; stroke: #9aa7bb !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-stx{fill: #10151f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-stx2{fill: #45505f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-coltx{fill: #6b7686 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-n0{fill: #131a2a !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-n0a{fill: #b9c4d4 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-n0b{fill: #ffffff !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-n0c{fill: #8d9aad !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nA{fill: #fdf6e8 !important; stroke: #c07a10 !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nB{fill: #eef3fa !important; stroke: #1f4e8c !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-nt{fill: #10151f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-ns{fill: #5c6879 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-conn{fill: none !important; stroke: #9aa7bb !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-tgood{fill: #1d7a5f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-tbad{fill: #b3452e !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-tflat{fill: #6b7686 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-tt,.dvg-doc.dvg-doc .dvg-tk,.dvg-doc.dvg-doc .dvg-tv,.dvg-doc.dvg-doc .dvg-tdir{fill: #ffffff !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-tn{fill: #dfe6ee !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-memo{fill: #f7f8fa !important; stroke: #cbd3de !important; stroke-width: 1 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-memotx{fill: #45505f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-hdrneg{fill: #fbeceA !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-hdrpos{fill: #e8f4ee !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-hdrtx{fill: #45505f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-zerol{fill: none !important; stroke: #9aa7bb !important; stroke-width: 1.5 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-row{fill: #f7f8fa !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-secn{fill: #10151f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-secw{fill: #6b7686 !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-obs{fill: #45505f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-barneg{fill: #b3452e !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-barpos{fill: #1d7a5f !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-barnil{fill: #9aa7bb !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: round !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-fnote{fill: #8d9aad !important; stroke: none !important; stroke-width: 0 !important;
+  stroke-dasharray: none !important; stroke-linecap: butt !important;
+  stroke-linejoin: miter !important; paint-order: normal !important;}
+.dvg-doc.dvg-doc .dvg-kick{display: inline-block !important;
+  margin: 0 0 14px 0 !important;
+  padding: 5px 12px !important;
+  background-color: #c07a10 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.08em !important;
+  border-radius: 3px !important;}
+.dvg-doc.dvg-doc .dvg-lead{display: block !important;
+  margin: 0 0 22px 0 !important;
+  padding: 26px 24px !important;
+  background-color: #131a2a !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  border-radius: 6px !important;}
+.dvg-doc.dvg-doc .dvg-lead *{background-color: transparent !important;}
+.dvg-doc.dvg-doc .dvg-lead-h{display: block !important;
+  margin: 0 0 12px 0 !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;}
+.dvg-doc.dvg-doc .dvg-lead-p{display: block !important;
+  margin: 0 !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  color: #cfd8e4 !important;
+  -webkit-text-fill-color: #cfd8e4 !important;}
+.dvg-doc.dvg-doc .dvg-lead-d{display: block !important;
+  margin: 14px 0 0 0 !important;
+  font-size: 12px !important;
+  color: #8d9aad !important;
+  -webkit-text-fill-color: #8d9aad !important;}
+.dvg-doc.dvg-doc .dvg-chips{display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  margin: 0 0 24px 0 !important;}
+.dvg-doc.dvg-doc .dvg-chipi{display: block !important;
+  flex: 1 1 160px !important;
+  padding: 12px 14px !important;
+  background-color: #f2f5f9 !important;
+  border-left: 4px solid #1f4e8c !important;
+  border-radius: 4px !important;}
+.dvg-doc.dvg-doc .dvg-chipi *{background-color: transparent !important;}
+.dvg-doc.dvg-doc .dvg-chipk{display: block !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #6b7686 !important;
+  -webkit-text-fill-color: #6b7686 !important;}
+.dvg-doc.dvg-doc .dvg-chipv{display: block !important;
+  margin: 4px 0 0 0 !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  color: #131a2a !important;
+  -webkit-text-fill-color: #131a2a !important;}
+.dvg-doc.dvg-doc .dvg-chipn{display: block !important;
+  margin: 2px 0 0 0 !important;
+  font-size: 11px !important;
+  line-height: 1.6 !important;
+  color: #7a8598 !important;
+  -webkit-text-fill-color: #7a8598 !important;}
+.dvg-doc.dvg-doc .dvg-brief{display: block !important;
+  margin: 0 0 30px 0 !important;
+  padding: 22px 24px !important;
+  background-color: #1b2436 !important;
+  border-radius: 6px !important;
+  color: #e7ecf3 !important;
+  -webkit-text-fill-color: #e7ecf3 !important;}
+.dvg-doc.dvg-doc .dvg-brief *{background-color: transparent !important;}
+.dvg-doc.dvg-doc .dvg-brief-h{display: block !important;
+  margin: 0 0 12px 0 !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  color: #e0a850 !important;
+  -webkit-text-fill-color: #e0a850 !important;}
+.dvg-doc.dvg-doc .dvg-brief-l{display: block !important;
+  margin: 0 0 9px 0 !important;
+  padding: 0 0 0 20px !important;
+  font-size: 14.5px !important;
+  line-height: 1.85 !important;
+  color: #e7ecf3 !important;
+  -webkit-text-fill-color: #e7ecf3 !important;
+  position: relative !important;}
+.dvg-doc.dvg-doc .dvg-brief-n{display: inline-block !important;
+  width: 20px !important;
+  margin: 0 0 0 -20px !important;
+  color: #e0a850 !important;
+  -webkit-text-fill-color: #e0a850 !important;
+  font-weight: 700 !important;}
+.dvg-doc.dvg-doc .dvg-sec{display: block !important;
+  margin: 0 0 34px 0 !important;}
+.dvg-doc.dvg-doc .dvg-sec-h{display: block !important;
+  margin: 0 0 16px 0 !important;
+  padding: 0 0 10px 0 !important;
+  border-bottom: 2px solid #131a2a !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;
+  color: #131a2a !important;
+  -webkit-text-fill-color: #131a2a !important;}
+.dvg-doc.dvg-doc .dvg-bdg{display: inline-block !important;
+  width: 30px !important;
+  margin: 0 10px 0 0 !important;
+  padding: 3px 0 !important;
+  background-color: #1f4e8c !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  text-align: center !important;
+  border-radius: 3px !important;
+  vertical-align: 3px !important;}
+.dvg-doc.dvg-doc .dvg-bdg2{background-color: #c07a10 !important;}
+.dvg-doc.dvg-doc .dvg-bdg3{background-color: #1d7a5f !important;}
+.dvg-doc.dvg-doc .dvg-bdg4{background-color: #b3452e !important;}
+.dvg-doc.dvg-doc .dvg-bdg5{background-color: #5b4b8a !important;}
+.dvg-doc.dvg-doc .dvg-h3{display: block !important;
+  margin: 24px 0 12px 0 !important;
+  padding: 0 0 0 12px !important;
+  border-left: 4px solid #c07a10 !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  color: #131a2a !important;
+  -webkit-text-fill-color: #131a2a !important;}
+.dvg-doc.dvg-doc .dvg-p{display: block !important;
+  margin: 0 0 15px 0 !important;
+  font-size: 16px !important;
+  line-height: 1.95 !important;
+  color: #22293a !important;
+  -webkit-text-fill-color: #22293a !important;}
+.dvg-doc.dvg-doc .dvg-em{font-weight: 700 !important;
+  color: #b3452e !important;
+  -webkit-text-fill-color: #b3452e !important;}
+.dvg-doc.dvg-doc .dvg-em2{font-weight: 700 !important;
+  color: #1f4e8c !important;
+  -webkit-text-fill-color: #1f4e8c !important;}
+.dvg-doc.dvg-doc .dvg-plate{display: block !important;
+  margin: 22px 0 !important;
+  padding: 16px !important;
+  background-color: #fbfcfd !important;
+  border: 1px solid #e3e8ef !important;
+  border-radius: 6px !important;}
+.dvg-doc.dvg-doc .dvg-plate-c{display: block !important;
+  margin: 12px 0 0 0 !important;
+  font-size: 12.5px !important;
+  line-height: 1.75 !important;
+  color: #6b7686 !important;
+  -webkit-text-fill-color: #6b7686 !important;
+  text-align: left !important;}
+.dvg-doc.dvg-doc .dvg-plate-n{display: inline !important;
+  font-weight: 700 !important;
+  color: #1f4e8c !important;
+  -webkit-text-fill-color: #1f4e8c !important;}
+.dvg-doc.dvg-doc .dvg-term{display: block !important;
+  margin: 20px 0 !important;
+  padding: 18px 20px !important;
+  background-color: #fdf9f0 !important;
+  border: 1px solid #ecdcbc !important;
+  border-radius: 6px !important;}
+.dvg-doc.dvg-doc .dvg-term-h{display: block !important;
+  margin: 0 0 12px 0 !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  color: #8a6212 !important;
+  -webkit-text-fill-color: #8a6212 !important;
+  letter-spacing: 0.05em !important;}
+.dvg-doc.dvg-doc .dvg-term-t{display: block !important;
+  margin: 12px 0 3px 0 !important;
+  font-size: 14.5px !important;
+  font-weight: 700 !important;
+  color: #131a2a !important;
+  -webkit-text-fill-color: #131a2a !important;}
+.dvg-doc.dvg-doc .dvg-term-t1{margin-top: 0 !important;}
+.dvg-doc.dvg-doc .dvg-term-d{display: block !important;
+  margin: 0 !important;
+  font-size: 14px !important;
+  line-height: 1.85 !important;
+  color: #3d4757 !important;
+  -webkit-text-fill-color: #3d4757 !important;}
+.dvg-doc.dvg-doc .dvg-tbl{display: table !important;
+  width: 100% !important;
+  margin: 18px 0 !important;
+  border-collapse: collapse !important;
+  font-size: 14px !important;}
+.dvg-doc.dvg-doc .dvg-th{display: table-cell !important;
+  padding: 10px 12px !important;
+  background-color: #131a2a !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  text-align: left !important;
+  border: 1px solid #131a2a !important;
+  vertical-align: middle !important;}
+.dvg-doc.dvg-doc .dvg-td{display: table-cell !important;
+  padding: 10px 12px !important;
+  background-color: #ffffff !important;
+  color: #22293a !important;
+  -webkit-text-fill-color: #22293a !important;
+  font-size: 14px !important;
+  line-height: 1.75 !important;
+  text-align: left !important;
+  border: 1px solid #dfe4ec !important;
+  vertical-align: top !important;}
+.dvg-doc.dvg-doc .dvg-td-a{background-color: #f7f9fc !important;}
+.dvg-doc.dvg-doc .dvg-td-g{background-color: #eef7f2 !important;
+  color: #14624c !important;
+  -webkit-text-fill-color: #14624c !important;
+  font-weight: 700 !important;}
+.dvg-doc.dvg-doc .dvg-td-r{background-color: #fbeceA !important;
+  color: #93341f !important;
+  -webkit-text-fill-color: #93341f !important;
+  font-weight: 700 !important;}
+.dvg-doc.dvg-doc .dvg-td-n{background-color: #f2f4f7 !important;
+  color: #4a5464 !important;
+  -webkit-text-fill-color: #4a5464 !important;
+  font-weight: 700 !important;}
+.dvg-doc.dvg-doc .dvg-call{display: block !important;
+  margin: 20px 0 !important;
+  padding: 16px 18px !important;
+  background-color: #f2f5f9 !important;
+  border-left: 4px solid #1f4e8c !important;
+  border-radius: 0 4px 4px 0 !important;
+  font-size: 14.5px !important;
+  line-height: 1.85 !important;
+  color: #22293a !important;
+  -webkit-text-fill-color: #22293a !important;}
+.dvg-doc.dvg-doc .dvg-call *{background-color: transparent !important;}
+.dvg-doc.dvg-doc .dvg-call-h{display: block !important;
+  margin: 0 0 6px 0 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #1f4e8c !important;
+  -webkit-text-fill-color: #1f4e8c !important;}
+.dvg-doc.dvg-doc .dvg-take{display: block !important;
+  margin: 34px 0 26px 0 !important;
+  padding: 26px 24px !important;
+  background-color: #131a2a !important;
+  border-radius: 6px !important;
+  color: #e7ecf3 !important;
+  -webkit-text-fill-color: #e7ecf3 !important;}
+.dvg-doc.dvg-doc .dvg-take *{background-color: transparent !important;}
+.dvg-doc.dvg-doc .dvg-take-h{display: block !important;
+  margin: 0 0 14px 0 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;}
+.dvg-doc.dvg-doc .dvg-take-l{display: block !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 0 0 24px !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  color: #dbe3ec !important;
+  -webkit-text-fill-color: #dbe3ec !important;}
+.dvg-doc.dvg-doc .dvg-take-n{display: inline-block !important;
+  width: 24px !important;
+  margin: 0 0 0 -24px !important;
+  color: #e0a850 !important;
+  -webkit-text-fill-color: #e0a850 !important;
+  font-weight: 700 !important;}
+.dvg-doc.dvg-doc .dvg-rel{display: block !important;
+  margin: 26px 0 !important;
+  padding: 18px 20px !important;
+  background-color: #f7f8fa !important;
+  border: 1px solid #e3e8ef !important;
+  border-radius: 6px !important;}
+.dvg-doc.dvg-doc .dvg-rel-h{display: block !important;
+  margin: 0 0 10px 0 !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  color: #131a2a !important;
+  -webkit-text-fill-color: #131a2a !important;}
+.dvg-doc.dvg-doc .dvg-rel-l{display: block !important;
+  margin: 0 0 8px 0 !important;
+  font-size: 14.5px !important;
+  line-height: 1.8 !important;}
+.dvg-doc.dvg-doc .dvg-rel-a{color: #1f4e8c !important;
+  -webkit-text-fill-color: #1f4e8c !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;}
+.dvg-doc.dvg-doc .dvg-disc{display: block !important;
+  margin: 26px 0 0 0 !important;
+  padding: 16px 18px !important;
+  background-color: #f7f8fa !important;
+  border: 1px solid #e3e8ef !important;
+  border-radius: 6px !important;
+  font-size: 12.5px !important;
+  line-height: 1.85 !important;
+  color: #6b7686 !important;
+  -webkit-text-fill-color: #6b7686 !important;}
+.dvg-doc.dvg-doc .dvg-disc *{background-color: transparent !important;}
+.dvg-doc.dvg-doc .dvg-disc-h{display: block !important;
+  margin: 0 0 6px 0 !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  color: #45505f !important;
+  -webkit-text-fill-color: #45505f !important;}
+.dvg-doc.dvg-doc .dvg-pc{display: block !important;}
+.dvg-doc.dvg-doc .dvg-sp{display: none !important;}
+.dvg-doc.dvg-doc .dvg-cel-x{display: table-cell !important;}
+.dvg-doc.dvg-doc .dvg-nw{white-space: nowrap !important;}
+.dvg-doc.dvg-doc .dvg-fs9{font-size: 9px !important;}
+.dvg-doc.dvg-doc .dvg-fs9_5{font-size: 9.5px !important;}
+.dvg-doc.dvg-doc .dvg-fs10{font-size: 10px !important;}
+.dvg-doc.dvg-doc .dvg-fs10_5{font-size: 10.5px !important;}
+.dvg-doc.dvg-doc .dvg-fs11{font-size: 11px !important;}
+.dvg-doc.dvg-doc .dvg-fs11_5{font-size: 11.5px !important;}
+.dvg-doc.dvg-doc .dvg-fs12{font-size: 12px !important;}
+.dvg-doc.dvg-doc .dvg-fs12_5{font-size: 12.5px !important;}
+.dvg-doc.dvg-doc .dvg-fs13{font-size: 13px !important;}
+.dvg-doc.dvg-doc .dvg-fs14{font-size: 14px !important;}
+.dvg-doc.dvg-doc .dvg-fs15{font-size: 15px !important;}
+.dvg-doc.dvg-doc .dvg-fs20{font-size: 20px !important;}
+.dvg-doc.dvg-doc .dvg-fs22{font-size: 22px !important;}
+@media screen and (max-width: 640px){.dvg-doc.dvg-doc .dvg-pc{display: none !important;}.dvg-doc.dvg-doc .dvg-sp{display: block !important;}.dvg-doc.dvg-doc{font-size: 15.5px !important;}.dvg-doc.dvg-doc .dvg-lead{padding: 20px 17px !important;}.dvg-doc.dvg-doc .dvg-lead-h{font-size: 21px !important;}.dvg-doc.dvg-doc .dvg-lead-p{font-size: 14.5px !important;}.dvg-doc.dvg-doc .dvg-brief{padding: 18px 17px !important;}.dvg-doc.dvg-doc .dvg-take{padding: 20px 17px !important;}.dvg-doc.dvg-doc .dvg-take-h{font-size: 16.5px !important;}.dvg-doc.dvg-doc .dvg-sec-h{font-size: 18.5px !important;}.dvg-doc.dvg-doc .dvg-h3{font-size: 16px !important;}.dvg-doc.dvg-doc .dvg-p{font-size: 15.5px !important;}.dvg-doc.dvg-doc .dvg-chipi{flex: 1 1 100% !important;}.dvg-doc.dvg-doc .dvg-chipv{font-size: 18px !important;}.dvg-doc.dvg-doc .dvg-plate{padding: 10px !important;}.dvg-doc.dvg-doc .dvg-tbl{font-size: 13px !important;}.dvg-doc.dvg-doc .dvg-cel-x{display: none !important;}.dvg-doc.dvg-doc .dvg-th{padding: 7px 5px !important; font-size: 11.5px !important;}.dvg-doc.dvg-doc .dvg-td{padding: 7px 5px !important; font-size: 12.5px !important;}.dvg-doc.dvg-doc .dvg-term{padding: 15px 16px !important;}.dvg-doc.dvg-doc .dvg-bdg{width: 26px !important; font-size: 12px !important;}}

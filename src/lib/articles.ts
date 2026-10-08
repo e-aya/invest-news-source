@@ -81,8 +81,13 @@ export function tickerUrl(code: string) {
   return `/stocks/${code.toLowerCase()}/`;
 }
 
+/** タグのURL用キー。URLで問題になる記号（% / ? # & 空白など）はハイフンに置き換える */
+export function tagKey(tag: string) {
+  return tag.trim().replace(/[%/?#&\\\s.]+/g, '-').replace(/^-+|-+$/g, '') || 'tag';
+}
+
 export function tagUrl(tag: string) {
-  return `/tag/${encodeURIComponent(tag)}/`;
+  return `/tag/${encodeURIComponent(tagKey(tag))}/`;
 }
 
 /** 関連記事：同じ銘柄 > 同じシリーズ > 同じタグ数 > 同じ区分 の順に点数を付ける */

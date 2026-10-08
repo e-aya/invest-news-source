@@ -1,0 +1,321 @@
+.jyc-doc.jyc-doc{display: block !important;
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+  width: auto !important;
+  margin: 0 0 2em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2937 !important;
+  -webkit-text-fill-color: #1f2937 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.85 !important;
+  letter-spacing: 0.02em !important;
+  word-spacing: normal !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: both !important;
+  position: static !important;
+  inset: auto !important;
+  z-index: auto !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  overflow: visible !important;
+  contain: none !important;
+  mix-blend-mode: normal !important;
+  isolation: auto !important;}
+.jyc-doc.jyc-doc *{box-sizing: border-box !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  border-color: currentColor !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  font-style: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  text-align: inherit !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  white-space: normal !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  position: static !important;
+  inset: auto !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  list-style: none !important;
+  mix-blend-mode: normal !important;}
+.jyc-doc.jyc-doc::before,.jyc-doc.jyc-doc::after,.jyc-doc.jyc-doc *::before,.jyc-doc.jyc-doc *::after,.jyc-doc.jyc-doc [class*="jyc-"]::before,.jyc-doc.jyc-doc [class*="jyc-"]::after{content: none !important;
+  display: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 0 !important;}
+.jyc-doc.jyc-doc .jyc-kicker{display: block !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  color: #b45309 !important;
+  -webkit-text-fill-color: #b45309 !important;
+  margin: 0 0 6px 0 !important;}
+.jyc-doc.jyc-doc .jyc-lead{display: block !important;
+  font-size: 17px !important;
+  line-height: 1.9 !important;
+  font-weight: 500 !important;
+  color: #111827 !important;
+  -webkit-text-fill-color: #111827 !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 18px 20px !important;
+  background-color: #f8fafc !important;
+  border-left: 5px solid #b45309 !important;
+  border-radius: 0 8px 8px 0 !important;}
+.jyc-doc.jyc-doc .jyc-h2{display: block !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #0f172a !important;
+  -webkit-text-fill-color: #0f172a !important;
+  margin: 2.4em 0 0.9em 0 !important;
+  padding: 0 0 10px 0 !important;
+  border-bottom: 3px solid #0f172a !important;}
+.jyc-doc.jyc-doc .jyc-p{display: block !important;
+  font-size: 16px !important;
+  line-height: 1.9 !important;
+  margin: 0 0 1.25em 0 !important;}
+.jyc-doc.jyc-doc .jyc-em{display: inline !important;
+  font-weight: 700 !important;
+  color: #b45309 !important;
+  -webkit-text-fill-color: #b45309 !important;}
+.jyc-doc.jyc-doc .jyc-link{display: inline !important;
+  color: #1d4ed8 !important;
+  -webkit-text-fill-color: #1d4ed8 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;}
+.jyc-doc.jyc-doc .jyc-list{display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 0 !important;}
+.jyc-doc.jyc-doc .jyc-li{display: block !important;
+  position: relative !important;
+  font-size: 16px !important;
+  line-height: 1.85 !important;
+  margin: 0 0 0.55em 0 !important;
+  padding: 0 0 0 1.5em !important;
+  background-image: linear-gradient(#2563eb, #2563eb) !important;
+  background-repeat: no-repeat !important;
+  background-size: 7px 7px !important;
+  background-position: 2px 0.75em !important;}
+.jyc-doc.jyc-doc .jyc-panel{display: block !important;
+  margin: 1.6em 0 !important;
+  padding: 20px 22px !important;
+  background-color: #0f172a !important;
+  border-radius: 10px !important;
+  color: #e2e8f0 !important;
+  -webkit-text-fill-color: #e2e8f0 !important;}
+.jyc-doc.jyc-doc .jyc-panel-t{display: block !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #fbbf24 !important;
+  -webkit-text-fill-color: #fbbf24 !important;
+  background-color: transparent !important;
+  margin: 0 0 10px 0 !important;}
+.jyc-doc.jyc-doc .jyc-panel-li{display: block !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  color: #e2e8f0 !important;
+  -webkit-text-fill-color: #e2e8f0 !important;
+  background-color: transparent !important;
+  margin: 0 0 0.4em 0 !important;
+  padding: 0 0 0 1.4em !important;
+  background-image: linear-gradient(#fbbf24, #fbbf24) !important;
+  background-repeat: no-repeat !important;
+  background-size: 7px 7px !important;
+  background-position: 2px 0.7em !important;}
+.jyc-doc.jyc-doc .jyc-tbl-wrap{display: block !important;
+  margin: 1.4em 0 !important;
+  overflow-x: auto !important;}
+.jyc-doc.jyc-doc .jyc-tbl{display: table !important;
+  width: 100% !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+  table-layout: auto !important;}
+.jyc-doc.jyc-doc .jyc-thead{display: table-header-group !important; width: auto !important;}
+.jyc-doc.jyc-doc .jyc-tbody{display: table-row-group !important; width: auto !important;}
+.jyc-doc.jyc-doc .jyc-tr{display: table-row !important; width: auto !important;}
+.jyc-doc.jyc-doc .jyc-th{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  padding: 10px 12px !important;
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+  border: 1px solid #0f172a !important;
+  border-color: #0f172a !important;
+  white-space: nowrap !important;}
+.jyc-doc.jyc-doc .jyc-td{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  padding: 10px 12px !important;
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+  -webkit-text-fill-color: #1f2937 !important;
+  font-size: 15px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  border: 1px solid #cbd5e1 !important;
+  border-color: #cbd5e1 !important;}
+.jyc-doc.jyc-doc .jyc-fig{display: block !important;
+  margin: 1.8em 0 !important;
+  padding: 0 !important;}
+.jyc-doc.jyc-doc .jyc-figcap{display: block !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  color: #0f172a !important;
+  -webkit-text-fill-color: #0f172a !important;
+  margin: 0 0 8px 0 !important;}
+.jyc-doc.jyc-doc .jyc-figbody{display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch !important;}
+.jyc-doc.jyc-doc .jyc-note{display: block !important;
+  font-size: 13px !important;
+  line-height: 1.75 !important;
+  color: #64748b !important;
+  -webkit-text-fill-color: #64748b !important;
+  margin: 8px 0 0 0 !important;}
+.jyc-doc.jyc-doc .jyc-disc{display: block !important;
+  font-size: 13px !important;
+  line-height: 1.8 !important;
+  color: #64748b !important;
+  -webkit-text-fill-color: #64748b !important;
+  margin: 2.4em 0 0 0 !important;
+  padding: 16px 18px !important;
+  background-color: #f1f5f9 !important;
+  border-radius: 8px !important;}
+.jyc-doc.jyc-doc .jyc-svg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow: visible !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  line-height: normal !important;}
+.jyc-doc.jyc-doc .jyc-svg rect,.jyc-doc.jyc-doc .jyc-svg text,.jyc-doc.jyc-doc .jyc-svg circle,.jyc-doc.jyc-doc .jyc-svg line,.jyc-doc.jyc-doc .jyc-svg path,.jyc-doc.jyc-doc .jyc-svg polyline{filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  mix-blend-mode: normal !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  display: inline !important;
+  white-space: normal !important;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  paint-order: normal !important;}
+.jyc-doc.jyc-doc .jyc-t10{font-size: 10px !important; font-weight: 400 !important;}
+.jyc-doc.jyc-doc .jyc-t11{font-size: 11px !important; font-weight: 400 !important;}
+.jyc-doc.jyc-doc .jyc-t12{font-size: 12px !important; font-weight: 500 !important;}
+.jyc-doc.jyc-doc .jyc-t13{font-size: 13px !important; font-weight: 700 !important;}
+.jyc-doc.jyc-doc .jyc-t17{font-size: 17px !important; font-weight: 700 !important;}
+.jyc-doc.jyc-doc .jyc-ink{fill: #1f2937 !important;}
+.jyc-doc.jyc-doc .jyc-mut{fill: #64748b !important;}
+.jyc-doc.jyc-doc .jyc-c1{fill: #1d4ed8 !important;}
+.jyc-doc.jyc-doc .jyc-c2{fill: #b91c1c !important;}
+.jyc-doc.jyc-doc .jyc-c3{fill: #047857 !important;}
+.jyc-doc.jyc-doc .jyc-c4{fill: #7c3aed !important;}
+.jyc-doc.jyc-doc .jyc-white{fill: #ffffff !important;}
+.jyc-doc.jyc-doc .jyc-whitem{fill: #cbd5e1 !important;}
+.jyc-doc.jyc-doc .jyc-sv-bg{fill: #ffffff !important; stroke: #e2e8f0 !important; stroke-width: 1 !important;}
+.jyc-doc.jyc-doc .jyc-sv-plate{fill: #f8fafc !important; stroke: #e2e8f0 !important; stroke-width: 1 !important;}
+.jyc-doc.jyc-doc .jyc-fill-c1{fill: #1d4ed8 !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-fill-c1l{fill: #dbeafe !important; stroke: #1d4ed8 !important; stroke-width: 1 !important;}
+.jyc-doc.jyc-doc .jyc-fill-c2{fill: #b91c1c !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-fill-c3{fill: #047857 !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-fill-c4{fill: #7c3aed !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-funnel{fill: #f1f5f9 !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-node-root{fill: #0f172a !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-node-a{fill: #dbeafe !important; stroke: #1d4ed8 !important; stroke-width: 1.5 !important;}
+.jyc-doc.jyc-doc .jyc-node-b{fill: #fee2e2 !important; stroke: #b91c1c !important; stroke-width: 1.5 !important;}
+.jyc-doc.jyc-doc .jyc-node-foot{fill: #0f172a !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-tick-c1{fill: #1d4ed8 !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-tick-c2{fill: #b91c1c !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-tick-c3{fill: #047857 !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-tick-c4{fill: #7c3aed !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-dot{fill: #1d4ed8 !important; stroke: #ffffff !important; stroke-width: 2 !important;}
+.jyc-doc.jyc-doc .jyc-dotm{fill: #94a3b8 !important; stroke: none !important;}
+.jyc-doc.jyc-doc .jyc-grid{stroke: #e2e8f0 !important; stroke-width: 1 !important; fill: none !important;}
+.jyc-doc.jyc-doc .jyc-axis{stroke: #94a3b8 !important; stroke-width: 1.5 !important; fill: none !important;}
+.jyc-doc.jyc-doc .jyc-vline{stroke: #cbd5e1 !important; stroke-width: 1.5 !important; stroke-dasharray: 3 3 !important; fill: none !important;}
+.jyc-doc.jyc-doc .jyc-mark3{stroke: #b91c1c !important; stroke-width: 1.5 !important; stroke-dasharray: 6 4 !important; fill: none !important;}
+.jyc-doc.jyc-doc .jyc-brk{stroke: #94a3b8 !important; stroke-width: 2 !important; fill: none !important;}
+.jyc-doc.jyc-doc .jyc-conn{stroke: #94a3b8 !important; stroke-width: 1.5 !important; fill: none !important;}
+.jyc-doc.jyc-doc .jyc-ln-main{stroke: #1d4ed8 !important; stroke-width: 3 !important; fill: none !important; stroke-linejoin: round !important;}
+.jyc-doc.jyc-doc .jyc-ln-dash{stroke: #93c5fd !important; stroke-width: 3 !important; fill: none !important; stroke-linejoin: round !important;}
+.jyc-doc.jyc-doc .jyc-ln-gap{stroke: #cbd5e1 !important; stroke-width: 2 !important; stroke-dasharray: 4 5 !important; fill: none !important;}
+.jyc-doc.jyc-doc .jyc-ln-s1{stroke: #1d4ed8 !important; stroke-width: 2.6 !important; fill: none !important; stroke-linejoin: round !important;}
+.jyc-doc.jyc-doc .jyc-ln-s2{stroke: #b91c1c !important; stroke-width: 2.6 !important; fill: none !important; stroke-linejoin: round !important;}
+.jyc-doc.jyc-doc .jyc-ln-s3{stroke: #047857 !important; stroke-width: 2.6 !important; stroke-dasharray: 7 4 !important; fill: none !important; stroke-linejoin: round !important;}
+@media screen and (max-width: 600px){.jyc-doc.jyc-doc{font-size: 15px !important;}.jyc-doc.jyc-doc .jyc-lead{font-size: 15px !important; padding: 14px 16px !important;}.jyc-doc.jyc-doc .jyc-h2{font-size: 19px !important;}.jyc-doc.jyc-doc .jyc-p{font-size: 15px !important;}.jyc-doc.jyc-doc .jyc-li{font-size: 15px !important;}.jyc-doc.jyc-doc .jyc-panel{padding: 16px 16px !important;}.jyc-doc.jyc-doc .jyc-panel-li{font-size: 14px !important;}.jyc-doc.jyc-doc .jyc-tbl{font-size: 14px !important;}.jyc-doc.jyc-doc .jyc-td{font-size: 14px !important;}.jyc-doc.jyc-doc .jyc-th{font-size: 13px !important;}.jyc-doc.jyc-doc .jyc-svg{width: 620px !important; min-width: 620px !important; max-width: none !important;}}

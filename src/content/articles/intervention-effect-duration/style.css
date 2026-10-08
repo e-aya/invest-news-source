@@ -1,0 +1,609 @@
+.ivx-doc.ivx-doc{display: block !important;
+  position: static !important;
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+  width: auto !important;
+  margin: 0 0 2.4em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  -webkit-text-fill-color: #1f2733 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.85 !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  text-align: left !important;
+  text-transform: none !important;
+  text-indent: 0 !important;
+  text-decoration: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: both !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-width: auto !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  mix-blend-mode: normal !important;
+  isolation: isolate !important;
+  overflow: visible !important;
+  zoom: 1 !important;
+  content-visibility: visible !important;}
+.ivx-doc *{box-sizing: border-box !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  font-style: normal !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  line-height: inherit !important;
+  text-transform: none !important;
+  text-indent: 0 !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  animation: none !important;
+  transition: none !important;
+  float: none !important;
+  position: static !important;
+  max-width: 100% !important;
+  writing-mode: horizontal-tb !important;
+  mix-blend-mode: normal !important;
+  list-style: none !important;
+  quotes: none !important;}
+.ivx-doc *::before,.ivx-doc *::after{content: none !important;
+  display: none !important;}
+.ivx-doc [class^="ivx-"],.ivx-doc [class*=" ivx-"]{filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  clip-path: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  content-visibility: visible !important;
+  
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  will-change: auto !important;
+  perspective: none !important;
+  float: none !important;
+  text-transform: none !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  mix-blend-mode: normal !important;
+  columns: auto !important;
+  column-count: auto !important;}
+.ivx-doc .ivx-kicker{display: inline-block !important;
+  margin: 0 0 0.9em 0 !important;
+  padding: 0.32em 0.85em !important;
+  border: 1px solid #c2452d !important;
+  border-radius: 2px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #c2452d !important;
+  -webkit-text-fill-color: #c2452d !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.14em !important;}
+.ivx-doc .ivx-p{display: block !important;
+  margin: 0 0 1.25em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #1f2733 !important;
+  -webkit-text-fill-color: #1f2733 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.9 !important;}
+.ivx-doc .ivx-lead{display: block !important;
+  margin: 0 0 1.5em 0 !important;
+  padding: 1.7em 1.6em 1.6em !important;
+  border: 0 !important;
+  border-left: 5px solid #c2452d !important;
+  border-radius: 3px !important;
+  background-color: #16202e !important;
+  background-image: none !important;
+  color: #eef2f7 !important;
+  -webkit-text-fill-color: #eef2f7 !important;}
+.ivx-doc .ivx-lead .ivx-lead-t{display: block !important;
+  margin: 0 0 0.3em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 27px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0.01em !important;}
+.ivx-doc .ivx-lead .ivx-lead-s{display: block !important;
+  margin: 0 0 1em 0 !important;
+  padding: 0 0 0.9em 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #3a4a61 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #f0a58e !important;
+  -webkit-text-fill-color: #f0a58e !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 1.6 !important;}
+.ivx-doc .ivx-lead .ivx-lead-x{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #d3dbe6 !important;
+  -webkit-text-fill-color: #d3dbe6 !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 1.85 !important;}
+.ivx-doc .ivx-chips{display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  list-style: none !important;}
+.ivx-doc .ivx-chips .ivx-chip{display: flex !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  flex-direction: column !important;
+  flex: 1 1 150px !important;
+  margin: 0 !important;
+  padding: 0.75em 0.9em !important;
+  border: 1px solid #dde2e9 !important;
+  border-top: 3px solid #c2452d !important;
+  border-radius: 3px !important;
+  background-color: #f8f9fb !important;
+  background-image: none !important;
+  list-style: none !important;}
+.ivx-doc .ivx-chips .ivx-chip .ivx-chip-k{display: block !important;
+  margin: 0 0 0.15em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #5c6675 !important;
+  -webkit-text-fill-color: #5c6675 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;}
+.ivx-doc .ivx-chips .ivx-chip .ivx-chip-v{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #16202e !important;
+  -webkit-text-fill-color: #16202e !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;}
+.ivx-doc .ivx-brief{display: block !important;
+  margin: 0 0 1.8em 0 !important;
+  padding: 1.4em 1.5em !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background-color: #22304a !important;
+  background-image: none !important;
+  color: #e7ecf3 !important;
+  -webkit-text-fill-color: #e7ecf3 !important;}
+.ivx-doc .ivx-brief .ivx-brief-h{display: block !important;
+  margin: 0 0 0.7em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #ffd7a8 !important;
+  -webkit-text-fill-color: #ffd7a8 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.1em !important;}
+.ivx-doc .ivx-brief .ivx-brief-l{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  list-style: none !important;}
+.ivx-doc .ivx-brief .ivx-brief-l .ivx-brief-i{display: block !important;
+  margin: 0 0 0.7em 0 !important;
+  padding: 0 0 0 1.15em !important;
+  border: 0 !important;
+  border-left: 2px solid #c2452d !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #e7ecf3 !important;
+  -webkit-text-fill-color: #e7ecf3 !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;
+  list-style: none !important;}
+.ivx-doc .ivx-brief .ivx-brief-l .ivx-brief-i:last-child{margin-bottom: 0 !important;}
+.ivx-doc .ivx-terms{display: block !important;
+  margin: 0 0 2em 0 !important;
+  padding: 1.3em 1.4em !important;
+  border: 1px solid #e2e6ec !important;
+  border-radius: 3px !important;
+  background-color: #fbfcfd !important;
+  background-image: none !important;}
+.ivx-doc .ivx-terms .ivx-terms-h{display: block !important;
+  margin: 0 0 0.8em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #16202e !important;
+  -webkit-text-fill-color: #16202e !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;}
+.ivx-doc .ivx-terms .ivx-terms-l{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ivx-doc .ivx-terms .ivx-terms-l .ivx-terms-t{display: block !important;
+  margin: 0 0 0.25em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #c2452d !important;
+  -webkit-text-fill-color: #c2452d !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;}
+.ivx-doc .ivx-terms .ivx-terms-l .ivx-terms-d{display: block !important;
+  margin: 0 0 1em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #3d4756 !important;
+  -webkit-text-fill-color: #3d4756 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;}
+.ivx-doc .ivx-terms .ivx-terms-l .ivx-terms-d:last-child{margin-bottom: 0 !important;}
+.ivx-doc .ivx-h{display: flex !important;
+  align-items: center !important;
+  gap: 0.6em !important;
+  margin: 2.4em 0 1em 0 !important;
+  padding: 0 0 0.55em 0 !important;
+  border: 0 !important;
+  border-bottom: 2px solid #e2e6ec !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #16202e !important;
+  -webkit-text-fill-color: #16202e !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  line-height: 1.45 !important;
+  letter-spacing: 0.005em !important;}
+.ivx-doc .ivx-h .ivx-bdg{display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  width: 30px !important;
+  height: 30px !important;
+  min-width: 30px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;}
+.ivx-doc .ivx-h .ivx-bdg-a{background-color: #c2452d !important;}
+.ivx-doc .ivx-h .ivx-bdg-b{background-color: #a8552e !important;}
+.ivx-doc .ivx-h .ivx-bdg-c{background-color: #8d6430 !important;}
+.ivx-doc .ivx-h .ivx-bdg-d{background-color: #4d6079 !important;}
+.ivx-doc .ivx-h .ivx-bdg-e{background-color: #16202e !important;}
+.ivx-doc .ivx-h-a{border-bottom-color: #c2452d !important;}
+.ivx-doc .ivx-h-b{border-bottom-color: #a8552e !important;}
+.ivx-doc .ivx-h-c{border-bottom-color: #8d6430 !important;}
+.ivx-doc .ivx-h-d{border-bottom-color: #4d6079 !important;}
+.ivx-doc .ivx-h-e{border-bottom-color: #16202e !important;}
+.ivx-doc .ivx-plate{display: block !important;
+  margin: 1.6em 0 1.8em 0 !important;
+  padding: 1em 1em 0.9em !important;
+  border: 1px solid #e2e6ec !important;
+  border-radius: 3px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  overflow: hidden !important;}
+.ivx-doc .ivx-plate .ivx-svg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow: visible !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;}
+.ivx-doc .ivx-plate .ivx-cap{display: block !important;
+  margin: 0.8em 0 0 0 !important;
+  padding: 0.6em 0 0 0 !important;
+  border: 0 !important;
+  border-top: 1px solid #eef1f5 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #5c6675 !important;
+  -webkit-text-fill-color: #5c6675 !important;
+  font-size: 12.5px !important;
+  font-weight: 500 !important;
+  line-height: 1.65 !important;
+  text-align: left !important;}
+.ivx-doc svg,.ivx-doc svg *{filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  mix-blend-mode: normal !important;
+  clip-path: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  transform: none !important;
+  animation: none !important;
+  transition: none !important;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  line-height: normal !important;
+  text-transform: none !important;
+  -webkit-text-fill-color: currentColor !important;}
+.ivx-doc svg text{font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+  paint-order: stroke !important;}
+.ivx-doc .ivx-svg-chart{display: block !important; width: 100% !important; height: auto !important;}
+.ivx-doc .ivx-svg-bars{display: block !important; width: 100% !important; height: auto !important;}
+.ivx-doc .ivx-svg-days{display: block !important; width: 100% !important; height: auto !important;}
+.ivx-doc .ivx-sv-bg{fill: #ffffff !important; stroke: none !important;}
+.ivx-doc .ivx-sv-band{fill: #f3e2dd !important; stroke: none !important;}
+.ivx-doc .ivx-sv-grid{stroke: #e6eaef !important; stroke-width: 1 !important; fill: none !important;}
+.ivx-doc .ivx-sv-vgrid{stroke: #f0f3f6 !important; stroke-width: 1 !important; fill: none !important;}
+.ivx-doc .ivx-sv-ref{stroke: #b7bfc9 !important; stroke-width: 1 !important; stroke-dasharray: 5 4 !important; fill: none !important;}
+.ivx-doc .ivx-sv-sep{stroke: #ccd3db !important; stroke-width: 1 !important; fill: none !important;}
+.ivx-doc .ivx-sv-line{stroke: #16202e !important; stroke-width: 2.2 !important; fill: none !important; stroke-linejoin: round !important; stroke-linecap: round !important;}
+.ivx-doc .ivx-sv-dot{fill: #16202e !important; stroke: #ffffff !important; stroke-width: 1.6 !important;}
+.ivx-doc .ivx-sv-dot-hi{fill: #c2452d !important;}
+.ivx-doc .ivx-sv-dot-lo{fill: #2f7d6e !important;}
+.ivx-doc .ivx-sv-track{fill: #f1f4f7 !important; stroke: none !important;}
+.ivx-doc .ivx-sv-bar{stroke: none !important;}
+.ivx-doc .ivx-sv-bar-c1{fill: #c2452d !important;}
+.ivx-doc .ivx-sv-bar-c2{fill: #d98b52 !important;}
+.ivx-doc .ivx-sv-bar-c3{fill: #7f93ad !important;}
+.ivx-doc .ivx-sv-bar-c4{fill: #16202e !important;}
+.ivx-doc .ivx-sv-bar-d1{fill: #b8bec7 !important;}
+.ivx-doc .ivx-sv-bar-d2{fill: #c2452d !important;}
+.ivx-doc .ivx-sv-h{font-size: 15px !important; font-weight: 700 !important; fill: #16202e !important;}
+.ivx-doc .ivx-sv-axis{font-size: 12px !important; font-weight: 500 !important; fill: #6b7482 !important;}
+.ivx-doc .ivx-sv-note{font-size: 12px !important; font-weight: 700 !important; fill: #16202e !important;}
+.ivx-doc .ivx-sv-reflab{font-size: 11px !important; font-weight: 500 !important; fill: #8a929c !important;}
+.ivx-doc .ivx-sv-bandlab{font-size: 11.5px !important; font-weight: 700 !important; fill: #a83e28 !important;}
+.ivx-doc .ivx-sv-cap{font-size: 11px !important; font-weight: 400 !important; fill: #7b838f !important;}
+.ivx-doc .ivx-sv-blab{font-size: 12.5px !important; font-weight: 500 !important; fill: #3d4756 !important;}
+.ivx-doc .ivx-sv-blab-t{font-weight: 700 !important; fill: #16202e !important;}
+.ivx-doc .ivx-sv-bval{font-size: 13px !important; font-weight: 700 !important; fill: #16202e !important;}
+.ivx-doc .ivx-sv-bval-inv{fill: #ffffff !important;}
+.ivx-doc .ivx-sv-btag{font-size: 10.5px !important; font-weight: 500 !important; fill: #8a929c !important;}
+.ivx-doc .ivx-sv-dlab{font-size: 12.5px !important; font-weight: 500 !important; fill: #3d4756 !important;}
+.ivx-doc .ivx-note{display: block !important;
+  margin: 1.5em 0 1.6em 0 !important;
+  padding: 1.2em 1.35em !important;
+  border: 0 !important;
+  border-left: 4px solid #b8863b !important;
+  border-radius: 0 3px 3px 0 !important;
+  background-color: #fdf8f0 !important;
+  background-image: none !important;}
+.ivx-doc .ivx-note .ivx-note-h{display: block !important;
+  margin: 0 0 0.5em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #7a5518 !important;
+  -webkit-text-fill-color: #7a5518 !important;
+  font-size: 14.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;}
+.ivx-doc .ivx-note .ivx-note-p{display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #40372a !important;
+  -webkit-text-fill-color: #40372a !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.85 !important;}
+.ivx-doc .ivx-list{display: block !important;
+  margin: 1.2em 0 1.5em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  list-style: none !important;
+  counter-reset: none !important;}
+.ivx-doc .ivx-list .ivx-li{display: block !important;
+  margin: 0 0 0.8em 0 !important;
+  padding: 0.85em 1em !important;
+  border: 1px solid #e6eaef !important;
+  border-left: 3px solid #4d6079 !important;
+  border-radius: 3px !important;
+  background-color: #fafbfc !important;
+  background-image: none !important;
+  color: #3d4756 !important;
+  -webkit-text-fill-color: #3d4756 !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;
+  list-style: none !important;}
+.ivx-doc .ivx-list .ivx-li .ivx-li-k{display: block !important;
+  margin: 0 0 0.2em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #16202e !important;
+  -webkit-text-fill-color: #16202e !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;}
+.ivx-doc .ivx-cal{display: block !important;
+  margin: 1.2em 0 1.5em 0 !important;
+  padding: 0 !important;
+  border: 1px solid #e2e6ec !important;
+  border-radius: 3px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  overflow: hidden !important;}
+.ivx-doc .ivx-cal .ivx-cal-r{display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: flex-start !important;
+  gap: 0.2em 1em !important;
+  margin: 0 !important;
+  padding: 0.85em 1.1em !important;
+  border: 0 !important;
+  border-bottom: 1px solid #eef1f5 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ivx-doc .ivx-cal .ivx-cal-r:last-child{border-bottom: 0 !important;}
+.ivx-doc .ivx-cal .ivx-cal-r .ivx-cal-d{display: block !important;
+  flex: 0 0 auto !important;
+  min-width: 7.5em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #c2452d !important;
+  -webkit-text-fill-color: #c2452d !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.7 !important;}
+.ivx-doc .ivx-cal .ivx-cal-r .ivx-cal-t{display: block !important;
+  flex: 1 1 16em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #3d4756 !important;
+  -webkit-text-fill-color: #3d4756 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;}
+.ivx-doc .ivx-take{display: block !important;
+  margin: 2.2em 0 1.6em 0 !important;
+  padding: 1.5em 1.6em !important;
+  border: 0 !important;
+  border-top: 4px solid #c2452d !important;
+  border-radius: 3px !important;
+  background-color: #16202e !important;
+  background-image: none !important;
+  color: #e7ecf3 !important;
+  -webkit-text-fill-color: #e7ecf3 !important;}
+.ivx-doc .ivx-take .ivx-take-h{display: block !important;
+  margin: 0 0 0.7em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #ffd7a8 !important;
+  -webkit-text-fill-color: #ffd7a8 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.1em !important;}
+.ivx-doc .ivx-take .ivx-take-p{display: block !important;
+  margin: 0 0 0.9em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #dde4ed !important;
+  -webkit-text-fill-color: #dde4ed !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 1.9 !important;}
+.ivx-doc .ivx-take .ivx-take-p:last-child{margin-bottom: 0 !important;}
+.ivx-doc .ivx-xlbar{display: flex !important;
+  font-size: 14.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  flex-wrap: wrap !important;
+  align-items: baseline !important;
+  gap: 0.5em 0.9em !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 0.9em 1.1em !important;
+  border: 1px dashed #c8d0d9 !important;
+  border-radius: 3px !important;
+  background-color: #f8f9fb !important;
+  background-image: none !important;}
+.ivx-doc .ivx-xlbar .ivx-xlbar-k{display: inline-block !important;
+  margin: 0 !important;
+  padding: 0.18em 0.6em !important;
+  border: 0 !important;
+  border-radius: 2px !important;
+  background-color: #4d6079 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.08em !important;}
+.ivx-doc .ivx-xl{display: inline !important;
+  font-size: inherit !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #a8371f !important;
+  -webkit-text-fill-color: #a8371f !important;
+  font-weight: 700 !important;
+  line-height: inherit !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;}
+.ivx-doc .ivx-disc{display: block !important;
+  margin: 0 !important;
+  padding: 1em 1.1em !important;
+  border: 0 !important;
+  border-top: 1px solid #e2e6ec !important;
+  background-color: #fafbfc !important;
+  background-image: none !important;
+  color: #7b838f !important;
+  -webkit-text-fill-color: #7b838f !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;}
+@media screen and (max-width: 600px){.ivx-doc.ivx-doc{font-size: 15px !important;}.ivx-doc .ivx-lead{padding: 1.3em 1.1em 1.2em !important;}.ivx-doc .ivx-lead .ivx-lead-t{font-size: 22px !important;}.ivx-doc .ivx-lead .ivx-lead-s{font-size: 14px !important;}.ivx-doc .ivx-lead .ivx-lead-x{font-size: 14px !important;}.ivx-doc .ivx-chips .ivx-chip{flex: 1 1 calc(50% - 5px) !important; padding: 0.6em 0.7em !important;}.ivx-doc .ivx-chips .ivx-chip .ivx-chip-v{font-size: 17px !important;}.ivx-doc .ivx-h{font-size: 18px !important; gap: 0.45em !important; margin-top: 2em !important;}.ivx-doc .ivx-h .ivx-bdg{width: 26px !important; height: 26px !important; min-width: 26px !important; font-size: 13px !important;}.ivx-doc .ivx-p{font-size: 15px !important;}.ivx-doc .ivx-brief{padding: 1.1em 1.1em !important;}.ivx-doc .ivx-terms{padding: 1.1em 1em !important;}.ivx-doc .ivx-plate{padding: 0.7em 0.6em 0.6em !important;}.ivx-doc .ivx-note{padding: 1em 1em !important;}.ivx-doc .ivx-take{padding: 1.2em 1.1em !important;}.ivx-doc .ivx-cal .ivx-cal-r .ivx-cal-d{min-width: 100% !important;}.ivx-doc .ivx-list .ivx-li{padding: 0.75em 0.85em !important;}}

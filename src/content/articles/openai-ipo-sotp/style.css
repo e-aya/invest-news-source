@@ -1,0 +1,384 @@
+.oai-article{font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif !important;
+  line-height: 1.85 !important;
+  color: #1d2733 !important;
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  padding: 0 4px !important;}
+.oai-article .oai-lead{font-size: 1.06rem !important;
+  line-height: 1.95 !important;
+  color: #243140 !important;
+  border-left: 5px solid #8a6fd0 !important;
+  padding: 4px 0 4px 16px !important;
+  margin: 0 0 28px 0 !important;}
+.oai-article .oai-p{font-size: 1rem !important;
+  margin: 0 0 20px 0 !important;
+  color: #1d2733 !important;}
+.oai-article .oai-h2{font-size: 1.32rem !important;
+  font-weight: 800 !important;
+  color: #14101e !important;
+  margin: 40px 0 18px 0 !important;
+  padding-bottom: 10px !important;
+  border-bottom: 2px solid #e7e3ee !important;
+  letter-spacing: 0.01em !important;}
+.oai-article .oai-h2::before{content: "" !important;
+  display: inline-block !important;
+  width: 10px !important;
+  height: 18px !important;
+  background-color: #8a6fd0 !important;
+  background-image: none !important;
+  margin-right: 10px !important;
+  vertical-align: -2px !important;
+  border-radius: 2px !important;}
+.oai-article .oai-callout{background-color: #14101e !important;
+  background-image: none !important;
+  border-radius: 12px !important;
+  padding: 22px 24px !important;
+  margin: 0 0 32px 0 !important;}
+.oai-article .oai-callout-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #b7a8e0 !important;
+  font-size: 0.82rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  margin: 0 0 10px 0 !important;}
+.oai-article .oai-callout-body{background-color: transparent !important;
+  background-image: none !important;
+  color: #e8def8 !important;
+  font-size: 0.98rem !important;
+  line-height: 1.85 !important;
+  margin: 0 !important;}
+.oai-article .oai-figure{margin: 8px 0 26px 0 !important;
+  padding: 0 !important;}
+.oai-article .oai-figcaption{font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  color: #243140 !important;
+  margin: 0 0 10px 0 !important;}
+.oai-article .oai-svg{width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  border-radius: 10px !important;}
+.oai-article .oai-stats{display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 12px !important;
+  margin: 8px 0 30px 0 !important;}
+.oai-article .oai-stat{background-color: #1f1830 !important;
+  background-image: none !important;
+  border-radius: 10px !important;
+  padding: 18px 14px !important;
+  text-align: center !important;
+  border-top: 3px solid #8a6fd0 !important;}
+.oai-article .oai-stat-num{background-color: transparent !important;
+  background-image: none !important;
+  color: #d7c6f5 !important;
+  font-size: 1.7rem !important;
+  font-weight: 800 !important;
+  margin: 0 0 6px 0 !important;
+  line-height: 1.1 !important;}
+.oai-article .oai-stat-unit{background-color: transparent !important;
+  background-image: none !important;
+  color: #d7c6f5 !important;
+  font-size: 0.86rem !important;
+  font-weight: 700 !important;
+  margin-left: 2px !important;}
+.oai-article .oai-stat-label{background-color: transparent !important;
+  background-image: none !important;
+  color: #e8def8 !important;
+  font-size: 0.86rem !important;
+  font-weight: 700 !important;
+  margin: 0 0 4px 0 !important;
+  line-height: 1.45 !important;}
+.oai-article .oai-stat-sub{background-color: transparent !important;
+  background-image: none !important;
+  color: #9d8fbf !important;
+  font-size: 0.74rem !important;
+  margin: 0 !important;
+  line-height: 1.4 !important;}
+.oai-article .oai-matrix{display: block !important;
+  margin: 8px 0 30px 0 !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  border: 1px solid #e7e3ee !important;}
+.oai-article .oai-matrix-row{display: grid !important;
+  grid-template-columns: 0.9fr 1.3fr 1.3fr !important;
+  border-bottom: 1px solid #e7e3ee !important;}
+.oai-article .oai-matrix-row:last-child{border-bottom: none !important;}
+.oai-article .oai-matrix-cell{padding: 13px 14px !important;
+  font-size: 0.9rem !important;
+  line-height: 1.55 !important;
+  display: flex !important;
+  align-items: center !important;}
+.oai-article .oai-matrix-axis{background-color: #f5f4f8 !important;
+  background-image: none !important;
+  color: #1d2733 !important;
+  font-weight: 700 !important;}
+.oai-article .oai-matrix-shadow{background-color: #f1edf7 !important;
+  background-image: none !important;
+  color: #463a5c !important;}
+.oai-article .oai-matrix-light{background-color: #fff7e9 !important;
+  background-image: none !important;
+  color: #6b4a10 !important;}
+.oai-article .oai-matrix-head .oai-matrix-axis{background-color: #14101e !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;}
+.oai-article .oai-matrix-head .oai-matrix-shadow{background-color: #8a6fd0 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;}
+.oai-article .oai-matrix-head .oai-matrix-light{background-color: #f0a830 !important;
+  background-image: none !important;
+  color: #2a1c05 !important;
+  font-weight: 800 !important;}
+.oai-article .oai-link{background-color: #f1edf7 !important;
+  background-image: none !important;
+  border: 1px dashed #8a6fd0 !important;
+  border-radius: 10px !important;
+  padding: 18px 20px !important;
+  margin: 30px 0 26px 0 !important;}
+.oai-article .oai-link-label{background-color: transparent !important;
+  background-image: none !important;
+  color: #6849a8 !important;
+  font-size: 0.8rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  margin: 0 0 8px 0 !important;}
+.oai-article .oai-link-body{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;}
+.oai-article .oai-link-a{color: #5d3aa0 !important;
+  font-weight: 700 !important;
+  font-size: 0.96rem !important;
+  text-decoration: underline !important;}
+.oai-article .oai-disclaimer{font-size: 0.78rem !important;
+  color: #7a8694 !important;
+  line-height: 1.7 !important;
+  border-top: 1px solid #e7e3ee !important;
+  padding-top: 16px !important;
+  margin: 30px 0 0 0 !important;}
+@media (max-width: 600px){.oai-article .oai-stats{grid-template-columns: repeat(2, 1fr) !important;}.oai-article .oai-matrix-row{grid-template-columns: 1fr !important;}.oai-article .oai-matrix-cell{border-bottom: 1px solid #e7e3ee !important;}.oai-article .oai-matrix-row:last-child .oai-matrix-cell:last-child{border-bottom: none !important;}.oai-article .oai-stat-num{font-size: 1.5rem !important;}.oai-article .oai-h2{font-size: 1.2rem !important;}}
+.oai-article{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  color: #1e293b !important;
+  line-height: 1.85 !important;
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.oai-article .oai-kicker{display: inline-block !important;
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  color: #0f766e !important;
+  background-color: #ccfbf1 !important;
+  background-image: none !important;
+  padding: 4px 12px !important;
+  border-radius: 4px !important;
+  margin: 0 0 16px 0 !important;}
+.oai-article .oai-hero{border-bottom: 3px solid #0f2540 !important;
+  padding-bottom: 18px !important;
+  margin-bottom: 22px !important;}
+.oai-article .oai-title{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  line-height: 1.35 !important;
+  color: #0f2540 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 12px 0 !important;}
+.oai-article .oai-dek{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 16px !important;
+  color: #475569 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;}
+.oai-article .oai-chips{list-style: none !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  padding: 0 !important;
+  margin: 0 0 26px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.oai-article .oai-chip{flex: 1 1 180px !important;
+  background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border-left: 4px solid #14b8a6 !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+  margin: 0 !important;}
+.oai-article .oai-chip-label{display: block !important;
+  font-size: 12px !important;
+  color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin-bottom: 3px !important;}
+.oai-article .oai-chip-value{display: block !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #0f2540 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.oai-article .oai-summary{background-color: #0f2540 !important;
+  background-image: none !important;
+  color: #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 24px 26px !important;
+  margin: 0 0 30px 0 !important;}
+.oai-article .oai-summary .oai-summary-head{font-size: 17px !important;
+  font-weight: 700 !important;
+  color: #5eead4 !important;
+  margin: 0 0 14px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.oai-article .oai-summary .oai-summary-list{list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;}
+.oai-article .oai-summary .oai-summary-item{position: relative !important;
+  color: #e2e8f0 !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  padding: 0 0 0 22px !important;
+  margin: 0 0 12px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.oai-article .oai-summary .oai-summary-item:last-child{margin-bottom: 0 !important;}
+.oai-article .oai-summary .oai-summary-item::before{content: "▸" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  color: #2dd4bf !important;}
+.oai-article .oai-terms{background-color: #f8fafc !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 22px 24px !important;
+  margin: 0 0 32px 0 !important;}
+.oai-article .oai-terms .oai-terms-head{font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #0f2540 !important;
+  margin: 0 0 16px 0 !important;}
+.oai-article .oai-terms .oai-terms-list{margin: 0 !important;
+  padding: 0 !important;}
+.oai-article .oai-terms .oai-term{padding: 12px 0 !important;
+  border-bottom: 1px dashed #cbd5e1 !important;}
+.oai-article .oai-terms .oai-term:last-child{border-bottom: none !important;
+  padding-bottom: 0 !important;}
+.oai-article .oai-terms .oai-term-word{font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #0f766e !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 4px 0 !important;}
+.oai-article .oai-terms .oai-term-def{font-size: 14px !important;
+  color: #475569 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;
+  line-height: 1.75 !important;}
+.oai-article .oai-section{margin: 0 0 34px 0 !important;}
+.oai-article .oai-h2{display: flex !important;
+  align-items: center !important;
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  font-size: 21px !important;
+  font-weight: 800 !important;
+  color: #0f2540 !important;
+  line-height: 1.4 !important;
+  margin: 0 0 16px 0 !important;
+  padding-bottom: 10px !important;
+  border-bottom: 2px solid #e2e8f0 !important;}
+.oai-article .oai-h2 .oai-badge{display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 34px !important;
+  height: 34px !important;
+  flex: 0 0 34px !important;
+  margin-right: 12px !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background-color: #14b8a6 !important;
+  background-image: none !important;
+  border-radius: 8px !important;}
+.oai-article .oai-p{font-size: 15.5px !important;
+  color: #334155 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 0 16px 0 !important;}
+.oai-article .oai-note{font-size: 14.5px !important;
+  color: #92400e !important;
+  background-color: #fffbeb !important;
+  background-image: none !important;
+  border-left: 4px solid #f59e0b !important;
+  border-radius: 6px !important;
+  padding: 12px 16px !important;
+  margin: 0 !important;}
+.oai-article .oai-s2 .oai-badge{background-color: #3b82f6 !important;}
+.oai-article .oai-s3 .oai-badge{background-color: #6366f1 !important;}
+.oai-article .oai-s4 .oai-badge{background-color: #8b5cf6 !important;}
+.oai-article .oai-s5 .oai-badge{background-color: #ef4444 !important;}
+.oai-article .oai-s6 .oai-badge{background-color: #0891b2 !important;}
+.oai-article .oai-s7 .oai-badge{background-color: #0f766e !important;}
+.oai-article .oai-fig{margin: 0 0 18px 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.oai-article .oai-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  padding: 8px !important;
+  box-sizing: border-box !important;}
+.oai-article .oai-figcap{font-size: 12.5px !important;
+  color: #64748b !important;
+  margin: 8px 4px 0 4px !important;
+  line-height: 1.6 !important;}
+.oai-article .oai-points{list-style: none !important;
+  counter-reset: oai-pt !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.oai-article .oai-point{counter-increment: oai-pt !important;
+  position: relative !important;
+  background-color: #f8fafc !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  padding: 16px 18px 16px 56px !important;
+  margin: 0 0 12px 0 !important;
+  font-size: 15px !important;
+  color: #334155 !important;}
+.oai-article .oai-point::before{content: counter(oai-pt) !important;
+  position: absolute !important;
+  left: 16px !important;
+  top: 16px !important;
+  width: 28px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background-color: #0f766e !important;
+  background-image: none !important;
+  border-radius: 50% !important;}
+.oai-article .oai-point .oai-point-title{display: block !important;
+  font-weight: 700 !important;
+  color: #0f2540 !important;
+  margin-bottom: 4px !important;}
+.oai-article .oai-disclaimer{margin: 30px 0 0 0 !important;
+  padding: 16px 18px !important;
+  background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border-radius: 8px !important;}
+.oai-article .oai-disclaimer p{font-size: 12.5px !important;
+  color: #64748b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;
+  line-height: 1.7 !important;}
+@media (max-width: 600px){.oai-article .oai-title{font-size: 24px !important;}.oai-article .oai-h2{font-size: 18px !important;}.oai-article .oai-chip{flex: 1 1 100% !important;}}

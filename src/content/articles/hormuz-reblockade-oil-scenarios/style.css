@@ -1,0 +1,174 @@
+.hmz-root{max-width: 760px !important;
+  margin: 0 auto !important;
+  font-family: "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif !important;
+  color: #2d3748 !important;
+  line-height: 1.9 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;}
+.hmz-root .hmz-head{background-color: #1e3a5f !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  padding: 24px 28px !important;
+  border-radius: 8px !important;
+  margin: 0 0 24px 0 !important;
+  filter: none !important;}
+.hmz-root .hmz-head .hmz-badge,.hmz-root .hmz-head .hmz-head-lead,.hmz-root .hmz-head .hmz-head-date{background-color: transparent !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.hmz-root .hmz-badge{display: inline-block !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  border: 1px solid rgba(255, 255, 255, 0.65) !important;
+  border-radius: 999px !important;
+  padding: 3px 14px !important;
+  margin: 0 0 12px 0 !important;}
+.hmz-root .hmz-head-lead{font-size: 15px !important;
+  margin: 0 0 10px 0 !important;
+  line-height: 1.9 !important;}
+.hmz-root .hmz-head-date{font-size: 12px !important;
+  margin: 0 !important;
+  color: #cbd5e1 !important;}
+.hmz-root .hmz-keypoints{background-color: #f1f5f9 !important;
+  background-image: none !important;
+  border-left: 4px solid #1e3a5f !important;
+  border-radius: 0 6px 6px 0 !important;
+  padding: 18px 22px !important;
+  margin: 0 0 28px 0 !important;
+  filter: none !important;}
+.hmz-root .hmz-keypoints .hmz-keypoints-title{font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #1e3a5f !important;
+  margin: 0 0 8px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-h2{font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #1e3a5f !important;
+  border-bottom: 3px solid #1e3a5f !important;
+  padding: 0 0 8px 0 !important;
+  margin: 44px 0 18px 0 !important;
+  line-height: 1.5 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  text-shadow: none !important;
+  filter: none !important;}
+.hmz-root .hmz-p{font-size: 16px !important;
+  margin: 0 0 18px 0 !important;
+  color: #2d3748 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;}
+.hmz-root .hmz-list{margin: 0 0 4px 0 !important;
+  padding: 0 0 0 22px !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-list li{font-size: 15px !important;
+  margin: 0 0 8px 0 !important;
+  color: #2d3748 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;}
+.hmz-root .hmz-figure{background-color: #ffffff !important;
+  background-image: none !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  padding: 16px 12px 10px 12px !important;
+  margin: 0 0 20px 0 !important;
+  filter: none !important;}
+.hmz-root .hmz-figure svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background-color: transparent !important;}
+.hmz-root .hmz-figure svg,.hmz-root .hmz-figure svg *{filter: none !important;
+  opacity: 1 !important;}
+.hmz-root .hmz-figcap{font-size: 12px !important;
+  color: #64748b !important;
+  margin: 8px 4px 4px 4px !important;
+  line-height: 1.7 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-note{background-color: #fbf7ec !important;
+  background-image: none !important;
+  border: 1px solid #d9c68f !important;
+  border-radius: 8px !important;
+  padding: 18px 22px !important;
+  margin: 0 0 20px 0 !important;
+  filter: none !important;}
+.hmz-root .hmz-note .hmz-note-title{font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #8a6d1a !important;
+  margin: 0 0 10px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-note .hmz-list li{background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-scn{border-radius: 8px !important;
+  padding: 16px 20px 6px 20px !important;
+  margin: 0 0 14px 0 !important;
+  background-image: none !important;
+  filter: none !important;}
+.hmz-root .hmz-scn-a{background-color: #eef6f0 !important;
+  border: 1px solid #1e8449 !important;}
+.hmz-root .hmz-scn-b{background-color: #fdf6e9 !important;
+  border: 1px solid #b9770e !important;}
+.hmz-root .hmz-scn-c{background-color: #fdeceb !important;
+  border: 1px solid #c0392b !important;}
+.hmz-root .hmz-scn .hmz-scn-title{font-size: 15px !important;
+  font-weight: 700 !important;
+  margin: 0 0 8px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-scn-a .hmz-scn-title{color: #14532d !important;}
+.hmz-root .hmz-scn-b .hmz-scn-title{color: #8a5a0a !important;}
+.hmz-root .hmz-scn-c .hmz-scn-title{color: #7f1d1d !important;}
+.hmz-root .hmz-scn .hmz-p{font-size: 15px !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-warn{background-color: #fff7f6 !important;
+  background-image: none !important;
+  border: 2px solid #c0392b !important;
+  border-radius: 8px !important;
+  padding: 18px 22px !important;
+  margin: 18px 0 20px 0 !important;
+  filter: none !important;}
+.hmz-root .hmz-warn .hmz-warn-title{font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #c0392b !important;
+  margin: 0 0 10px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-warn .hmz-list li{background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-crosslink{border: 2px dashed #94a3b8 !important;
+  border-radius: 8px !important;
+  padding: 14px 20px !important;
+  margin: 28px 0 20px 0 !important;
+  background-color: #f8fafc !important;
+  background-image: none !important;}
+.hmz-root .hmz-crosslink .hmz-crosslink-label{font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #475569 !important;
+  margin: 0 0 6px 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-crosslink .hmz-crosslink-text{font-size: 14px !important;
+  color: #475569 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.hmz-root .hmz-disclaimer{font-size: 12px !important;
+  color: #64748b !important;
+  border-top: 1px solid #e2e8f0 !important;
+  padding: 14px 0 0 0 !important;
+  margin: 28px 0 0 0 !important;
+  line-height: 1.8 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+@media (max-width: 480px){.hmz-root .hmz-head{padding: 18px 16px !important;}.hmz-root .hmz-h2{font-size: 19px !important;
+    margin: 36px 0 14px 0 !important;}.hmz-root .hmz-p{font-size: 15px !important;}.hmz-root .hmz-keypoints,
+  .hmz-root .hmz-note,
+  .hmz-root .hmz-warn{padding: 14px 14px !important;}.hmz-root .hmz-figure{padding: 10px 6px 6px 6px !important;}}

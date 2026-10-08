@@ -1,0 +1,183 @@
+.orc-article{max-width: 820px;
+  margin: 0 auto;
+  color: #1f2c38 !important;
+  line-height: 1.85;
+  font-feature-settings: "palt" 1;
+  -webkit-font-smoothing: antialiased;}
+.orc-article .orc-p{font-size: 16px;
+  margin: 0 0 1.4em 0;
+  color: #28333d !important;}
+.orc-article .orc-p strong{color: #0c1f2e !important;
+  font-weight: 700;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-h2{font-size: 22px;
+  font-weight: 800;
+  color: #13293d !important;
+  margin: 2.2em 0 0.9em 0;
+  padding: 0 0 0 14px;
+  border-left: 6px solid #d97706;
+  line-height: 1.4;}
+.orc-article .orc-h3{font-size: 18px;
+  font-weight: 700;
+  color: #9a5b00 !important;
+  margin: 1.9em 0 0.7em 0;
+  padding: 0 0 6px 0;
+  border-bottom: 2px solid #ead9c2;
+  line-height: 1.5;}
+.orc-article .orc-hero{background-color: #13293d !important;
+  background-image: linear-gradient(135deg, #13293d 0%, #28201a 100%) !important;
+  border-radius: 14px;
+  padding: 34px 30px 30px 30px;
+  margin: 0 0 30px 0;
+  box-shadow: 0 8px 26px rgba(19,41,61,0.22);}
+.orc-article .orc-hero-tag{display: inline-block;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #13293d !important;
+  background-color: #f2a900 !important;
+  background-image: none !important;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin: 0 0 16px 0;}
+.orc-article .orc-hero-title{font-size: 34px;
+  font-weight: 800;
+  color: #ffffff !important;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-hero-lead{font-size: 15.5px;
+  color: #e6d9c6 !important;
+  margin: 0 0 24px 0;
+  line-height: 1.75;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-hero-stats{display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-hero-stat{flex: 1 1 160px;
+  background-color: rgba(255,255,255,0.07) !important;
+  background-image: none !important;
+  border: 1px solid rgba(242,169,0,0.35);
+  border-radius: 9px;
+  padding: 14px 16px;}
+.orc-article .orc-hero-stat-num{display: block;
+  font-size: 26px;
+  font-weight: 800;
+  color: #f2a900 !important;
+  line-height: 1.1;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-hero-stat-unit{font-size: 14px;
+  font-weight: 700;
+  color: #f2a900 !important;
+  margin-left: 2px;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-hero-stat-label{display: block;
+  font-size: 12px;
+  color: #c4b6a3 !important;
+  margin-top: 8px;
+  line-height: 1.5;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-summary{background-color: #102733 !important;
+  background-image: linear-gradient(180deg, #102733 0%, #16313f 100%) !important;
+  border-radius: 12px;
+  border-left: 5px solid #d97706;
+  padding: 24px 26px;
+  margin: 30px 0;}
+.orc-article .orc-summary-head{font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #f2a900 !important;
+  margin: 0 0 14px 0;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-summary-list{margin: 0;
+  padding: 0 0 0 2px;
+  list-style: none;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-summary-item{position: relative;
+  font-size: 14.5px;
+  color: #e3edf3 !important;
+  padding: 0 0 0 22px;
+  margin: 0 0 13px 0;
+  line-height: 1.7;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-summary-item:last-child{margin-bottom: 0;}
+.orc-article .orc-summary-item::before{content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #d97706 !important;
+  background-image: none !important;}
+.orc-article .orc-summary-item strong{color: #ffffff !important;
+  font-weight: 700;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-figure{margin: 26px 0;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  border: 1px solid #e1e7ec;
+  border-radius: 12px;
+  padding: 18px 18px 14px 18px;
+  box-shadow: 0 3px 12px rgba(19,41,61,0.06);}
+.orc-article .orc-figcap{font-size: 14px;
+  font-weight: 700;
+  color: #13293d !important;
+  margin: 0 0 12px 0;
+  padding: 0 0 0 10px;
+  border-left: 4px solid #d97706;}
+.orc-article .orc-svg-wrap{width: 100%;
+  overflow-x: auto;}
+.orc-article .orc-svg-wrap svg{display: block;
+  width: 100%;
+  height: auto;
+  min-width: 480px;}
+.orc-article .orc-fignote{font-size: 12px;
+  color: #5a6772 !important;
+  margin: 12px 0 0 0;
+  line-height: 1.65;
+  padding: 10px 12px 0 12px;
+  border-top: 1px dashed #ead9c2;}
+.orc-article .orc-takeaway{background-color: #13293d !important;
+  background-image: linear-gradient(135deg, #13293d 0%, #2a2018 100%) !important;
+  border-radius: 14px;
+  padding: 26px 28px;
+  margin: 32px 0 22px 0;
+  border-top: 4px solid #f2a900;}
+.orc-article .orc-takeaway-head{font-size: 16px;
+  font-weight: 800;
+  color: #f2a900 !important;
+  margin: 0 0 12px 0;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-takeaway-text{font-size: 15px;
+  color: #e3edf3 !important;
+  margin: 0;
+  line-height: 1.85;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-takeaway-text strong{color: #ffffff !important;
+  font-weight: 700;
+  background-color: transparent !important;
+  background-image: none !important;}
+.orc-article .orc-disclaimer{font-size: 11.5px;
+  color: #7a8893 !important;
+  margin: 18px 0 0 0;
+  line-height: 1.6;
+  padding: 12px 14px;
+  background-color: #f6f4f1 !important;
+  background-image: none !important;
+  border-radius: 8px;}
+@media (max-width: 600px){.orc-article .orc-hero{padding: 26px 20px 22px 20px;}.orc-article .orc-hero-title{font-size: 26px;}.orc-article .orc-hero-stat-num{font-size: 22px;}.orc-article .orc-h2{font-size: 20px;}.orc-article .orc-h3{font-size: 16.5px;}.orc-article .orc-p{font-size: 15px;}}

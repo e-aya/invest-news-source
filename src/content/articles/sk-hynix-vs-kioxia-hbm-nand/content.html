@@ -1,0 +1,325 @@
+<div class="hxk-article">
+
+<div class="hxk-lede">
+<p class="hxk-lede-p">SKハイニックスとキオクシア。どちらも「AI需要でメモリが足りない」という同じ追い風の中にいて、どちらも過去最高益を更新し続けているのだ。ところが2026年7月13日、SKハイニックスは<strong>たった1日で15%下落</strong>した。理由は「営業利益が市場予想を8%下回りそうだから」——予想値そのものは前年同期比<strong>5.5倍</strong>という数字だったにもかかわらず、である。</p>
+<p class="hxk-lede-p">同じ日、キオクシアは続伸していた。この非対称は偶然ではない。両社の収益構造は、AI需要という入口を共有しながら、<strong>「価格の決まり方」という一点で決定的に分岐している</strong>。本記事はその分岐点を分解する。</p>
+</div>
+
+<div class="hxk-meta">
+<dl class="hxk-meta-dl">
+<dt class="hxk-meta-dt">対象</dt><dd class="hxk-meta-dd">SKハイニックス（000660 / NASDAQ: SKHY）、キオクシアHD（285A）</dd>
+<dt class="hxk-meta-dt">想定読者</dt><dd class="hxk-meta-dd">中級（メモリ業界の基礎はある前提）</dd>
+<dt class="hxk-meta-dt">データ基準日</dt><dd class="hxk-meta-dd">2026年7月15日</dd>
+</dl>
+</div>
+
+<h2 class="hxk-h2">1. まず地図：AIサーバーの中でメモリはどこに座っているか</h2>
+
+<p class="hxk-p">「AIメモリ」と一括りにされがちだが、AIサーバー1台の中でHBM・サーバーDRAM・エンタープライズSSD（eSSD）は<strong>物理的にも経済的にも別の階層</strong>に座っている。ここを分けないと、両社の比較そのものが成立しない。</p>
+
+<div class="hxk-figwrap">
+<svg class="hxk-fig" viewBox="0 0 800 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AIサーバー内のメモリ階層とサプライヤーの対応図">
+<title>図1：AIサーバーのメモリ階層バリューチェーン分解</title>
+<rect class="hxk-s-bg" x="0" y="0" width="800" height="470" rx="10"></rect>
+<text class="hxk-s-ttl" x="28" y="38">図1｜AIサーバー1台の中のメモリ階層と、誰が供給しているか</text>
+<text class="hxk-s-cap" x="28" y="60">上に行くほど「GPUに近い・単価が高い・供給者が少ない」</text>
+<rect class="hxk-s-col" x="28" y="80" width="176" height="30" rx="4"></rect>
+<text class="hxk-s-colh" x="40" y="100">階層</text>
+<rect class="hxk-s-col" x="212" y="80" width="182" height="30" rx="4"></rect>
+<text class="hxk-s-colh" x="224" y="100">役割</text>
+<rect class="hxk-s-col" x="402" y="80" width="176" height="30" rx="4"></rect>
+<text class="hxk-s-colh" x="414" y="100">主要供給者</text>
+<rect class="hxk-s-col" x="586" y="80" width="186" height="30" rx="4"></rect>
+<text class="hxk-s-colh" x="598" y="100">価格の決まり方</text>
+<rect class="hxk-s-hbm" x="28" y="122" width="176" height="92" rx="6"></rect>
+<text class="hxk-s-tinv" x="42" y="150">HBM</text>
+<text class="hxk-s-tinvs" x="42" y="172">GPUに直付けの積層DRAM</text>
+<text class="hxk-s-tinvs" x="42" y="192">単価：数十万円／GPU</text>
+<text class="hxk-s-p" x="224" y="150">GPUが今まさに使う</text>
+<text class="hxk-s-p" x="224" y="170">データを超高速で供給</text>
+<text class="hxk-s-ps" x="224" y="192">帯域がボトルネック</text>
+<text class="hxk-s-em1" x="414" y="150">SKハイニックス 約58%</text>
+<text class="hxk-s-p" x="414" y="170">サムスン／マイクロン</text>
+<text class="hxk-s-ps" x="414" y="192">実質3社の寡占</text>
+<text class="hxk-s-hi" x="598" y="150">複数年の長期契約</text>
+<text class="hxk-s-ps" x="598" y="170">顧客と共同開発、</text>
+<text class="hxk-s-ps" x="598" y="188">価格は事前に固定</text>
+<text class="hxk-s-ps" x="598" y="206">→ 市況高騰が乗りにくい</text>
+<rect class="hxk-s-dram" x="28" y="224" width="176" height="86" rx="6"></rect>
+<text class="hxk-s-tinv" x="42" y="252">サーバーDRAM</text>
+<text class="hxk-s-tinvs" x="42" y="274">大容量モジュール</text>
+<text class="hxk-s-tinvs" x="42" y="294">単価：中〜高</text>
+<text class="hxk-s-p" x="224" y="252">CPU側の作業領域</text>
+<text class="hxk-s-p" x="224" y="272">HBMの外側を支える</text>
+<text class="hxk-s-ps" x="224" y="294">汎用性が高い</text>
+<text class="hxk-s-em1" x="414" y="252">SKハイニックス</text>
+<text class="hxk-s-p" x="414" y="272">サムスン／マイクロン</text>
+<text class="hxk-s-ps" x="414" y="294">DRAM3強</text>
+<text class="hxk-s-hi2" x="598" y="252">四半期の大口契約</text>
+<text class="hxk-s-ps" x="598" y="272">26年1-3月は前期比</text>
+<text class="hxk-s-ps" x="598" y="290">＋90〜95%（TrendForce）</text>
+<rect class="hxk-s-nand" x="28" y="320" width="176" height="92" rx="6"></rect>
+<text class="hxk-s-tinv" x="42" y="348">eSSD（NAND）</text>
+<text class="hxk-s-tinvs" x="42" y="370">大容量ストレージ</text>
+<text class="hxk-s-tinvs" x="42" y="390">単価：容量あたり最安</text>
+<text class="hxk-s-p" x="224" y="348">学習データ・推論の</text>
+<text class="hxk-s-p" x="224" y="368">参照元を長期保存</text>
+<text class="hxk-s-ps" x="224" y="390">推論拡大で需要急増</text>
+<text class="hxk-s-em2" x="414" y="348">キオクシア 約15%</text>
+<text class="hxk-s-p" x="414" y="368">サムスン／SK／マイクロン</text>
+<text class="hxk-s-ps" x="414" y="390">サンディスク／YMTC</text>
+<text class="hxk-s-hi3" x="598" y="348">短期契約・市況連動</text>
+<text class="hxk-s-ps" x="598" y="368">26年1-3月は前期比</text>
+<text class="hxk-s-ps" x="598" y="386">＋55〜60%、4-6月は</text>
+<text class="hxk-s-ps" x="598" y="404">＋70〜75%予想</text>
+<rect class="hxk-s-note" x="28" y="424" width="744" height="32" rx="6"></rect>
+<text class="hxk-s-noteT" x="42" y="445">キオクシアはこの3階層のうち一番下の1段だけを、専業として担っている。ここが強みであり、同時にリスクでもあるのだ。</text>
+</svg>
+</div>
+
+<p class="hxk-p">図1で押さえてほしいのは右端の列である。<strong>HBMは「長期契約」、NANDは「市況連動」</strong>——この違いが、以降のすべての差を生んでいる。</p>
+
+<h2 class="hxk-h2">2. 規模と利益率：数字で見る両社の現在地</h2>
+
+<p class="hxk-p">まず事実を並べる。SKハイニックスの2026年1〜3月期は、売上高が前年同期比3.0倍の52兆5,763億ウォン、営業利益が同5.1倍の37兆6,103億ウォン、営業利益率は72%と過去最高だった。この72%という営業利益率は、NVIDIAの65%を上回り、半導体製造業の過去最高記録を更新している。</p>
+
+<p class="hxk-p">一方キオクシアは、2026年3月期通期で売上収益2兆3,376億円（前期比+37%）、営業利益8,704億円（同+93%）、当期利益5,545億円（同+104%）。通期の営業利益率は37.2%だが、第4四半期（2026年1〜3月）単体では売上収益1兆29億円に対し営業利益5,968億円、営業利益率60%という数字を出している。</p>
+
+<div class="hxk-figwrap">
+<svg class="hxk-fig" viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SKハイニックスとキオクシアの売上・利益構造比較">
+<title>図2：両社の売上・利益構成比較</title>
+<rect class="hxk-s-bg" x="0" y="0" width="800" height="540" rx="10"></rect>
+<text class="hxk-s-ttl" x="28" y="38">図2｜規模は約6倍差、利益率は接近。ただし中身が違う</text>
+<text class="hxk-s-cap" x="28" y="60">SKハイニックス＝2026年1-3月期実績／キオクシア＝2026年1-3月期（FY3/26 Q4）実績</text>
+<rect class="hxk-s-cardA" x="28" y="80" width="360" height="248" rx="8"></rect>
+<text class="hxk-s-cardTA" x="48" y="110">SKハイニックス</text>
+<text class="hxk-s-cardSub" x="48" y="132">DRAM・HBM・NANDの総合メモリ</text>
+<text class="hxk-s-lbl" x="48" y="166">四半期売上高</text>
+<text class="hxk-s-numA" x="48" y="196">52.6兆ウォン</text>
+<text class="hxk-s-unit" x="200" y="196">≒ 約5.8兆円</text>
+<text class="hxk-s-lbl" x="48" y="228">四半期営業利益</text>
+<text class="hxk-s-numA" x="48" y="258">37.6兆ウォン</text>
+<text class="hxk-s-unit" x="200" y="258">前年同期比 5.1倍</text>
+<text class="hxk-s-lbl" x="48" y="290">営業利益率</text>
+<text class="hxk-s-bigA" x="48" y="318">72%</text>
+<text class="hxk-s-unit" x="132" y="318">NVIDIAの65%を上回る</text>
+<rect class="hxk-s-cardB" x="412" y="80" width="360" height="248" rx="8"></rect>
+<text class="hxk-s-cardTB" x="432" y="110">キオクシアHD</text>
+<text class="hxk-s-cardSub" x="432" y="132">NAND専業（世界シェア約15%・3位前後）</text>
+<text class="hxk-s-lbl" x="432" y="166">四半期売上収益</text>
+<text class="hxk-s-numB" x="432" y="196">1.00兆円</text>
+<text class="hxk-s-unit" x="556" y="196">SKの約6分の1</text>
+<text class="hxk-s-lbl" x="432" y="228">四半期営業利益</text>
+<text class="hxk-s-numB" x="432" y="258">5,968億円</text>
+<text class="hxk-s-unit" x="556" y="258">粗利率は70%</text>
+<text class="hxk-s-lbl" x="432" y="290">営業利益率</text>
+<text class="hxk-s-bigB" x="432" y="318">60%</text>
+<text class="hxk-s-unit" x="516" y="318">NAND史上でも異例</text>
+<text class="hxk-s-ttl2" x="28" y="362">キオクシアの営業利益率は、直近5年でこれだけ振れている（年度ベース）</text>
+<line class="hxk-s-axis" x1="72" y1="440" x2="760" y2="440"></line>
+<text class="hxk-s-tick" x="30" y="384">+60</text>
+<text class="hxk-s-tick" x="30" y="444">0</text>
+<text class="hxk-s-tick" x="30" y="478">-30</text>
+<rect class="hxk-s-barP" x="96" y="426" width="88" height="14" rx="2"></rect>
+<text class="hxk-s-barV" x="96" y="418">+14%</text>
+<text class="hxk-s-barL" x="96" y="510">FY21</text>
+<rect class="hxk-s-barN" x="234" y="440" width="88" height="8" rx="2"></rect>
+<text class="hxk-s-barVn" x="234" y="464">-8%</text>
+<text class="hxk-s-barL" x="234" y="510">FY22</text>
+<rect class="hxk-s-barN" x="372" y="440" width="88" height="24" rx="2"></rect>
+<text class="hxk-s-barVn" x="372" y="482">-24%</text>
+<text class="hxk-s-barL" x="372" y="510">FY23</text>
+<rect class="hxk-s-barP" x="510" y="414" width="88" height="26" rx="2"></rect>
+<text class="hxk-s-barV" x="510" y="406">+26%</text>
+<text class="hxk-s-barL" x="510" y="510">FY24</text>
+<rect class="hxk-s-barH" x="648" y="403" width="88" height="37" rx="2"></rect>
+<text class="hxk-s-barV" x="648" y="395">+37.2%</text>
+<text class="hxk-s-barL" x="648" y="510">FY25</text>
+<text class="hxk-s-cap" x="96" y="530">同じ会社が、4年で -24% から +37% まで動く。これがNAND専業の振れ幅なのだ。</text>
+</svg>
+</div>
+
+<p class="hxk-p">規模はSKハイニックスがキオクシアの<strong>約6倍</strong>。だが四半期の営業利益率で見ると72%対60%と、意外にも差は12ポイントしかない。「HBMという最先端製品を持つ側が圧倒的に儲かっているはずだ」という直感は、この時点で少し揺らぐ。</p>
+
+<p class="hxk-p">そして図2下段が示すのは、キオクシアの利益率の<strong>振れ幅</strong>である。2021年度は営業利益率14%、市況悪化した2022年度は-8%、さらに厳しかった2023年度は-24%まで落ち込み、四半期では2022年度第4四半期に-70%に達している。今の60%は、この同じ会社が出している数字なのだ。</p>
+
+<h2 class="hxk-h2">3. 分岐点：HBMの長期契約は「上限」でもある</h2>
+
+<p class="hxk-p">ここが本記事の核心である。冒頭の15%急落の中身を見てほしい。</p>
+
+<div class="hxk-callout">
+<p class="hxk-callout-h">2026年7月13日に何が起きたか</p>
+<p class="hxk-callout-p">韓国投資証券（KIS）はSKハイニックスの第2四半期について、売上高80.9兆ウォン（前期比+54%、前年同期比+264%）、営業利益60.4兆ウォン（前期比+61%、前年同期比+556%）と予想した。しかし営業利益が65兆ウォンという市場コンセンサスを約8%下回ったことで、投資家の不安に火がついた。</p>
+<p class="hxk-callout-p">KISが第2四半期の総合DRAM平均販売価格（ASP）の前期比上昇率の前提を50%から28.9%に引き下げたことが、利益予想引き下げの直接的な要因である。</p>
+</div>
+
+<p class="hxk-p">では、なぜASPの前提が下がったのか。ここが直感に反する。KISは第2四半期のDRAM単体・NAND単体の平均販売価格をそれぞれ前期比約30%・50%上昇すると予測しながら、SKハイニックス全体のASP上昇率は<strong>HBMの契約価格によって大幅に抑制される</strong>と予測したのだ。</p>
+
+<p class="hxk-p">つまり<strong>HBM比率が高いことが、市況高騰局面ではASPの足を引っ張る</strong>。HBMは顧客（実質的にNVIDIA）と設計段階から共同開発し、複数年契約で価格を先に決めている。決めた瞬間は素晴らしい条件でも、その後DRAM市況が90%高騰しても、契約価格は動かない。市況が跳ねた分は顧客側の取り分になる。</p>
+
+<p class="hxk-p">キオクシアは逆である。2026年度第1四半期のガイダンスは売上高最大1兆7,500億円、営業利益1兆2,980億円で、四半期営業利益がさらに117.5%増加することを意味する。純利益は前年同期比約48倍の8,690億円という数字だ。前期1年分の営業利益8,704億円を、今期は<strong>第1四半期の3カ月だけで超える</strong>計算になる。</p>
+
+<p class="hxk-p">この爆発力の源は、NAND価格がほぼそのまま損益に流れ込む構造にある。TrendForceは2026年第2四半期のNAND大口契約価格が前四半期比でさらに70%から75%上昇する可能性があると予測している。契約で天井を作っていない分、上昇がフルスロットルで乗る。</p>
+
+<div class="hxk-box">
+<p class="hxk-box-h">分岐点の整理</p>
+<ul class="hxk-ul">
+<li class="hxk-li"><strong>SKハイニックス</strong>＝長期契約による<em class="hxk-em">平坦化</em>。高い利益率を「長く」維持する構造。上限も自分で作っている。</li>
+<li class="hxk-li"><strong>キオクシア</strong>＝市況直結による<em class="hxk-em">尖鋭化</em>。上振れも下振れも増幅する構造。天井も床もない。</li>
+</ul>
+<p class="hxk-box-p">同じAI需要でも、投資家が買っているものが違う。前者は「収益の持続期間」、後者は「価格スパイクの取り分」なのだ。</p>
+</div>
+
+<p class="hxk-p">興味深いのは、この構造変化を市場自身がまだ消化しきれていない点である。KISは、メモリ業界が3〜5年の長期供給契約へ移行するにつれて企業価値の核心的な推進力が「単四半期のASP上昇率」から「高い収益性を維持できる期間」へシフトすると指摘した。長期契約は短期的な価格の爆発力を制限するものの、収益の安定性を高め、メモリ産業が長年抱えてきた激しい変動性を低下させる。その上でKISは、SKハイニックスの2026年・2027年の営業利益予想をそれぞれ9%・11%下方修正しつつ、目標株価380万ウォンと「買い」判断は維持している。</p>
+
+<p class="hxk-p">下方修正しながら目標株価を維持する——これは矛盾ではなく、<strong>評価軸そのものを組み替えている</strong>のだ。15%売られたのは、市場がまだ旧来の「ASP上昇率＝株価」という軸で見ていたからだと解釈できる。</p>
+
+<h2 class="hxk-h2">4. サイクルのどこにいるのか</h2>
+
+<p class="hxk-p">では今はどこか。年表で位置を確認する。</p>
+
+<div class="hxk-figwrap">
+<svg class="hxk-fig" viewBox="0 0 800 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HBMとNANDの需給サイクル年表">
+<title>図3：HBM／NAND需給サイクル年表</title>
+<rect class="hxk-s-bg" x="0" y="0" width="800" height="430" rx="10"></rect>
+<text class="hxk-s-ttl" x="28" y="38">図3｜メモリ需給サイクル年表：どん底から3年でここまで来た</text>
+<text class="hxk-s-cap" x="28" y="60">現在地は「供給が動けないまま需要だけが伸びている」局面</text>
+<rect class="hxk-s-now" x="418" y="86" width="152" height="290" rx="6"></rect>
+<line class="hxk-s-tl" x1="60" y1="230" x2="750" y2="230"></line>
+<line class="hxk-s-tick2" x1="100" y1="222" x2="100" y2="238"></line>
+<text class="hxk-s-yr" x="100" y="258">2023</text>
+<line class="hxk-s-tick2" x1="228" y1="222" x2="228" y2="238"></line>
+<text class="hxk-s-yr" x="228" y="258">2024</text>
+<line class="hxk-s-tick2" x1="356" y1="222" x2="356" y2="238"></line>
+<text class="hxk-s-yr" x="356" y="258">2025</text>
+<line class="hxk-s-tick3" x1="494" y1="222" x2="494" y2="238"></line>
+<text class="hxk-s-yrNow" x="494" y="258">2026</text>
+<line class="hxk-s-tick2" x1="632" y1="222" x2="632" y2="238"></line>
+<text class="hxk-s-yr" x="632" y="258">2027</text>
+<line class="hxk-s-tick2" x1="740" y1="222" x2="740" y2="238"></line>
+<text class="hxk-s-yr" x="740" y="258">28</text>
+<text class="hxk-s-lane" x="60" y="100">上：需要側</text>
+<circle class="hxk-s-dotH" cx="100" cy="150" r="6"></circle>
+<text class="hxk-s-evt" x="84" y="132">AI学習始動</text>
+<text class="hxk-s-evts" x="84" y="118">HBM需要点火</text>
+<circle class="hxk-s-dotH" cx="228" cy="150" r="6"></circle>
+<text class="hxk-s-evt" x="212" y="132">HBM3E量産</text>
+<text class="hxk-s-evts" x="212" y="118">GPU大量出荷</text>
+<circle class="hxk-s-dotH" cx="356" cy="150" r="6"></circle>
+<text class="hxk-s-evt" x="330" y="132">推論へ拡大</text>
+<text class="hxk-s-evts" x="330" y="118">eSSD点火</text>
+<circle class="hxk-s-dotHi" cx="494" cy="150" r="7"></circle>
+<text class="hxk-s-evtHi" x="432" y="132">AIサーバー支出</text>
+<text class="hxk-s-evts" x="432" y="118">＋49%（Gartner）</text>
+<circle class="hxk-s-dotH" cx="632" cy="150" r="6"></circle>
+<text class="hxk-s-evt" x="606" y="132">伸び率は鈍化へ</text>
+<text class="hxk-s-evts" x="606" y="118">（Gartner予測）</text>
+<text class="hxk-s-lane" x="60" y="300">下：供給側と価格</text>
+<circle class="hxk-s-dotL" cx="100" cy="330" r="6"></circle>
+<text class="hxk-s-evtN" x="84" y="352">NAND暴落</text>
+<text class="hxk-s-evtsN" x="84" y="368">キオクシア-24%</text>
+<circle class="hxk-s-dotL" cx="228" cy="330" r="6"></circle>
+<text class="hxk-s-evtN" x="212" y="352">価格底打ち</text>
+<text class="hxk-s-evtsN" x="212" y="368">減産で調整</text>
+<circle class="hxk-s-dotL" cx="356" cy="330" r="6"></circle>
+<text class="hxk-s-evtN" x="330" y="352">回復基調</text>
+<text class="hxk-s-evtsN" x="330" y="368">在庫正常化</text>
+<circle class="hxk-s-dotLi" cx="494" cy="330" r="7"></circle>
+<text class="hxk-s-evtHi2" x="432" y="352">新規能力ほぼ増えず</text>
+<text class="hxk-s-evtsN" x="432" y="368">DRAM+90%/NAND+55%</text>
+<text class="hxk-s-evtsN" x="432" y="384">生産枠は「完売」状態</text>
+<circle class="hxk-s-dotL" cx="632" cy="330" r="6"></circle>
+<text class="hxk-s-evtN" x="606" y="352">増設分が立ち上がり</text>
+<text class="hxk-s-evtsN" x="606" y="368">需給ギャップ縮小へ</text>
+<rect class="hxk-s-note" x="28" y="392" width="744" height="26" rx="6"></rect>
+<text class="hxk-s-noteT" x="42" y="410">鍵は「2026年に新規生産能力がほぼ増えない」こと。設備は発注から稼働まで2〜3年。今の需給は物理的に動かせないのだ。</text>
+</svg>
+</div>
+
+<p class="hxk-p">図3の要点は中央の帯である。TrendForceは、主要NANDメーカー各社が2026年に新規生産能力をほぼ拡大しない見通しであり、旺盛なAI需要を背景に年間を通じて供給不足が予想されると指摘した。マイクロンのCEOは、新規設備が稼働するのは早くとも2028年になるため、需給の逼迫が短期的に緩和されることは難しいと警告している。</p>
+
+<p class="hxk-p">半導体工場は「明日から増産」ができない。この物理的制約が、2026年の異常な利益率を支えている。裏を返せば、<strong>2027〜2028年に増設分が立ち上がった瞬間が、このサイクルの分水嶺</strong>ということでもある。SKハイニックスの清州および龍仁における新規生産能力は2027年半ばまでに大量投入される。ガートナーの予測では世界のAIサーバー支出は2026年に約49%増加するが、その後は成長率が徐々に鈍化する見通しで、その頃には需給ギャップが大幅に縮小しHBMの単価は下落圧力に直面する可能性がある。</p>
+
+<h2 class="hxk-h2">5. シナリオ分岐：キオクシアの株価は何を織り込んでいるか</h2>
+
+<p class="hxk-p">2026年7月15日終値でキオクシアは<strong>73,100円</strong>。52週レンジは2,270円〜112,700円という、上場企業としては常軌を逸したボラティリティである。時価総額は6月16日に初の50兆円、6月22日には一時60兆円を超えた後、直近は調整している。</p>
+
+<p class="hxk-p">問題は、キオクシアが2027年3月期通期の業績予想を、中東情勢をはじめとする地政学リスクや市場環境の不安定化を踏まえて公表を見送ったことだ。会社が数字を出さない以上、市場は自分でシナリオを引くしかない。</p>
+
+<div class="hxk-figwrap">
+<svg class="hxk-fig" viewBox="0 0 800 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="キオクシアのFY3/27シナリオ分岐図">
+<title>図4：キオクシア FY3/27 シナリオ分岐</title>
+<rect class="hxk-s-bg" x="0" y="0" width="800" height="470" rx="10"></rect>
+<text class="hxk-s-ttl" x="28" y="38">図4｜キオクシア FY3/27 シナリオ分岐（会社は通期予想を非開示）</text>
+<text class="hxk-s-cap" x="28" y="60">分岐の起点は「Q1営業利益1兆2,980億円ガイダンスの達成可否」の一点</text>
+<rect class="hxk-s-root" x="28" y="196" width="150" height="76" rx="6"></rect>
+<text class="hxk-s-rootT" x="44" y="224">現在地</text>
+<text class="hxk-s-rootS" x="44" y="244">73,100円</text>
+<text class="hxk-s-rootS" x="44" y="262">時価総額 約38兆円</text>
+<line class="hxk-s-br" x1="178" y1="234" x2="230" y2="234"></line>
+<line class="hxk-s-br" x1="230" y1="120" x2="230" y2="380"></line>
+<line class="hxk-s-br" x1="230" y1="120" x2="272" y2="120"></line>
+<line class="hxk-s-br" x1="230" y1="234" x2="272" y2="234"></line>
+<line class="hxk-s-br" x1="230" y1="380" x2="272" y2="380"></line>
+<rect class="hxk-s-scBull" x="272" y="84" width="500" height="76" rx="6"></rect>
+<text class="hxk-s-scT" x="292" y="110">強気：AI投資が2027年も継続、供給は増えない</text>
+<text class="hxk-s-scP" x="292" y="132">Q1ガイダンス超過→通期純利益はコンセンサス2.8兆円圏。利益率60%超が持続</text>
+<text class="hxk-s-scP" x="292" y="152">検証材料：7/31発表のQ1決算、第10世代332層BiCSの量産時期</text>
+<rect class="hxk-s-scBase" x="272" y="198" width="500" height="76" rx="6"></rect>
+<text class="hxk-s-scT2" x="292" y="224">中立：需給逼迫は続くが、ASP上昇ペースが鈍化</text>
+<text class="hxk-s-scP" x="292" y="246">利益は高水準だが伸び率は減速。市場の関心が「額」から「持続期間」へ移行</text>
+<text class="hxk-s-scP" x="292" y="266">検証材料：ハイパースケーラーの長期契約（LTA）締結の進み具合</text>
+<rect class="hxk-s-scBear" x="272" y="344" width="500" height="76" rx="6"></rect>
+<text class="hxk-s-scT3" x="292" y="370">弱気：2027年の増設波＋AI投資の減速が同時に来る</text>
+<text class="hxk-s-scP" x="292" y="392">NAND価格反落。専業ゆえに逃げ場なし。過去2期の赤字がその前例</text>
+<text class="hxk-s-scP" x="292" y="412">検証材料：サムスン・SKのNAND増産計画、CSPの設備投資ガイダンス</text>
+<rect class="hxk-s-note" x="28" y="434" width="744" height="26" rx="6"></rect>
+<text class="hxk-s-noteT" x="42" y="452">アナリスト平均目標株価は113,300円（7/13時点）。ただし全員が強気という状態は、それ自体がリスク要因でもあるのだ。</text>
+</svg>
+</div>
+
+<p class="hxk-p">2026年7月13日時点のアナリストコンセンサスは「買い」で、内訳は強気買い9人、買い5人、中立1人、売り1人、平均目標株価は113,300円。ゴールドマン・サックスは7月1日に目標株価を11.6万円に引き上げている。</p>
+
+<p class="hxk-p">ここで冷静になりたいのは、キオクシアの強みと弱みが完全に同一の源泉から来ているという点だ。NAND専業という選択が、好況期には爆発的な利益成長を生み、不況期には集中リスクとして直撃する。キオクシアとサンディスクはNAND上昇サイクルのピークにおいてプレミアム価格の恩恵を享受しているが、サイクルが反転した際には最も急激な落ち込みに直面することになるという指摘は、構造的に正しい。</p>
+
+<h2 class="hxk-h2">6. 投資家としての読み分け</h2>
+
+<div class="hxk-cmp">
+<div class="hxk-cmp-col hxk-cmp-a">
+<p class="hxk-cmp-h">SKハイニックスを見るなら</p>
+<ul class="hxk-ul">
+<li class="hxk-li"><strong>見るべき指標</strong>：HBM4の量産進捗と、サムスンのHBM4歩留まり。サムスンのHBM4歩留まりは60%を下回る一方、SKハイニックスの1c DRAMは80%まで改善している。</li>
+<li class="hxk-li"><strong>最大のリスク</strong>：サムスンが2026年後半にHBM4量産を実現すれば、SKハイニックスの市場シェアは50〜60%に低下する可能性がある。</li>
+<li class="hxk-li"><strong>誤解しやすい点</strong>：四半期ASP上昇率の未達で売られたら、それは<em class="hxk-em">評価軸の移行期のノイズ</em>かもしれない。長期契約は上限であると同時に床でもある。</li>
+<li class="hxk-li"><strong>買い方の論点</strong>：2026年7月10日にNASDAQへADR上場（SKHY）したため、ソウル上場株とADRの2ルートが存在し、価格差が生じている。</li>
+</ul>
+</div>
+<div class="hxk-cmp-col hxk-cmp-b">
+<p class="hxk-cmp-h">キオクシアを見るなら</p>
+<ul class="hxk-ul">
+<li class="hxk-li"><strong>見るべき指標</strong>：NAND大口契約価格の前期比伸び率。これがそのまま利益率になる。7/31のQ1決算が最初の答え合わせ。</li>
+<li class="hxk-li"><strong>最大のリスク</strong>：シリコンサイクルの反転。専業なので分散が効かない。過去に-24%（FY23通期）、-70%（四半期）の実績がある。</li>
+<li class="hxk-li"><strong>見落とされがちな点</strong>：為替感応度。ガイダンスの為替前提はドル円159円で、1円の変動あたり四半期で売上100億円・営業利益90億円が動く。円高は素直に逆風になる。</li>
+<li class="hxk-li"><strong>構造の変化</strong>：サンディスクとの合弁契約が2034年まで延長され、サンディスク分は補償型の製造モデル（2026〜2029年で総額11.65億ドル）に切り替わった。稼働率リスクの一部が契約で切り離されている。</li>
+</ul>
+</div>
+</div>
+
+<h2 class="hxk-h2">7. まとめ：どちらが「良い会社」かではなく、どちらが「今の自分に合う波形」か</h2>
+
+<p class="hxk-p">SKハイニックスとキオクシアは、AI需要という同じ川の上流と下流にいる。だが両社が投資家に差し出しているものは、<strong>まったく違う波形</strong>だ。</p>
+
+<p class="hxk-p">SKハイニックスは、長期契約で価格の上下を削り取り、「高い利益率をどれだけ長く維持できるか」に賭けさせる銘柄になりつつある。だからこそ、ASP上昇率という旧来の指標では失望が出る。7月13日の15%下落は、その移行痛だった可能性が高い。</p>
+
+<p class="hxk-p">キオクシアは、NAND市況をほぼ無加工で損益に通す装置である。市況が跳ねれば四半期で前年1年分の利益を超え、市況が崩れれば営業利益率-70%まで沈む。<strong>上値と下値の両方を、同じ構造が作っている</strong>。</p>
+
+<p class="hxk-p">どちらが優れているかという問いは、たぶん筋が悪い。問うべきは「自分のポートフォリオは、どちらの波形を受け止められるか」なのだ。そしてその答えは、7月31日のキオクシアQ1決算と、サムスンのHBM4量産ニュースで、また少し形を変えることになる。</p>
+
+<div class="hxk-disc">
+<p class="hxk-disc-p">※本記事は情報提供を目的としたものであり、特定の銘柄の売買を推奨するものではありません。数値は2026年7月15日時点の公表情報に基づいており、最新の開示をご確認ください。投資判断はご自身の責任でお願いします。</p>
+</div>
+
+
+
+
+</div>

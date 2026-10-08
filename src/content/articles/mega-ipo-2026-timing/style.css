@@ -1,0 +1,318 @@
+.mgi-doc.mgi-doc{display: block !important;
+  box-sizing: border-box !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: 780px !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 auto !important;
+  padding: 2px 0 !important;
+  border: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.85 !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  color: #16202e !important;
+  -webkit-text-fill-color: #16202e !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  text-align: left !important;
+  text-transform: none !important;
+  text-indent: 0 !important;
+  text-decoration: none !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-width: auto !important;
+  mix-blend-mode: normal !important;
+  clip-path: none !important;
+  overflow: visible !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;}
+.mgi-doc.mgi-doc *{box-sizing: border-box !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-style: normal !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  text-transform: none !important;
+  text-indent: 0 !important;
+  text-align: left !important;
+  writing-mode: horizontal-tb !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-width: auto !important;
+  mix-blend-mode: normal !important;
+  clip-path: none !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  list-style-position: outside !important;}
+.mgi-doc.mgi-doc p{display: block !important;
+  margin: 0 0 1.5em 0 !important;
+  padding: 0 !important;}
+.mgi-doc.mgi-doc .mgi-lead{font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 1.8 !important;
+  margin: 0 0 1.6em 0 !important;}
+.mgi-doc.mgi-doc .mgi-em{display: inline !important;
+  font-weight: 700 !important;
+  color: #0f4c63 !important;
+  -webkit-text-fill-color: #0f4c63 !important;}
+.mgi-doc.mgi-doc .mgi-hd2{display: block !important;
+  margin: 2.6em 0 1.1em 0 !important;
+  padding: 0 0 0.5em 0.7em !important;
+  border-left: 5px solid #2f6f8f !important;
+  border-bottom: 1px solid #c9d3e0 !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #16202e !important;
+  -webkit-text-fill-color: #16202e !important;}
+.mgi-doc.mgi-doc .mgi-hd3{display: block !important;
+  margin: 2em 0 0.9em 0 !important;
+  padding: 0 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;}
+.mgi-doc.mgi-doc .mgi-keys{display: block !important;
+  margin: 0 0 2.2em 0 !important;
+  padding: 1.3em 1.4em 1.1em 1.4em !important;
+  border-radius: 6px !important;
+  background-color: #16202e !important;
+  background-image: none !important;
+  color: #eef3f8 !important;
+  -webkit-text-fill-color: #eef3f8 !important;}
+.mgi-doc.mgi-doc .mgi-keys *{background-color: transparent !important;
+  background-image: none !important;
+  color: #eef3f8 !important;
+  -webkit-text-fill-color: #eef3f8 !important;}
+.mgi-doc.mgi-doc .mgi-keys-ttl{display: block !important;
+  margin: 0 0 0.8em 0 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+  color: #8fc4dd !important;
+  -webkit-text-fill-color: #8fc4dd !important;}
+.mgi-doc.mgi-doc .mgi-kli{display: block !important;
+  margin: 0 !important;
+  padding: 0 0 0 1.25em !important;
+  list-style-type: disc !important;}
+.mgi-doc.mgi-doc .mgi-kli li{display: list-item !important;
+  margin: 0 0 0.75em 0 !important;
+  padding: 0 !important;
+  font-size: 15px !important;
+  line-height: 1.75 !important;}
+.mgi-doc.mgi-doc .mgi-kli li:last-child{margin-bottom: 0 !important;}
+.mgi-doc.mgi-doc .mgi-keys .mgi-em{color: #ffd9a8 !important;
+  -webkit-text-fill-color: #ffd9a8 !important;}
+.mgi-doc.mgi-doc .mgi-term{display: block !important;
+  margin: 1.9em 0 !important;
+  padding: 1.1em 1.2em 0.9em 1.2em !important;
+  border-left: 4px solid #2f6f8f !important;
+  border-radius: 0 5px 5px 0 !important;
+  background-color: #f4f7fa !important;
+  background-image: none !important;}
+.mgi-doc.mgi-doc .mgi-term p{margin: 0 0 0.7em 0 !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;}
+.mgi-doc.mgi-doc .mgi-term p:last-child{margin-bottom: 0 !important;}
+.mgi-doc.mgi-doc .mgi-term-ttl{font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  color: #0f4c63 !important;
+  -webkit-text-fill-color: #0f4c63 !important;}
+.mgi-doc.mgi-doc .mgi-cav{display: block !important;
+  margin: 1.9em 0 !important;
+  padding: 1em 1.15em 0.85em 1.15em !important;
+  border: 1px solid #c9d3e0 !important;
+  border-radius: 5px !important;
+  background-color: #fbfcfe !important;
+  background-image: none !important;}
+.mgi-doc.mgi-doc .mgi-cav p{margin: 0 !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  color: #43536a !important;
+  -webkit-text-fill-color: #43536a !important;}
+.mgi-doc.mgi-doc .mgi-fig{display: block !important;
+  margin: 2.1em 0 !important;
+  padding: 0.9em 0.9em 0.7em 0.9em !important;
+  border: 1px solid #dbe3ec !important;
+  border-radius: 6px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.mgi-doc.mgi-doc .mgi-fig svg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;}
+.mgi-doc.mgi-doc .mgi-fig-cap{display: block !important;
+  margin: 0.8em 0 0 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  color: #5b6b80 !important;
+  -webkit-text-fill-color: #5b6b80 !important;}
+.mgi-doc.mgi-doc svg text{font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  line-height: normal !important;
+  stroke: none !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  paint-order: normal !important;}
+.mgi-doc.mgi-doc .mgi-t10{font-size: 10px !important;}
+.mgi-doc.mgi-doc .mgi-t11{font-size: 11px !important;}
+.mgi-doc.mgi-doc .mgi-t12{font-size: 12px !important;}
+.mgi-doc.mgi-doc .mgi-t13{font-size: 13.5px !important;}
+.mgi-doc.mgi-doc .mgi-t15{font-size: 15.5px !important;}
+.mgi-doc.mgi-doc .mgi-fi{fill: #16202e !important; color: #16202e !important; -webkit-text-fill-color: #16202e !important;}
+.mgi-doc.mgi-doc .mgi-fs{fill: #5b6b80 !important; color: #5b6b80 !important; -webkit-text-fill-color: #5b6b80 !important;}
+.mgi-doc.mgi-doc .mgi-fa{fill: #c1553a !important; color: #c1553a !important; -webkit-text-fill-color: #c1553a !important;}
+.mgi-doc.mgi-doc .mgi-fb{fill: #2f6f8f !important; color: #2f6f8f !important; -webkit-text-fill-color: #2f6f8f !important;}
+.mgi-doc.mgi-doc .mgi-fw{fill: #ffffff !important; color: #ffffff !important; -webkit-text-fill-color: #ffffff !important;}
+.mgi-doc.mgi-doc .mgi-fo{fill: #3f7d5c !important; color: #3f7d5c !important; -webkit-text-fill-color: #3f7d5c !important;}
+.mgi-doc.mgi-doc .mgi-fy{fill: #8a6410 !important; color: #8a6410 !important; -webkit-text-fill-color: #8a6410 !important;}
+.mgi-doc.mgi-doc .mgi-tw{display: block !important;
+  margin: 1.9em 0 !important;
+  padding: 0 !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;}
+.mgi-doc.mgi-doc .mgi-tbl{display: table !important;
+  width: 100% !important;
+  min-width: 620px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  table-layout: fixed !important;
+  font-size: 13px !important;
+  line-height: 1.65 !important;}
+.mgi-doc.mgi-doc .mgi-tbl thead{display: table-header-group !important;}
+.mgi-doc.mgi-doc .mgi-tbl tbody{display: table-row-group !important;}
+.mgi-doc.mgi-doc .mgi-tbl tr{display: table-row !important;}
+.mgi-doc.mgi-doc .mgi-tbl th,.mgi-doc.mgi-doc .mgi-tbl td{display: table-cell !important;
+  padding: 0.7em 0.75em !important;
+  border: 1px solid #c9d3e0 !important;
+  font-size: 13px !important;
+  line-height: 1.65 !important;
+  vertical-align: top !important;
+  text-align: left !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #16202e !important;
+  -webkit-text-fill-color: #16202e !important;}
+.mgi-doc.mgi-doc .mgi-tbl thead th{font-weight: 700 !important;
+  background-color: #16202e !important;
+  background-image: none !important;
+  color: #eef3f8 !important;
+  -webkit-text-fill-color: #eef3f8 !important;}
+.mgi-doc.mgi-doc .mgi-tbl tbody th{font-weight: 700 !important;
+  background-color: #f4f7fa !important;
+  background-image: none !important;}
+.mgi-doc.mgi-doc .mgi-tbl br{display: block !important;}
+.mgi-doc.mgi-doc .mgi-cal{display: block !important;
+  margin: 1.9em 0 !important;
+  padding: 1.1em 1.2em 0.9em 1.2em !important;
+  border-top: 3px solid #2f6f8f !important;
+  border-radius: 0 0 5px 5px !important;
+  background-color: #f4f7fa !important;
+  background-image: none !important;}
+.mgi-doc.mgi-doc .mgi-caln{display: block !important;
+  margin: 0 !important;
+  padding: 0 0 0 1.2em !important;
+  list-style-type: square !important;}
+.mgi-doc.mgi-doc .mgi-caln li{display: list-item !important;
+  margin: 0 0 0.7em 0 !important;
+  padding: 0 !important;
+  font-size: 14.5px !important;
+  line-height: 1.75 !important;}
+.mgi-doc.mgi-doc .mgi-caln li:last-child{margin-bottom: 0 !important;}
+.mgi-doc.mgi-doc .mgi-xl{display: block !important;
+  margin: 2.2em 0 1.6em 0 !important;
+  padding: 1em 1.2em 0.85em 1.2em !important;
+  border: 1px dashed #9db2c6 !important;
+  border-radius: 5px !important;
+  background-color: #fbfcfe !important;
+  background-image: none !important;}
+.mgi-doc.mgi-doc .mgi-xl-ttl{display: block !important;
+  margin: 0 0 0.6em 0 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  color: #5b6b80 !important;
+  -webkit-text-fill-color: #5b6b80 !important;}
+.mgi-doc.mgi-doc .mgi-xl ul{display: block !important;
+  margin: 0 !important;
+  padding: 0 0 0 1.2em !important;
+  list-style-type: disc !important;}
+.mgi-doc.mgi-doc .mgi-xl li{display: list-item !important;
+  margin: 0 0 0.45em 0 !important;
+  padding: 0 !important;
+  font-size: 14.5px !important;
+  line-height: 1.7 !important;}
+.mgi-doc.mgi-doc .mgi-xl li:last-child{margin-bottom: 0 !important;}
+.mgi-doc.mgi-doc .mgi-xl a{display: inline !important;
+  color: #0f4c63 !important;
+  -webkit-text-fill-color: #0f4c63 !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;}
+.mgi-doc.mgi-doc .mgi-disc{display: block !important;
+  margin: 2em 0 0 0 !important;
+  padding: 0.95em 1.1em !important;
+  border-top: 1px solid #c9d3e0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 12.5px !important;
+  line-height: 1.8 !important;
+  color: #6a7889 !important;
+  -webkit-text-fill-color: #6a7889 !important;}
+@media screen and (max-width: 600px){.mgi-doc.mgi-doc{font-size: 15.5px !important;
+    line-height: 1.82 !important;}.mgi-doc.mgi-doc .mgi-lead{font-size: 16px !important;}.mgi-doc.mgi-doc .mgi-hd2{font-size: 19px !important;}.mgi-doc.mgi-doc .mgi-hd3{font-size: 17px !important;}.mgi-doc.mgi-doc .mgi-keys{padding: 1.1em 1.1em 0.95em 1.1em !important;}.mgi-doc.mgi-doc .mgi-kli li{font-size: 14.5px !important;}.mgi-doc.mgi-doc .mgi-fig{padding: 0.6em 0.55em 0.55em 0.55em !important;}.mgi-doc.mgi-doc .mgi-term,
+  .mgi-doc.mgi-doc .mgi-cal{padding: 0.95em 1em 0.8em 1em !important;}}

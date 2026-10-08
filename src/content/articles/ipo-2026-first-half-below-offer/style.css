@@ -1,0 +1,350 @@
+.ipoh26-root.ipoh26-root{--ipoh26-ink: #16202b;
+  --ipoh26-sub: #4c5a68;
+  --ipoh26-navy: #1d3f63;
+  --ipoh26-a: #b03a2e;
+  --ipoh26-b: #a4701c;
+  --ipoh26-c: #16665a;
+  --ipoh26-line: #d7dde4;
+  --ipoh26-soft: #f4f6f9;
+  display: block !important;
+  box-sizing: border-box !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  color: var(--ipoh26-ink) !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  font-size: 16px !important;
+  line-height: 1.9 !important;
+  letter-spacing: 0.02em !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  text-align: left !important;
+  word-break: normal !important;
+  overflow-wrap: anywhere !important;}
+.ipoh26-root.ipoh26-root *{box-sizing: border-box !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  max-width: 100% !important;
+  font-family: inherit !important;}
+.ipoh26-root.ipoh26-root p{margin: 0 0 1.5em 0 !important;
+  padding: 0 !important;
+  color: var(--ipoh26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1rem !important;
+  line-height: 1.95 !important;
+  text-indent: 0 !important;}
+.ipoh26-root.ipoh26-root strong{color: var(--ipoh26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid rgba(176, 58, 46, 0.28) !important;
+  padding-bottom: 0.05em !important;}
+.ipoh26-root.ipoh26-root .ipoh26-lead{display: block !important;
+  font-size: 1.02rem !important;
+  margin: 0 0 1.7em 0 !important;
+  padding: 1.1em 1.2em !important;
+  background-color: var(--ipoh26-soft) !important;
+  background-image: none !important;
+  border-left: 4px solid var(--ipoh26-navy) !important;
+  border-radius: 2px !important;
+  font-weight: 500 !important;
+  line-height: 1.9 !important;
+  color: var(--ipoh26-ink) !important;}
+.ipoh26-root.ipoh26-root .ipoh26-h2{display: block !important;
+  font-size: 1.34rem !important;
+  margin: 2.8em 0 1.1em 0 !important;
+  padding: 0 0 0.45em 0 !important;
+  border: 0 !important;
+  border-bottom: 2px solid var(--ipoh26-navy) !important;
+  color: var(--ipoh26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-h3{display: block !important;
+  font-size: 1.12rem !important;
+  margin: 2.1em 0 0.85em 0 !important;
+  padding: 0 0 0 0.7em !important;
+  border: 0 !important;
+  border-left: 4px solid var(--ipoh26-a) !important;
+  color: var(--ipoh26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-note{display: block !important;
+  font-size: 1rem !important;
+  line-height: 1.9 !important;
+  margin: 2em 0 !important;
+  padding: 1.1em 1.2em !important;
+  background-color: var(--ipoh26-soft) !important;
+  background-image: none !important;
+  border: 1px solid var(--ipoh26-line) !important;
+  border-radius: 4px !important;}
+.ipoh26-root.ipoh26-root .ipoh26-note p{margin: 0 0 0.6em 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.95rem !important;
+  line-height: 1.85 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-note p:last-child{margin-bottom: 0 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-note-h{color: var(--ipoh26-navy) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.86rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;}
+.ipoh26-root.ipoh26-root .ipoh26-table-wrap{display: block !important;
+  font-size: 1rem !important;
+  line-height: 1.9 !important;
+  max-width: 100% !important;
+  margin: 1.8em 0 !important;
+  padding: 0 !important;
+  overflow-x: auto !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  -webkit-overflow-scrolling: touch !important;}
+.ipoh26-root.ipoh26-root .ipoh26-table{display: table !important;
+  width: 100% !important;
+  min-width: 460px !important;
+  max-width: none !important;
+  margin: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  font-size: 0.9rem !important;
+  line-height: 1.7 !important;
+  table-layout: auto !important;}
+.ipoh26-root.ipoh26-root .ipoh26-table-full{min-width: 880px !important;
+  font-size: 0.82rem !important;}
+.ipoh26-root.ipoh26-root .ipoh26-table thead th{padding: 0.7em 0.85em !important;
+  border: 1px solid var(--ipoh26-line) !important;
+  background-color: var(--ipoh26-navy) !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 0.88em !important;
+  text-align: left !important;
+  white-space: nowrap !important;}
+.ipoh26-root.ipoh26-root .ipoh26-table tbody td{display: table-cell !important;
+  font-size: inherit !important;
+  padding: 0.65em 0.85em !important;
+  border: 1px solid var(--ipoh26-line) !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: var(--ipoh26-ink) !important;
+  vertical-align: top !important;
+  text-align: left !important;
+  white-space: nowrap !important;}
+.ipoh26-root.ipoh26-root .ipoh26-table tbody tr:nth-child(even) td{background-color: var(--ipoh26-soft) !important;
+  background-image: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-table tbody td:first-child{font-weight: 600 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-num{display: table-cell !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  visibility: visible !important;
+  text-align: right !important;
+  font-variant-numeric: tabular-nums !important;}
+.ipoh26-root.ipoh26-root .ipoh26-bad{font-size: inherit !important;
+  color: var(--ipoh26-a) !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-good{font-size: inherit !important;
+  color: var(--ipoh26-c) !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-ol{font-size: 1rem !important;
+  line-height: 1.9 !important;
+  margin: 1.5em 0 1.8em 0 !important;
+  padding: 0 0 0 1.5em !important;
+  list-style-type: decimal !important;
+  list-style-position: outside !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-ol li{display: list-item !important;
+  margin: 0 0 0.9em 0 !important;
+  padding: 0 0 0 0.2em !important;
+  color: var(--ipoh26-ink) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.98rem !important;
+  line-height: 1.9 !important;
+  list-style-type: decimal !important;}
+.ipoh26-root.ipoh26-root .ipoh26-fig{display: block !important;
+  font-size: 1rem !important;
+  line-height: 1.9 !important;
+  margin: 2.2em 0 !important;
+  padding: 1em 1em 0.9em 1em !important;
+  border: 1px solid var(--ipoh26-line) !important;
+  border-radius: 4px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-canvas{display: block !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: auto !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  -webkit-overflow-scrolling: touch !important;}
+.ipoh26-root.ipoh26-root .ipoh26-canvas svg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  overflow: visible !important;}
+.ipoh26-root.ipoh26-root .ipoh26-canvas svg *{display: inline !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  mix-blend-mode: normal !important;}
+.ipoh26-root.ipoh26-root .ipoh26-canvas svg [fill="none"]{fill: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-canvas svg text{stroke: none !important;
+  font-family: inherit !important;
+  paint-order: stroke !important;}
+.ipoh26-root.ipoh26-root .ipoh26-cap{display: block !important;
+  visibility: visible !important;
+  margin: 0.85em 0 0 0 !important;
+  padding: 0.7em 0 0 0 !important;
+  border-top: 1px dotted var(--ipoh26-line) !important;
+  color: var(--ipoh26-sub) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.83rem !important;
+  line-height: 1.75 !important;
+  text-align: left !important;}
+.ipoh26-root.ipoh26-root .ipoh26-svgt{fill: var(--ipoh26-ink) !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-svgs{fill: var(--ipoh26-sub) !important;
+  font-size: 11.5px !important;}
+.ipoh26-root.ipoh26-root .ipoh26-grid{stroke: var(--ipoh26-line) !important;
+  stroke-width: 1 !important;
+  fill: none !important;
+  stroke-dasharray: 3 3 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-zeroh,.ipoh26-root.ipoh26-root .ipoh26-zerov{stroke: #8a97a5 !important;
+  stroke-width: 1.4 !important;
+  fill: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-qbandl{fill: #fbf1ef !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-ylab{fill: var(--ipoh26-sub) !important;
+  font-size: 11.5px !important;
+  text-anchor: end !important;}
+.ipoh26-root.ipoh26-root .ipoh26-xlab{fill: var(--ipoh26-sub) !important;
+  font-size: 11.5px !important;
+  text-anchor: middle !important;}
+.ipoh26-root.ipoh26-root .ipoh26-axname{fill: var(--ipoh26-sub) !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-axnameR{fill: var(--ipoh26-sub) !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+  text-anchor: end !important;}
+.ipoh26-root.ipoh26-root .ipoh26-pt{fill: var(--ipoh26-ink) !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-key{fill: var(--ipoh26-ink) !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-foot{fill: var(--ipoh26-sub) !important;
+  font-size: 11px !important;}
+.ipoh26-root.ipoh26-root .ipoh26-dotA{fill: var(--ipoh26-a) !important;
+  stroke: #ffffff !important;
+  stroke-width: 1.4 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-dotB{fill: var(--ipoh26-b) !important;
+  stroke: #ffffff !important;
+  stroke-width: 1.4 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-dotC{fill: var(--ipoh26-c) !important;
+  stroke: #ffffff !important;
+  stroke-width: 1.4 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rowlab{fill: var(--ipoh26-ink) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-barsmall{fill: var(--ipoh26-c) !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-barsmallm{fill: #7fae9f !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-barlarge{fill: var(--ipoh26-a) !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-barlargem{fill: #d79b91 !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-val{fill: var(--ipoh26-ink) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-val2{fill: var(--ipoh26-sub) !important;
+  font-size: 11.5px !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gbandA{fill: #fbf0ee !important;
+  stroke: var(--ipoh26-a) !important;
+  stroke-width: 1.4 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gbandB{fill: #fbf5ea !important;
+  stroke: var(--ipoh26-b) !important;
+  stroke-width: 1.4 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gbandC{fill: #eef5f3 !important;
+  stroke: var(--ipoh26-c) !important;
+  stroke-width: 1.4 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gname{fill: var(--ipoh26-ink) !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gsub{fill: var(--ipoh26-sub) !important;
+  font-size: 11.5px !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gnum{fill: var(--ipoh26-ink) !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gnumbad{fill: var(--ipoh26-a) !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gnumgood{fill: var(--ipoh26-c) !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-gcap{fill: var(--ipoh26-sub) !important;
+  font-size: 10.5px !important;}
+.ipoh26-root.ipoh26-root .ipoh26-arrow{fill: none !important;
+  stroke: #8a97a5 !important;
+  stroke-width: 1.6 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-arrowh{fill: #8a97a5 !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rname{fill: var(--ipoh26-ink) !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rcode{fill: var(--ipoh26-sub) !important;
+  font-size: 11px !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rbarA{fill: var(--ipoh26-a) !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rbarB{fill: var(--ipoh26-b) !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rbarC{fill: var(--ipoh26-c) !important;
+  stroke: none !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rdot{fill: #ffffff !important;
+  stroke: var(--ipoh26-navy) !important;
+  stroke-width: 2 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-rval{fill: var(--ipoh26-ink) !important;
+  font-size: 11.5px !important;
+  font-weight: 700 !important;}
+.ipoh26-root.ipoh26-root .ipoh26-disc{display: block !important;
+  visibility: visible !important;
+  margin: 2.6em 0 0 0 !important;
+  padding: 0.9em 1em !important;
+  border-top: 1px solid var(--ipoh26-line) !important;
+  color: var(--ipoh26-sub) !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.8rem !important;
+  line-height: 1.75 !important;}
+@media screen and (max-width: 600px){.ipoh26-root.ipoh26-root{font-size: 15px !important;
+    line-height: 1.85 !important;}.ipoh26-root.ipoh26-root .ipoh26-h2{margin-top: 2.2em !important;
+    font-size: 1.18rem !important;}.ipoh26-root.ipoh26-root .ipoh26-h3{font-size: 1.04rem !important;}.ipoh26-root.ipoh26-root .ipoh26-lead{padding: 0.95em 1em !important;
+    font-size: 0.98rem !important;}.ipoh26-root.ipoh26-root .ipoh26-fig{padding: 0.7em 0.6em 0.7em 0.6em !important;}.ipoh26-root.ipoh26-root .ipoh26-canvas svg{min-width: 660px !important;}.ipoh26-root.ipoh26-root .ipoh26-table{font-size: 0.82rem !important;
+    min-width: 430px !important;}.ipoh26-root.ipoh26-root .ipoh26-table-full{font-size: 0.76rem !important;
+    min-width: 820px !important;}.ipoh26-root.ipoh26-root .ipoh26-table thead th,
+  .ipoh26-root.ipoh26-root .ipoh26-table tbody td{padding: 0.5em 0.6em !important;}.ipoh26-root.ipoh26-root .ipoh26-ol{padding-left: 1.35em !important;}.ipoh26-root.ipoh26-root .ipoh26-cap{font-size: 0.78rem !important;}}

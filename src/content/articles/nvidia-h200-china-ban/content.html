@@ -1,0 +1,281 @@
+<div class="nvc-root">
+<div class="nvc-hero">
+<p class="nvc-hero-eyebrow">経済安全保障 / 国策テーマウォッチ</p>
+<h1 class="nvc-hero-title">中国が「買ってもいい」と言い始めた日<span class="nvc-hero-sub">――H200を巡る半年間と、エヌビディアの交渉力の正体</span></h1>
+<p class="nvc-hero-lead">2026年7月8日、中国政府がエヌビディアのAI半導体「H200」の購入を一部企業に認める方針だと報じられた。エヌビディア株は上昇した。だがこのニュースを「規制緩和で売上が戻る」と読むと、盤面を見誤る。売る許可はとっくに出ていた。買わなかったのは中国のほうである。</p>
+</div>
+<div class="nvc-summary">
+<p class="nvc-summary-title">この記事の要点</p>
+<ul class="nvc-summary-list">
+<li class="nvc-summary-item">米政府は2026年1月にH200の対中輸出を正式に緩和済み。だが中国の税関当局が輸入を認めず、<strong class="nvc-strong">納入は1個も行われてこなかった</strong>。</li>
+<li class="nvc-summary-item">エヌビディアは今年3月、中国向けH200の生産そのものを停止し、TSMCの生産能力を次世代機に振り替えた。<strong class="nvc-strong">売り手はすでに撤退の姿勢を見せていた。</strong></li>
+<li class="nvc-summary-item">今回の軟化は「エヌビディアが強いから」ではなく、中国のAI企業が計算資源不足に耐えられなくなったからと読むのが自然。<strong class="nvc-strong">音を上げたのは買い手のほうである。</strong></li>
+<li class="nvc-summary-item">日本の半導体装置・材料への波及は間接的。日系装置5社の中国売上は2026年3月期に初めて前年度割れしており、本当の分岐は「中国の国産化がどこまで進むか」にある。</li>
+<li class="nvc-summary-item">今回の報道は購入の最終承認に至っておらず、確度は低い段階にある。</li>
+</ul>
+</div>
+<h2 class="nvc-h2">1. 何が報じられたのか</h2>
+<p class="nvc-p">2026年7月8日、米IT専門メディアのジ・インフォメーションが、中国政府がエヌビディアの先端AI半導体「H200」の購入を一部の中国企業に認める方針だと報じた。対象として名前が挙がったのは、IT大手のアリババ集団、TikTokを運営する字節跳動（バイトダンス）、AI新興のディープシーク（深度求索）である。</p>
+<p class="nvc-p">ただし、無条件の解禁ではない。各社は必要な数量と発注理由を当局に報告する必要があり、<strong class="nvc-strong">購入の最終承認には至っていない</strong>。報道を受けてエヌビディア株は3.65%上昇した。</p>
+<p class="nvc-p">この一行だけを読むと「米中対立が和らいで、エヌビディアが中国市場を取り戻す」という物語に見える。だが実際の経緯は、その物語とはかなり違う。</p>
+<h2 class="nvc-h2">2. まず「H200」とは何か</h2>
+<p class="nvc-p">用語を先に片付けておきたい。</p>
+<div class="nvc-glossary">
+<div class="nvc-gl-item">
+<p class="nvc-gl-term">GPU / AI半導体</p>
+<p class="nvc-gl-def">もともとは画像処理用の半導体だが、大量の計算を同時並行でこなせるため、AIの学習に不可欠になった。エヌビディアはこの分野で圧倒的なシェアを持つ。</p>
+</div>
+<div class="nvc-gl-item">
+<p class="nvc-gl-term">H200</p>
+<p class="nvc-gl-def">エヌビディアの「Hopper（ホッパー）」世代のGPU。中国向けに性能を落とした「H20」より大幅に高性能だが、最新世代の「Blackwell（ブラックウェル）」やその次の「Vera Rubin（ヴェラ・ルービン）」ほどではない。つまり<strong class="nvc-strong">一世代前の上位機種</strong>という位置づけになる。</p>
+</div>
+<div class="nvc-gl-item">
+<p class="nvc-gl-term">HBM（広帯域メモリ）</p>
+<p class="nvc-gl-def">GPUの性能を左右する特殊なメモリ。AIの学習では、計算そのものより「データをどれだけ速くGPUに送り込めるか」が効いてくる。H200はSKハイニックスが供給するHBM3およびHBM3eに依存している。2024年12月、当時のバイデン政権は韓国からのHBM対中輸出と関連製造装置を封じた。</p>
+</div>
+<div class="nvc-gl-item">
+<p class="nvc-gl-term">輸出管理（輸出規制）</p>
+<p class="nvc-gl-def">安全保障を理由に、特定の技術や製品を特定国へ売ることを政府が制限する仕組み。米国では商務省産業安全保障局（BIS）が所管する。</p>
+</div>
+</div>
+<p class="nvc-p">重要なのは、<strong class="nvc-strong">「輸出管理」は売る側の国が課すものだ</strong>という点である。ところがH200を巡っては、話がそこで終わらなかった。</p>
+<h2 class="nvc-h2">3. 半年間で何が起きていたのか</h2>
+<p class="nvc-p">時系列を追うと、この件の奇妙さがはっきりする。</p>
+<figure class="nvc-fig">
+<svg class="nvc-svg" viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="H200を巡る米中規制の時系列を示す縦型年表">
+<title>H200を巡る米中規制の時系列</title>
+<rect x="0" y="0" width="700" height="620" fill="#f6f4ef"></rect>
+<text x="24" y="32" font-family="sans-serif" font-size="15" font-weight="700" fill="#12161d">図1：米国は「売っていい」と言い、中国が「買わない」と答えた</text>
+<text x="24" y="52" font-family="sans-serif" font-size="11" fill="#5e6570">オレンジ＝米政府の動き　／　レッド＝中国側の動き　／　ブルー＝エヌビディアの動き</text>
+<line x1="120" y1="80" x2="120" y2="576" stroke="#d8d2c6" stroke-width="2"></line>
+<circle cx="120" cy="98" r="7" fill="#d1741c"></circle>
+<text x="104" y="94" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2025年12月8日</text>
+<text x="140" y="94" font-family="sans-serif" font-size="12" font-weight="700" fill="#12161d">トランプ大統領がH200の対中販売を許可</text>
+<text x="140" y="112" font-family="sans-serif" font-size="10" fill="#5e6570">中国向け売上の25%を米政府が受け取る条件。習近平主席に伝達したと表明</text>
+<circle cx="120" cy="160" r="7" fill="#d1741c"></circle>
+<text x="104" y="156" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2026年1月13日</text>
+<text x="140" y="156" font-family="sans-serif" font-size="12" font-weight="700" fill="#12161d">米商務省BISが最終規則を公表（1月15日発効）</text>
+<text x="140" y="174" font-family="sans-serif" font-size="10" fill="#5e6570">H200やAMD「MI325X」の対中・対マカオ輸出管理を緩和。個別ライセンスは引き続き必要</text>
+<circle cx="120" cy="222" r="7" fill="#b5322c"></circle>
+<text x="104" y="218" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2026年1月14日</text>
+<text x="140" y="218" font-family="sans-serif" font-size="12" font-weight="700" fill="#b5322c">中国の税関当局がH200の輸入を認めない通達</text>
+<text x="140" y="236" font-family="sans-serif" font-size="10" fill="#5e6570">国内の物流企業に「通関申請を提出できない」と告げたとロイター・FTが報道</text>
+<circle cx="120" cy="284" r="7" fill="#2b6f8d"></circle>
+<text x="104" y="280" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2026年1月中旬</text>
+<text x="140" y="280" font-family="sans-serif" font-size="12" font-weight="700" fill="#2b6f8d">サプライヤーがH200向け部品の生産を一時停止</text>
+<text x="140" y="298" font-family="sans-serif" font-size="10" fill="#5e6570">プリント基板はH200専用設計で転用不可。評価損を避けるため生産を凍結</text>
+<circle cx="120" cy="346" r="7" fill="#b5322c"></circle>
+<text x="104" y="342" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2026年1月下旬</text>
+<text x="140" y="342" font-family="sans-serif" font-size="12" font-weight="700" fill="#b5322c">中国が方針を微調整「買ってもよいが国産を優先検討せよ」</text>
+<text x="140" y="360" font-family="sans-serif" font-size="10" fill="#5e6570">全面禁止から「事実上の抑制」へ。国内半導体産業の育成を重視する立場</text>
+<circle cx="120" cy="408" r="7" fill="#d1741c"></circle>
+<text x="104" y="404" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2026年2月下旬</text>
+<text x="140" y="404" font-family="sans-serif" font-size="12" font-weight="700" fill="#12161d">米商務省高官「1個も売れていない」と議会で認める</text>
+<text x="140" y="422" font-family="sans-serif" font-size="10" fill="#5e6570">輸出承認は出ているのに、中国顧客への販売実績はゼロ</text>
+<circle cx="120" cy="470" r="8" fill="#2b6f8d"></circle>
+<text x="104" y="466" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2026年3月5日</text>
+<text x="140" y="466" font-family="sans-serif" font-size="12" font-weight="700" fill="#2b6f8d">エヌビディアが中国向けH200の生産を停止</text>
+<text x="140" y="484" font-family="sans-serif" font-size="10" fill="#5e6570">TSMCの生産能力を次世代「Vera Rubin」に振り替えたとFT・ロイターが報道</text>
+<circle cx="120" cy="532" r="8" fill="#b5322c"></circle>
+<text x="104" y="528" font-family="sans-serif" font-size="10" font-weight="700" fill="#5e6570" text-anchor="end">2026年7月8日</text>
+<text x="140" y="528" font-family="sans-serif" font-size="12" font-weight="700" fill="#b5322c">中国当局がアリババ等に一定数の購入を認める方針（報道）</text>
+<text x="140" y="546" font-family="sans-serif" font-size="10" fill="#5e6570">数量と発注理由の申告が必要。最終承認には至っていない</text>
+<text x="24" y="596" font-family="sans-serif" font-size="10" fill="#9aa1ab">出所：ジェトロ、時事通信、日本経済新聞、ロイター、フィナンシャル・タイムズ、ブルームバーグ、ジ・インフォメーション各報道より作成</text>
+<text x="24" y="610" font-family="sans-serif" font-size="10" fill="#9aa1ab">※2026年5月14日には米政府がアリババ・テンセント・バイトダンス等約10社への販売を承認したが、納入は行われなかった</text>
+</svg>
+<figcaption class="nvc-figcap">半年かけて米国が門を開け、中国が門を閉じ、エヌビディアが荷物を引き上げた。</figcaption>
+</figure>
+<p class="nvc-p">整理すると、こうなる。<strong class="nvc-strong">米国は売る許可を出した。中国は買う許可を出さなかった。そしてエヌビディアは、待ちきれずに作るのをやめた。</strong></p>
+<h2 class="nvc-h2">4. なぜ中国は買わなかったのか</h2>
+<p class="nvc-p">需要がなかったわけではない。むしろ逆である。ロイターは2026年1月、中国顧客からのH200注文需要が大きく、エヌビディアが中国向け販売について全額前払いを求めていたと報じている。アリババ、テンセント、バイトダンスは合計40万個の購入を模索していたとも伝えられた。<strong class="nvc-strong">需要はあるのに、政治で動けなかった</strong>のである。</p>
+<p class="nvc-p">中国側の理由は、大きく三つに整理できる。</p>
+<div class="nvc-card">
+<p class="nvc-card-head">理由①　国産半導体産業の育成</p>
+<p class="nvc-card-text">ロイターによれば、中国政府は先端AIチップの輸入依存を戦略的な弱点と見ている。エヌビディア製品が流入すれば、ファーウェイなど国産チップメーカーが育つ市場が奪われる。実際、中国当局は国内のテック大手にエヌビディア製半導体の購入を禁じてきた経緯がある。</p>
+</div>
+<div class="nvc-card">
+<p class="nvc-card-head">理由②　米国側の条件が重すぎる</p>
+<p class="nvc-card-text">2026年1月のルールでは、中国側の買い手は十分なセキュリティ手続きを整え、軍事用途に使わないことを示す必要がある。さらに売上の25%が米政府に渡り、チップは中国へ直接ではなく米国経由で送られる。買えば買うほど米政府に金と情報が入る仕組みになっている。</p>
+</div>
+<div class="nvc-card">
+<p class="nvc-card-head">理由③　「解禁」自体が米国の戦略だという読み</p>
+<p class="nvc-card-text">中国国内では、トランプ政権のH200解禁は技術封鎖の緩和ではなく、エヌビディアのAI半導体市場での支配的地位を守るための戦略だ、という見方が示された。安く一世代前のチップを流し込むことで、国産チップの芽を摘む——そう読めば、買わないことが合理的になる。</p>
+</div>
+<h2 class="nvc-h2">5. 中国の国産チップはどこまで来たのか</h2>
+<p class="nvc-p">この判断の前提には、国産チップの進歩がある。</p>
+<p class="nvc-p">ファーウェイは2025年9月18日、2028年までにAI半導体を4製品投入する3カ年計画を発表した。2026年1〜3月に推論向けの「昇騰（Ascend）950PR」、同年10〜12月に学習向けの「昇騰950DT」、2027年10〜12月に「昇騰960」、2028年10〜12月に「昇騰970」という段取りである。非公表を貫いてきた同社としては異例のロードマップ公開だった。</p>
+<p class="nvc-p">注目すべきは、この昇騰950に<strong class="nvc-strong">ファーウェイ自社開発のHBM</strong>（「HiBL 1.0」「HiZQ 2.0」）が搭載される点だ。HBMは韓国勢に握られていたボトルネックである。ここを自前で埋めにきた。</p>
+<p class="nvc-p">数量面でも前進している。ブルームバーグによれば、ファーウェイは2026年に主力の「Ascend 910C」を約60万個、Ascendシリーズ全体では最大160万個（チップ回路を収めるダイの数）まで生産を引き上げる方針だ。JPモルガン・チェースは2025年時点で、ファーウェイと新興の中科寒武紀科技（カンブリコン）によるAI半導体の出荷個数が2026年に計100万個を超えると予測していた。</p>
+<figure class="nvc-fig">
+<svg class="nvc-svg" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="中国AI企業の需要と国産チップ供給の対比を示す図">
+<title>中国のAI半導体 需要と国産供給の対比</title>
+<rect x="0" y="0" width="700" height="400" fill="#f6f4ef"></rect>
+<text x="24" y="32" font-family="sans-serif" font-size="15" font-weight="700" fill="#12161d">図2：需要は「数百万個」、国産供給は「百数十万個」</text>
+<text x="24" y="52" font-family="sans-serif" font-size="11" fill="#5e6570">単位・基準が異なる推計値の並置。厳密な比較ではなく桁感の把握のための図。</text>
+<text x="24" y="90" font-family="sans-serif" font-size="12" font-weight="700" fill="#b5322c">需要側：中国のAI企業</text>
+<rect x="24" y="102" width="640" height="30" rx="3" fill="#f2dedd"></rect>
+<text x="36" y="121" font-family="sans-serif" font-size="11" fill="#8a2a25">アリババ・DeepSeek等は「数百万個単位」のAIチップを必要とする（ブルームバーグ）</text>
+<rect x="24" y="138" width="440" height="30" rx="3" fill="#f2dedd"></rect>
+<text x="36" y="157" font-family="sans-serif" font-size="11" fill="#8a2a25">アリババ・テンセント・バイトダンスがH200を計40万個購入を模索（報道）</text>
+<rect x="24" y="174" width="330" height="30" rx="3" fill="#f2dedd"></rect>
+<text x="36" y="193" font-family="sans-serif" font-size="11" fill="#8a2a25">エヌビディアは100万個以上の受注を見込んでいた</text>
+<line x1="24" y1="222" x2="664" y2="222" stroke="#d8d2c6" stroke-width="1"></line>
+<text x="24" y="250" font-family="sans-serif" font-size="12" font-weight="700" fill="#2b6f8d">供給側：中国の国産チップ（2026年計画・予測）</text>
+<rect x="24" y="262" width="512" height="30" rx="3" fill="#dbe8ee"></rect>
+<text x="36" y="281" font-family="sans-serif" font-size="11" fill="#1f5468">ファーウェイ Ascendシリーズ全体　最大160万個（ダイ数、ブルームバーグ）</text>
+<rect x="24" y="298" width="320" height="30" rx="3" fill="#dbe8ee"></rect>
+<text x="36" y="317" font-family="sans-serif" font-size="11" fill="#1f5468">うち Ascend 910C　約60万個</text>
+<rect x="24" y="334" width="380" height="30" rx="3" fill="#dbe8ee"></rect>
+<text x="36" y="353" font-family="sans-serif" font-size="11" fill="#1f5468">ファーウェイ＋カンブリコン合計　100万個超（JPモルガン予測）</text>
+<text x="556" y="281" font-family="sans-serif" font-size="10" fill="#5e6570">歩留まりが課題。</text>
+<text x="556" y="295" font-family="sans-serif" font-size="10" fill="#5e6570">910Bは約50%と</text>
+<text x="556" y="309" font-family="sans-serif" font-size="10" fill="#5e6570">報じられた（商業</text>
+<text x="556" y="323" font-family="sans-serif" font-size="10" fill="#5e6570">生産には70%超が</text>
+<text x="556" y="337" font-family="sans-serif" font-size="10" fill="#5e6570">必要とされる）</text>
+<text x="24" y="388" font-family="sans-serif" font-size="10" fill="#9aa1ab">出所：ブルームバーグ、ロイター、JPモルガン予測に関する報道より作成。棒の長さは数量に厳密比例しない。</text>
+</svg>
+<figcaption class="nvc-figcap">国産チップは「足りない」。だが「ゼロではない」。この中途半端さが交渉の温度を決めている。</figcaption>
+</figure>
+<p class="nvc-p">つまり中国は、<strong class="nvc-strong">耐えられるが、快適ではない</strong>状態にある。歩留まりの課題も残る。ファーウェイの現行「Ascend 910B」の歩留まりは約50%にとどまると報じられており、先端半導体の商業生産に必要とされる70%以上には届いていない。</p>
+<p class="nvc-p">7月8日の軟化は、この「快適ではない」が限界に近づいたサインと読むのが素直だろう。時事通信も、中国が態度を軟化させるのはAI促進に必要な高性能半導体を確保できないためで、中国企業は当局に対し購入許可を求めてきたと報じている。</p>
+<h2 class="nvc-h2">6. エヌビディアの交渉力は、実は目減りしている</h2>
+<p class="nvc-p">ここからが本題である。この盤面で、エヌビディアはどれだけのカードを持っているのか。</p>
+<p class="nvc-p">直感的には強く見える。中国が喉から手が出るほど欲しがるチップを、独占的に持っているからだ。だが実際には、その交渉力は三方向から削られている。</p>
+<div class="nvc-card">
+<p class="nvc-card-head">削られ方①　米政府が上前をはねる</p>
+<p class="nvc-card-text">中国向け売上の25%は米政府に渡る。物流も米国経由が求められる。エヌビディアは自社の中国ビジネスの条件を、自社で決められない。売れば売るほど、政治の取り分が増える構造になっている。</p>
+</div>
+<div class="nvc-card">
+<p class="nvc-card-head">削られ方②　中国政府が買い手を統制する</p>
+<p class="nvc-card-text">今回の報道でも、中国企業は数量と発注理由を当局に報告する必要がある。買い手は自由な顧客ではなく、政府の許可を得た代理人になる。値段も数量も、商談ではなく政策で決まる。</p>
+</div>
+<div class="nvc-card">
+<p class="nvc-card-head">削られ方③　エヌビディア自身が供給する意思を弱めた</p>
+<p class="nvc-card-text">3月に中国向けH200の生産を止め、TSMCの生産枠を「Vera Rubin」へ移した時点で、同社は事実上「中国を待たない」と宣言した。FTの報道によれば、米中の規制の狭間に留まり続けることはできず、市場見通しがより明確な製品に集中せざるを得ないと判断したという。</p>
+</div>
+<p class="nvc-p">③は一見すると強気の手だ。実際、エヌビディアには余裕がある。中国での販売がゼロでも、同社のCFOは中国のH200販売から<strong class="nvc-strong">まだ収益を上げていない</strong>と述べており、業績はほぼ影響を受けていない。需要は米欧日のハイパースケーラーが吸い込んでいる。</p>
+<p class="nvc-p">だが同時に、③は退路を断つ手でもある。TSMCの先端パッケージング（CoWoS）ラインは、チップの世代が変われば再調整に数週間から数カ月を要する。<strong class="nvc-strong">中国が「やっぱり買う」と言ったとき、すぐに供給できる体制はもうない。</strong>今回の報道でエヌビディア株が上がったのは、たしかに良いニュースだからだ。しかし短期の売上に直結する話ではない。</p>
+<p class="nvc-p">この盤面を一言でまとめるなら、こうなる。<strong class="nvc-strong">三者のうち、エヌビディアだけが自分でカードを切れない。</strong>米政府は条件を決められる。中国政府は買うか買わないかを決められる。エヌビディアは、両方の決定を待つしかない。世界最大の時価総額を持つ企業が、である。</p>
+<h2 class="nvc-h2">7. 日本にはどう届くのか</h2>
+<p class="nvc-p">日本の投資家にとっての実務的な問いは、「では日本の半導体関連株にどう効くのか」だろう。</p>
+<p class="nvc-p">結論を先に言えば、<strong class="nvc-strong">H200そのものの解禁は、日本の装置・材料メーカーにほとんど直接効かない</strong>。理由は単純で、H200の生産はすでに止まっているからだ。中国が買う許可を出しても、作るラインが次世代機に移っている以上、そこから新規の装置需要は生まれにくい。</p>
+<p class="nvc-p">効くのはもっと長い時間軸の話である。中国が外国製チップに依存し続けるのか、それとも国産化を加速するのか。この分岐こそが、日本の装置・材料メーカーの中期業績を左右する。</p>
+<figure class="nvc-fig">
+<svg class="nvc-svg" viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="H200経路と中国国産経路それぞれにおける日本企業の接続点を示すサプライチェーン図">
+<title>H200経路と中国国産経路における日本の接続点</title>
+<rect x="0" y="0" width="700" height="470" fill="#f6f4ef"></rect>
+<text x="24" y="32" font-family="sans-serif" font-size="15" font-weight="700" fill="#12161d">図3：日本はどちらの経路にも刺さっている（が、刺さり方が違う）</text>
+<text x="24" y="52" font-family="sans-serif" font-size="11" fill="#5e6570">日本企業の強みは「工程」にある。誰のチップかではなく、どう作るかで稼ぐ構造。</text>
+<rect x="24" y="76" width="312" height="26" rx="3" fill="#2b6f8d"></rect>
+<text x="180" y="94" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">経路A：エヌビディア（H200 / Vera Rubin）</text>
+<rect x="24" y="112" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="180" y="133" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">設計：エヌビディア（米）</text>
+<rect x="24" y="152" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="180" y="173" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">前工程：TSMC（台湾）</text>
+<rect x="24" y="192" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="180" y="207" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">HBM：SKハイニックス（韓国）</text>
+<text x="180" y="221" font-family="sans-serif" font-size="9" fill="#5e6570" text-anchor="middle">H200はHBM3・HBM3e／Vera RubinはHBM4想定</text>
+<rect x="24" y="232" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="180" y="253" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">後工程・先端パッケージング：TSMC CoWoS</text>
+<rect x="364" y="76" width="312" height="26" rx="3" fill="#b5322c"></rect>
+<text x="520" y="94" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">経路B：中国国産（Ascendほか）</text>
+<rect x="364" y="112" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="520" y="133" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">設計：ファーウェイ／カンブリコン（中）</text>
+<rect x="364" y="152" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="520" y="173" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">前工程：SMIC など中国国内</text>
+<rect x="364" y="192" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="520" y="207" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">HBM：ファーウェイ自社開発（HiBL 1.0 / HiZQ 2.0）</text>
+<text x="520" y="221" font-family="sans-serif" font-size="9" fill="#5e6570" text-anchor="middle">韓国製HBMは2024年12月に対中輸出が封じられた</text>
+<rect x="364" y="232" width="312" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="520" y="253" font-family="sans-serif" font-size="11" fill="#12161d" text-anchor="middle">後工程：SJセミコンダクター など</text>
+<path d="M 180 270 L 180 296" stroke="#2b6f8d" stroke-width="2" fill="none" marker-end="url(#nvcArrow)"></path>
+<path d="M 520 270 L 520 296" stroke="#b5322c" stroke-width="2" fill="none" marker-end="url(#nvcArrowR)"></path>
+<rect x="24" y="302" width="652" height="106" rx="3" fill="#eef1ec" stroke="#c9cec4" stroke-width="1"></rect>
+<text x="350" y="324" font-family="sans-serif" font-size="12" font-weight="700" fill="#12161d" text-anchor="middle">日本企業の接続点（工程を握る）</text>
+<text x="44" y="348" font-family="sans-serif" font-size="10" fill="#3a4250">前工程装置：東京エレクトロン（塗布・現像／エッチング／成膜）、SCREEN（枚葉洗浄）、KOKUSAI ELECTRIC</text>
+<text x="44" y="368" font-family="sans-serif" font-size="10" fill="#3a4250">後工程・HBM関連：アドバンテスト（テスタ）、ディスコ（精密加工）、TOWA（モールディング）、東京精密、芝浦メカトロニクス</text>
+<text x="44" y="388" font-family="sans-serif" font-size="10" fill="#3a4250">材料：信越化学・SUMCO（シリコンウェハ）、レゾナック（CMPスラリー）、フォトレジスト各社</text>
+<text x="24" y="436" font-family="sans-serif" font-size="10" font-weight="700" fill="#b5322c">ただし日系装置5社の中国売上高は2026年3月期に合計1割減、初の前年度割れ（日本経済新聞）</text>
+<text x="24" y="452" font-family="sans-serif" font-size="10" fill="#9aa1ab">出所：各社IR・報道より作成。企業名は工程の代表例であり、網羅的な列挙ではない。特定銘柄の推奨ではない。</text>
+<defs>
+<marker id="nvcArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#2b6f8d"></path>
+</marker>
+<marker id="nvcArrowR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#b5322c"></path>
+</marker>
+</defs>
+</svg>
+<figcaption class="nvc-figcap">日本勢は「誰のチップか」に賭けていない。「どう作るか」を握っている。だから中国国産化そのものは、必ずしも敵ではない。</figcaption>
+</figure>
+<p class="nvc-p">ここに二重性がある。中国が国産化を進めれば、中国国内で新しい工場と後工程ラインが要る。そこには日本製の装置と材料が入りうる。実際、規制対象外の成膜・洗浄装置などでは中国需要が続いてきた。</p>
+<p class="nvc-p">しかし同時に、中国の装置国産化も進んでいる。日本経済新聞によれば、東京エレクトロン、アドバンテスト、SCREENホールディングス、ディスコ、KOKUSAI ELECTRICの日系5社の中国売上高合計は<strong class="nvc-strong">2026年3月期に1割減と初めて前年度割れ</strong>となった。中国では政府主導の産業振興策が奏功し、NAURAやAMECといった現地メーカーが外国企業のシェアを奪っている。</p>
+<p class="nvc-p">つまり、中国のAI半導体を巡るニュースが日本株に効くとき、その符号は自明ではない。「中国がエヌビディアを買う」は日本にとってプラスともマイナスとも言い切れず、「中国が自分で作る」もまた、装置需要の増加と国産装置による代替という相反する二つの力を同時に持つ。</p>
+<h2 class="nvc-h2">8. この材料の「確度」をどう測るか</h2>
+<p class="nvc-p">最後に、投資規律の話をしておきたい。</p>
+<p class="nvc-p">今回のニュースは、ジ・インフォメーションという一媒体の報道であり、中国当局の公式発表ではない。企業は数量と発注理由を申告する必要があり、最終承認には至っていない。そして過去半年、この案件では「承認が出たのに動かない」ことが繰り返されてきた。</p>
+<figure class="nvc-fig">
+<svg class="nvc-svg" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="報道ベースから売上計上までの6段階と現在地を示す確度ラダー">
+<title>H200対中販売の確度ラダー</title>
+<rect x="0" y="0" width="700" height="340" fill="#f6f4ef"></rect>
+<text x="24" y="32" font-family="sans-serif" font-size="15" font-weight="700" fill="#12161d">図4：いま我々がいるのは、6段のうち2段目である</text>
+<text x="24" y="52" font-family="sans-serif" font-size="11" fill="#5e6570">株価は先に動く。だが売上が立つまでには、まだ4つの関門がある。</text>
+<rect x="24" y="76" width="652" height="34" rx="3" fill="#f2dedd" stroke="#e0b6b3" stroke-width="1"></rect>
+<text x="44" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#8a2a25">① 一媒体の報道</text>
+<text x="220" y="98" font-family="sans-serif" font-size="10" fill="#8a2a25">ジ・インフォメーションが関係筋2人の話として報道（2026年7月8日）</text>
+<rect x="24" y="118" width="652" height="34" rx="3" fill="#f7e6cf" stroke="#dfc094" stroke-width="1"></rect>
+<text x="44" y="140" font-family="sans-serif" font-size="11" font-weight="700" fill="#8a5a13">② 当局の非公式な意向伝達</text>
+<text x="260" y="140" font-family="sans-serif" font-size="10" fill="#8a5a13">アリババ・バイトダンス・DeepSeekに「認める可能性」が伝えられた</text>
+<rect x="600" y="118" width="76" height="34" rx="3" fill="#b5322c"></rect>
+<text x="638" y="140" font-family="sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">現在地</text>
+<rect x="24" y="160" width="652" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="44" y="182" font-family="sans-serif" font-size="11" font-weight="700" fill="#5e6570">③ 企業が数量・発注理由を申告</text>
+<text x="280" y="182" font-family="sans-serif" font-size="10" fill="#9aa1ab">未実施</text>
+<rect x="24" y="202" width="652" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="44" y="224" font-family="sans-serif" font-size="11" font-weight="700" fill="#5e6570">④ 中国当局が最終承認</text>
+<text x="280" y="224" font-family="sans-serif" font-size="10" fill="#9aa1ab">未達。ここで止まったのが2026年1月の税関通達</text>
+<rect x="24" y="244" width="652" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="44" y="266" font-family="sans-serif" font-size="11" font-weight="700" fill="#5e6570">⑤ 通関・納入</text>
+<text x="280" y="266" font-family="sans-serif" font-size="10" fill="#9aa1ab">過去半年の実績はゼロ。生産も停止済み</text>
+<rect x="24" y="286" width="652" height="34" rx="3" fill="#ffffff" stroke="#d8d2c6" stroke-width="1"></rect>
+<text x="44" y="308" font-family="sans-serif" font-size="11" font-weight="700" fill="#5e6570">⑥ 売上計上</text>
+<text x="280" y="308" font-family="sans-serif" font-size="10" fill="#9aa1ab">CFOは「まだ収益を上げていない」と明言</text>
+</svg>
+<figcaption class="nvc-figcap">エヌビディア株の3.65%上昇は、②の段階に対する評価である。</figcaption>
+</figure>
+<p class="nvc-p">株価は②の段階で動く。それ自体は市場の役割であって、間違いではない。問題は、②を④や⑥と取り違えることだ。<strong class="nvc-strong">「認める方針」と「売上が立つ」の間には、この案件だけで少なくとも4つの関門と、半年分の前例がある。</strong></p>
+<p class="nvc-p">2026年5月14日、米政府がアリババ・テンセント・バイトダンス・JD.comなど約10社への販売を承認したときも、市場は好材料と受け取った。だが翌15日、短期的な進展は見込みにくいとの報道でエヌビディア株は一時4.6%超下落している。<strong class="nvc-strong">同じニュースの構造が、二度繰り返されている。</strong></p>
+<h2 class="nvc-h2">9. 盤面を読み違えないために</h2>
+<p class="nvc-p">今回の材料から引き出せる示唆を、三つにまとめる。</p>
+<div class="nvc-scenario">
+<div class="nvc-sc-item">
+<p class="nvc-sc-label">① 「規制緩和＝売上回復」ではない</p>
+<p class="nvc-sc-body">売る許可と、買う許可と、作る能力は別物である。この三つが揃って初めて売上になる。H200では現在、三つ目が欠けている。</p>
+</div>
+<div class="nvc-sc-item">
+<p class="nvc-sc-label">② 中国の軟化は、中国の弱さのサインでもある</p>
+<p class="nvc-sc-body">国産チップで押し通せるなら、買う必要はない。買うと言い出したということは、AI開発の計算資源がまだ足りていないということだ。長期の国産化トレンドが崩れたわけではないが、そのペースには限界がある。</p>
+</div>
+<div class="nvc-sc-item">
+<p class="nvc-sc-label">③ 日本株への波及は「工程」で考える</p>
+<p class="nvc-sc-body">誰のチップが勝つかではなく、どの工程が増えるかを見る。HBMと先端パッケージングの拡大は、エヌビディア経路でも中国国産経路でも起きる。ただし中国国内では、その工程を担う装置の国産化も同時に進んでいる。</p>
+</div>
+</div>
+<p class="nvc-p">エヌビディアは世界最大の時価総額を持つ企業である。だがH200を巡る半年間が示したのは、その企業が米中二つの政府の決定を待つ以外にできることがなかった、という事実だった。<strong class="nvc-strong">技術の優位は、必ずしも交渉の優位ではない。</strong></p>
+<p class="nvc-p">そして、この構造は日本の半導体関連企業にもそのまま当てはまる。世界シェア9割の装置を持っていても、それをどこに売れるかは政治が決める。<strong class="nvc-strong">我々が投資しているのは技術力であると同時に、その技術力が置かれた地政学的な位置なのである。</strong></p>
+<div class="nvc-related">
+<p class="nvc-related-title">関連記事</p>
+<ul class="nvc-related-list">
+<li class="nvc-related-item"><a class="nvc-link" href="/fomc-minutes-ai-inflation-boj-july/">【中央銀行ウォッチ】FRBが「AI投資」をインフレ要因と名指しした日</a>（※公開後にリンク差し替え）</li>
+<li class="nvc-related-item"><a class="nvc-link" href="/ai-capex-growth-peakout-risk/">【AI熱狂の光と影】AIインフラ投資はどこでピークを打つか</a>（※公開後にリンク差し替え）</li>
+<li class="nvc-related-item"><span>【経済安全保障】SKハイニックスとHBMの寡占構造</span>（※公開後にリンク差し替え）</li>
+</ul>
+</div>
+<div class="nvc-note">
+<p class="nvc-note-title">本記事の情報の確度について</p>
+<p class="nvc-note-text">今回の中国によるH200購入容認は、ジ・インフォメーションの報道に基づくものであり、中国当局の公式発表ではありません。購入の最終承認には至っていません。本文中の企業の生産計画・出荷予測（ファーウェイのAscend生産数、JPモルガンの予測等）は、いずれも報道機関が関係者の話や調査機関の分析として伝えたものであり、企業の公式開示ではないものを含みます。歩留まりやシェアに関する数値は調査会社・報道機関による推計です。図2の棒の長さは数量に厳密比例していません。図3の企業名は工程の代表例であり、網羅的な列挙ではありません。</p>
+</div>
+<div class="nvc-disc">
+<p class="nvc-disc-text">本記事は情報提供を目的としたものであり、特定の銘柄の売買を推奨するものではありません。投資判断はご自身の責任において行ってください。記載内容の正確性には努めていますが、その完全性を保証するものではありません。</p>
+</div>
+</div>

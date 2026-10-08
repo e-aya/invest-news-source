@@ -1,0 +1,191 @@
+.yed-article{--yed-ink:#14213d;
+  --yed-sub:#5b554a;
+  --yed-mute:#8c8579;
+  --yed-paper:#f7f5f0;
+  --yed-line:#e4e0d6;
+  --yed-yamada:#d7263d;
+  --yed-edion:#1b6ca8;
+  --yed-gold:#e8923a;
+  --yed-teal:#2a9d8f;
+  max-width:860px !important;
+  margin:0 auto !important;
+  padding:8px 2px 24px !important;
+  color:var(--yed-ink) !important;
+  font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",-apple-system,"Segoe UI",sans-serif !important;
+  line-height:1.85 !important;
+  -webkit-font-smoothing:antialiased !important;}
+.yed-article *{box-sizing:border-box !important;}
+.yed-article .yed-kicker{display:inline-block !important;
+  font-size:12px !important;
+  letter-spacing:.14em !important;
+  font-weight:700 !important;
+  color:var(--yed-yamada) !important;
+  border:1px solid var(--yed-yamada) !important;
+  border-radius:999px !important;
+  padding:4px 12px !important;
+  margin:0 0 14px !important;
+  background-color:#fff !important;}
+.yed-article .yed-title{font-size:30px !important;
+  line-height:1.34 !important;
+  font-weight:800 !important;
+  color:var(--yed-ink) !important;
+  margin:0 0 16px !important;
+  letter-spacing:.01em !important;}
+.yed-article .yed-dek{font-size:16px !important;
+  color:var(--yed-sub) !important;
+  margin:0 0 22px !important;
+  padding-left:14px !important;
+  border-left:4px solid var(--yed-gold) !important;}
+.yed-article .yed-chips{display:flex !important;
+  flex-wrap:wrap !important;
+  gap:8px !important;
+  margin:0 0 26px !important;
+  padding:0 !important;}
+.yed-article .yed-chips .yed-chip{font-size:13px !important;
+  color:var(--yed-ink) !important;
+  background-color:var(--yed-paper) !important;
+  border:1px solid var(--yed-line) !important;
+  border-radius:8px !important;
+  padding:7px 12px !important;}
+.yed-article .yed-chips .yed-chip b{color:var(--yed-yamada) !important;
+  font-weight:800 !important;
+  margin-right:4px !important;}
+.yed-article .yed-summary{background-color:#fbfaf6 !important;
+  background-image:linear-gradient(180deg,#fbfaf6 0%,#f4f1e9 100%) !important;
+  border:1px solid var(--yed-line) !important;
+  border-left:6px solid var(--yed-gold) !important;
+  border-radius:12px !important;
+  padding:18px 20px 14px !important;
+  margin:0 0 30px !important;}
+.yed-article .yed-summary .yed-summary-head{font-size:14px !important;
+  font-weight:800 !important;
+  letter-spacing:.08em !important;
+  color:var(--yed-gold) !important;
+  margin:0 0 10px !important;}
+.yed-article .yed-summary .yed-summary-list{margin:0 !important;
+  padding-left:20px !important;
+  list-style:disc !important;}
+.yed-article .yed-summary .yed-summary-list li{font-size:14.5px !important;
+  color:var(--yed-sub) !important;
+  margin:0 0 8px !important;
+  line-height:1.75 !important;}
+.yed-article .yed-summary .yed-summary-list li b{color:var(--yed-ink) !important; font-weight:700 !important;}
+.yed-article .yed-terms{background-color:#fff !important;
+  border:1px dashed var(--yed-teal) !important;
+  border-radius:12px !important;
+  padding:16px 20px !important;
+  margin:0 0 32px !important;}
+.yed-article .yed-terms .yed-terms-head{font-size:13.5px !important;
+  font-weight:800 !important;
+  color:var(--yed-teal) !important;
+  margin:0 0 10px !important;}
+.yed-article .yed-terms .yed-termlist{margin:0 !important;}
+.yed-article .yed-terms .yed-term{font-size:14px !important;
+  font-weight:800 !important;
+  color:var(--yed-ink) !important;
+  margin:10px 0 3px !important;}
+.yed-article .yed-terms .yed-termdef{font-size:13.5px !important;
+  color:var(--yed-sub) !important;
+  margin:0 0 6px !important;
+  line-height:1.72 !important;}
+.yed-article .yed-h2{font-size:21px !important;
+  font-weight:800 !important;
+  color:var(--yed-ink) !important;
+  margin:38px 0 14px !important;
+  padding:6px 0 6px 14px !important;
+  border-left:6px solid var(--yed-ink) !important;
+  line-height:1.4 !important;}
+.yed-article .yed-h2--why{border-left-color:var(--yed-teal) !important;}
+.yed-article .yed-h2--size{border-left-color:var(--yed-yamada) !important;}
+.yed-article .yed-h2--scheme{border-left-color:var(--yed-ink) !important;}
+.yed-article .yed-h2--geo{border-left-color:var(--yed-gold) !important;}
+.yed-article .yed-h2--lever{border-left-color:var(--yed-edion) !important;}
+.yed-article .yed-h2--gate{border-left-color:var(--yed-yamada) !important;}
+.yed-article .yed-h2--map{border-left-color:var(--yed-gold) !important;}
+.yed-article .yed-h2--mkt{border-left-color:var(--yed-teal) !important;}
+.yed-article .yed-p{font-size:15.5px !important;
+  color:var(--yed-sub) !important;
+  margin:0 0 16px !important;
+  line-height:1.9 !important;}
+.yed-article .yed-p b{color:var(--yed-ink) !important; font-weight:700 !important;}
+.yed-article .yed-fig{margin:18px 0 22px !important; padding:0 !important;}
+.yed-article .yed-fig .yed-svg{display:block !important;
+  width:100% !important;
+  height:auto !important;
+  background-color:#fff !important;
+  border:1px solid var(--yed-line) !important;
+  border-radius:12px !important;
+  padding:8px !important;}
+.yed-article .yed-fig .yed-figcap{font-size:12.5px !important;
+  color:var(--yed-mute) !important;
+  margin:8px 2px 0 !important;
+  line-height:1.6 !important;}
+.yed-article .yed-gates{display:grid !important;
+  grid-template-columns:repeat(2,1fr) !important;
+  gap:12px !important;
+  margin:0 0 24px !important;}
+.yed-article .yed-gates .yed-gate{background-color:#fff !important;
+  border:1px solid var(--yed-line) !important;
+  border-top:4px solid var(--yed-yamada) !important;
+  border-radius:10px !important;
+  padding:14px 16px !important;}
+.yed-article .yed-gates .yed-gate .yed-gate-no{font-size:11px !important;
+  font-weight:800 !important;
+  letter-spacing:.1em !important;
+  color:var(--yed-yamada) !important;
+  margin:0 0 4px !important;}
+.yed-article .yed-gates .yed-gate .yed-gate-title{font-size:15px !important;
+  font-weight:800 !important;
+  color:var(--yed-ink) !important;
+  margin:0 0 6px !important;}
+.yed-article .yed-gates .yed-gate .yed-gate-body{font-size:13px !important;
+  color:var(--yed-sub) !important;
+  margin:0 !important;
+  line-height:1.7 !important;}
+.yed-article .yed-watch{margin:0 0 26px !important;
+  padding-left:20px !important;
+  list-style:square !important;}
+.yed-article .yed-watch li{font-size:15px !important;
+  color:var(--yed-sub) !important;
+  margin:0 0 9px !important;
+  line-height:1.8 !important;}
+.yed-article .yed-watch li b{color:var(--yed-ink) !important; font-weight:700 !important;}
+.yed-article .yed-scenario{background-color:var(--yed-paper) !important;
+  border:1px solid var(--yed-line) !important;
+  border-radius:14px !important;
+  padding:18px 20px !important;
+  margin:10px 0 30px !important;}
+.yed-article .yed-scenario .yed-scenario-head{font-size:14px !important;
+  font-weight:800 !important;
+  color:var(--yed-ink) !important;
+  margin:0 0 14px !important;}
+.yed-article .yed-scenario .yed-scenario-grid{display:grid !important;
+  grid-template-columns:repeat(3,1fr) !important;
+  gap:12px !important;
+  margin:0 0 12px !important;}
+.yed-article .yed-scenario .yed-sc{background-color:#fff !important;
+  border-radius:10px !important;
+  border-top:4px solid var(--yed-mute) !important;
+  padding:12px 14px !important;}
+.yed-article .yed-scenario .yed-sc--bear{border-top-color:var(--yed-edion) !important;}
+.yed-article .yed-scenario .yed-sc--base{border-top-color:var(--yed-mute) !important;}
+.yed-article .yed-scenario .yed-sc--bull{border-top-color:var(--yed-yamada) !important;}
+.yed-article .yed-scenario .yed-sc .yed-sc-label{font-size:13px !important;
+  font-weight:800 !important;
+  color:var(--yed-ink) !important;
+  margin:0 0 6px !important;}
+.yed-article .yed-scenario .yed-sc .yed-sc-body{font-size:12.5px !important;
+  color:var(--yed-sub) !important;
+  margin:0 !important;
+  line-height:1.7 !important;}
+.yed-article .yed-scenario .yed-scenario-note{font-size:12.5px !important;
+  color:var(--yed-mute) !important;
+  margin:6px 0 0 !important;
+  line-height:1.7 !important;}
+.yed-article .yed-disclaimer{font-size:11.5px !important;
+  color:var(--yed-mute) !important;
+  line-height:1.7 !important;
+  border-top:1px solid var(--yed-line) !important;
+  margin:28px 0 0 !important;
+  padding:14px 0 0 !important;}
+@media (max-width:600px){.yed-article .yed-title{font-size:24px !important;}.yed-article .yed-gates{grid-template-columns:1fr !important;}.yed-article .yed-scenario .yed-scenario-grid{grid-template-columns:1fr !important;}}

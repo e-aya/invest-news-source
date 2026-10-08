@@ -1,0 +1,170 @@
+.aim-root{max-width: 860px !important;
+  margin: 0 auto !important;
+  padding: 0 4px !important;
+  font-feature-settings: "palt" !important;
+  line-height: 1.9 !important;
+  color: #24252b !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.aim-root .aim-hero{background-color: #241a33 !important;
+  background-image: linear-gradient(135deg, #241a33 0%, #3a2a52 100%) !important;
+  border-radius: 14px !important;
+  padding: 28px 26px 24px !important;
+  margin: 0 0 22px !important;
+  border: 1px solid #45355f !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.aim-root .aim-hero-label{color: #e8b64c !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.82rem !important;
+  letter-spacing: 0.08em !important;
+  margin: 0 0 10px !important;
+  font-weight: 700 !important;}
+.aim-root .aim-hero-title{color: #f6f3fa !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1.42rem !important;
+  line-height: 1.5 !important;
+  margin: 0 0 14px !important;
+  border: none !important;
+  padding: 0 !important;}
+.aim-root .aim-hero-lead{color: #cdc3dd !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.95rem !important;
+  margin: 0 !important;}
+.aim-root .aim-summary{background-color: #f5f0e6 !important;
+  background-image: none !important;
+  border-left: 5px solid #b8862e !important;
+  border-radius: 0 10px 10px 0 !important;
+  padding: 18px 22px !important;
+  margin: 0 0 30px !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.aim-root .aim-summary-title{color: #8a6420 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1rem !important;
+  margin: 0 0 10px !important;
+  border: none !important;
+  padding: 0 !important;}
+.aim-root .aim-summary-list{margin: 0 !important;
+  padding: 0 0 0 1.3em !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.aim-root .aim-summary-list li{color: #4c4433 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.93rem !important;
+  margin: 0 0 8px !important;
+  line-height: 1.75 !important;}
+.aim-root .aim-h2{color: #241a33 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1.28rem !important;
+  line-height: 1.5 !important;
+  margin: 40px 0 16px !important;
+  padding: 0 0 10px !important;
+  border: none !important;
+  border-bottom: 3px solid #b8862e !important;}
+.aim-root .aim-p{color: #24252b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 1rem !important;
+  margin: 0 0 18px !important;}
+.aim-root .aim-figure{margin: 26px 0 30px !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.aim-root .aim-figcaption{color: #6b7280 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.82rem !important;
+  line-height: 1.7 !important;
+  margin: 10px 0 0 !important;
+  padding: 0 !important;}
+.aim-root .aim-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background-color: #fbf9f4 !important;
+  background-image: none !important;
+  border: 1px solid #e5ddcc !important;
+  border-radius: 10px !important;
+  filter: none !important;
+  opacity: 1 !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.aim-root .aim-svg *{filter: none !important;
+  opacity: 1 !important;}
+.aim-root .aim-svg text{font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif !important;}
+.aim-root .aim-svg-title{fill: #241a33 !important; font-size: 15px !important; font-weight: 700 !important;}
+.aim-root .aim-axis{stroke: #93909c !important; stroke-width: 1.5 !important;}
+.aim-root .aim-grid{stroke: #ddd6c6 !important; stroke-width: 1 !important; stroke-dasharray: 3 4 !important;}
+.aim-root .aim-tick,.aim-root .aim-xtick{fill: #6b7280 !important; font-size: 11px !important;}
+.aim-root .aim-note{fill: #8a8474 !important; font-size: 10.5px !important;}
+.aim-root .aim-divider{stroke: #d9d2c0 !important; stroke-width: 1 !important;}
+.aim-root .aim-panel-head{fill: #241a33 !important; font-size: 13px !important; font-weight: 700 !important;}
+.aim-root .aim-panel-sub{fill: #6b7280 !important; font-size: 11.5px !important;}
+.aim-root .aim-flow-inv{fill: #2e6d5a !important; stroke: none !important;}
+.aim-root .aim-flow-corp{fill: #241a33 !important; stroke: none !important;}
+.aim-root .aim-flow-infra{fill: #8a5a1f !important; stroke: none !important;}
+.aim-root .aim-flow-head{fill: #ffffff !important; font-size: 13px !important; font-weight: 700 !important;}
+.aim-root .aim-flow-sub{fill: #ded9e8 !important; font-size: 10.5px !important;}
+.aim-root .aim-flow-arrow{stroke: #5c5568 !important; stroke-width: 2.5 !important;}
+.aim-root .aim-flow-tip{fill: #5c5568 !important; stroke: none !important;}
+.aim-root .aim-flow-tip-q{fill: #b04a3a !important; stroke: none !important;}
+.aim-root .aim-flow-note{fill: #45415c !important; font-size: 12px !important; font-weight: 700 !important;}
+.aim-root .aim-flow-return{fill: none !important; stroke: #b04a3a !important; stroke-width: 2 !important; stroke-dasharray: 7 5 !important;}
+.aim-root .aim-flow-qhead{fill: #b04a3a !important; font-size: 12.5px !important; font-weight: 700 !important;}
+.aim-root .aim-flow-qsub{fill: #7a6a62 !important; font-size: 11px !important;}
+.aim-root .aim-flow-choke{fill: #f3e2d6 !important; stroke: #b04a3a !important; stroke-width: 1.5 !important;}
+.aim-root .aim-flow-chokehead{fill: #8f3a2c !important; font-size: 12px !important; font-weight: 700 !important;}
+.aim-root .aim-flow-chokesub{fill: #8f3a2c !important; font-size: 11px !important;}
+.aim-root .aim-flow-dash{stroke: #c9a08e !important; stroke-width: 1.5 !important; stroke-dasharray: 3 4 !important;}
+.aim-root .aim-bar-ipo{fill: #a08bc0 !important; stroke: none !important;}
+.aim-root .aim-bar-spx{fill: #2e6d5a !important; stroke: none !important;}
+.aim-root .aim-bar-label{fill: #24252b !important; font-size: 12.5px !important; font-weight: 700 !important;}
+.aim-root .aim-spcx-line{fill: none !important; stroke: #6c4fa3 !important; stroke-width: 3 !important;}
+.aim-root .aim-spcx-dot{fill: #6c4fa3 !important;}
+.aim-root .aim-spcx-dot-low{fill: #fbf9f4 !important; stroke: #b04a3a !important; stroke-width: 2.5 !important;}
+.aim-root .aim-spcx-label{fill: #55506b !important; font-size: 11px !important; font-weight: 700 !important;}
+.aim-root .aim-spcx-label-hi{fill: #2e6d5a !important; font-size: 11px !important; font-weight: 700 !important;}
+.aim-root .aim-spcx-label-low{fill: #b04a3a !important; font-size: 11px !important; font-weight: 700 !important;}
+.aim-root .aim-gw-bar{fill: #6c4fa3 !important; stroke: none !important;}
+.aim-root .aim-gw-bar-hi{fill: #b8862e !important; stroke: none !important;}
+.aim-root .aim-gw-val{fill: #45415c !important; font-size: 14px !important; font-weight: 700 !important;}
+.aim-root .aim-gw-val-hi{fill: #8a5a1f !important; font-size: 15px !important; font-weight: 700 !important;}
+.aim-root .aim-gw-growth{fill: #b04a3a !important; font-size: 12px !important; font-weight: 700 !important;}
+.aim-root .aim-vc-box{fill: #eef0ee !important; stroke: #a9b0a9 !important; stroke-width: 1 !important;}
+.aim-root .aim-vc-box-mid{fill: #f5ecda !important; stroke: #cbb27a !important; stroke-width: 1 !important;}
+.aim-root .aim-vc-box-hi{fill: #f3ddd3 !important; stroke: #b04a3a !important; stroke-width: 2 !important;}
+.aim-root .aim-vc-head{fill: #24252b !important; font-size: 12.5px !important; font-weight: 700 !important;}
+.aim-root .aim-vc-head-hi{fill: #8f3a2c !important; font-size: 12.5px !important; font-weight: 700 !important;}
+.aim-root .aim-vc-sub{fill: #6b7280 !important; font-size: 10.5px !important;}
+.aim-root .aim-vc-sub-hi{fill: #b04a3a !important; font-size: 10.5px !important; font-weight: 700 !important;}
+.aim-root .aim-vc-arrow{stroke: #93909c !important; stroke-width: 2 !important;}
+.aim-root .aim-vc-timeline{stroke: #c9c3b3 !important; stroke-width: 2 !important;}
+.aim-root .aim-vc-tdot{fill: #6c4fa3 !important;}
+.aim-root .aim-vc-tdot-hi{fill: #b04a3a !important;}
+.aim-root .aim-vc-tlabel{fill: #45415c !important; font-size: 11.5px !important; font-weight: 700 !important;}
+.aim-root .aim-vc-tlabel-hi{fill: #b04a3a !important; font-size: 11.5px !important; font-weight: 700 !important;}
+.aim-root .aim-vc-tsub{fill: #6b7280 !important; font-size: 10.5px !important;}
+.aim-root .aim-vc-insight{fill: #241a33 !important; font-size: 12.5px !important; font-weight: 700 !important;}
+.aim-root .aim-disclaimer{background-color: #f1f0f3 !important;
+  background-image: none !important;
+  border-radius: 10px !important;
+  padding: 14px 18px !important;
+  margin: 36px 0 0 !important;
+  filter: none !important;
+  opacity: 1 !important;}
+.aim-root .aim-disclaimer-p{color: #6b7280 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.8rem !important;
+  line-height: 1.7 !important;
+  margin: 0 !important;}
+@media (max-width: 480px){.aim-root .aim-hero{padding: 20px 16px 18px !important;}.aim-root .aim-hero-title{font-size: 1.18rem !important;}.aim-root .aim-h2{font-size: 1.12rem !important;}.aim-root .aim-summary{padding: 14px 16px !important;}}

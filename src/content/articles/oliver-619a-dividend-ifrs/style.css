@@ -1,0 +1,593 @@
+.olv-doc.olv-doc{display: block !important;
+  box-sizing: border-box !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #1e293b !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.85 !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: both !important;
+  position: static !important;
+  top: auto !important; right: auto !important; bottom: auto !important; left: auto !important;
+  z-index: auto !important;
+  overflow: visible !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  content-visibility: visible !important;
+  mix-blend-mode: normal !important;
+  isolation: auto !important;}
+.olv-doc.olv-doc *{box-sizing: border-box !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  text-decoration-color: currentColor !important;
+  caret-color: auto !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-style: normal !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  position: static !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  mix-blend-mode: normal !important;
+  writing-mode: horizontal-tb !important;
+  text-orientation: mixed !important;
+  direction: ltr !important;
+  order: 0 !important;
+  flex: 0 1 auto !important;
+  clip-path: none !important;
+  content-visibility: visible !important;}
+.olv-doc.olv-doc::before,.olv-doc.olv-doc::after,.olv-doc.olv-doc [class*="olv-"]::before,.olv-doc.olv-doc [class*="olv-"]::after,.olv-doc.olv-doc p::before,.olv-doc.olv-doc p::after,.olv-doc.olv-doc h2::before,.olv-doc.olv-doc h2::after,.olv-doc.olv-doc h3::before,.olv-doc.olv-doc h3::after,.olv-doc.olv-doc li::before,.olv-doc.olv-doc li::after,.olv-doc.olv-doc ul::before,.olv-doc.olv-doc ul::after,.olv-doc.olv-doc table::before,.olv-doc.olv-doc table::after,.olv-doc.olv-doc td::before,.olv-doc.olv-doc td::after,.olv-doc.olv-doc th::before,.olv-doc.olv-doc th::after,.olv-doc.olv-doc figure::before,.olv-doc.olv-doc figure::after,.olv-doc.olv-doc figcaption::before,.olv-doc.olv-doc figcaption::after,.olv-doc.olv-doc div::before,.olv-doc.olv-doc div::after,.olv-doc.olv-doc strong::before,.olv-doc.olv-doc strong::after,.olv-doc.olv-doc thead::before,.olv-doc.olv-doc thead::after,.olv-doc.olv-doc tbody::before,.olv-doc.olv-doc tbody::after,.olv-doc.olv-doc tr::before,.olv-doc.olv-doc tr::after,.olv-doc.olv-doc ol::before,.olv-doc.olv-doc ol::after,.olv-doc.olv-doc svg::before,.olv-doc.olv-doc svg::after,.olv-doc.olv-doc h4::before,.olv-doc.olv-doc h4::after,.olv-doc.olv-doc span::before,.olv-doc.olv-doc span::after,.olv-doc.olv-doc em::before,.olv-doc.olv-doc em::after,.olv-doc.olv-doc a::before,.olv-doc.olv-doc a::after,.olv-doc.olv-doc circle::before,.olv-doc.olv-doc circle::after{content: none !important;
+  display: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;}
+.olv-doc.olv-doc p{display: block !important;
+  margin: 0 0 1.15em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  color: #1e293b !important;
+  font-size: 16px !important;
+  line-height: 1.85 !important;
+  text-align: left !important;}
+.olv-doc.olv-doc h2{display: block !important;
+  width: auto !important;
+  height: auto !important;
+  writing-mode: horizontal-tb !important;
+  text-orientation: mixed !important;
+  margin: 2.0em 0 0.9em 0 !important;
+  padding: 0.42em 0 0.42em 0.72em !important;
+  border: 0 !important;
+  border-left: 5px solid #7c2d12 !important;
+  background-color: #f1f5f9 !important;
+  background-image: none !important;
+  color: #0f172a !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.01em !important;
+  text-align: left !important;}
+.olv-doc.olv-doc strong{display: inline !important;
+  margin: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  vertical-align: baseline !important;
+  white-space: normal !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  border: 0 !important;}
+.olv-doc.olv-doc .olv-up{color: #7c2d12 !important;}
+.olv-doc.olv-doc .olv-dn{color: #9f1239 !important;}
+.olv-doc.olv-doc .olv-lede{width: auto !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 1.0em 1.1em !important;
+  border: 0 !important;
+  border-left: 5px solid #7c2d12 !important;
+  border-radius: 0 6px 6px 0 !important;
+  background-color: #fff7ed !important;
+  background-image: none !important;
+  color: #7c2d12 !important;
+  font-size: 15.5px !important;
+  line-height: 1.9 !important;}
+.olv-doc.olv-doc .olv-lede strong{color: #7c2d12 !important;}
+.olv-doc.olv-doc .olv-keypanel{width: auto !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 0 1.9em 0 !important;
+  padding: 1.0em 1.1em !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 6px !important;
+  background-color: #f8fafc !important;
+  background-image: none !important;}
+.olv-doc.olv-doc .olv-keytitle{width: auto !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 0 0.55em 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #7c2d12 !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em !important;}
+.olv-doc.olv-doc .olv-keylist,.olv-doc.olv-doc .olv-list,.olv-doc.olv-doc .olv-wraplist{display: block !important;
+  margin: 0 0 0 0 !important;
+  padding: 0 0 0 1.35em !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  overflow: visible !important;
+  width: auto !important;
+  height: auto !important;}
+.olv-doc.olv-doc .olv-list{margin: 0 0 1.25em 0 !important;}
+.olv-doc.olv-doc .olv-keylist li,.olv-doc.olv-doc .olv-list li,.olv-doc.olv-doc .olv-wraplist li{display: list-item !important;
+  margin: 0 0 0.45em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #1e293b !important;
+  font-size: 15.5px !important;
+  line-height: 1.8 !important;
+  list-style-type: disc !important;}
+.olv-doc.olv-doc .olv-callout{width: auto !important;
+  height: auto !important;
+  display: block !important;
+  margin: 1.4em 0 1.6em 0 !important;
+  padding: 0.95em 1.1em !important;
+  border: 1px solid #fda4af !important;
+  border-radius: 6px !important;
+  background-color: #fff1f2 !important;
+  background-image: none !important;}
+.olv-doc.olv-doc .olv-callout p{margin: 0 !important;
+  background-color: transparent !important;
+  color: #4c0519 !important;
+  font-size: 15px !important;}
+.olv-doc.olv-doc .olv-calloutlabel{margin: 0 0 0.4em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  width: auto !important;
+  color: #9f1239 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em !important;}
+.olv-doc.olv-doc .olv-callout strong{color: #881337 !important;}
+.olv-doc.olv-doc .olv-wrapup{width: auto !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 0 1.5em 0 !important;
+  padding: 1.05em 1.15em !important;
+  border: 0 !important;
+  border-top: 4px solid #7c2d12 !important;
+  border-radius: 4px !important;
+  background-color: #f1f5f9 !important;
+  background-image: none !important;}
+.olv-doc.olv-doc .olv-close{width: auto !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  font-size: 15.5px !important;
+  color: #334155 !important;}
+.olv-doc.olv-doc .olv-disc{width: auto !important;
+  height: auto !important;
+  margin: 1.8em 0 0 0 !important;
+  padding: 0.8em 0.9em !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 4px !important;
+  background-color: #f8fafc !important;
+  color: #64748b !important;
+  font-size: 12.5px !important;
+  line-height: 1.75 !important;}
+.olv-doc.olv-doc .olv-tblwrap{width: auto !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 0 1.5em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;}
+.olv-doc.olv-doc .olv-tbl{display: table !important;
+  width: 100% !important;
+  min-width: 460px !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #cbd5e1 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  table-layout: auto !important;
+  font-size: 14px !important;}
+.olv-doc.olv-doc .olv-tbl thead{display: table-header-group !important; background-color: transparent !important;}
+.olv-doc.olv-doc .olv-tbl tbody{display: table-row-group !important; background-color: transparent !important;}
+.olv-doc.olv-doc .olv-tbl tr{display: table-row !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;}
+.olv-doc.olv-doc .olv-th-n{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0.6em 0.75em !important;
+  border: 1px solid #cbd5e1 !important;
+  background-color: #7c2d12 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.6 !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+  white-space: normal !important;
+  word-break: normal !important;}
+.olv-doc.olv-doc .olv-td-n{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0.55em 0.75em !important;
+  border: 1px solid #cbd5e1 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #1e293b !important;
+  font-size: 13.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.65 !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+  white-space: normal !important;
+  word-break: normal !important;}
+.olv-doc.olv-doc .olv-tbl tbody tr:nth-child(even) .olv-td-n{background-color: #f8fafc !important;}
+.olv-doc.olv-doc .olv-td-n strong{font-size: 13.5px !important;}
+.olv-doc.olv-doc .olv-fig{display: block !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 1.5em 0 1.8em 0 !important;
+  padding: 0 !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 6px !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  overflow: hidden !important;}
+.olv-doc.olv-doc .olv-figcap{display: block !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0.62em 0.9em !important;
+  border: 0 !important;
+  border-bottom: 1px solid #cbd5e1 !important;
+  background-color: #7c2d12 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.55 !important;
+  letter-spacing: 0.02em !important;
+  text-align: left !important;
+  caption-side: top !important;}
+.olv-doc.olv-doc .olv-figbody{display: block !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 10px !important;
+  border: 0 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;}
+.olv-doc.olv-doc .olv-fignote{display: block !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0.55em 0.9em 0.7em 0.9em !important;
+  border: 0 !important;
+  border-top: 1px solid #e2e8f0 !important;
+  background-color: #f8fafc !important;
+  background-image: none !important;
+  color: #64748b !important;
+  font-size: 12px !important;
+  line-height: 1.7 !important;}
+.olv-doc.olv-doc .olv-svg{display: block !important;
+  width: 100% !important;
+  min-width: 620px !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow: visible !important;
+  filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;}
+.olv-doc.olv-doc .olv-svg *{filter: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  animation: none !important;
+  transition: none !important;
+  mix-blend-mode: normal !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+  vector-effect: none !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  stroke-opacity: 1 !important;
+  fill-opacity: 1 !important;
+  paint-order: normal !important;}
+.olv-doc.olv-doc .olv-svg text{font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  letter-spacing: 0 !important;
+  word-spacing: normal !important;
+  line-height: normal !important;
+  white-space: normal !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+  paint-order: normal !important;}
+.olv-doc.olv-doc .olv-b15{font-size: 15px !important; font-weight: 700 !important; fill: #0f172a !important;}
+.olv-doc.olv-doc .olv-b13{font-size: 13px !important; font-weight: 700 !important; fill: #0f172a !important;}
+.olv-doc.olv-doc .olv-b12{font-size: 12px !important; font-weight: 700 !important; fill: #0f172a !important;}
+.olv-doc.olv-doc .olv-b11{font-size: 11px !important; font-weight: 700 !important; fill: #0f172a !important;}
+.olv-doc.olv-doc .olv-b11-w{font-size: 11px !important; font-weight: 700 !important; fill: #ffffff !important;}
+.olv-doc.olv-doc .olv-t13{font-size: 13px !important; font-weight: 400 !important; fill: #334155 !important;}
+.olv-doc.olv-doc .olv-t12{font-size: 12px !important; font-weight: 400 !important; fill: #334155 !important;}
+.olv-doc.olv-doc .olv-t11{font-size: 11px !important; font-weight: 400 !important; fill: #334155 !important;}
+.olv-doc.olv-doc .olv-t11-m{font-size: 11px !important; font-weight: 400 !important; fill: #475569 !important;}
+.olv-doc.olv-doc .olv-t10{font-size: 10px !important; font-weight: 400 !important; fill: #475569 !important;}
+.olv-doc.olv-doc .olv-t10-w{font-size: 10px !important; font-weight: 700 !important; fill: #ffffff !important;}
+.olv-doc.olv-doc .olv-bg{fill: #ffffff !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-sep{stroke: #cbd5e1 !important; stroke-width: 1 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-axis{stroke: #94a3b8 !important; stroke-width: 1.5 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-link{stroke: #94a3b8 !important; stroke-width: 1.5 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-dot-a{r: 2.5px !important; fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-dot-b{r: 2.5px !important; fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-seg-a{fill: #7c2d12 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-b{fill: #ea580c !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-c{fill: #94a3b8 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-d{fill: #9f1239 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-e{fill: #f59e0b !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-chip-pos{fill: #ffedd5 !important; stroke: #7c2d12 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-chip-neg{fill: #ffe4e6 !important; stroke: #9f1239 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-col-a{fill: #fff7ed !important; stroke: #fed7aa !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-col-b{fill: #fff1f2 !important; stroke: #fecaca !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bar-pos{fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-neg{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-mark-n{r: 5px !important; fill: #ffffff !important; stroke: #64748b !important; stroke-width: 2 !important;}
+.olv-doc.olv-doc .olv-mark-p{r: 5px !important; fill: #7c2d12 !important; stroke: #ffffff !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-mark-x{r: 5px !important; fill: #9f1239 !important; stroke: #ffffff !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-lay-n{fill: #f1f5f9 !important; stroke: #cbd5e1 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-lay-a{fill: #fff7ed !important; stroke: #7c2d12 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-lay-b{fill: #fff1f2 !important; stroke: #9f1239 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-tag-a{fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-tag-b{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-leaf-p{fill: #fff7ed !important; stroke: #7c2d12 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-leaf-x{fill: #fff1f2 !important; stroke: #9f1239 !important; stroke-width: 1.5 !important;}
+@media screen and (max-width: 680px){.olv-doc.olv-doc{font-size: 15.5px !important;}.olv-doc.olv-doc p{font-size: 15.5px !important;}.olv-doc.olv-doc h2{font-size: 18px !important;}.olv-doc.olv-doc .olv-lede{font-size: 15px !important;}.olv-doc.olv-doc .olv-keylist li,
+  .olv-doc.olv-doc .olv-list li,
+  .olv-doc.olv-doc .olv-wraplist li{font-size: 15px !important;}.olv-doc.olv-doc .olv-callout p{font-size: 14.5px !important;}.olv-doc.olv-doc .olv-close{font-size: 15px !important;}.olv-doc.olv-doc .olv-svg{width: 620px !important; min-width: 620px !important;}.olv-doc.olv-doc .olv-figbody{padding: 8px !important;}}
+.olv-doc.olv-doc .olv-b14{font-size: 14px !important; font-weight: 700 !important; fill: #0f172a !important;}
+.olv-doc.olv-doc .olv-b10{font-size: 10px !important; font-weight: 700 !important; fill: #0f172a !important;}
+.olv-doc.olv-doc .olv-b10-w{font-size: 10px !important; font-weight: 700 !important; fill: #ffffff !important;}
+.olv-doc.olv-doc .olv-b12-w{font-size: 12px !important; font-weight: 700 !important; fill: #ffffff !important;}
+.olv-doc.olv-doc .olv-b11-up{font-size: 11px !important; font-weight: 700 !important; fill: #7c2d12 !important;}
+.olv-doc.olv-doc .olv-b11-dn{font-size: 11px !important; font-weight: 700 !important; fill: #9f1239 !important;}
+.olv-doc.olv-doc .olv-t9{font-size: 9px !important; font-weight: 400 !important; fill: #475569 !important;}
+.olv-doc.olv-doc .olv-t9-m{font-size: 9px !important; font-weight: 400 !important; fill: #64748b !important;}
+.olv-doc.olv-doc .olv-grid{stroke: #e2e8f0 !important; stroke-width: 1 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-grid0{stroke: #94a3b8 !important; stroke-width: 1.5 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-tick{stroke: #94a3b8 !important; stroke-width: 1 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-zebra{fill: #f8fafc !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-colband{fill: #f8fafc !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-pt-up{r: 4.2px !important; fill: #c2410c !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-pt-dn{r: 4.2px !important; fill: #9f1239 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-pt-cap{r: 4.2px !important; fill: #0369a1 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-band-a{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-band-b{fill: #0369a1 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-band-c{fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-col-a{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-col-b{fill: #075985 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-col-c{fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-rt-a{fill: #7c2d12 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-rt-b{fill: #c2410c !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-rt-c{fill: #f59e0b !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-rt-d{fill: #9f1239 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bar-up{fill: #c2410c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-dn{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-nd-a{fill: #fff1f2 !important; stroke: #9f1239 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-nd-b{fill: #fffbeb !important; stroke: #f59e0b !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-nd-c{fill: #f0f9ff !important; stroke: #0369a1 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-nd-d{fill: #fff7ed !important; stroke: #c2410c !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-arc{stroke: #fdba74 !important; stroke-width: 2 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-arrow{fill: #ea580c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-hub{fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bbbar{fill: #fed7aa !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-daycol{fill: #f8fafc !important; stroke: #e2e8f0 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-spike{fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-mk-g{fill: #fff7ed !important; stroke: #c2410c !important; stroke-width: 1.2 !important;}
+.olv-doc.olv-doc .olv-mk-s{fill: #f0f9ff !important; stroke: #0369a1 !important; stroke-width: 1.2 !important;}
+.olv-doc.olv-doc .olv-xref{display: block !important;
+  width: auto !important;
+  margin: 1.3em 0 1.3em 0 !important;
+  padding: 0.75em 0.95em !important;
+  border: 0 !important;
+  border-left: 4px solid #ea580c !important;
+  border-radius: 0 4px 4px 0 !important;
+  background-color: #fff7ed !important;
+  background-image: none !important;
+  color: #7c2d12 !important;
+  font-size: 14.5px !important;
+  line-height: 1.75 !important;}
+.olv-doc.olv-doc .olv-link{display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #7c2d12 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #7c2d12 !important;
+  font-size: inherit !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;}
+.olv-doc.olv-doc .olv-b10-up{font-size: 10px !important; font-weight: 700 !important; fill: #c2410c !important;}
+.olv-doc.olv-doc .olv-b10-dn{font-size: 10px !important; font-weight: 700 !important; fill: #9f1239 !important;}
+.olv-doc.olv-doc .olv-b10-m{font-size: 10px !important; font-weight: 700 !important; fill: #475569 !important;}
+.olv-doc.olv-doc .olv-b10-gm{font-size: 10px !important; font-weight: 700 !important; fill: #7c2d12 !important;}
+.olv-doc.olv-doc .olv-b10-sga{font-size: 10px !important; font-weight: 700 !important; fill: #0369a1 !important;}
+.olv-doc.olv-doc .olv-b10-w{font-size: 10px !important; font-weight: 700 !important; fill: #ffffff !important;}
+.olv-doc.olv-doc .olv-t10-m{font-size: 10px !important; font-weight: 400 !important; fill: #64748b !important;}
+.olv-doc.olv-doc .olv-vmark{stroke: #94a3b8 !important; stroke-width: 1 !important; stroke-dasharray: 3 3 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-bar-rev{fill: #fdba74 !important; stroke: #ea580c !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bar-plan{fill: #f1f5f9 !important; stroke: #94a3b8 !important; stroke-width: 1 !important; stroke-dasharray: 3 2 !important;}
+.olv-doc.olv-doc .olv-bar-op{fill: #c2410c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-loss{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-ln-gm{stroke: #7c2d12 !important; stroke-width: 2.5 !important; fill: none !important;}
+.olv-doc.olv-doc .olv-ln-sga{stroke: #0369a1 !important; stroke-width: 2.5 !important; fill: none !important; stroke-dasharray: 5 3 !important;}
+.olv-doc.olv-doc .olv-pt-gm{r: 4px !important; fill: #7c2d12 !important; stroke: #ffffff !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-pt-sga{r: 4px !important; fill: #0369a1 !important; stroke: #ffffff !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-pt-v{r: 4.5px !important; fill: #7c2d12 !important; stroke: #ffffff !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-bar-h1{fill: #fdba74 !important; stroke: #ea580c !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bar-q3{fill: #bae6fd !important; stroke: #0369a1 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-chip-up{fill: #c2410c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-chip-dn{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-chip-warn{fill: #e0f2fe !important; stroke: #0369a1 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-pub{fill: #c2410c !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-sell{fill: #0369a1 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-oa{fill: #94a3b8 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bar-out{fill: #0369a1 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-in{fill: #c2410c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-st-a{fill: #fed7aa !important; stroke: #ea580c !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-st-b{fill: #bae6fd !important; stroke: #0369a1 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-st-b2{fill: #e0f2fe !important; stroke: #0369a1 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-st-c{fill: #fecaca !important; stroke: #9f1239 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-st-d{fill: #e2e8f0 !important; stroke: #94a3b8 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-st-cum{fill: #f1f5f9 !important; stroke: #cbd5e1 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-v-lo{fill: #fed7aa !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-v-mid{fill: #bae6fd !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-v-hi{fill: #fda4af !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bx-n{fill: #f8fafc !important; stroke: #cbd5e1 !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bx-key{fill: #fff7ed !important; stroke: #ea580c !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-bx-a{fill: #ffedd5 !important; stroke: #c2410c !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-bx-ma{fill: #f0f9ff !important; stroke: #0369a1 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-bx-root{fill: #7c2d12 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-lf-p{fill: #fff7ed !important; stroke: #ea580c !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-lf-m{fill: #f8fafc !important; stroke: #94a3b8 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-lf-x{fill: #f0f9ff !important; stroke: #0369a1 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-bx-root ~ text{}
+.olv-doc.olv-doc .olv-bg{rx: 6px !important; ry: 6px !important;}
+.olv-doc.olv-doc .olv-lblbg{fill: #ffffff !important; stroke: none !important; rx: 2px !important; ry: 2px !important;}
+.olv-doc.olv-doc .olv-chip-up,.olv-doc.olv-doc .olv-chip-dn,.olv-doc.olv-doc .olv-chip-warn{rx: 10px !important; ry: 10px !important;}
+.olv-doc.olv-doc .olv-bar-plan{stroke-dasharray: 3 2 !important;}
+.olv-doc.olv-doc .olv-vmark{stroke-dasharray: 3 3 !important;}
+.olv-doc.olv-doc .olv-ln-sga{stroke-dasharray: 5 3 !important;}
+.olv-doc.olv-doc .olv-ln-gm{stroke-dasharray: none !important;}
+.olv-doc.olv-doc .olv-arrow{stroke: none !important; stroke-width: 0 !important;}
+.olv-doc.olv-doc .olv-link{stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-b11-a{font-size: 11px !important; font-weight: 700 !important; fill: #0369a1 !important;}
+.olv-doc.olv-doc .olv-b11-b{font-size: 11px !important; font-weight: 700 !important; fill: #9f1239 !important;}
+.olv-doc.olv-doc .olv-b10-eq{font-size: 10px !important; font-weight: 700 !important; fill: #7c2d12 !important;}
+.olv-doc.olv-doc .olv-b10-p{font-size: 10px !important; font-weight: 700 !important; fill: #334155 !important;}
+.olv-doc.olv-doc .olv-b10-hl{font-size: 10px !important; font-weight: 700 !important; fill: #7c2d12 !important;}
+.olv-doc.olv-doc .olv-hd-a{fill: #0369a1 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-hd-b{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-seg-gw{fill: #9f1239 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-tan{fill: #c2410c !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-pe{fill: #9f1239 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-mkt{fill: #c2410c !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-seg-oth{fill: #94a3b8 !important; stroke: #ffffff !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bar-lo{fill: #fdba74 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-hi{fill: #9f1239 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-np{fill: #0369a1 !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-np2{fill: #7dd3fc !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-dv{fill: #c2410c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-ta{fill: #fed7aa !important; stroke: #ea580c !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-bar-ne{fill: #c2410c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-q1{fill: #c2410c !important; stroke: none !important;}
+.olv-doc.olv-doc .olv-bar-rest{fill: #fed7aa !important; stroke: #ea580c !important; stroke-width: 1 !important;}
+.olv-doc.olv-doc .olv-ln-eq{stroke: #7c2d12 !important; stroke-width: 2.5 !important; fill: none !important; stroke-dasharray: none !important;}
+.olv-doc.olv-doc .olv-pt-eq{r: 3.5px !important; fill: #7c2d12 !important; stroke: #ffffff !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-pt-hl{r: 15px !important; fill: #7c2d12 !important; stroke: #ffffff !important; stroke-width: 2 !important;}
+.olv-doc.olv-doc .olv-pt-pe{r: 15px !important; fill: #ffedd5 !important; stroke: #ea580c !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-bx-warn{fill: #fff1f2 !important; stroke: #9f1239 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-st-a{fill: #fff7ed !important; stroke: #ea580c !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-st-b{fill: #fff1f2 !important; stroke: #9f1239 !important; stroke-width: 1.5 !important;}
+.olv-doc.olv-doc .olv-arrow2{fill: none !important; stroke: #7c2d12 !important; stroke-width: 1.5 !important;}

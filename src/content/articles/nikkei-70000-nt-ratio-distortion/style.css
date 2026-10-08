@@ -1,0 +1,245 @@
+.ovh-hero{background-color: #0f172a !important;
+  background-image: none !important;
+  border-left: 4px solid #f59e0b !important;
+  border-radius: 8px !important;
+  padding: 32px 28px !important;
+  margin-bottom: 28px !important;}
+.ovh-hero .ovh-hero-eyebrow{background-color: transparent !important;
+  background-image: none !important;
+  font-size: 12px !important;
+  color: #94a3b8 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  margin-bottom: 10px !important;
+  display: block !important;}
+.ovh-hero .ovh-hero-title{background-color: transparent !important;
+  background-image: none !important;
+  font-size: clamp(22px, 4vw, 30px) !important;
+  font-weight: 800 !important;
+  color: #f1f5f9 !important;
+  line-height: 1.3 !important;
+  margin: 0 0 10px !important;}
+.ovh-hero .ovh-hero-sub{background-color: transparent !important;
+  background-image: none !important;
+  font-size: 16px !important;
+  color: #f59e0b !important;
+  font-weight: 600 !important;
+  margin-bottom: 16px !important;}
+.ovh-hero .ovh-hero-meta{background-color: transparent !important;
+  background-image: none !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;}
+.ovh-hero .ovh-meta-chip{background-color: #1e293b !important;
+  background-image: none !important;
+  color: #94a3b8 !important;
+  font-size: 12px !important;
+  padding: 4px 10px !important;
+  border-radius: 20px !important;
+  display: inline-block !important;}
+.ovh-summary-box{background-color: #1a1200 !important;
+  background-image: none !important;
+  border: 1.5px solid #f59e0b !important;
+  border-radius: 8px !important;
+  padding: 20px 24px !important;
+  margin-bottom: 28px !important;}
+.ovh-summary-box .ovh-summary-label{background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 700 !important;
+  color: #f59e0b !important;
+  font-size: 14px !important;
+  margin-bottom: 12px !important;}
+.ovh-summary-box .ovh-summary-list{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;
+  padding-left: 20px !important;}
+.ovh-summary-box .ovh-summary-list li{background-color: transparent !important;
+  background-image: none !important;
+  color: #e2e8f0 !important;
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+  margin-bottom: 6px !important;}
+.ovh-term-block{background-color: #0f1729 !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  padding: 20px 24px !important;
+  margin-bottom: 28px !important;}
+.ovh-term-block .ovh-term-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #7dd3fc !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  margin-bottom: 14px !important;}
+.ovh-term-block .ovh-term-dl{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;}
+.ovh-term-block .ovh-term-dt{background-color: transparent !important;
+  background-image: none !important;
+  color: #7dd3fc !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  margin-top: 12px !important;
+  margin-bottom: 2px !important;}
+.ovh-term-block .ovh-term-dd{background-color: transparent !important;
+  background-image: none !important;
+  color: #cbd5e1 !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  margin-left: 12px !important;}
+.ovh-section{border-radius: 8px !important;
+  padding: 24px 24px !important;
+  margin-bottom: 24px !important;}
+.ovh-section p{background-color: transparent !important;
+  background-image: none !important;
+  color: #e2e8f0 !important;
+  font-size: 15px !important;
+  line-height: 1.85 !important;
+  margin-bottom: 14px !important;}
+.ovh-section strong{background-color: transparent !important;
+  background-image: none !important;
+  color: #f1f5f9 !important;
+  font-weight: 700 !important;}
+.ovh-section h2{background-color: transparent !important;
+  background-image: none !important;
+  color: #f1f5f9 !important;
+  font-size: clamp(17px, 3vw, 21px) !important;
+  font-weight: 700 !important;
+  margin: 8px 0 16px !important;
+  line-height: 1.4 !important;}
+.ovh-section-blue{background-color: #0a1628 !important;
+  background-image: none !important;
+  border-left: 4px solid #3b82f6 !important;}
+.ovh-section-purple{background-color: #110a28 !important;
+  background-image: none !important;
+  border-left: 4px solid #a78bfa !important;}
+.ovh-section-teal{background-color: #061818 !important;
+  background-image: none !important;
+  border-left: 4px solid #2dd4bf !important;}
+.ovh-section-rose{background-color: #1a0710 !important;
+  background-image: none !important;
+  border-left: 4px solid #fb7185 !important;}
+.ovh-section-badge{display: inline-block !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  padding: 3px 10px !important;
+  border-radius: 4px !important;
+  margin-bottom: 8px !important;
+  background-image: none !important;}
+.ovh-badge-blue{background-color: #1d4ed8 !important;
+  color: #bfdbfe !important;}
+.ovh-badge-purple{background-color: #6d28d9 !important;
+  color: #ede9fe !important;}
+.ovh-badge-teal{background-color: #0f766e !important;
+  color: #99f6e4 !important;}
+.ovh-badge-rose{background-color: #9f1239 !important;
+  color: #fecdd3 !important;}
+.ovh-fig-wrap{background-color: transparent !important;
+  background-image: none !important;
+  margin: 20px 0 !important;}
+.ovh-fig-wrap .ovh-fig-title{background-color: transparent !important;
+  background-image: none !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #94a3b8 !important;
+  margin-bottom: 6px !important;}
+.ovh-fig-wrap .ovh-fig-note{background-color: transparent !important;
+  background-image: none !important;
+  font-size: 11px !important;
+  color: #64748b !important;
+  margin-top: 6px !important;}
+.ovh-svg{width: 100% !important;
+  height: auto !important;
+  border-radius: 8px !important;
+  display: block !important;}
+.ovh-callout{border-radius: 6px !important;
+  padding: 14px 18px !important;
+  margin: 16px 0 !important;}
+.ovh-callout-amber{background-color: #1a1200 !important;
+  background-image: none !important;
+  border-left: 3px solid #f59e0b !important;}
+.ovh-callout .ovh-callout-text{background-color: transparent !important;
+  background-image: none !important;
+  color: #fde68a !important;
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+  margin: 0 !important;}
+.ovh-scenario-block{background-color: #0a0f1e !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  padding: 22px 22px !important;
+  margin-bottom: 24px !important;}
+.ovh-scenario-block .ovh-scenario-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #f1f5f9 !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  margin-bottom: 14px !important;}
+.ovh-scenario-grid{background-color: transparent !important;
+  background-image: none !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap: 14px !important;}
+.ovh-scenario-card{border-radius: 6px !important;
+  padding: 14px 16px !important;}
+.ovh-scenario-card .ovh-scenario-label{background-color: transparent !important;
+  background-image: none !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  margin-bottom: 8px !important;}
+.ovh-scenario-card .ovh-scenario-body{background-color: transparent !important;
+  background-image: none !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  color: #cbd5e1 !important;
+  margin: 0 !important;}
+.ovh-scenario-bull{background-color: #061810 !important;
+  background-image: none !important;
+  border: 1px solid #059669 !important;}
+.ovh-scenario-bull .ovh-scenario-label{color: #34d399 !important;}
+.ovh-scenario-base{background-color: #0d1525 !important;
+  background-image: none !important;
+  border: 1px solid #3b82f6 !important;}
+.ovh-scenario-base .ovh-scenario-label{color: #93c5fd !important;}
+.ovh-scenario-bear{background-color: #1a0508 !important;
+  background-image: none !important;
+  border: 1px solid #be123c !important;}
+.ovh-scenario-bear .ovh-scenario-label{color: #fca5a5 !important;}
+.ovh-takeaway{background-color: #111827 !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  border: 1.5px solid #334155 !important;
+  padding: 22px 24px !important;
+  margin-bottom: 24px !important;}
+.ovh-takeaway .ovh-takeaway-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #f1f5f9 !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  margin-bottom: 14px !important;}
+.ovh-takeaway .ovh-takeaway-list{background-color: transparent !important;
+  background-image: none !important;
+  padding-left: 20px !important;
+  margin: 0 !important;}
+.ovh-takeaway .ovh-takeaway-list li{background-color: transparent !important;
+  background-image: none !important;
+  color: #cbd5e1 !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  margin-bottom: 10px !important;}
+.ovh-takeaway .ovh-takeaway-list li strong{background-color: transparent !important;
+  background-image: none !important;
+  color: #f1f5f9 !important;}
+.ovh-disclaimer{background-color: #0a0f1e !important;
+  background-image: none !important;
+  border-radius: 6px !important;
+  padding: 14px 18px !important;
+  border: 1px solid #1e293b !important;}
+.ovh-disclaimer p{background-color: transparent !important;
+  background-image: none !important;
+  color: #64748b !important;
+  font-size: 12px !important;
+  line-height: 1.7 !important;
+  margin: 0 !important;}
+@media (max-width: 480px){.ovh-hero{padding: 20px 16px !important;}.ovh-section{padding: 18px 14px !important;}.ovh-scenario-grid{grid-template-columns: 1fr !important;}.ovh-summary-box,
+  .ovh-takeaway{padding: 16px !important;}}

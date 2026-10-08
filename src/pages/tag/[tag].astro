@@ -1,14 +1,17 @@
 ---
 import ListPage from '../../components/ListPage.astro';
-import { getPublished } from '../../lib/articles';
+import { getPublished, tagKey } from '../../lib/articles';
 
 export async function getStaticPaths() {
   const all = await getPublished();
-  const tags = new Set(all.flatMap((a) => a.data.tags));
-  return [...tags].map((tag) => ({
-    params: { tag },
-    props: { tag, articles: all.filter((a) => a.data.tags.includes(tag)) },
-  }));
+  const byKey = new Map<string, { tag: string; articles: typeof all }>();
+  for (const a of all) for (const tag of a.data.tags) {
+    const k = tagKey(tag);
+    if (!byKey.has(k)) byKey.set(k, { tag, articles: [] });
+    const e = byKey.get(k)!;
+    if (!e.articles.includes(a)) e.articles.push(a);
+  }
+  return [...byKey].map(([k, v]) => ({ params: { tag: k }, props: v }));
 }
 const { tag, articles } = Astro.props;
 ---

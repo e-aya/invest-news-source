@@ -1,0 +1,151 @@
+<div class="nky-article">
+<div class="nky-lead">
+<span class="nky-lead-tag">7万円相場の正体</span>
+<p class="nky-lead-text">2026年6月22日、日経平均株価は取引時間中に史上最高値72,831円をつけました。ところがその翌営業日（6/23）には前日比2,560円安と歴代5位の暴落。木曜（6/25）には3,000円超の急反発で再び最高値圏に戻したかと思えば、金曜（6/26）には下落幅が史上3位の3,005円安──。わずか一週間で天国と地獄を往復するような値動きでした。本記事では、この「7万円相場」の乱高下を、①なぜ最高値をつけられたのか、②なぜ暴落したのか、③反発は本物か、という3つの問いに分解し、中級者向けに需給構造から読み解きます。</p>
+</div>
+<p class="nky-p">指数が1日で2,500〜3,000円動くと、「日本株全体が大きく売られた」と感じます。しかし実際には、ごく一部の値がさ株が指数全体を激しく振り回しているにすぎません。乱高下の本質を理解する鍵は、<strong>「日経平均という指数の中身」と「NT倍率という歪みの物差し」</strong>にあります。順を追って見ていきましょう。</p>
+<h2 class="nky-h2">まず、事実関係を時系列で整理する</h2>
+<p class="nky-p">この一週間の値動きは、近年でも際立って荒い展開でした。年初来安値（3/31の50,558円）からわずか3か月弱で最高値72,831円まで駆け上がり、そこから歴代級の上下動を繰り返しています。</p>
+<div class="nky-fig">
+<div class="nky-fig-title">図1：日経平均株価の値動き（年初来安値→最高値→乱高下）</div>
+<svg class="nky-svg" viewBox="0 0 760 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="年初来安値5万円から最高値7万2831円まで上昇し週内で暴落と反発を繰り返した推移">
+<rect x="0" y="0" width="760" height="410" fill="#16213e"></rect>
+<text x="30" y="38" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffd166">わずか3か月で2万円超の急騰、その後は歴代級の乱高下</text>
+<line x1="92" y1="70" x2="92" y2="340" stroke="#5b6b8c" stroke-width="2"></line>
+<line x1="92" y1="340" x2="730" y2="340" stroke="#5b6b8c" stroke-width="2"></line>
+<text x="40" y="120" font-family="sans-serif" font-size="11" fill="#9fb3c8">73,000</text>
+<text x="40" y="235" font-family="sans-serif" font-size="11" fill="#9fb3c8">61,000</text>
+<text x="40" y="338" font-family="sans-serif" font-size="11" fill="#9fb3c8">50,000</text>
+<polyline points="120,330 320,120 400,158 500,124 590,160 690,150" fill="none" stroke="#6fa8dc" stroke-width="3.5"></polyline>
+<circle cx="120" cy="330" r="6" fill="#52b788"></circle>
+<circle cx="320" cy="120" r="7" fill="#ffd166"></circle>
+<circle cx="400" cy="158" r="6" fill="#ff6b6b"></circle>
+<circle cx="500" cy="124" r="6" fill="#52b788"></circle>
+<circle cx="590" cy="160" r="7" fill="#ff6b6b"></circle>
+<circle cx="690" cy="150" r="6" fill="#9fd3e8"></circle>
+<text x="120" y="364" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">3/31</text>
+<text x="120" y="380" font-family="sans-serif" font-size="10" text-anchor="middle" fill="#9fb3c8">年初来安値</text>
+<text x="120" y="394" font-family="sans-serif" font-size="10" text-anchor="middle" fill="#9fb3c8">50,558</text>
+<text x="320" y="106" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#ffd166">6/22 最高値72,831</text>
+<text x="404" y="186" font-family="sans-serif" font-size="11" fill="#ff9f9f">6/23 ▲2,560</text>
+<text x="404" y="200" font-family="sans-serif" font-size="10" fill="#ff9f9f">歴代5位</text>
+<text x="500" y="110" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#9be6c8">6/25 反発・再び最高値圏</text>
+<text x="590" y="188" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#ff9f9f">6/26 ▲3,005（史上3位）</text>
+<text x="690" y="138" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdeef7">6/29 反発</text>
+<text x="690" y="364" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">7万円台回復</text>
+</svg>
+<div class="nky-fig-cap">主要な節目の終値・水準をもとにしたイメージ。6/23と6/26の2日間だけで歴代5位・史上3位の下落幅を記録する一方、間の木曜には急反発で最高値圏に戻すという、極端なシーソー相場となった。</div>
+</div>
+<h2 class="nky-h2">暴落の引き金：半導体・メモリの「世界同時安」</h2>
+<p class="nky-p">直接の引き金は、日本ではなく韓国・米国の半導体株でした。6月23日（火）、韓国のSKハイニックスが急落し、サムスン電子とともに揃って12％超下落。両社で時価総額の約半分を占める韓国総合株価指数（KOSPI）は1日で約10％安となり、サーキットブレーカー（取引の一時停止）が発動する「暗黒の火曜日」となりました。</p>
+<p class="nky-p">この流れは米国にも波及し、半導体株の指標である<strong>SOX指数（フィラデルフィア半導体株指数）は7.9％の大幅安</strong>。日本の半導体製造装置メーカー（東京エレクトロン、アドバンテスト等）は韓国メモリ大手の設備投資動向と一蓮托生の関係にあるため、「AIメモリバブル崩壊の始まりか」という恐怖が東京市場を直撃しました。市場の不安心理を示す<strong>日経ボラティリティ・インデックス（日経VI）は「40」という異常値を突破</strong>（通常は20以下、30超で警戒水準）し、リスクオフが連鎖的に広がりました。</p>
+<div class="nky-point">
+<div class="nky-point-head">中級者向けの補足：なぜ「メモリ決算前」が荒れたのか</div>
+<p class="nky-p">この下落には、6月24日のマイクロン・テクノロジーの決算を前にした<strong>ポジション調整</strong>の側面もありました。メモリ大手の決算をまたぐリスクを嫌った手仕舞い売りが先行したのです。実際の決算は売上前年比＋346％という過去最高の好内容で一旦は買い戻しを誘いましたが、6月29日には韓国政府が約800兆ウォンの過去最大の半導体投資計画を発表し、供給過剰懸念から再びメモリ株が下落するなど、神経質な地合いが続いています。</p>
+</div>
+<h2 class="nky-h2">暴落を増幅させた「御三家依存」という構造</h2>
+<p class="nky-p">ここが乱高下を理解する最大のポイントです。6月23日の下落幅2,560円のうち、その大半を「AI相場の御三家」と呼ばれるたった3銘柄が生み出していました。<strong>ソフトバンクグループ・東京エレクトロン・キオクシアの3社だけで、日経平均を約1,459円も押し下げた</strong>のです。さらにファーストリテイリングとアドバンテストを加えた上位5銘柄では、押し下げ幅が約1,775円に達しました。</p>
+<div class="nky-fig">
+<div class="nky-fig-title">図2：6/23の下落への寄与（▲2,560円の「集中度」）</div>
+<svg class="nky-svg" viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="6月23日の下落2560円のうち御三家3社で1459円上位5銘柄で1775円を占めた集中度">
+<rect x="0" y="0" width="760" height="320" fill="#16213e"></rect>
+<text x="30" y="38" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffd166">下げの約7割を、わずか5銘柄が生んだ</text>
+<text x="30" y="78" font-family="sans-serif" font-size="13" fill="#cdd8e8">御三家3社（SBG・東エレク・キオクシア）の押し下げ</text>
+<rect x="30" y="88" width="640" height="34" rx="5" fill="#26314f"></rect>
+<rect x="30" y="88" width="365" height="34" rx="5" fill="#ff6b6b"></rect>
+<text x="44" y="111" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">約 ▲1,459円（全体の約57％）</text>
+<text x="30" y="158" font-family="sans-serif" font-size="13" fill="#cdd8e8">上位5銘柄（＋ファストリ・アドバンテスト）の押し下げ</text>
+<rect x="30" y="168" width="640" height="34" rx="5" fill="#26314f"></rect>
+<rect x="30" y="168" width="444" height="34" rx="5" fill="#e63946"></rect>
+<text x="44" y="191" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">約 ▲1,775円（全体の約69％）</text>
+<text x="30" y="238" font-family="sans-serif" font-size="13" fill="#cdd8e8">日経平均全体の下落幅</text>
+<rect x="30" y="248" width="640" height="34" rx="5" fill="#26314f"></rect>
+<rect x="30" y="248" width="640" height="34" rx="5" fill="#5b6b8c"></rect>
+<text x="44" y="271" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">▲2,560円（100％）</text>
+</svg>
+<div class="nky-fig-cap">2026年6月23日の数値。残る約785円分が、その他の全構成銘柄による下落。指数の動きが一部の値がさ株に極端に左右されていることが分かる。</div>
+</div>
+<p class="nky-p">なぜこんなことが起きるのか。日経平均は「株価の高い銘柄（値がさ株）」ほど指数への影響が大きくなる<strong>株価平均型</strong>の指数だからです。AI・半導体関連の値がさ株に買いが集中して指数を押し上げてきた裏返しで、いざ売られると同じ銘柄が指数を一気に引きずり下ろす。上昇も下落も同じメカニズムの表と裏なのです。</p>
+<h2 class="nky-h2">相場の「歪み」を測る物差し：NT倍率</h2>
+<p class="nky-p">この一極集中の度合いを示すのが<strong>NT倍率</strong>です。日経平均をTOPIX（東証株価指数）で割った値で、値がさのハイテク株が優勢だと上昇し、銀行・自動車など時価総額の大きい銘柄が優勢だと低下します。歴史的には10〜13倍のレンジで推移してきましたが、足元では16倍超と過去最高水準まで切り上がっていました。</p>
+<div class="nky-fig">
+<div class="nky-fig-title">図3：NT倍率の上昇（過去最高水準への到達）</div>
+<svg class="nky-svg" viewBox="0 0 760 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NT倍率が歴史的レンジ10から13倍を超え16.37倍の過去最高水準まで上昇した推移">
+<rect x="0" y="0" width="760" height="340" fill="#16213e"></rect>
+<text x="30" y="38" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffd166">NT倍率＝日経平均 ÷ TOPIX（一極集中の度合い）</text>
+<rect x="92" y="250" width="618" height="34" fill="#1f3a2e" opacity="0.9"></rect>
+<text x="100" y="272" font-family="sans-serif" font-size="12" fill="#9be6c8">歴史的な通常レンジ 10〜13倍</text>
+<line x1="92" y1="80" x2="92" y2="300" stroke="#5b6b8c" stroke-width="2"></line>
+<line x1="92" y1="300" x2="710" y2="300" stroke="#5b6b8c" stroke-width="2"></line>
+<text x="48" y="130" font-family="sans-serif" font-size="11" fill="#9fb3c8">17倍</text>
+<text x="48" y="220" font-family="sans-serif" font-size="11" fill="#9fb3c8">14倍</text>
+<text x="48" y="290" font-family="sans-serif" font-size="11" fill="#9fb3c8">12倍</text>
+<polyline points="150,232 320,210 470,140 620,132" fill="none" stroke="#ffd166" stroke-width="3.5"></polyline>
+<circle cx="150" cy="232" r="6" fill="#9fb3c8"></circle>
+<circle cx="320" cy="210" r="6" fill="#cdd8e8"></circle>
+<circle cx="470" cy="140" r="6" fill="#ff9f6b"></circle>
+<circle cx="620" cy="132" r="7" fill="#ff6b6b"></circle>
+<text x="150" y="324" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">2023年以降の平均</text>
+<text x="150" y="252" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">約14倍</text>
+<text x="320" y="324" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">3月末</text>
+<text x="320" y="200" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">14.60倍</text>
+<text x="470" y="324" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">4/27</text>
+<text x="470" y="128" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#ffd1b0">16.21倍</text>
+<text x="620" y="324" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#cdd8e8">5月</text>
+<text x="620" y="118" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#ff6b6b">16.37倍・過去最高</text>
+</svg>
+<div class="nky-fig-cap">NT倍率には「平均回帰性」があり、一部銘柄が集中して上昇した後は反動で下落しやすいことが過去に確認されている。過熱は、それ自体が調整（暴落）の予兆になりうる。</div>
+</div>
+<p class="nky-p">NT倍率が過去最高ということは、<strong>「TOPIXが置き去りのまま、日経平均だけが一部のハイテク株で吊り上がっている」</strong>状態を意味します。野村證券も、ファンダメンタルズ面からはNT倍率の緩やかな低下を見込んでおり、過熱の反動が今回の急落として表面化した側面があります。</p>
+<h2 class="nky-h2">反発は本物か──年末に向けたシナリオ</h2>
+<p class="nky-p">では、6月29日からの反発は持続するのでしょうか。市場関係者の見方は強気・慎重が交錯しています。証券会社各社の2026年末予想を並べると、前提（AI・半導体業績の持続性、日銀の利上げペース、米景気）次第で振れ幅がかなり大きいことが分かります。</p>
+<div class="nky-fig">
+<div class="nky-fig-title">図4：日経平均の年末予想シナリオ（野村證券）</div>
+<svg class="nky-svg" viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="野村證券の上振れ8万円メイン6万8000円下振れ5万5000円のシナリオ">
+<rect x="0" y="0" width="760" height="320" fill="#16213e"></rect>
+<text x="30" y="38" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffd166">前提次第で上下に大きく振れる（野村）</text>
+<line x1="200" y1="70" x2="200" y2="290" stroke="#3a486b" stroke-width="1"></line>
+<text x="30" y="104" font-family="sans-serif" font-size="14" font-weight="bold" fill="#9be6c8">上振れ</text>
+<text x="30" y="124" font-family="sans-serif" font-size="11" fill="#9fb3c8">'27末にかけて</text>
+<rect x="200" y="86" width="430" height="38" rx="5" fill="#2a9d8f"></rect>
+<text x="214" y="111" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff">80,000円</text>
+<text x="30" y="174" font-family="sans-serif" font-size="14" font-weight="bold" fill="#cdd8e8">メイン</text>
+<text x="30" y="194" font-family="sans-serif" font-size="11" fill="#9fb3c8">2026年末</text>
+<rect x="200" y="156" width="350" height="38" rx="5" fill="#6fa8dc"></rect>
+<text x="214" y="181" font-family="sans-serif" font-size="15" font-weight="bold" fill="#16213e">68,000円</text>
+<text x="30" y="244" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ff9f9f">下振れ</text>
+<text x="30" y="264" font-family="sans-serif" font-size="11" fill="#9fb3c8">'27末にかけて</text>
+<rect x="200" y="226" width="270" height="38" rx="5" fill="#e63946"></rect>
+<text x="214" y="251" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff">55,000円</text>
+</svg>
+<div class="nky-fig-cap">野村證券の最新シナリオ（メインは2026年末、上振れ・下振れは2027年末にかけての想定）。他社では三井住友DSアセットが2026年末61,500円、大和が63,000円など、メインシナリオにも幅がある。</div>
+</div>
+<p class="nky-p">慎重シナリオの根拠は明快です。<strong>米ハイパースケーラー（大手クラウド事業者）のAI設備投資は2026年10-12月期をピークに伸び率が鈍化する見通し</strong>で、SOX指数や日経半導体指数がそれに先行して鈍化する可能性がある。そこに日米中銀のタカ派化（利上げ志向）が重なれば、AI・半導体銘柄は脆弱になりやすい──というロジックです。来週（6/29〜7/3）の予想レンジは64,000〜72,000円と、依然として広く取られています。</p>
+<h2 class="nky-h2">物色の変化：資金はどこへ向かうのか</h2>
+<p class="nky-p">乱高下のなかで、市場では静かな変化も起きています。これまで相場を牽引してきたAI・半導体から、出遅れていたセクターへ資金が循環し始めている兆しです。</p>
+<div class="nky-fig">
+<div class="nky-fig-title">図5：セクター間の資金循環イメージ</div>
+<svg class="nky-svg" viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI半導体から自動車やバリュー株出遅れ銘柄への資金循環の流れ">
+<rect x="0" y="0" width="760" height="300" fill="#16213e"></rect>
+<text x="30" y="40" font-family="sans-serif" font-size="17" font-weight="bold" fill="#ffd166">「過熱したAI・半導体」から「出遅れ」への循環</text>
+<rect x="40" y="90" width="250" height="140" rx="10" fill="#3a1f2a" stroke="#ff6b6b" stroke-width="2"></rect>
+<text x="165" y="124" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ff9f9f">AI・半導体（御三家）</text>
+<text x="165" y="156" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#f3d2d8">高値警戒・利益確定売り</text>
+<text x="165" y="182" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#f3d2d8">NT倍率の過熱で</text>
+<text x="165" y="204" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#f3d2d8">調整圧力がかかりやすい</text>
+<rect x="470" y="90" width="250" height="140" rx="10" fill="#1f3a2e" stroke="#52b788" stroke-width="2"></rect>
+<text x="595" y="124" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#9be6c8">自動車・バリュー・出遅れ</text>
+<text x="595" y="156" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#d2f3e0">トヨタ等の自動車関連</text>
+<text x="595" y="182" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#d2f3e0">年初来でTOPIXに出遅れ</text>
+<text x="595" y="204" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#d2f3e0">相対的な割安感で見直し</text>
+<path d="M300 160 L460 160" stroke="#ffd166" stroke-width="4"></path>
+<path d="M452 153 L466 160 L452 167 Z" fill="#ffd166"></path>
+<text x="380" y="148" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="bold" fill="#ffd166">資金シフト</text>
+</svg>
+<div class="nky-fig-cap">自動車関連は2026年初来で軒並みTOPIXをアンダーパフォームしており、半導体株と比べ相対的に割安とみなされ資金が向かう可能性がある。物色対象がAI・半導体一極から広がるかが、今後の相場の安定を左右する。</div>
+</div>
+<h2 class="nky-h2">まとめ：指数の「数字」ではなく「中身」を見る</h2>
+<p class="nky-p">今回の7万円相場の乱高下は、偶然のパニックではなく、<strong>①AI・半導体への極端な一極集中、②値がさ株の影響が大きい日経平均の指数構造、③NT倍率の過熱（歪み）</strong>という3つの要因が重なった必然的な結果でした。上昇を牽引した同じ銘柄が、下落も主導する。これがテーマ集中相場の宿命です。</p>
+<p class="nky-p">中級者にとっての教訓は明快です。「日経平均が○円動いた」という数字だけを見るのではなく、<strong>誰がその動きを作っているのか（寄与度）、相場が歪んでいないか（NT倍率）、資金がどこへ向かっているか（セクター循環）</strong>という"中身"を確認すること。指数の額面に振り回されず、構造を見れば、乱高下相場でも冷静な判断軸を保てます。</p>
+<div class="nky-disclaimer">本記事は情報提供を目的としたものであり、特定の銘柄の売買を推奨するものではありません。株価・指数・予想値は記事作成時点（2026年6月30日）のものであり、最新の情報をご確認のうえ、投資判断はご自身の責任で行ってください。</div>
+</div>

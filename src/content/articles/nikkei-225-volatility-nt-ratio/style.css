@@ -1,0 +1,106 @@
+.nky-article{background-color:#ffffff !important;
+  background-image:none !important;
+  color:#1a2332 !important;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif !important;
+  line-height:1.85 !important;
+  max-width:760px !important;
+  margin:0 auto !important;
+  padding:4px 0 !important;
+  font-size:16px !important;}
+.nky-article .nky-p{background-color:transparent !important;
+  background-image:none !important;
+  color:#1a2332 !important;
+  margin:0 0 1.2em 0 !important;
+  font-size:16px !important;
+  line-height:1.9 !important;}
+.nky-article .nky-p strong{background-color:transparent !important;
+  color:#b3261e !important;
+  font-weight:700 !important;}
+.nky-article .nky-h2{background-color:#16213e !important;
+  background-image:none !important;
+  color:#ffffff !important;
+  font-size:21px !important;
+  font-weight:700 !important;
+  line-height:1.5 !important;
+  margin:2em 0 1em 0 !important;
+  padding:14px 18px 14px 16px !important;
+  border-left:6px solid #ffd166 !important;
+  border-radius:0 6px 6px 0 !important;}
+.nky-article .nky-lead{background-color:#16213e !important;
+  background-image:linear-gradient(135deg,#16213e 0%,#1f2a4d 100%) !important;
+  color:#d8e0ec !important;
+  border-radius:12px !important;
+  padding:24px 26px !important;
+  margin:0 0 1.6em 0 !important;
+  border:1px solid #3a486b !important;}
+.nky-article .nky-lead-tag{display:inline-block !important;
+  background-color:#ffd166 !important;
+  background-image:none !important;
+  color:#16213e !important;
+  font-size:13px !important;
+  font-weight:700 !important;
+  padding:4px 12px !important;
+  border-radius:20px !important;
+  margin-bottom:12px !important;
+  letter-spacing:.03em !important;}
+.nky-article .nky-lead-text{background-color:transparent !important;
+  background-image:none !important;
+  color:#e7edf5 !important;
+  margin:0 !important;
+  font-size:15.5px !important;
+  line-height:1.9 !important;}
+.nky-article .nky-lead-text strong{background-color:transparent !important;
+  color:#ffffff !important;}
+.nky-article .nky-fig{background-color:#16213e !important;
+  background-image:none !important;
+  border-radius:12px !important;
+  padding:18px 18px 16px 18px !important;
+  margin:1.6em 0 !important;
+  border:1px solid #1f2a4d !important;}
+.nky-article .nky-fig-title{background-color:transparent !important;
+  background-image:none !important;
+  color:#ffd166 !important;
+  font-size:15px !important;
+  font-weight:700 !important;
+  margin:0 0 12px 0 !important;
+  padding-bottom:8px !important;
+  border-bottom:1px solid #3a486b !important;}
+.nky-article .nky-svg{display:block !important;
+  width:100% !important;
+  height:auto !important;
+  background-color:transparent !important;
+  border-radius:8px !important;
+  overflow:hidden !important;}
+.nky-article .nky-fig-cap{background-color:transparent !important;
+  background-image:none !important;
+  color:#9fb3c8 !important;
+  font-size:12.5px !important;
+  line-height:1.65 !important;
+  margin:10px 2px 0 2px !important;}
+.nky-article .nky-point{background-color:#eef2f9 !important;
+  background-image:none !important;
+  border-left:5px solid #3a5a9c !important;
+  border-radius:0 8px 8px 0 !important;
+  padding:16px 20px 4px 20px !important;
+  margin:1.5em 0 !important;}
+.nky-article .nky-point-head{background-color:transparent !important;
+  background-image:none !important;
+  color:#1f3a6b !important;
+  font-size:15px !important;
+  font-weight:700 !important;
+  margin-bottom:8px !important;}
+.nky-article .nky-point .nky-p{color:#22304d !important;
+  font-size:15px !important;}
+.nky-article .nky-point .nky-p strong{color:#b3261e !important;}
+.nky-article .nky-disclaimer{background-color:#f4f6f8 !important;
+  background-image:none !important;
+  color:#6b7785 !important;
+  font-size:12.5px !important;
+  line-height:1.7 !important;
+  padding:14px 18px !important;
+  border-radius:8px !important;
+  margin:2em 0 0 0 !important;
+  border:1px solid #e2e7ec !important;}
+@media (max-width:480px){.nky-article{font-size:15px !important;
+    padding:2px 0 !important;}.nky-article .nky-h2{font-size:18px !important;
+    padding:12px 14px !important;}.nky-article .nky-lead{padding:18px 18px !important;}.nky-article .nky-lead-text{font-size:14.5px !important;}.nky-article .nky-fig{padding:14px 12px 12px 12px !important;}.nky-article .nky-p{font-size:15px !important;}}

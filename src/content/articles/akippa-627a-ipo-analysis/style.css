@@ -1,0 +1,437 @@
+.akp-doc.akp-doc{display: block !important;
+  box-sizing: border-box !important;
+  margin: 0 0 2em 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  background-attachment: scroll !important;
+  color: #16241f !important;
+  -webkit-text-fill-color: currentColor !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 1.85 !important;
+  letter-spacing: 0.01em !important;
+  word-spacing: normal !important;
+  text-align: left !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  clip-path: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: auto !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-width: auto !important;
+  column-gap: normal !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  overflow: visible !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  list-style: none !important;
+  content-visibility: visible !important;
+  isolation: auto !important;
+  mix-blend-mode: normal !important;}
+.akp-doc.akp-doc *{box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  background-clip: border-box !important;
+  background-origin: padding-box !important;
+  background-size: auto !important;
+  background-position: 0 0 !important;
+  background-repeat: repeat !important;
+  background-attachment: scroll !important;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-style: normal !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  word-spacing: inherit !important;
+  text-indent: 0 !important;
+  text-transform: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  clip-path: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  transform: none !important;
+  rotate: none !important;
+  scale: none !important;
+  translate: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  float: none !important;
+  clear: none !important;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: auto !important;
+  animation: none !important;
+  transition: none !important;
+  columns: auto !important;
+  column-count: auto !important;
+  column-width: auto !important;
+  column-gap: normal !important;
+  writing-mode: horizontal-tb !important;
+  direction: ltr !important;
+  outline: 0 !important;
+  content-visibility: visible !important;
+  isolation: auto !important;
+  mix-blend-mode: normal !important;
+  vertical-align: baseline !important;}
+.akp-doc.akp-doc *:not(svg):not(svg *){overflow: visible !important;
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;}
+.akp-doc.akp-doc[class]::before,.akp-doc.akp-doc[class]::after,.akp-doc.akp-doc *[class]::before,.akp-doc.akp-doc *[class]::after{content: none !important;
+  display: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;
+  transform: none !important;
+  animation: none !important;}
+.akp-doc.akp-doc .akp-lead,.akp-doc.akp-doc .akp-p{display: block !important;
+  margin: 0 0 1.15em 0 !important;
+  padding: 0 !important;}
+.akp-doc.akp-doc .akp-lead{font-size: 17px !important;
+  line-height: 1.9 !important;
+  font-weight: 600 !important;
+  color: #10352a !important;}
+.akp-doc.akp-doc .akp-h2{display: block !important;
+  margin: 2.1em 0 0.9em 0 !important;
+  padding: 0 0 0.42em 0 !important;
+  border-bottom: 3px solid #1a6144 !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.45 !important;
+  color: #10352a !important;}
+.akp-doc.akp-doc .akp-h3{display: block !important;
+  margin: 1.7em 0 0.65em 0 !important;
+  padding: 0 0 0 0.6em !important;
+  border-left: 5px solid #a3521a !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #16241f !important;}
+.akp-doc.akp-doc .akp-strong{display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  color: #0f4a33 !important;}
+.akp-doc.akp-doc .akp-em{display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  color: #8f4210 !important;}
+.akp-doc.akp-doc .akp-list{display: block !important;
+  margin: 0 0 1.2em 0 !important;
+  padding: 0 !important;
+  list-style: none !important;}
+.akp-doc.akp-doc .akp-li{display: block !important;
+  margin: 0 0 0.55em 0 !important;
+  padding: 0 0 0 1.15em !important;
+  border-left: 3px solid #cfdfd5 !important;
+  list-style: none !important;}
+.akp-doc.akp-doc .akp-panelbar{display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 1.05em 1.15em !important;
+  border: 1px solid #d6e2da !important;
+  border-left: 6px solid #1a6144 !important;
+  border-radius: 6px !important;
+  background-color: #f4f8f5 !important;}
+.akp-doc.akp-doc .akp-warn{display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 1.05em 1.15em !important;
+  border: 1px solid #e5d4c4 !important;
+  border-left: 6px solid #a3521a !important;
+  border-radius: 6px !important;
+  background-color: #fbf7ee !important;}
+.akp-doc.akp-doc .akp-ptitle{display: block !important;
+  margin: 0 0 0.5em 0 !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #0f4a33 !important;}
+.akp-doc.akp-doc .akp-warn .akp-ptitle{color: #8f4210 !important;}
+.akp-doc.akp-doc .akp-tblwrap{display: block !important;
+  margin: 0 0 1.4em 0 !important;
+  padding: 0 !important;
+  overflow-x: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;}
+.akp-doc.akp-doc .akp-tbl{display: table !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  table-layout: auto !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;}
+.akp-doc.akp-doc .akp-tbl tbody{display: table-row-group !important;}
+.akp-doc.akp-doc .akp-tbl tr{display: table-row !important;}
+.akp-doc.akp-doc .akp-th,.akp-doc.akp-doc .akp-td{display: table-cell !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  padding: 0.62em 0.8em !important;
+  border: 1px solid #d6e2da !important;
+  border-radius: 0 !important;
+  vertical-align: top !important;
+  text-align: left !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: anywhere !important;}
+.akp-doc.akp-doc .akp-th{width: 34% !important;
+  background-color: #eef4f0 !important;
+  font-weight: 700 !important;
+  color: #10352a !important;}
+.akp-doc.akp-doc .akp-td{background-color: #ffffff !important;}
+.akp-doc.akp-doc .akp-fig{display: block !important;
+  margin: 0 0 1.6em 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;}
+.akp-doc.akp-doc .akp-svg{display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #d6e2da !important;
+  border-radius: 6px !important;
+  overflow: visible !important;}
+.akp-doc.akp-doc .akp-svg-m{display: none !important;}
+.akp-doc.akp-doc .akp-svg-d{display: block !important;}
+.akp-doc.akp-doc .akp-cap{display: block !important;
+  margin: 0.55em 0 0 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+  color: #4d5f56 !important;}
+.akp-doc.akp-doc .akp-bg{fill: #ffffff !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 0 !important;
+  ry: 0 !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-panel{fill: #f4f8f5 !important;
+  stroke: #d6e2da !important;
+  stroke-width: 1px !important;
+  rx: 6px !important;
+  ry: 6px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-bar-a{fill: #1a6144 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-bar-d{fill: #3d6f9c !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-bar-e{fill: #7a5aa6 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-bar-f{fill: #a08327 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-bar-b{fill: #a3521a !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-bar-c{fill: #64748b !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-bar-neg{fill: #b3261e !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  rx: 3px !important;
+  ry: 3px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  stroke-linejoin: miter !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-grid{fill: none !important;
+  stroke: #dde8e1 !important;
+  stroke-width: 1px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  rx: 0 !important;
+  ry: 0 !important;}
+.akp-doc.akp-doc .akp-axis{fill: none !important;
+  stroke: #8ca697 !important;
+  stroke-width: 1.5px !important;
+  stroke-dasharray: none !important;
+  stroke-linecap: butt !important;
+  rx: 0 !important;
+  ry: 0 !important;}
+.akp-doc.akp-doc text.akp-t-title{font-size: 17px !important;
+  font-weight: 700 !important;
+  fill: #10352a !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc text.akp-t-sub{font-size: 12px !important;
+  font-weight: 400 !important;
+  fill: #4d5f56 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc text.akp-t-lab{font-size: 13px !important;
+  font-weight: 700 !important;
+  fill: #16241f !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc text.akp-t-val{font-size: 14px !important;
+  font-weight: 700 !important;
+  fill: #10352a !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc text.akp-t-note{font-size: 11.5px !important;
+  font-weight: 400 !important;
+  fill: #4d5f56 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc text.akp-t-big{font-size: 22px !important;
+  font-weight: 700 !important;
+  fill: #1a6144 !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc text.akp-t-onbar{font-size: 14px !important;
+  font-weight: 700 !important;
+  fill: #ffffff !important;
+  stroke: none !important;
+  stroke-width: 0 !important;
+  letter-spacing: 0 !important;
+  stroke-dasharray: none !important;
+  paint-order: normal !important;}
+.akp-doc.akp-doc .akp-svg title,.akp-doc.akp-doc .akp-svg desc{display: none !important;}
+.akp-doc.akp-doc .akp-a{display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #0f4a33 !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.akp-doc.akp-doc .akp-src{display: block !important;
+  margin: 2em 0 0 0 !important;
+  padding: 0.9em 1em !important;
+  border: 1px solid #d6e2da !important;
+  border-radius: 6px !important;
+  background-color: #f8fbf9 !important;
+  font-size: 13px !important;
+  line-height: 1.75 !important;
+  color: #4d5f56 !important;}
+@media screen and (max-width: 600px){.akp-doc.akp-doc .akp-svg-d{display: none !important;}.akp-doc.akp-doc .akp-svg-m{display: block !important;}.akp-doc.akp-doc{font-size: 16px !important;}.akp-doc.akp-doc .akp-h2{font-size: 19px !important;}.akp-doc.akp-doc .akp-h3{font-size: 17px !important;}.akp-doc.akp-doc .akp-lead{font-size: 16px !important;}.akp-doc.akp-doc .akp-th{width: 38% !important;}.akp-doc.akp-doc .akp-th,
+  .akp-doc.akp-doc .akp-td{font-size: 14px !important;
+    padding: 0.55em 0.6em !important;}.akp-doc.akp-doc .akp-tbl{font-size: 14px !important;}}

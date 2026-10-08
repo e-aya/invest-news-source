@@ -1,0 +1,364 @@
+.nvc-root{background-color: #f6f4ef !important;
+  background-image: none !important;
+  filter: none !important;
+  color: #12161d !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif !important;
+  line-height: 1.85 !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;}
+.nvc-root *{box-sizing: border-box !important;}
+.nvc-root .nvc-hero{background-color: #1a2028 !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  border-left: 5px solid #b5322c !important;
+  border-radius: 4px !important;
+  padding: 28px 24px !important;
+  margin: 0 0 28px 0 !important;}
+.nvc-root .nvc-hero-eyebrow{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 10px 0 !important;
+  color: #e09a63 !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1.5 !important;}
+.nvc-root .nvc-hero-title{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 16px 0 !important;
+  color: #ffffff !important;
+  font-size: 1.62rem !important;
+  font-weight: 700 !important;
+  line-height: 1.42 !important;
+  text-shadow: none !important;}
+.nvc-root .nvc-hero-sub{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 8px 0 0 0 !important;
+  display: block !important;
+  color: #b6bec8 !important;
+  font-size: 0.94rem !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;}
+.nvc-root .nvc-hero-lead{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #d3d9df !important;
+  font-size: 0.95rem !important;
+  line-height: 1.85 !important;}
+.nvc-root .nvc-summary{background-color: #ffffff !important;
+  background-image: none !important;
+  filter: none !important;
+  border: 1px solid #d8d2c6 !important;
+  border-top: 3px solid #2b6f8d !important;
+  border-radius: 3px !important;
+  padding: 22px 24px !important;
+  margin: 0 0 36px 0 !important;}
+.nvc-root .nvc-summary-title{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 14px 0 !important;
+  color: #2b6f8d !important;
+  font-size: 0.86rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  line-height: 1.5 !important;}
+.nvc-root .nvc-summary-list{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.nvc-root .nvc-summary-item{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #12161d !important;
+  font-size: 0.93rem !important;
+  line-height: 1.8 !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 0 0 20px !important;
+  position: relative !important;}
+.nvc-root .nvc-summary-item::before{content: "" !important;
+  position: absolute !important;
+  left: 2px !important;
+  top: 12px !important;
+  width: 7px !important;
+  height: 7px !important;
+  background-color: #b5322c !important;
+  background-image: none !important;
+  border-radius: 50% !important;}
+.nvc-root .nvc-summary-item:last-child{margin-bottom: 0 !important;}
+.nvc-root .nvc-h2{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  border-bottom: 2px solid #12161d !important;
+  border-radius: 0 !important;
+  color: #12161d !important;
+  font-size: 1.24rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  margin: 44px 0 20px 0 !important;
+  padding: 0 0 8px 0 !important;
+  text-shadow: none !important;}
+.nvc-root .nvc-p{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #262f3a !important;
+  font-size: 0.97rem !important;
+  line-height: 1.95 !important;
+  margin: 0 0 20px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-strong{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  color: #12161d !important;
+  font-weight: 700 !important;
+  box-shadow: inset 0 -0.45em 0 #f4e0d3 !important;}
+.nvc-root .nvc-glossary{background-color: #eef1ec !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  border-radius: 3px !important;
+  margin: 0 0 24px 0 !important;
+  padding: 20px 22px !important;}
+.nvc-root .nvc-gl-item{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  border-bottom: 1px solid #d5dad1 !important;
+  margin: 0 0 14px 0 !important;
+  padding: 0 0 14px 0 !important;}
+.nvc-root .nvc-gl-item:last-child{border-bottom: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;}
+.nvc-root .nvc-gl-term{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #2b6f8d !important;
+  font-size: 0.92rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 6px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-gl-def{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #3a4250 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.85 !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-fig{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  margin: 32px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: 1px solid #d8d2c6 !important;
+  border-radius: 3px !important;
+  padding: 0 !important;
+  margin: 0 !important;}
+.nvc-root .nvc-svg *{filter: none !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  transform: none !important;
+  visibility: visible !important;
+  letter-spacing: normal !important;
+  line-height: normal !important;}
+.nvc-root .nvc-figcap{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #5e6570 !important;
+  font-size: 0.82rem !important;
+  line-height: 1.7 !important;
+  margin: 10px 0 0 0 !important;
+  padding: 0 !important;
+  text-align: left !important;}
+.nvc-root .nvc-card{background-color: #ffffff !important;
+  background-image: none !important;
+  filter: none !important;
+  border: 1px solid #d8d2c6 !important;
+  border-left: 4px solid #d1741c !important;
+  border-radius: 3px !important;
+  margin: 0 0 16px 0 !important;
+  padding: 18px 20px !important;}
+.nvc-root .nvc-card-head{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  color: #12161d !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 10px 0 !important;
+  padding: 0 !important;
+  text-shadow: none !important;}
+.nvc-root .nvc-card-text{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #3a4250 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.85 !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-scenario{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  margin: 0 0 24px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-sc-item{background-color: #ffffff !important;
+  background-image: none !important;
+  filter: none !important;
+  border: 1px solid #d8d2c6 !important;
+  border-radius: 3px !important;
+  margin: 0 0 14px 0 !important;
+  padding: 16px 18px !important;}
+.nvc-root .nvc-sc-label{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #2b6f8d !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 8px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-sc-body{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #3a4250 !important;
+  font-size: 0.91rem !important;
+  line-height: 1.85 !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-related{background-color: #eef1ec !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  border-radius: 3px !important;
+  margin: 40px 0 24px 0 !important;
+  padding: 20px 22px !important;}
+.nvc-root .nvc-related-title{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #12161d !important;
+  font-size: 0.86rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  line-height: 1.5 !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-related-list{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-related-item{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #5e6570 !important;
+  font-size: 0.89rem !important;
+  line-height: 1.8 !important;
+  margin: 0 0 8px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-link{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #2b6f8d !important;
+  text-decoration: underline !important;
+  padding: 0 !important;}
+.nvc-root .nvc-note{background-color: #fdf7ef !important;
+  background-image: none !important;
+  filter: none !important;
+  border: 1px dashed #d6c1a4 !important;
+  border-radius: 3px !important;
+  margin: 0 0 20px 0 !important;
+  padding: 16px 18px !important;}
+.nvc-root .nvc-note-title{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #8a5a13 !important;
+  font-size: 0.84rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 8px 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-note-text{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #5f4a2c !important;
+  font-size: 0.83rem !important;
+  line-height: 1.8 !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.nvc-root .nvc-disc{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border-top: 1px solid #d8d2c6 !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  margin: 0 !important;
+  padding: 14px 0 0 0 !important;}
+.nvc-root .nvc-disc-text{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #7b8390 !important;
+  font-size: 0.78rem !important;
+  line-height: 1.75 !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+@media screen and (max-width: 600px){.nvc-root .nvc-hero{padding: 20px 16px !important;}.nvc-root .nvc-hero-title{font-size: 1.28rem !important;}.nvc-root .nvc-hero-sub{font-size: 0.86rem !important;}.nvc-root .nvc-hero-lead{font-size: 0.9rem !important;}.nvc-root .nvc-summary{padding: 18px 16px !important;}.nvc-root .nvc-h2{font-size: 1.1rem !important;
+    margin-top: 36px !important;}.nvc-root .nvc-p{font-size: 0.94rem !important;}.nvc-root .nvc-glossary{padding: 16px 15px !important;}.nvc-root .nvc-card,
+  .nvc-root .nvc-sc-item{padding: 14px 15px !important;}.nvc-root .nvc-related,
+  .nvc-root .nvc-note{padding: 16px 15px !important;}}

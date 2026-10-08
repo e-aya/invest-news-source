@@ -1,0 +1,89 @@
+.nag-doc.nag-doc{all:initial !important;display:block !important;box-sizing:border-box !important;max-width:760px !important;width:auto !important;margin:0 auto 32px !important;padding:0 !important;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic",Meiryo,sans-serif !important;font-size:16px !important;line-height:1.85 !important;color:#1b2430 !important;-webkit-text-fill-color:#1b2430 !important;background-color:transparent !important;background-image:none !important;letter-spacing:0.02em !important;word-spacing:normal !important;text-align:left !important;text-indent:0 !important;text-transform:none !important;text-shadow:none !important;box-shadow:none !important;border:0 !important;border-radius:0 !important;transform:none !important;rotate:none !important;scale:none !important;translate:none !important;filter:none !important;opacity:1 !important;visibility:visible !important;float:none !important;position:relative !important;animation:none !important;transition:none !important;columns:auto !important;column-count:auto !important;clip-path:none !important;mask:none !important;background-clip:border-box !important;background-origin:padding-box !important;background-size:auto !important;background-position:0 0 !important;overflow:visible !important;white-space:normal !important;word-break:normal !important;overflow-wrap:anywhere !important;}
+.nag-doc.nag-doc::before,.nag-doc.nag-doc::after{content:none !important;display:none !important;}
+.nag-doc.nag-doc *:not(svg):not(svg *){box-sizing:border-box !important;margin:0 !important;padding:0 !important;border:0 solid currentColor !important;border-color:currentColor !important;border-radius:0 !important;background-color:transparent !important;background-image:none !important;background-clip:border-box !important;background-origin:padding-box !important;background-size:auto !important;background-position:0 0 !important;box-shadow:none !important;text-shadow:none !important;letter-spacing:inherit !important;word-spacing:inherit !important;line-height:inherit !important;color:inherit !important;-webkit-text-fill-color:currentColor !important;font-family:inherit !important;font-style:normal !important;font-weight:inherit !important;text-transform:none !important;text-decoration:none !important;text-indent:0 !important;transform:none !important;rotate:none !important;scale:none !important;translate:none !important;filter:none !important;opacity:1 !important;visibility:visible !important;position:static !important;float:none !important;clear:none !important;width:auto !important;height:auto !important;min-width:0 !important;min-height:0 !important;max-width:none !important;max-height:none !important;white-space:normal !important;clip-path:none !important;mask:none !important;animation:none !important;transition:none !important;columns:auto !important;column-count:auto !important;list-style:none !important;outline:0 !important;vertical-align:baseline !important;text-align:inherit !important;text-align-last:auto !important;text-justify:auto !important;hyphens:manual !important;font-variant:normal !important;font-feature-settings:normal !important;font-kerning:auto !important;writing-mode:horizontal-tb !important;direction:ltr !important;cursor:auto !important;}
+.nag-doc.nag-doc *::before,.nag-doc.nag-doc *::after{content:none !important;display:none !important;border-radius:0 !important;clip-path:none !important;mask:none !important;background-clip:border-box !important;background-origin:padding-box !important;background-size:auto !important;background-position:0 0 !important;}
+.nag-doc.nag-doc p,.nag-doc.nag-doc span,.nag-doc.nag-doc div,.nag-doc.nag-doc a,.nag-doc.nag-doc li,.nag-doc.nag-doc ul,.nag-doc.nag-doc ol,.nag-doc.nag-doc strong,.nag-doc.nag-doc em,.nag-doc.nag-doc small,.nag-doc.nag-doc table,.nag-doc.nag-doc thead,.nag-doc.nag-doc tbody,.nag-doc.nag-doc tr,.nag-doc.nag-doc th,.nag-doc.nag-doc td,.nag-doc.nag-doc figure,.nag-doc.nag-doc figcaption,.nag-doc.nag-doc h1,.nag-doc.nag-doc h2,.nag-doc.nag-doc h3,.nag-doc.nag-doc section,.nag-doc.nag-doc nav{font-size:inherit !important;}
+.nag-doc.nag-doc div,.nag-doc.nag-doc p,.nag-doc.nag-doc section,.nag-doc.nag-doc figure,.nag-doc.nag-doc figcaption,.nag-doc.nag-doc h1,.nag-doc.nag-doc h2,.nag-doc.nag-doc h3,.nag-doc.nag-doc ul,.nag-doc.nag-doc ol,.nag-doc.nag-doc li,.nag-doc.nag-doc nav{display:block !important;}
+.nag-doc.nag-doc span,.nag-doc.nag-doc strong,.nag-doc.nag-doc em,.nag-doc.nag-doc a,.nag-doc.nag-doc small{display:inline !important;}
+.nag-doc.nag-doc strong{font-weight:700 !important;}
+.nag-doc.nag-doc br{display:none !important;}
+.nag-doc.nag-doc .nag-kick{display:inline-block !important;font-size:12.5px !important;font-weight:700 !important;letter-spacing:0.08em !important;color:#e8590c !important;-webkit-text-fill-color:#e8590c !important;border:1.5px solid #e8590c !important;padding:2px 10px !important;margin:0 0 12px !important;}
+.nag-doc.nag-doc .nag-mast{background-color:#14202e !important;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;padding:28px 26px 26px !important;margin:0 0 18px !important;border-left:6px solid #e8590c !important;}
+.nag-doc.nag-doc .nag-mast *:not(svg):not(svg *){background-color:transparent !important;color:inherit !important;}
+.nag-doc.nag-doc .nag-mast h1{font-size:25px !important;line-height:1.5 !important;font-weight:800 !important;margin:0 0 12px !important;}
+.nag-doc.nag-doc .nag-mast p{font-size:15px !important;line-height:1.8 !important;color:#c9d3de !important;-webkit-text-fill-color:#c9d3de !important;}
+.nag-doc.nag-doc .nag-chips{display:grid !important;grid-template-columns:repeat(4,minmax(0,1fr)) !important;gap:10px !important;margin:0 0 22px !important;}
+.nag-doc.nag-doc .nag-chip{display:block !important;background-color:#fff4ec !important;border:1px solid #f5c9a8 !important;padding:12px 10px !important;text-align:center !important;}
+.nag-doc.nag-doc .nag-chip-v{display:block !important;font-size:21px !important;line-height:1.3 !important;font-weight:800 !important;color:#c44a08 !important;-webkit-text-fill-color:#c44a08 !important;}
+.nag-doc.nag-doc .nag-chip-l{display:block !important;font-size:12px !important;line-height:1.5 !important;color:#5c6670 !important;-webkit-text-fill-color:#5c6670 !important;margin-top:4px !important;}
+.nag-doc.nag-doc .nag-gist{background-color:#1f2d3d !important;color:#eef2f6 !important;-webkit-text-fill-color:#eef2f6 !important;padding:20px 22px !important;margin:0 0 30px !important;}
+.nag-doc.nag-doc .nag-gist *:not(svg):not(svg *){background-color:transparent !important;color:inherit !important;-webkit-text-fill-color:currentColor !important;}
+.nag-doc.nag-doc .nag-gist-t{font-size:14px !important;font-weight:800 !important;color:#ffb27d !important;-webkit-text-fill-color:#ffb27d !important;margin:0 0 8px !important;letter-spacing:0.06em !important;}
+.nag-doc.nag-doc .nag-gist li{font-size:15px !important;line-height:1.75 !important;padding-left:1.1em !important;position:relative !important;margin:0 0 6px !important;}
+.nag-doc.nag-doc .nag-gist .nag-dot,.nag-doc.nag-doc .nag-take .nag-dot{display:inline-block !important;width:7px !important;height:7px !important;background-color:#ff8a3d !important;margin:0 8px 2px -1.1em !important;vertical-align:middle !important;}
+.nag-doc.nag-doc .nag-sec{margin:0 0 34px !important;}
+.nag-doc.nag-doc .nag-h2{display:flex !important;align-items:center !important;gap:10px !important;font-size:21px !important;line-height:1.5 !important;font-weight:800 !important;border-bottom:2px solid #1b2430 !important;padding:0 0 8px !important;margin:0 0 16px !important;}
+.nag-doc.nag-doc .nag-badge{display:inline-block !important;flex:0 0 auto !important;font-size:13px !important;line-height:1 !important;font-weight:800 !important;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;padding:6px 9px !important;}
+.nag-doc.nag-doc .nag-b1{background-color:#e8590c !important;}
+.nag-doc.nag-doc .nag-b2{background-color:#b8420a !important;}
+.nag-doc.nag-doc .nag-b3{background-color:#1c7ed6 !important;}
+.nag-doc.nag-doc .nag-b4{background-color:#1864ab !important;}
+.nag-doc.nag-doc .nag-b5{background-color:#2b8a3e !important;}
+.nag-doc.nag-doc .nag-h3{font-size:17px !important;font-weight:800 !important;margin:20px 0 8px !important;padding-left:10px !important;border-left:4px solid #e8590c !important;}
+.nag-doc.nag-doc .nag-p{margin:0 0 14px !important;}
+.nag-doc.nag-doc .nag-em{font-weight:700 !important;background-image:linear-gradient(transparent 62%,#ffe0c7 62%) !important;}
+.nag-doc.nag-doc .nag-note{font-size:13.5px !important;color:#5c6670 !important;-webkit-text-fill-color:#5c6670 !important;margin:0 0 14px !important;}
+.nag-doc.nag-doc .nag-tw{display:block !important;overflow-x:auto !important;margin:0 0 16px !important;}
+.nag-doc.nag-doc table.nag-tbl{display:table !important;width:100% !important;border-collapse:collapse !important;border-spacing:0 !important;table-layout:auto !important;font-size:14px !important;line-height:1.6 !important;}
+.nag-doc.nag-doc .nag-tbl thead{display:table-header-group !important;}
+.nag-doc.nag-doc .nag-tbl tbody{display:table-row-group !important;}
+.nag-doc.nag-doc .nag-tbl tr{display:table-row !important;}
+.nag-doc.nag-doc .nag-tbl th,.nag-doc.nag-doc .nag-tbl td{display:table-cell !important;width:auto !important;min-width:0 !important;padding:8px 10px !important;border:1px solid #d8dee4 !important;vertical-align:top !important;text-align:left !important;}
+.nag-doc.nag-doc .nag-tbl th{background-color:#14202e !important;color:#ffffff !important;-webkit-text-fill-color:#ffffff !important;font-weight:700 !important;white-space:nowrap !important;}
+.nag-doc.nag-doc .nag-tbl td.nag-n{text-align:right !important;white-space:nowrap !important;font-weight:700 !important;}
+.nag-doc.nag-doc .nag-up{color:#c92a2a !important;-webkit-text-fill-color:#c92a2a !important;font-weight:700 !important;}
+.nag-doc.nag-doc .nag-dn{color:#1864ab !important;-webkit-text-fill-color:#1864ab !important;font-weight:700 !important;}
+.nag-doc.nag-doc figure.nag-plate{display:block !important;margin:6px 0 22px !important;padding:16px 12px 10px !important;border:1px solid #d8dee4 !important;background-color:#ffffff !important;}
+.nag-doc.nag-doc .nag-plate figcaption{display:block !important;font-size:13px !important;line-height:1.6 !important;color:#5c6670 !important;-webkit-text-fill-color:#5c6670 !important;margin:8px 4px 0 !important;}
+.nag-doc.nag-doc .nag-plate-t{display:block !important;font-size:15px !important;font-weight:800 !important;margin:0 4px 10px !important;color:#1b2430 !important;-webkit-text-fill-color:#1b2430 !important;}
+.nag-doc.nag-doc .nag-pc{display:block !important;}
+.nag-doc.nag-doc .nag-sp{display:none !important;}
+.nag-doc.nag-doc svg.nag-svg{display:block !important;width:100% !important;height:auto !important;max-width:100% !important;margin:0 !important;padding:0 !important;border:0 !important;border-radius:0 !important;background-color:transparent !important;background-clip:border-box !important;overflow:visible !important;transform:none !important;filter:none !important;opacity:1 !important;visibility:visible !important;position:static !important;clip-path:none !important;mask:none !important;box-shadow:none !important;}
+.nag-doc.nag-doc svg.nag-svg rect{rx:0 !important;ry:0 !important;}
+.nag-doc.nag-doc svg.nag-svg *{text-shadow:none !important;box-shadow:none !important;outline:0 !important;cursor:auto !important;transform:none !important;filter:none !important;opacity:1 !important;visibility:visible !important;animation:none !important;transition:none !important;clip-path:none !important;mask:none !important;}
+.nag-doc.nag-doc .nag-sh{stroke:none !important;stroke-width:0 !important;stroke-dasharray:none !important;stroke-linecap:butt !important;stroke-linejoin:miter !important;paint-order:normal !important;fill-opacity:1 !important;}
+.nag-doc.nag-doc .nag-f-acc{fill:#e8590c !important;}
+.nag-doc.nag-doc .nag-f-acc2{fill:#a63d06 !important;}
+.nag-doc.nag-doc .nag-f-acc3{fill:#f7ad7c !important;}
+.nag-doc.nag-doc .nag-f-blu{fill:#1c7ed6 !important;}
+.nag-doc.nag-doc .nag-f-gry{fill:#b5bdc5 !important;}
+.nag-doc.nag-doc .nag-f-trk{fill:#eef1f4 !important;}
+.nag-doc.nag-doc .nag-sh.nag-ln{fill:none !important;stroke:#5c6670 !important;stroke-width:1.5px !important;stroke-dasharray:none !important;stroke-linecap:butt !important;stroke-linejoin:miter !important;paint-order:normal !important;}
+.nag-doc.nag-doc .nag-sh.nag-ln-dash{fill:none !important;stroke:#c92a2a !important;stroke-width:2px !important;stroke-dasharray:6 4 !important;stroke-linecap:butt !important;stroke-linejoin:miter !important;paint-order:normal !important;}
+.nag-doc.nag-doc .nag-tx{stroke:none !important;stroke-width:0 !important;stroke-dasharray:none !important;stroke-linecap:butt !important;stroke-linejoin:miter !important;paint-order:normal !important;font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic",Meiryo,sans-serif !important;font-weight:500 !important;font-style:normal !important;letter-spacing:0 !important;word-spacing:0 !important;text-decoration:none !important;dominant-baseline:auto !important;alignment-baseline:auto !important;}
+.nag-doc.nag-doc .nag-fw-b{font-weight:800 !important;}
+.nag-doc.nag-doc .nag-ta-s{text-anchor:start !important;}
+.nag-doc.nag-doc .nag-ta-m{text-anchor:middle !important;}
+.nag-doc.nag-doc .nag-ta-e{text-anchor:end !important;}
+.nag-doc.nag-doc .nag-t-ink{fill:#1b2430 !important;}
+.nag-doc.nag-doc .nag-t-mut{fill:#5c6670 !important;}
+.nag-doc.nag-doc .nag-t-acc{fill:#b8420a !important;}
+.nag-doc.nag-doc .nag-t-red{fill:#c92a2a !important;}
+.nag-doc.nag-doc .nag-take{background-color:#14202e !important;color:#eef2f6 !important;-webkit-text-fill-color:#eef2f6 !important;padding:22px 22px 14px !important;margin:0 0 28px !important;border-top:5px solid #e8590c !important;}
+.nag-doc.nag-doc .nag-take *:not(svg):not(svg *){background-color:transparent !important;color:inherit !important;-webkit-text-fill-color:currentColor !important;}
+.nag-doc.nag-doc .nag-take-t{font-size:17px !important;font-weight:800 !important;color:#ffb27d !important;-webkit-text-fill-color:#ffb27d !important;margin:0 0 10px !important;}
+.nag-doc.nag-doc .nag-take li{font-size:15px !important;line-height:1.75 !important;margin:0 0 8px !important;padding-left:1.1em !important;}
+.nag-doc.nag-doc .nag-links{border:1px solid #d8dee4 !important;padding:16px 18px !important;margin:0 0 22px !important;}
+.nag-doc.nag-doc .nag-links-t{font-size:14px !important;font-weight:800 !important;margin:0 0 8px !important;}
+.nag-doc.nag-doc .nag-links li{font-size:14.5px !important;margin:0 0 6px !important;}
+.nag-doc.nag-doc .nag-links a,.nag-doc.nag-doc .nag-src a{color:#1864ab !important;-webkit-text-fill-color:#1864ab !important;text-decoration:underline !important;}
+.nag-doc.nag-doc .nag-src{font-size:12.5px !important;line-height:1.7 !important;color:#5c6670 !important;-webkit-text-fill-color:#5c6670 !important;margin:0 0 16px !important;}
+.nag-doc.nag-doc .nag-src li{font-size:12.5px !important;margin:0 0 3px !important;}
+.nag-doc.nag-doc .nag-disc{font-size:12px !important;line-height:1.7 !important;color:#5c6670 !important;-webkit-text-fill-color:#5c6670 !important;background-color:#f4f6f8 !important;padding:12px 14px !important;}
+@media (max-width:640px){.nag-doc.nag-doc{font-size:15.5px !important;}.nag-doc.nag-doc .nag-mast{padding:22px 16px 20px !important;}.nag-doc.nag-doc .nag-mast h1{font-size:20.5px !important;}.nag-doc.nag-doc .nag-chips{grid-template-columns:repeat(2,minmax(0,1fr)) !important;}.nag-doc.nag-doc .nag-chip-v{font-size:19px !important;}.nag-doc.nag-doc .nag-h2{font-size:18.5px !important;}.nag-doc.nag-doc .nag-pc{display:none !important;}.nag-doc.nag-doc .nag-sp{display:block !important;}.nag-doc.nag-doc figure.nag-plate{padding:12px 6px 8px !important;}.nag-doc.nag-doc table.nag-tbl{font-size:13px !important;}.nag-doc.nag-doc .nag-tbl th,.nag-doc.nag-doc .nag-tbl td{padding:7px 7px !important;}}
+.nag-doc.nag-doc .nag-fs-115{font-size:11.5px !important;}
+.nag-doc.nag-doc .nag-fs-125{font-size:12.5px !important;}
+.nag-doc.nag-doc .nag-fs-130{font-size:13px !important;}
+.nag-doc.nag-doc .nag-fs-135{font-size:13.5px !important;}
+.nag-doc.nag-doc .nag-fs-140{font-size:14px !important;}
+.nag-doc.nag-doc .nag-fs-150{font-size:15px !important;}

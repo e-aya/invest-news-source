@@ -27,7 +27,7 @@ export const site = {
   },
 
   // Google Analytics 4（G-XXXXXXX）
-  ga4Id: '',
+  ga4Id: 'G-H1V784847Y',
 
   // AdSense。client は ca-pub-XXXXXXXX。各スロットIDは管理画面で作った手動ユニットのID
   adsense: {

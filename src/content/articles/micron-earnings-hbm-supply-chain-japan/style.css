@@ -1,0 +1,212 @@
+.mu-article{font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif !important;
+  line-height: 1.85 !important;
+  color: #e2e8f0 !important;
+  max-width: 780px !important;
+  margin: 0 auto !important;}
+.mu-article p{color: #cbd5e1 !important;
+  margin-bottom: 1.1em !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-article strong{color: #f8fafc !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-kicker{display: inline-block !important;
+  background-color: #1e3a5f !important;
+  background-image: none !important;
+  color: #60a5fa !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  padding: 4px 14px !important;
+  border-radius: 20px !important;
+  border-left: 3px solid #3b82f6 !important;
+  margin-bottom: 1rem !important;}
+.mu-hero{background-color: #0a1628 !important;
+  background-image: none !important;
+  border-left: 4px solid #3b82f6 !important;
+  border-radius: 8px !important;
+  padding: 28px 32px !important;
+  margin-bottom: 1.8rem !important;}
+.mu-hero-date{color: #60a5fa !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  margin-bottom: 0.5rem !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-hero-title{color: #f1f5f9 !important;
+  font-size: clamp(1.4rem, 3vw, 2rem) !important;
+  font-weight: 900 !important;
+  line-height: 1.35 !important;
+  margin: 0 0 0.8rem 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-hero-sub{color: #94a3b8 !important;
+  font-size: 0.92rem !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-chips{display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+  margin-bottom: 1.8rem !important;}
+.mu-chip{display: inline-flex !important;
+  flex-direction: column !important;
+  background-color: #1e293b !important;
+  background-image: none !important;
+  color: #e2e8f0 !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  padding: 6px 14px !important;
+  border-radius: 6px !important;
+  border: 1px solid #334155 !important;
+  line-height: 1.3 !important;}
+.mu-chip small{color: #64748b !important;
+  font-size: 0.68rem !important;
+  font-weight: 400 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-summary{background-color: #0c1a2e !important;
+  background-image: none !important;
+  border: 1px solid #1e40af !important;
+  border-left: 4px solid #f59e0b !important;
+  border-radius: 8px !important;
+  padding: 20px 24px !important;
+  margin-bottom: 2rem !important;}
+.mu-summary-label{color: #f59e0b !important;
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  margin-bottom: 0.6rem !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-summary-text{color: #cbd5e1 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.8 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-terms{background-color: #0f172a !important;
+  background-image: none !important;
+  border: 1px solid #1e293b !important;
+  border-radius: 8px !important;
+  padding: 20px 24px !important;
+  margin-bottom: 2rem !important;}
+.mu-def-list{margin: 0 !important;
+  padding: 0 !important;}
+.mu-dt{color: #60a5fa !important;
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+  margin: 1rem 0 0.3rem 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-dt:first-child{margin-top: 0 !important;}
+.mu-dd{color: #94a3b8 !important;
+  font-size: 0.88rem !important;
+  margin: 0 0 0 0 !important;
+  padding-left: 1em !important;
+  border-left: 2px solid #1e3a5f !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-section{margin-bottom: 2.5rem !important;}
+.mu-section-title{color: #e2e8f0 !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  margin: 0 0 1rem 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-section-header{display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin-bottom: 1.2rem !important;
+  padding: 14px 20px !important;
+  border-radius: 8px !important;}
+.mu-color-blue{background-color: #0c1a2e !important;
+  background-image: none !important;
+  border-left: 4px solid #3b82f6 !important;}
+.mu-color-purple{background-color: #1a1040 !important;
+  background-image: none !important;
+  border-left: 4px solid #8b5cf6 !important;}
+.mu-color-amber{background-color: #1a1200 !important;
+  background-image: none !important;
+  border-left: 4px solid #f59e0b !important;}
+.mu-color-green{background-color: #0a1f10 !important;
+  background-image: none !important;
+  border-left: 4px solid #22c55e !important;}
+.mu-color-red{background-color: #1f0a0a !important;
+  background-image: none !important;
+  border-left: 4px solid #ef4444 !important;}
+.mu-badge{background-color: #334155 !important;
+  background-image: none !important;
+  color: #f8fafc !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  padding: 3px 8px !important;
+  border-radius: 4px !important;
+  flex-shrink: 0 !important;}
+.mu-section-h2{color: #e2e8f0 !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-figure{margin: 1.5rem 0 !important;
+  padding: 0 !important;
+  border: 0 !important;}
+.mu-figure svg{width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;}
+.mu-figcaption{color: #64748b !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  margin-bottom: 8px !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-fig-note{color: #475569 !important;
+  font-size: 0.72rem !important;
+  text-align: right !important;
+  margin-top: 6px !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-takeaway{background-color: #0a1f10 !important;
+  background-image: none !important;
+  border: 1px solid #166534 !important;
+  border-left: 4px solid #22c55e !important;
+  border-radius: 8px !important;
+  padding: 24px 28px !important;
+  margin: 2.5rem 0 !important;}
+.mu-takeaway-label{color: #4ade80 !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  margin-bottom: 0.8rem !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-takeaway-list{margin: 0 !important;
+  padding-left: 1.2em !important;}
+.mu-takeaway-item{color: #a7f3d0 !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 0.7rem !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-takeaway-item strong{color: #6ee7b7 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.mu-takeaway-item:last-child{margin-bottom: 0 !important;}
+.mu-disclaimer{background-color: #0f172a !important;
+  background-image: none !important;
+  border: 1px solid #1e293b !important;
+  border-radius: 6px !important;
+  padding: 14px 18px !important;
+  margin-top: 2rem !important;}
+.mu-disclaimer-text{color: #475569 !important;
+  font-size: 0.75rem !important;
+  line-height: 1.7 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+@media (max-width: 480px){.mu-hero{padding: 18px 16px !important;}.mu-section-header{padding: 10px 14px !important;}.mu-chip{font-size: 0.76rem !important;
+    padding: 5px 10px !important;}.mu-takeaway{padding: 16px 16px !important;}}

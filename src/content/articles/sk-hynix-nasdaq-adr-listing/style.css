@@ -1,0 +1,158 @@
+.skh-root{background-color: #ffffff !important;
+  background-image: none !important;
+  color: #1a2624 !important;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif !important;
+  line-height: 1.85 !important;
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  padding: 8px 0 !important;}
+.skh-root .skh-hero{background-color: #101d1c !important;
+  background-image: linear-gradient(135deg, #101d1c 0%, #16403c 100%) !important;
+  border: none !important;
+  border-radius: 14px !important;
+  padding: 30px 28px !important;
+  margin: 0 0 26px 0 !important;}
+.skh-root .skh-eyebrow{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 10px 0 !important;
+  color: #f2b134 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;}
+.skh-root .skh-hero-title{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 14px 0 !important;
+  color: #ffffff !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;}
+.skh-root .skh-hero-lead{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #cfe4e0 !important;
+  font-size: 15px !important;}
+.skh-root .skh-summary{background-color: #eef8f6 !important;
+  background-image: none !important;
+  border: none !important;
+  border-left: 4px solid #2fa89d !important;
+  border-radius: 8px !important;
+  padding: 20px 22px !important;
+  margin: 0 0 30px 0 !important;}
+.skh-root .skh-summary-head{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 12px 0 !important;
+  color: #16403c !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;}
+.skh-root .skh-summary-list{background-color: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;}
+.skh-root .skh-summary-dt{background-color: #16403c !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  display: inline-block !important;
+  padding: 2px 10px !important;
+  border-radius: 4px !important;
+  margin: 0 0 4px 0 !important;}
+.skh-root .skh-summary-dd{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 14px 0 !important;
+  color: #26332f !important;
+  font-size: 14px !important;}
+.skh-root .skh-h3{background-color: transparent !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  border-bottom: 2px solid #e2efec !important;
+  padding: 0 0 8px 0 !important;
+  margin: 34px 0 16px 0 !important;
+  color: #16403c !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;}
+.skh-root .skh-p{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 16px 0 !important;
+  color: #1a2624 !important;
+  font-size: 15.5px !important;}
+.skh-root .skh-inline-key{background-color: #fff5e0 !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #916612 !important;
+  font-weight: 700 !important;
+  padding: 1px 4px !important;
+  border-radius: 3px !important;}
+.skh-root .skh-figure{background-color: transparent !important;
+  border: none !important;
+  margin: 24px 0 !important;
+  padding: 0 !important;}
+.skh-root .skh-svg{background-color: transparent !important;
+  border: 1px solid #244744 !important;
+  border-radius: 10px !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;}
+.skh-root .skh-caption{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 10px 4px 0 4px !important;
+  color: #55665f !important;
+  font-size: 13px !important;
+  line-height: 1.7 !important;}
+.skh-root .skh-note{background-color: #fbf4f3 !important;
+  background-image: none !important;
+  border: none !important;
+  border-left: 4px solid #d9564d !important;
+  border-radius: 6px !important;
+  padding: 16px 20px !important;
+  margin: 26px 0 !important;}
+.skh-root .skh-note-text{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #7a3c37 !important;
+  font-size: 13.5px !important;}
+.skh-root .skh-crosslink{background-color: #eef8f6 !important;
+  background-image: none !important;
+  border: none !important;
+  border: 1px dashed #8fbcb4 !important;
+  border-radius: 10px !important;
+  padding: 20px 22px !important;
+  margin: 24px 0 8px 0 !important;}
+.skh-root .skh-crosslink-label{background-color: #2fa89d !important;
+  background-image: none !important;
+  filter: none !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  display: inline-block !important;
+  padding: 2px 10px !important;
+  border-radius: 4px !important;
+  margin: 0 0 10px 0 !important;}
+.skh-root .skh-crosslink-text{background-color: transparent !important;
+  filter: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #26332f !important;
+  font-size: 14px !important;}
+@media (max-width: 600px){.skh-root .skh-hero-title{font-size: 21px !important;}.skh-root .skh-hero{padding: 22px 18px !important;}.skh-root .skh-h3{font-size: 18px !important;}.skh-root .skh-p{font-size: 15px !important;}}

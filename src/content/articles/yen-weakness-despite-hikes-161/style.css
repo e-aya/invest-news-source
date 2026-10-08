@@ -1,0 +1,141 @@
+.jpy-article{max-width: 860px !important;
+  margin: 0 auto !important;
+  color: #1c2a30 !important;
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif !important;
+  line-height: 1.85 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;}
+.jpy-article .jpy-lead{background-color: #102a33 !important;
+  background-image: linear-gradient(180deg, #143842 0%, #102a33 100%) !important;
+  border-radius: 12px !important;
+  padding: 22px 26px !important;
+  margin: 8px 0 18px !important;
+  border-left: 5px solid #0e7c86 !important;}
+.jpy-article .jpy-lead-text{background-color: transparent !important;
+  background-image: none !important;
+  color: #eaf3f4 !important;
+  font-size: 1.04rem !important;
+  margin: 0 !important;
+  line-height: 1.95 !important;}
+.jpy-article .jpy-lead-text strong{background-color: transparent !important;
+  background-image: none !important;
+  color: #5fd0d8 !important;
+  font-weight: 700 !important;}
+.jpy-article .jpy-note{background-color: #f3f7f8 !important;
+  background-image: none !important;
+  color: #5b6b72 !important;
+  font-size: 0.82rem !important;
+  line-height: 1.7 !important;
+  padding: 10px 14px !important;
+  border-radius: 8px !important;
+  margin: 14px 0 !important;
+  border: 1px solid #e1e8ea !important;}
+.jpy-article .jpy-h2{color: #102a33 !important;
+  font-size: 1.34rem !important;
+  font-weight: 700 !important;
+  line-height: 1.45 !important;
+  margin: 38px 0 16px !important;
+  padding: 8px 0 8px 14px !important;
+  border-left: 6px solid #0e7c86 !important;
+  background-color: #eef6f7 !important;
+  background-image: none !important;}
+.jpy-article .jpy-p{color: #1c2a30 !important;
+  font-size: 1.0rem !important;
+  margin: 0 0 18px !important;}
+.jpy-article .jpy-p strong{background-color: #fcefd2 !important;
+  background-image: none !important;
+  color: #7a5b00 !important;
+  font-weight: 700 !important;
+  padding: 0 2px !important;
+  border-radius: 3px !important;}
+.jpy-article .jpy-figure{margin: 24px 0 28px !important;
+  padding: 0 !important;}
+.jpy-article .jpy-figcap{background-color: #102a33 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  padding: 10px 14px !important;
+  border-radius: 8px 8px 0 0 !important;
+  margin: 0 !important;}
+.jpy-article .jpy-chartwrap{background-color: #ffffff !important;
+  background-image: none !important;
+  border: 1px solid #d6dee2 !important;
+  border-top: none !important;
+  border-radius: 0 0 8px 8px !important;
+  padding: 12px !important;
+  overflow-x: auto !important;}
+.jpy-article .jpy-svg{display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-width: 540px !important;}
+.jpy-article .jpy-figsrc{color: #82949b !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  font-size: 0.78rem !important;
+  line-height: 1.6 !important;
+  margin: 8px 2px 0 !important;}
+.jpy-article .jpy-flowlist{margin: 18px 0 22px !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.jpy-article .jpy-dl{margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;}
+.jpy-article .jpy-dt{background-color: #0e7c86 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 0.98rem !important;
+  padding: 8px 14px !important;
+  border-radius: 6px 6px 0 0 !important;
+  margin: 14px 0 0 !important;}
+.jpy-article .jpy-dd{background-color: #f3f7f8 !important;
+  background-image: none !important;
+  color: #2b3940 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.8 !important;
+  margin: 0 !important;
+  padding: 12px 16px !important;
+  border: 1px solid #d6dee2 !important;
+  border-top: none !important;
+  border-radius: 0 0 6px 6px !important;}
+.jpy-article .jpy-dd strong{background-color: #fcefd2 !important;
+  background-image: none !important;
+  color: #7a5b00 !important;
+  font-weight: 700 !important;
+  padding: 0 2px !important;}
+.jpy-article .jpy-keypoints{background-color: #102a33 !important;
+  background-image: linear-gradient(180deg, #143842 0%, #102a33 100%) !important;
+  border-radius: 12px !important;
+  padding: 20px 24px !important;
+  margin: 26px 0 18px !important;
+  border-top: 4px solid #0e7c86 !important;}
+.jpy-article .jpy-keypoints-title{background-color: transparent !important;
+  background-image: none !important;
+  color: #5fd0d8 !important;
+  font-size: 1.02rem !important;
+  font-weight: 700 !important;
+  margin: 0 0 12px !important;
+  letter-spacing: 0.04em !important;}
+.jpy-article .jpy-keypoints-list{background-color: transparent !important;
+  background-image: none !important;
+  margin: 0 !important;
+  padding: 0 0 0 2px !important;
+  list-style: none !important;}
+.jpy-article .jpy-keypoints-item{background-color: transparent !important;
+  background-image: none !important;
+  color: #eaf3f4 !important;
+  font-size: 0.96rem !important;
+  line-height: 1.75 !important;
+  margin: 0 0 10px !important;
+  padding: 0 0 0 22px !important;
+  position: relative !important;}
+.jpy-article .jpy-keypoints-item::before{content: "\25B6" !important;
+  color: #0e7c86 !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  font-size: 0.72rem !important;}
+@media (max-width: 600px){.jpy-article .jpy-h2{font-size: 1.16rem !important;}.jpy-article .jpy-lead{padding: 18px 18px !important;}.jpy-article .jpy-keypoints{padding: 18px 18px !important;}}

@@ -1,0 +1,275 @@
+
+<div class="aec-article">
+  <p class="aec-kicker">マクロ・地政学 ／ AI規制</p>
+  <header class="aec-hero">
+    <h1 class="aec-title">政府が止めた「最強AI」<br>― Claude Fable 5 停止が開いた前例</h1>
+    <p class="aec-dek">公開からわずか3日。市場最高性能とされたAIモデルが、競合でも技術的失敗でもなく、一片の輸出管理命令によって世界中で同時に沈黙した。これは単なる一企業のトラブルではない。「政府が商業AIモデルを世界規模で停止させられる」ことを実証した、初めての事例である。何が起き、なぜ全世界停止に至り、そして投資家はこの前例をどう織り込むべきか。輸出管理と地政学のレンズで構造を解く。</p>
+  </header>
+  <ul class="aec-chips">
+    <li class="aec-chip"><span class="aec-chip-num">3日</span><span class="aec-chip-lbl">公開（6/9）から全世界停止（6/12）まで</span></li>
+    <li class="aec-chip"><span class="aec-chip-num">輸出管理指令</span><span class="aec-chip-lbl">米政府が国家安全保障を根拠に発出</span></li>
+    <li class="aec-chip"><span class="aec-chip-num">全外国籍者</span><span class="aec-chip-lbl">対象は米国内外を問わずあらゆる外国籍者</span></li>
+    <li class="aec-chip"><span class="aec-chip-num">2モデルのみ</span><span class="aec-chip-lbl">対象はMythosクラス2種／他モデルは稼働継続</span></li>
+  </ul>
+  <section class="aec-summary">
+    <p class="aec-summary-head">30秒でわかる要点</p>
+    <ul class="aec-summary-list">
+      <li class="aec-summary-item"><span class="aec-summary-text">2026年6月9日に公開された最上位モデルClaude Fable 5は、わずか3日後の6月12日、米政府の輸出管理指令により姉妹モデルMythos 5とともに全世界で停止された。</span></li>
+      <li class="aec-summary-item"><span class="aec-summary-text">指令は「米国内外を問わずあらゆる外国籍者のアクセス禁止」を命じた。クラウド推論では国籍をリアルタイムに選別できないため、唯一の順守手段が「全ユーザー向けの全面停止」だった。これが規制を消費者イベントに変えた。</span></li>
+      <li class="aec-summary-item"><span class="aec-summary-text">本質は「みなし輸出」の論理がクラウドAIに適用された点にある。これにより、政府は一国の規制権限で、世界規模のSaaS型AIを実質的に停止できることが示された。停止はMythosクラスの2モデルに限られ、Opus 4.8など他モデルは無影響。</span></li>
+      <li class="aec-summary-item"><span class="aec-summary-text">争点は根拠の射程だ。Anthropicは、命令の根拠とされる能力は他のフロンティアモデルにも共通すると主張する。もしその論理が業界全体に適用されれば、新規モデル展開そのものが規制リスクに晒される。</span></li>
+      <li class="aec-summary-item"><span class="aec-summary-text">投資家への含意：Anthropicは非上場のため直接の株式エクスポージャーはない。注視すべきは投資家・配信パートナー（Amazon、Alphabet、Microsoft）と、フロンティアAI収益に新たに乗る「規制リスクプレミアム」である。</span></li>
+    </ul>
+  </section>
+  <section class="aec-terms">
+    <p class="aec-terms-head">先に押さえる用語（上級）</p>
+    <dl class="aec-terms-list">
+      <dt class="aec-term-dt">輸出管理（EAR 等）</dt>
+      <dd class="aec-term-dd">安全保障・外交目的で、特定技術・製品の国外移転や外国籍者へのアクセスを政府が規制する制度。違反は重い制裁を伴う。</dd>
+      <dt class="aec-term-dt">みなし輸出（deemed export）</dt>
+      <dd class="aec-term-dd">規制対象技術を米国内で外国籍者に開示する行為も、その者の母国への「輸出」とみなす考え方。物理的な国境移転を伴わなくても規制対象になりうる。</dd>
+      <dt class="aec-term-dt">フロンティアモデル</dt>
+      <dd class="aec-term-dd">現時点で最高水準の能力を持つ最先端AIモデル。能力が高いほど悪用時の影響も大きく、安全保障上の関心対象になりやすい。</dd>
+      <dt class="aec-term-dt">ユニバーサル脱獄（universal jailbreak）</dt>
+      <dd class="aec-term-dd">モデルの安全策を包括的に回避し、本来拒否すべき出力を引き出す汎用的手法。今回の指令の背景にあるとされる。</dd>
+      <dt class="aec-term-dt">フォールバック</dt>
+      <dd class="aec-term-dd">入力が安全分類器に引っかかった際、より制限的な別モデルへ自動で処理を切り替える仕組み。Fableでは該当時にOpus 4.8へ退避する設計だった。</dd>
+    </dl>
+  </section>
+  
+  <section class="aec-section">
+    <h2 class="aec-h2"><span class="aec-badge aec-badge-1">01</span>72時間で消えたモデル ― 事実関係</h2>
+    <p class="aec-p">時系列はきわめて短い。報道を総合すると、Anthropicは2026年6月9日、Mythosクラスとして初めて一般公開されるモデルClaude Fable 5を投入した。長時間の自律タスク（long-horizon agentic）向けの最高性能機とされ、同日からClaude API、AWS、Microsoft Foundryなど複数経路で利用可能になった。価格は入力100万トークンあたり10ドル、出力50ドルと、Opus 4.8の倍水準。既定で100万トークンの文脈長を持つ大型モデルである。</p>
+    <p class="aec-p">そのわずか3日後、6月12日に事態は反転する。米政府が国家安全保障上の権限を根拠に輸出管理指令を発出し、AnthropicはFable 5と、その制限付き姉妹モデルMythos 5を、数時間内に全世界で無効化した。公開時にはPro・Max・Team・Enterpriseの加入者へ6月22日まで無償提供する計画だっただけに、停止は「課金した製品が一夜で消える」消費者イベントへと転化し、Anthropicは返金対応に追われている。重要なのは、停止が最上位の2モデルに限定され、Opus 4.8をはじめ他のすべてのClaudeモデルは稼働を続けたという点だ。</p>
+  </section>
+  
+  <section class="aec-section">
+    <h2 class="aec-h2"><span class="aec-badge aec-badge-2">02</span>なぜ「全世界停止」になったのか ― 命令の射程と現実の乖離</h2>
+    <p class="aec-p">この事件の核心は、停止規模が「指令の文面」ではなく「実装上の制約」によって決まった点にある。指令が禁じたのは、米国の内外を問わず、あらゆる外国籍者によるアクセスだった。対象にはAnthropic自身の外国籍従業員すら含まれる。</p>
+    <p class="aec-p">ところが、クラウド経由の推論サービスでは、利用者の国籍をリアルタイムに識別し、外国籍者だけを排除することは現実的にできない。結果として、指令を確実に守る唯一の方法は「全ユーザーに対して該当モデルを止める」ことだった。つまり、規制の文面は一部の人間を狙ったものだったが、実装の都合により効果は地球規模に広がった。法的射程（de jure）と現実の効果（de facto）の乖離こそが、この事件を前例たらしめている。</p>
+
+    <figure class="aec-fig">
+      <figcaption class="aec-figcap">図1：なぜ「全世界停止」に至ったか ― 命令の射程から実装制約への波及フロー</figcaption>
+      <svg viewBox="0 0 800 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="輸出管理命令が全世界停止に至るまでの波及フロー">
+        <rect x="0" y="0" width="800" height="470" fill="#ffffff"/>
+        
+        
+        <rect x="220" y="20" width="360" height="58" rx="10" fill="#14202e"/>
+        <text x="400" y="46" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">米政府 輸出管理指令（6/12・国家安全保障根拠）</text>
+        <text x="400" y="66" font-family="sans-serif" font-size="11.5" fill="#bcd0e0" text-anchor="middle">Mythos 5 / Fable 5 を名指し</text>
+        <line x1="400" y1="78" x2="400" y2="104" stroke="#7a8694" stroke-width="2" marker-end="url(#aecAr)"/>
+        <defs><marker id="aecAr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#7a8694"/></marker></defs>
+        
+        <rect x="200" y="106" width="400" height="56" rx="10" fill="#f3e8e5" stroke="#b3402a" stroke-width="1.5"/>
+        <text x="400" y="131" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#8f2e1d" text-anchor="middle">対象＝米国内外を問わず「あらゆる外国籍者」</text>
+        <text x="400" y="150" font-family="sans-serif" font-size="11.5" fill="#8f2e1d" text-anchor="middle">自社の外国籍従業員すら含む広い射程</text>
+        <line x1="400" y1="162" x2="400" y2="188" stroke="#7a8694" stroke-width="2" marker-end="url(#aecAr)"/>
+        
+        <rect x="180" y="190" width="440" height="56" rx="10" fill="#fff6ea" stroke="#c98a2b" stroke-width="1.5"/>
+        <text x="400" y="215" font-family="sans-serif" font-size="13.5" font-weight="700" fill="#8a5e16" text-anchor="middle">クラウド推論は国籍をリアルタイム選別できない</text>
+        <text x="400" y="234" font-family="sans-serif" font-size="11.5" fill="#8a5e16" text-anchor="middle">「外国籍者だけ排除」が技術的に不可能</text>
+        <line x1="400" y1="246" x2="400" y2="272" stroke="#7a8694" stroke-width="2" marker-end="url(#aecAr)"/>
+        
+        <rect x="120" y="274" width="320" height="66" rx="10" fill="#f7e7e4" stroke="#c0392b" stroke-width="2"/>
+        <text x="280" y="300" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#a02b1c" text-anchor="middle">唯一の順守手段＝全世界で停止</text>
+        <text x="280" y="320" font-family="sans-serif" font-size="11.5" fill="#a02b1c" text-anchor="middle">Mythos 5 / Fable 5 を全顧客向けに無効化</text>
+        <rect x="470" y="274" width="210" height="66" rx="10" fill="#e7f4ec" stroke="#2e9e5b" stroke-width="2"/>
+        <text x="575" y="300" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#1d6e3e" text-anchor="middle">対象外＝稼働継続</text>
+        <text x="575" y="320" font-family="sans-serif" font-size="11.5" fill="#1d6e3e" text-anchor="middle">Opus 4.8・Sonnet・Haiku 等</text>
+        
+        <line x1="280" y1="272" x2="280" y2="274" stroke="#7a8694" stroke-width="2"/>
+        
+        <rect x="120" y="372" width="560" height="64" rx="10" fill="#14202e"/>
+        <text x="400" y="400" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#f0a36b" text-anchor="middle">帰結：規制の文面は「一部の人」を狙い、効果は「地球全体」に及んだ</text>
+        <text x="400" y="421" font-family="sans-serif" font-size="11.5" fill="#bcd0e0" text-anchor="middle">de jure（法的射程）と de facto（現実の効果）の乖離が前例を生んだ</text>
+      </svg>
+    </figure>
+  </section>
+  
+  <section class="aec-section">
+    <h2 class="aec-h2"><span class="aec-badge aec-badge-3">03</span>モデルの構造 ― Mythos / Fable / Opus と安全策</h2>
+    <p class="aec-p">なぜこの2モデルだけが標的になったのか。それを理解するには、Anthropicのモデル階層を押さえる必要がある。Mythos 5は同社が最も強力と位置づけるフロンティアモデルで、4月7日に存在が公表された際、「ハッキング能力が高すぎる」として一般公開が見送られ、一部の組織にのみ限定提供されていた。</p>
+    <p class="aec-p">Fable 5は、このMythosと同一の基盤モデルに、サイバーセキュリティ等への悪用を防ぐ安全策を加えた「公開版の双子」である。Anthropicの説明では、サイバー・生物化学・蒸留（distillation）に関わる入力を検知する分類器を備え、該当時にはより制限的なOpus 4.8へ自動的に処理を退避させる。フォールバックが起きるのは全セッションの5%未満で、95%超は通常どおり動くという。さらに30日間のデータ保持で新規攻撃を検知し（学習には不使用）、公開前に数千時間の敵対的検証を実施したとされる。要するに、Mythosとは「同じ中身・違う蓋」であり、その蓋（安全策）の堅牢性こそが今回の論点になった。</p>
+    <figure class="aec-fig">
+      <figcaption class="aec-figcap">図2：モデル階層とフォールバック構造 ― 停止対象は「同一基盤」の2モデル</figcaption>
+      <svg viewBox="0 0 800 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mythos Fable Opusのモデル階層とフォールバック構造">
+        <rect x="0" y="0" width="800" height="430" fill="#ffffff"/>
+        
+        <rect x="250" y="24" width="300" height="46" rx="9" fill="#6a5a9c"/>
+        <text x="400" y="52" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle">同一の基盤モデル（Mythosクラス）</text>
+        
+        <line x1="340" y1="70" x2="250" y2="104" stroke="#9a8cc4" stroke-width="2"/>
+        <line x1="460" y1="70" x2="560" y2="104" stroke="#9a8cc4" stroke-width="2"/>
+        
+        <rect x="90" y="106" width="320" height="92" rx="10" fill="#fbeae6" stroke="#c0392b" stroke-width="2"/>
+        <text x="250" y="132" font-family="sans-serif" font-size="14" font-weight="800" fill="#a02b1c" text-anchor="middle">Mythos 5（制限提供）</text>
+        <text x="250" y="153" font-family="sans-serif" font-size="11.5" fill="#7a3326" text-anchor="middle">フロンティア最上位／一般非公開</text>
+        <text x="250" y="171" font-family="sans-serif" font-size="11.5" fill="#7a3326" text-anchor="middle">「ハッキング能力が高い」ため限定提供</text>
+        <text x="250" y="190" font-family="sans-serif" font-size="12" font-weight="800" fill="#c0392b" text-anchor="middle">→ 6/12 停止</text>
+        
+        <rect x="430" y="106" width="320" height="92" rx="10" fill="#fbeae6" stroke="#c0392b" stroke-width="2"/>
+        <text x="590" y="132" font-family="sans-serif" font-size="14" font-weight="800" fill="#a02b1c" text-anchor="middle">Fable 5（一般公開・6/9）</text>
+        <text x="590" y="153" font-family="sans-serif" font-size="11.5" fill="#7a3326" text-anchor="middle">同一基盤＋安全策（分類器）</text>
+        <text x="590" y="171" font-family="sans-serif" font-size="11.5" fill="#7a3326" text-anchor="middle">市場最高性能の公開モデルとして投入</text>
+        <text x="590" y="190" font-family="sans-serif" font-size="12" font-weight="800" fill="#c0392b" text-anchor="middle">→ 6/12 停止</text>
+        
+        <line x1="590" y1="198" x2="590" y2="236" stroke="#7a8694" stroke-width="2" marker-end="url(#aecAr2)"/>
+        <defs><marker id="aecAr2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#7a8694"/></marker></defs>
+        <text x="610" y="222" font-family="sans-serif" font-size="11" fill="#666" text-anchor="start">危険入力を検知（5%未満）</text>
+        
+        <rect x="430" y="238" width="320" height="74" rx="10" fill="#e7f4ec" stroke="#2e9e5b" stroke-width="2"/>
+        <text x="590" y="264" font-family="sans-serif" font-size="14" font-weight="800" fill="#1d6e3e" text-anchor="middle">Opus 4.8（フォールバック先）</text>
+        <text x="590" y="285" font-family="sans-serif" font-size="11.5" fill="#1d6e3e" text-anchor="middle">該当入力を退避処理／通常は95%超が直接応答</text>
+        <text x="590" y="303" font-family="sans-serif" font-size="12" font-weight="800" fill="#2e9e5b" text-anchor="middle">→ 指令の対象外・稼働継続</text>
+        
+        <rect x="90" y="238" width="320" height="74" rx="10" fill="#f5f7fa" stroke="#cdd8e2" stroke-width="1.5"/>
+        <text x="250" y="262" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#2f4858" text-anchor="middle">安全策（defense in depth）</text>
+        <text x="250" y="282" font-family="sans-serif" font-size="11" fill="#41505f" text-anchor="middle">分類器でサイバー/生化学/蒸留を検知</text>
+        <text x="250" y="299" font-family="sans-serif" font-size="11" fill="#41505f" text-anchor="middle">30日データ保持で攻撃検知（学習不使用）</text>
+        
+        <g font-family="sans-serif" font-size="11.5" fill="#555">
+          <rect x="90" y="350" width="14" height="14" rx="3" fill="#c0392b"/><text x="110" y="362">停止（指令対象）</text>
+          <rect x="260" y="350" width="14" height="14" rx="3" fill="#2e9e5b"/><text x="280" y="362">稼働継続（対象外）</text>
+          <rect x="430" y="350" width="14" height="14" rx="3" fill="#6a5a9c"/><text x="450" y="362">共有する基盤モデル</text>
+        </g>
+        <text x="90" y="396" font-family="sans-serif" font-size="11" fill="#888">注：仕様・数値はAnthropic公表値に基づく概要。社名・モデル名は通称。</text>
+      </svg>
+    </figure>
+  </section>
+  
+  <section class="aec-section">
+    <h2 class="aec-h2"><span class="aec-badge aec-badge-4">04</span>「みなし輸出」というレンズ ― 国内の外国籍者にまで及ぶ論理</h2>
+    <p class="aec-p">なぜ「輸出」管理が、米国内のユーザーや米企業の自社製品にまで及ぶのか。鍵は「みなし輸出（deemed export）」の概念だ。米国の輸出管理では、規制対象の技術を米国内で外国籍者に開示する行為も、その者の母国への「輸出」とみなす。物理的に国境を越えなくても、外国籍者がアクセスした時点で規制が発動しうる。</p>
+    <p class="aec-p">この論理をクラウド型AIの推論アクセスに当てはめたのが、今回の新規性である。従来、みなし輸出は研究所内の図面や設計データといった「明確に管理可能な技術開示」を主に想定してきた。だが世界中の不特定多数が同時に使うSaaS型モデルに同じ網をかければ、対象を選別できない以上、サービス全体を止めるしかない。輸出管理という古い道具が、最新のクラウドAIを世界規模で停止させる「スイッチ」として機能しうることが、ここで実証された。</p>
+    <figure class="aec-fig">
+      <figcaption class="aec-figcap">図3：「みなし輸出」の射程 ― 物理的国境を越えなくても規制は届く</figcaption>
+      <svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="みなし輸出の概念と射程">
+        <rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
+        
+        <rect x="310" y="150" width="180" height="74" rx="12" fill="#14202e"/>
+        <text x="400" y="182" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle">米国内の</text>
+        <text x="400" y="202" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle">規制対象モデル</text>
+        
+        
+        <rect x="300" y="28" width="200" height="62" rx="10" fill="#f3e8e5" stroke="#b3402a" stroke-width="1.5"/>
+        <text x="400" y="53" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#8f2e1d" text-anchor="middle">米国内の外国籍者</text>
+        <text x="400" y="73" font-family="sans-serif" font-size="11" fill="#8f2e1d" text-anchor="middle">国境を越えずとも「みなし輸出」</text>
+        <line x1="400" y1="90" x2="400" y2="148" stroke="#b3402a" stroke-width="2.5" marker-end="url(#aecAr3)"/>
+        <defs><marker id="aecAr3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#b3402a"/></marker></defs>
+        
+        <rect x="40" y="160" width="210" height="62" rx="10" fill="#f3e8e5" stroke="#b3402a" stroke-width="1.5"/>
+        <text x="145" y="185" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#8f2e1d" text-anchor="middle">自社の外国籍従業員</text>
+        <text x="145" y="205" font-family="sans-serif" font-size="11" fill="#8f2e1d" text-anchor="middle">社内利用すら対象に</text>
+        <line x1="250" y1="191" x2="308" y2="187" stroke="#b3402a" stroke-width="2.5" marker-end="url(#aecAr3)"/>
+        
+        <rect x="550" y="160" width="210" height="62" rx="10" fill="#f3e8e5" stroke="#b3402a" stroke-width="1.5"/>
+        <text x="655" y="185" font-family="sans-serif" font-size="12.5" font-weight="700" fill="#8f2e1d" text-anchor="middle">米国外の利用者</text>
+        <text x="655" y="205" font-family="sans-serif" font-size="11" fill="#8f2e1d" text-anchor="middle">世界中の顧客が該当</text>
+        <line x1="550" y1="191" x2="492" y2="187" stroke="#b3402a" stroke-width="2.5" marker-end="url(#aecAr3)"/>
+        
+        <rect x="40" y="270" width="350" height="84" rx="10" fill="#f5f7fa" stroke="#cdd8e2" stroke-width="1.5"/>
+        <text x="60" y="296" font-family="sans-serif" font-size="12.5" font-weight="800" fill="#2f4858">従来の輸出（イメージ）</text>
+        <text x="60" y="318" font-family="sans-serif" font-size="11.5" fill="#41505f">物理的な国境移転・特定の技術開示が前提</text>
+        <text x="60" y="338" font-family="sans-serif" font-size="11.5" fill="#41505f">対象は比較的特定しやすい</text>
+        <rect x="410" y="270" width="350" height="84" rx="10" fill="#fbeae6" stroke="#c0392b" stroke-width="1.5"/>
+        <text x="430" y="296" font-family="sans-serif" font-size="12.5" font-weight="800" fill="#a02b1c">今回の新規性</text>
+        <text x="430" y="318" font-family="sans-serif" font-size="11.5" fill="#7a3326">SaaS型AIの推論アクセスへ同じ網を適用</text>
+        <text x="430" y="338" font-family="sans-serif" font-size="11.5" fill="#7a3326">選別不能 → サービス全停止が唯一の順守策</text>
+      </svg>
+    </figure>
+  </section>
+  
+  <section class="aec-section">
+    <h2 class="aec-h2"><span class="aec-badge aec-badge-5">05</span>前例の射程 ― 他のフロンティアAIへ波及するのか</h2>
+    <p class="aec-p">投資家にとって決定的なのは「この前例がどこまで広がるか」だ。報道によれば、Anthropicは命令の根拠とされた報告について、ライバルかつ主要投資家でもあるAmazonのエンジニアが作成したものと見られると述べている。さらに公開から48時間以内に、"Pliny the Liberator"を名乗る研究者がFable 5のシステムプロンプトとされるものをXとGitHubに公開した経緯も報じられた。Anthropicは、根拠とされた能力は他のフロンティアモデルにも共通するものであり、その論理を一律に適用すれば全フロンティアモデルの新規展開を止めかねないと反論している。</p>
+    <p class="aec-p">ここに分岐がある。根拠とされた脆弱性がFable固有のものなら、影響はAnthropicに限定される。だがAnthropicが主張するように業界共通の能力なら、同じ輸出管理の論理は理屈上、他のラボの最新モデルにも適用可能だ。後者のシナリオでは、これは一社の事故ではなく「フロンティアAIという資産クラス全体に新しい停止リスクが内在する」ことの証明になる。なお背景として、2025年初頭以降、Anthropicと現政権の間で緊張が高まっていたことも複数のメディアが指摘している点は、地政学レンズで見落とせない。</p>
+    <figure class="aec-fig">
+      <figcaption class="aec-figcap">図4：規制リスクの構造 ― 根拠の射程しだいで業界全体に波及しうる</figcaption>
+      <svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="規制リスクの分岐構造図">
+        <rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
+        
+        <rect x="240" y="24" width="320" height="64" rx="10" fill="#14202e"/>
+        <text x="400" y="50" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle">根拠＝疑われたモデル能力</text>
+        <text x="400" y="71" font-family="sans-serif" font-size="11.5" fill="#bcd0e0" text-anchor="middle">（いわゆるユニバーサル脱獄）の射程は？</text>
+        
+        <line x1="320" y1="88" x2="210" y2="128" stroke="#7a8694" stroke-width="2" marker-end="url(#aecAr4)"/>
+        <line x1="480" y1="88" x2="590" y2="128" stroke="#7a8694" stroke-width="2" marker-end="url(#aecAr4)"/>
+        <defs><marker id="aecAr4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#7a8694"/></marker></defs>
+        
+        <rect x="40" y="130" width="320" height="60" rx="10" fill="#e7f4ec" stroke="#2e9e5b" stroke-width="2"/>
+        <text x="200" y="156" font-family="sans-serif" font-size="13" font-weight="800" fill="#1d6e3e" text-anchor="middle">A：Fable固有の脆弱性</text>
+        <text x="200" y="177" font-family="sans-serif" font-size="11.5" fill="#1d6e3e" text-anchor="middle">影響はAnthropicに限定</text>
+        <rect x="40" y="206" width="320" height="74" rx="10" fill="#f5faf6" stroke="#bfe2cc" stroke-width="1.5"/>
+        <text x="200" y="232" font-family="sans-serif" font-size="12" fill="#256b44" text-anchor="middle">・一社の製品事故として収束</text>
+        <text x="200" y="254" font-family="sans-serif" font-size="12" fill="#256b44" text-anchor="middle">・再開や仕様修正で正常化の余地</text>
+        <text x="200" y="274" font-family="sans-serif" font-size="11" fill="#5a8a6e" text-anchor="middle">投資含意：限定的・一時的</text>
+        
+        <rect x="440" y="130" width="320" height="60" rx="10" fill="#fbeae6" stroke="#c0392b" stroke-width="2"/>
+        <text x="600" y="156" font-family="sans-serif" font-size="13" font-weight="800" fill="#a02b1c" text-anchor="middle">B：業界共通の能力</text>
+        <text x="600" y="177" font-family="sans-serif" font-size="11.5" fill="#a02b1c" text-anchor="middle">（＝Anthropicの主張）</text>
+        <rect x="440" y="206" width="320" height="74" rx="10" fill="#fdf3f1" stroke="#e6b3aa" stroke-width="1.5"/>
+        <text x="600" y="232" font-family="sans-serif" font-size="12" fill="#8f2e1d" text-anchor="middle">・同じ論理が他ラボの最新機にも適用可能</text>
+        <text x="600" y="254" font-family="sans-serif" font-size="12" fill="#8f2e1d" text-anchor="middle">・新規フロンティア展開そのものが停止リスク</text>
+        <text x="600" y="274" font-family="sans-serif" font-size="11" fill="#a85a4a" text-anchor="middle">投資含意：資産クラス全体に波及</text>
+        
+        <rect x="120" y="304" width="560" height="56" rx="10" fill="#14202e"/>
+        <text x="400" y="330" font-family="sans-serif" font-size="13" font-weight="800" fill="#f0a36b" text-anchor="middle">分岐の答えは未確定 ― だが「Bの可能性が消えない」こと自体がプレミアム要因</text>
+        <text x="400" y="350" font-family="sans-serif" font-size="11" fill="#bcd0e0" text-anchor="middle">不確実性そのものがフロンティアAI収益に割引を要求する</text>
+      </svg>
+    </figure>
+  </section>
+  
+  <section class="aec-section">
+    <h2 class="aec-h2"><span class="aec-badge aec-badge-6">06</span>投資家への含意 ― 非上場Anthropicをどう触るか</h2>
+    <p class="aec-p">Anthropicは非上場であり、この事件を直接の株式で取りにいく手段はない。したがって投資家の関心は、(1)関連する上場企業へのエクスポージャー、(2)フロンティアAI収益に新たに乗る規制リスクプレミアム、の二点に整理できる。</p>
+    <p class="aec-p">第一に、エクスポージャーの経路だ。Amazonは主要投資家であると同時にAWSでの配信元であり、しかも今回の根拠報告の出所と目される——投資家・配信者・通報者という立場が交錯する利益相反的な構図は、定性的に注視すべき論点だ。Alphabet（Google）も主要投資家であり、Microsoftは自社のFoundry経由で配信し、Fableの必須データ保持要件が連携に影響したと報じられている。いずれも各社の業績に対する寄与は限定的だが、AIエコシステムの「配管」を握る企業ほど、こうした突発停止のオペレーション影響を受けやすい。</p>
+    <p class="aec-p">第二に、より本質的なのは資産クラス全体への含意である。今回の前例は、フロンティアAIの収益に「政府が一片の命令で世界規模に止めうる」という新しい尾部リスク（tail risk）を加えた。これはAI関連の将来キャッシュフローに、従来は明示的に織り込まれていなかった割引要因となる。実務的な教訓も明快だ——特定モデルにハードコードで依存する設計は、突発的な提供停止に対して脆い。モデル名を一箇所の設定値に集約し、代替モデルへ即時に切り替えられる「モデル非依存（model-agnostic）」の構成が、事業継続の観点から急速に重要性を増している。これは利用者側のリスク管理であると同時に、そうした抽象化レイヤーを提供する事業者の価値が高まる、という投資テーマの芽でもある。</p>
+    <figure class="aec-fig">
+      <figcaption class="aec-figcap">図5：エクスポージャー俯瞰 ― 非上場Anthropicを取り巻く上場企業と論点</figcaption>
+      <svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anthropicを取り巻く上場企業のエクスポージャー俯瞰図">
+        <rect x="0" y="0" width="800" height="420" fill="#ffffff"/>
+        
+        <rect x="300" y="168" width="200" height="84" rx="12" fill="#14202e"/>
+        <text x="400" y="200" font-family="sans-serif" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">Anthropic</text>
+        <text x="400" y="222" font-family="sans-serif" font-size="11.5" fill="#bcd0e0" text-anchor="middle">非上場</text>
+        <text x="400" y="240" font-family="sans-serif" font-size="11" fill="#9fb3c4" text-anchor="middle">直接の株式エクスポージャーなし</text>
+        
+        <line x1="300" y1="190" x2="210" y2="120" stroke="#7a8694" stroke-width="2"/>
+        <line x1="500" y1="190" x2="590" y2="120" stroke="#7a8694" stroke-width="2"/>
+        <line x1="500" y1="230" x2="590" y2="300" stroke="#7a8694" stroke-width="2"/>
+        <line x1="300" y1="230" x2="210" y2="300" stroke="#7a8694" stroke-width="2"/>
+        
+        <rect x="24" y="60" width="280" height="76" rx="10" fill="#fbeae6" stroke="#b3402a" stroke-width="2"/>
+        <text x="44" y="84" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#8f2e1d">Amazon（上場）</text>
+        <text x="44" y="104" font-family="sans-serif" font-size="11" fill="#7a3326">投資家＋AWS配信＋根拠報告の出所と目される</text>
+        <text x="44" y="122" font-family="sans-serif" font-size="11" fill="#7a3326">＝投資家・配信者・通報者が交錯（利益相反論点）</text>
+        
+        <rect x="496" y="60" width="280" height="76" rx="10" fill="#f5f7fa" stroke="#2f6f8f" stroke-width="2"/>
+        <text x="516" y="84" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#23566e">Alphabet / Google（上場）</text>
+        <text x="516" y="104" font-family="sans-serif" font-size="11" fill="#41505f">主要投資家の一角</text>
+        <text x="516" y="122" font-family="sans-serif" font-size="11" fill="#41505f">寄与は限定的だが関与は深い</text>
+        
+        <rect x="496" y="300" width="280" height="76" rx="10" fill="#f5f7fa" stroke="#2f6f8f" stroke-width="2"/>
+        <text x="516" y="324" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#23566e">Microsoft（上場）</text>
+        <text x="516" y="344" font-family="sans-serif" font-size="11" fill="#41505f">Foundry経由で配信</text>
+        <text x="516" y="362" font-family="sans-serif" font-size="11" fill="#41505f">必須データ保持要件が連携に影響と報道</text>
+        
+        <rect x="24" y="300" width="280" height="76" rx="10" fill="#fff6ea" stroke="#c98a2b" stroke-width="2"/>
+        <text x="44" y="324" font-family="sans-serif" font-size="13.5" font-weight="800" fill="#8a5e16">他フロンティアラボ（波及先）</text>
+        <text x="44" y="344" font-family="sans-serif" font-size="11" fill="#8a5e16">前例の論理が及べば同様の停止リスク</text>
+        <text x="44" y="362" font-family="sans-serif" font-size="11" fill="#8a5e16">上場：Alphabet・Meta 等／非上場：OpenAI 等</text>
+        
+        <rect x="150" y="392" width="500" height="0" fill="none"/>
+        <text x="400" y="406" font-family="sans-serif" font-size="11.5" font-weight="700" fill="#5a6776" text-anchor="middle">配管（配信・クラウド）を握る企業ほど突発停止のオペレーション影響を受けやすい</text>
+      </svg>
+    </figure>
+  </section>
+  
+  <section class="aec-section">
+    <h2 class="aec-h2"><span class="aec-badge aec-badge-7">07</span>留意点 ― 情報の鮮度と係争性</h2>
+    <p class="aec-p">最後に、本記事の前提に関する留保を明示しておく。これは執筆時点でごく直近に起きた進行中の事案であり、情報源は主にテック系メディアの報道である。停止は「一時的」と位置づけられているが、再開の可否・時期、命令の最終的な法的評価は流動的だ。とりわけ、根拠とされた報告の妥当性や、Amazon関与に関するAnthropicの主張は、現時点では一方当事者の説明を含む係争的な論点であり、確定した事実として扱うべきではない。投資判断にあたっては、Anthropicおよび関係当局の公式発表という一次情報を必ず確認していただきたい。</p>
+  </section>
+  <footer class="aec-disclaimer">
+    <p class="aec-disclaimer-text">本記事は公開情報に基づく構造分析であり、特定の銘柄・商品の購入や売却を推奨するものではありません。記載の事実関係・数値（日付、契約・仕様、価格等）は各種報道・公表値に基づく概要で、進行中の事案のため今後変動・訂正される可能性があります。係争的な主張は当事者の説明を含みます。投資判断は最新の一次情報をご確認のうえ、ご自身の責任で行ってください。当ブログは投資助言を行うものではありません。</p>
+  </footer>
+</div>
