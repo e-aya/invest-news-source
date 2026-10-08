@@ -31,7 +31,7 @@ export const site = {
 
   // AdSense。client は ca-pub-XXXXXXXX。各スロットIDは管理画面で作った手動ユニットのID
   adsense: {
-    client: '',
+    client: 'ca-pub-9528923007422550',
     slots: {
       inArticle: '', // 記事内（第2セクションの後）
       inArticleSecond: '', // 長い記事の中盤
