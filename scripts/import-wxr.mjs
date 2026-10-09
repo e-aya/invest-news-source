@@ -283,8 +283,9 @@ for (const { row, post, slug } of plan) {
   const categoryNames = new Set(post.categories);
   const tags = post.tags.filter((t) => !categoryNames.has(t));
   const allLabels = [...post.tags, ...post.categories].join(' ');
-  // シリーズは移行リストの指定が優先。なければ IPO 区分 → タグ・カテゴリ名 の順で決める
-  const series = row.series || (row.category === 'ipo' ? 'ipo' : (SERIES_TAGS.find(([, re]) => re.test(allLabels)) || [])[0]);
+  // シリーズは移行リストの指定が優先（null は「シリーズなし」）。指定がなければ IPO 区分 → タグ・カテゴリ名 の順で決める。
+  // WordPress のタグには複数のシリーズ名が付いていることが多く、タグだけだと本来と違うシリーズになりやすい
+  const series = 'series' in row ? row.series : row.category === 'ipo' ? 'ipo' : (SERIES_TAGS.find(([, re]) => re.test(allLabels)) || [])[0];
 
   const meta = {
     title: post.title,

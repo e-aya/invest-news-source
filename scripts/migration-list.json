@@ -17,6 +17,7 @@
    "tickers": [
     "NVDA"
    ],
+   "series": "ai-light-shadow",
    "namespace": null
   },
   {
@@ -25,6 +26,7 @@
    "category": "ai-semi",
    "workingTitle": "【国策テーマウォッチ】中国の「算力国産化」はどこまで進んだか",
    "tickers": [],
+   "series": "national-policy",
    "namespace": null
   },
   {
@@ -279,6 +281,7 @@
    "tickers": [
     "TSM"
    ],
+   "series": null,
    "namespace": "smk"
   },
   {
@@ -306,6 +309,7 @@
    "category": "market",
    "workingTitle": "東京市場の下落｜円高はどう株価に伝わるか",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "yhk"
   },
   {
@@ -451,6 +455,7 @@
    "category": "macro",
    "workingTitle": "長期金利2.930%を3層で分解",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "jyc"
   },
   {
@@ -479,6 +484,7 @@
    "category": "ai-semi",
    "workingTitle": "350億ドルのCompute SPV｜AI循環取引の構造",
    "tickers": [],
+   "series": "ai-light-shadow",
    "namespace": "acf"
   },
   {
@@ -529,6 +535,7 @@
    "category": "macro",
    "workingTitle": "介入は何日もったのか",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "ivx"
   },
   {
@@ -553,6 +560,7 @@
    "category": "ai-semi",
    "workingTitle": "【AI熱狂の光と影】AIインフラの実需",
    "tickers": [],
+   "series": "ai-light-shadow",
    "namespace": "dcb"
   },
   {
@@ -572,6 +580,7 @@
     "4062",
     "6976"
    ],
+   "series": "good-company-bad-timing",
    "namespace": "ibs"
   },
   {
@@ -588,6 +597,7 @@
    "category": "macro",
    "workingTitle": "日米協調介入と市場の答え",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "jcx"
   },
   {
@@ -606,6 +616,7 @@
    "category": "macro",
    "workingTitle": "日米協調介入｜時間稼ぎか新しい水準か",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "intv26"
   },
   {
@@ -614,6 +625,7 @@
    "category": "macro",
    "workingTitle": "日銀の追加利上げはいつか",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "rate26"
   },
   {
@@ -649,6 +661,7 @@
    "category": "macro",
    "workingTitle": "日米同時利上げでも円安が続く理由",
    "tickers": [],
+   "series": "central-bank",
    "namespace": null
   },
   {
@@ -683,6 +696,7 @@
    "category": "macro",
    "workingTitle": "日銀7月会合プレビュー",
    "tickers": [],
+   "series": "central-bank",
    "namespace": "rfn"
   },
   {
