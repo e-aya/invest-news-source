@@ -9,7 +9,8 @@
     "deploy": "npm run build && wrangler deploy --env=\"\"",
     "deploy:staging": "npm run build && wrangler deploy --env staging",
     "import:wp": "node scripts/import-wxr.mjs",
-    "check:links": "node scripts/check-links.mjs"
+    "check:links": "node scripts/check-links.mjs",
+    "smoke": "node scripts/smoke.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

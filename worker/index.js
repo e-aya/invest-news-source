@@ -42,8 +42,10 @@ async function handle(request, env, ctx) {
     return slug ? redirect(url, `/${slug}/`) : gone(env, request);
   }
   if (q.has('page_id')) {
+    // 固定ページ（運営者情報・プライバシーポリシーなど）は scripts/wp-pages.json の対応表で転送。
+    // 対応表にないものもトップへ転送する（固定ページは削除扱いの 410 にしない）
     const to = legacy.pages[q.get('page_id')];
-    return to ? redirect(url, to) : gone(env, request);
+    return redirect(url, to || '/');
   }
   if (q.has('s')) return redirect(url, `/search/?q=${encodeURIComponent(q.get('s') || '')}`);
   if (q.has('feed')) return redirect(url, '/feed/');
@@ -52,6 +54,12 @@ async function handle(request, env, ctx) {
   }
   if (/^\/(wp-admin|wp-includes|wp-content|wp-json)(\/|$)|^\/(wp-login\.php|xmlrpc\.php|wp-cron\.php)$/.test(url.pathname)) {
     return gone(env, request);
+  }
+
+  // ---- WordPress（Rank Math・標準）のサイトマップ → 新しいサイトマップ ----
+  // Search Console に旧サイトマップが登録されたままでも、新しいサイトマップを読みに来られるようにする
+  if (/^\/(sitemap_index|sitemap|wp-sitemap|post-sitemap\d*|page-sitemap|category-sitemap|post_tag-sitemap)\.xml$/.test(url.pathname)) {
+    return redirect(url, '/sitemap-index.xml');
   }
 
   // ---- 自サイトのRSS ----

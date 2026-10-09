@@ -22,6 +22,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 - `npm run preview` … wrangler dev で Worker 込みの確認
 - `npm run deploy` … ビルドして Cloudflare に公開（本番：独自ドメイン）
 - `npm run deploy:staging` … 確認用（workers.dev、noindex、メール送信なし）に公開
+- `npm run smoke -- <URL>` … 公開したサイトの点検（旧URL転送・410・RSS・サイトマップ・ads.txt・noindex）
 - `npm run import:wp` … `import/export.xml`（WXR）と `import/additional.css` から再取り込み。`import/` は git 管理外
 
 ## 取り込み（WordPress → 新サイト）
