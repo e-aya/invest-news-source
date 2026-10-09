@@ -1,0 +1,3 @@
+/* 別記事（同じ spx- 名前空間）の白文字の指定が効いて、白地に白文字になっていた */
+.spx-article.spx-article .spx-title{color: var(--spx-navy) !important;}
+.spx-article.spx-article .spx-dek{color: var(--spx-ink-soft) !important;}

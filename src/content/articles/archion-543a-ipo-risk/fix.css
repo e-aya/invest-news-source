@@ -1,0 +1,2 @@
+/* 見出しの太字に本文用の濃紺が効いて、濃紺の見出し帯の上で読めなかった */
+.arc-hero .arc-hero-h1 strong{color: #fff !important;}
