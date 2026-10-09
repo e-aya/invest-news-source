@@ -139,7 +139,7 @@ async function contact(request, env, url) {
 
   // 確認用環境（send_email なし）や Email Routing の設定前は送れない
   if (!env.MAILER) {
-    return new Response(`ただいまフォームから送信できません。お手数ですが ${env.MAIL_TO || 'invest-news-source@outlook.jp'} まで直接ご連絡ください。`, {
+    return new Response(`ただいまフォームから送信できません。お手数ですが support@${HOST} まで直接ご連絡ください。`, {
       status: 503,
       headers: { 'content-type': 'text/plain; charset=utf-8' },
     });
