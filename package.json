@@ -5,12 +5,12 @@
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/check-article-css.mjs && node scripts/gen-worker-data.mjs && astro build && pagefind --site dist && node scripts/check-links.mjs",
-    "preview": "wrangler dev",
+    "preview": "npm run build && wrangler dev",
     "deploy": "npm run build && wrangler deploy --env=\"\"",
     "deploy:staging": "npm run build && wrangler deploy --env staging",
     "import:wp": "node scripts/import-wxr.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "smoke": "node scripts/smoke.mjs"
+    "smoke": "node scripts/gen-worker-data.mjs && node scripts/smoke.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

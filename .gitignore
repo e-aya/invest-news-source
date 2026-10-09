@@ -6,3 +6,6 @@ dist/
 import/
 *.log
 .DS_Store
+
+# ビルド時に scripts/gen-worker-data.mjs が作る（Git では管理しない）
+worker/generated/
