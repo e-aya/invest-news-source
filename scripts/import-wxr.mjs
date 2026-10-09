@@ -137,7 +137,7 @@ const TICKER_NAMES = {
   '543A': 'ARCHION', '9334': 'アイビスHD', '9984': 'ソフトバンクグループ', '8848': 'レオパレス21', '8473': 'SBIホールディングス',
   '7475': 'アルビス', '8035': '東京エレクトロン', '8316': '三井住友FG', '4062': 'イビデン', '6976': '太陽誘電', '6857': 'アドバンテスト',
   '3382': 'セブン＆アイHD', '7011': '三菱重工業', '7267': 'ホンダ', '5803': 'フジクラ',
-  NVDA: 'NVIDIA', MU: 'マイクロン', TSM: 'TSMC', SBE: 'SBエナジー', IBM: 'IBM', ASML: 'ASML', ORCL: 'オラクル', SPCX: 'SpaceX',
+  NVDA: 'NVIDIA', MU: 'マイクロン', TSM: 'TSMC', SKHY: 'SKハイニックス', SBE: 'SBエナジー', IBM: 'IBM', ASML: 'ASML', ORCL: 'オラクル', SPCX: 'SpaceX',
 };
 const SERIES_TAGS = [
   ['geo-risk', /地政学リスクウォッチ/],
@@ -281,7 +281,8 @@ for (const { row, post, slug } of plan) {
   const desc =
     post.meta.rank_math_description || post.meta._yoast_wpseo_metadesc || post.excerpt || plain(html).slice(0, 110);
   const categoryNames = new Set(post.categories);
-  const tags = post.tags.filter((t) => !categoryNames.has(t));
+  // 移行リストの addTags は WordPress のタグに足す（再取り込みしても残るように）
+  const tags = [...new Set([...post.tags.filter((t) => !categoryNames.has(t)), ...(row.addTags || [])])];
   const allLabels = [...post.tags, ...post.categories].join(' ');
   // シリーズは移行リストの指定が優先（null は「シリーズなし」）。指定がなければ IPO 区分 → タグ・カテゴリ名 の順で決める。
   // WordPress のタグには複数のシリーズ名が付いていることが多く、タグだけだと本来と違うシリーズになりやすい
