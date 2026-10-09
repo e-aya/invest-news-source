@@ -54,7 +54,8 @@ npm run import:wp  # import/export.xml と import/additional.css から記事を
 2. `npm run deploy:staging`
    - `invest-news-source-staging.<アカウント名>.workers.dev` に公開される（検索エンジンには載らないよう `noindex` を付けている）
    - 相互RSS用の KV は初回デプロイ時に自動で作られる（`wrangler.jsonc` に id を書く必要はない）
-3. 確認する項目
+3. `npm run smoke -- https://invest-news-source-staging.<アカウント名>.workers.dev` で転送・410・RSS・サイトマップなどを一括点検（すべて ✓ になればよい）
+4. 目で確認する項目
    - トップ・記事・検索・ダークモードの表示
    - `/?p=<旧記事ID>` が新URLへ 301、`/wp-login.php` が 410
    - `/feed/` が RSS を返す
@@ -64,13 +65,21 @@ npm run import:wp  # import/export.xml と import/additional.css から記事を
 
 ### 2. ドメインを Cloudflare に移す
 
+0. 切り替え前の準備
+   - ★ WordPress 管理画面で固定ページ（運営者情報・プライバシーポリシー・お問い合わせ・免責事項）の ID を確認し、`scripts/wp-pages.json` に `{"ID": "/about/"}` の形で書く。書かなかった旧URL `/?page_id=…` はトップへ転送される
+   - ★ お名前.com の DNS 設定画面を開き、全レコードを控えておく（特に MX・TXT。ドメインのメールを使っていないか確認）
 1. ★ Cloudflare ダッシュボードで「サイトを追加」→ `invest-news-source.com`（Free プラン）
-   - 既存の DNS レコードが読み込まれるので、メール（MX）など WordPress 以外で使っているレコードが残っているか確認する
+   - 既存の DNS レコードが読み込まれるので、控えたレコード（メールの MX・TXT など）がすべて入っているか確認する
 2. ★ お名前.com のネームサーバーを、Cloudflare が表示した2つに変更する
    - 反映まで数時間〜最大48時間。切り替わるまでは旧 WordPress が表示される
 3. ドメインが「有効」になったら `npm run deploy`
    - `invest-news-source.com` と `www` に独自ドメインとして割り当てられる（DNS レコードも自動で作られる）
    - 旧サーバーを指す A / CNAME レコードが残っていると割り当てに失敗するので、その場合は削除してから再実行する
+4. `npm run smoke -- https://invest-news-source.com` で本番を点検する
+5. ★ Google Search Console
+   - サイトマップに `https://invest-news-source.com/sitemap-index.xml` を登録する（旧 `/sitemap_index.xml` も新しいサイトマップへ転送している）
+   - 「URL 検査」でトップと記事を数本「インデックス登録をリクエスト」
+   - 数日は「ページ」レポートで 404・410 が想定外に増えていないか見る（移行しなかった記事の 410 は想定どおり）
 
 ### 3. お問い合わせ（Email Routing）
 
