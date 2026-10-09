@@ -39,7 +39,9 @@ for (const [id, to] of Object.entries(legacy.pages)) {
 }
 await check('記事ページ', `/${slug}/`, status(200));
 await check('存在しないページは 404', '/this-page-does-not-exist/', status(404));
-await check('RSS（/feed/）', '/feed/', (res, body) => status(200)(res) || (body.includes('<rss') ? '' : 'RSS ではありません'));
+const isRss = (res, body) => status(200)(res) || (body.includes('<rss') ? '' : 'RSS ではありません');
+await check('RSS（/feed/）', '/feed/', isRss);
+await check('旧RSS（/?feed=rss2）は転送せずそのまま返す', '/?feed=rss2', isRss);
 await check('旧サイトマップ → 新サイトマップ', '/sitemap_index.xml', redirectTo('/sitemap-index.xml'));
 await check('サイトマップ', '/sitemap-index.xml', status(200));
 await check('robots.txt', '/robots.txt', (res, body) => status(200)(res) || (body.includes('Sitemap:') ? '' : 'Sitemap の行がありません'));
