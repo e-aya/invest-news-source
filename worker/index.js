@@ -1,6 +1,6 @@
 // サイト全体の入口になる Worker。
 //   1. WordPress 時代のURL（/?p=ID など）を新しいURLへ 301 転送、移行しなかった記事は 410
-//   2. /feed/ で自サイトのRSSを返す（WordPress時代と同じURL）
+//   2. /feed/ と /?feed=rss2 で自サイトのRSSを返す（WordPress時代と同じURL）
 //   3. /api/contact … お問い合わせをメールで転送
 //   4. /api/rss …… 相互RSS（1時間ごとに取得してKVに保存したもの）を返す
 //   5. それ以外は静的ファイル（Astroのビルド結果）をそのまま返す
@@ -51,7 +51,8 @@ async function handle(request, env, ctx) {
     return redirect(url, to || '/');
   }
   if (q.has('s')) return redirect(url, `/search/?q=${encodeURIComponent(q.get('s') || '')}`);
-  if (q.has('feed')) return redirect(url, '/feed/');
+  // 相互RSS・アンテナサイトには /?feed=rss2 で登録されている。転送をたどらない取得元もあるので、転送せずにそのまま返す
+  if (q.has('feed')) return feed(env, url);
   if (q.has('cat') || q.has('tag') || q.has('m') || q.has('author') || q.has('attachment_id')) {
     return redirect(url, '/');
   }
@@ -66,13 +67,7 @@ async function handle(request, env, ctx) {
   }
 
   // ---- 自サイトのRSS ----
-  if (/^\/feed(\/(rss2?\/?|atom\/?)?)?$/.test(url.pathname)) {
-    const res = await env.ASSETS.fetch(new URL('/feed/index.xml', url));
-    return new Response(res.body, {
-      status: res.status,
-      headers: { 'content-type': 'application/rss+xml; charset=utf-8', 'cache-control': 'public, max-age=600' },
-    });
-  }
+  if (/^\/feed(\/(rss2?\/?|atom\/?)?)?$/.test(url.pathname)) return feed(env, url);
 
   // ---- 削除済み記事 ----
   const first = decodeURIComponent(url.pathname.split('/')[1] || '');
@@ -87,6 +82,14 @@ async function handle(request, env, ctx) {
 
   // ---- 静的ファイル ----
   return env.ASSETS.fetch(request);
+}
+
+async function feed(env, url) {
+  const res = await env.ASSETS.fetch(new URL('/feed/index.xml', url));
+  return new Response(res.body, {
+    status: res.status,
+    headers: { 'content-type': 'application/rss+xml; charset=utf-8', 'cache-control': 'public, max-age=600' },
+  });
 }
 
 function redirect(url, to, status = 301) {

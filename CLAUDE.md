@@ -10,7 +10,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 - 公開状態は `meta.json` の `status`：`published` / `draft` / `withdrawn`（withdrawn は Worker が 410 を返す）
 - 外部サービスのID（GA4・AdSense・Blozoo・Turnstile）と著者情報は `src/site.config.ts`
 - 企業ロゴは `public/logos/<銘柄コード>.svg|webp|png|jpg`。あれば記事カードに表示（`src/lib/articles.ts` の `logoOf()`）
-- `worker/index.js`：旧URL `/?p=ID` → スラッグへ 301（`worker/generated/legacy-map.json` は `scripts/gen-worker-data.mjs` がビルド時に生成。Git では管理しない）、未移行記事と `wp-*` は 410、`/feed/`、`/api/contact`（Email Routing の send_email）、`/api/rss`（相互RSSを cron で取得し KV に保存）
+- `worker/index.js`：旧URL `/?p=ID` → スラッグへ 301（`worker/generated/legacy-map.json` は `scripts/gen-worker-data.mjs` がビルド時に生成。Git では管理しない）、未移行記事と `wp-*` は 410、`/feed/` と `/?feed=rss2`（アンテナ・ブログ村などの登録URL。転送せず RSS をそのまま返す）、`/api/contact`（Email Routing の send_email）、`/api/rss`（相互RSSを cron で取得し KV に保存）
 - CSS は `src/styles/global.css` の `@layer` で読み込み順を固定。旧記事の `style.css` はレイヤー外で、その記事の名前空間（`.akp-` など）だけに効く
 - 旧記事の表示を手で直すときは `src/content/articles/<slug>/fix.css` に書く（`style.css` は再取り込みで上書きされる。fix.css は後から読み込まれる）。名前空間（`.arc-` など）は複数の記事で共有されていて、別記事の指定が効いてしまうことがある
 - 白い紙面前提の旧記事（背景透明で文字が暗い）は、本文直後のスクリプトが判定して `is-paper` を付け、ダーク表示のときだけ明るい紙面に載せる（`src/pages/[slug].astro`）
