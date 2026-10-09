@@ -1,0 +1,2 @@
+/* 別記事（同じ arc- 名前空間）の濃紺のセル背景が効いて、暗い文字が読めなかった */
+.arc-kioxia .arc-summary-cell{background: #fff !important; border: 1px solid #e5dccb !important;}

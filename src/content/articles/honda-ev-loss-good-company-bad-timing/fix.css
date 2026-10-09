@@ -1,0 +1,2 @@
+/* 暗い紙面前提の配色なのに背景色の指定が無く、ライトでは読めなかった */
+.hnd-article{background: #0f172a !important; color: #e2e8f0 !important; padding: clamp(16px, 3vw, 28px) !important; border-radius: 14px !important;}
