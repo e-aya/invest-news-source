@@ -1,7 +1,7 @@
 // Worker が使う転送表を、記事の meta.json から作る。
 //   byWpId    … 旧URL /?p=ID → 新しいスラッグ（公開中の記事だけ）
 //   withdrawn … 削除済み（410を返す）スラッグ
-//   pages     … 固定ページ /?page_id=ID → 新URL（scripts/wp-pages.json で手動管理）
+//   pages     … 固定ページ /?p=ID・/?page_id=ID → 新URL（scripts/wp-pages.json で手動管理）
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -28,6 +28,13 @@ for (const slug of fs.readdirSync(dir)) {
 
 const pagesFile = 'scripts/wp-pages.json';
 const pages = fs.existsSync(pagesFile) ? JSON.parse(fs.readFileSync(pagesFile, 'utf-8')) : {};
+delete pages._comment;
+for (const id of Object.keys(pages)) {
+  if (byWpId[id]) {
+    console.error(`✗ 固定ページ ID ${id} が記事の ID と重複しています（${byWpId[id]}）`);
+    process.exitCode = 1;
+  }
+}
 
 fs.mkdirSync('worker/generated', { recursive: true });
 fs.writeFileSync('worker/generated/legacy-map.json', JSON.stringify({ byWpId, withdrawn, pages }, null, 2));

@@ -161,5 +161,8 @@
     "16698": "china-compute-self-sufficiency"
   },
   "withdrawn": [],
-  "pages": {}
+  "pages": {
+    "11": "/privacy/",
+    "16": "/contact/"
+  }
 }

@@ -81,11 +81,22 @@ npm run import:wp  # import/export.xml と import/additional.css から記事を
    - 「URL 検査」でトップと記事を数本「インデックス登録をリクエスト」
    - 数日は「ページ」レポートで 404・410 が想定外に増えていないか見る（移行しなかった記事の 410 は想定どおり）
 
-### 3. お問い合わせ（Email Routing）
+### 3. メール（Email Routing）
 
-1. ★ ダッシュボード →「メール」→「Email Routing」を有効化（MX / SPF レコードが追加される）
+`support@invest-news-source.com` は受信専用。Cloudflare の Email Routing で `invest-news-source@outlook.jp` に転送する。お問い合わせフォームの送信も Email Routing を使う。
+
+0. ★ 切り替え前に、今 `support@` を受け取っているサービスに残っているメールを確認・保存しておく
+   - ネームサーバーを切り替えた直後は、お名前.com から引き継いだ MX のまま旧サービスで受信が続く（この間は届かなくなることはない）
+1. ★ ダッシュボード →「メール」→「Email Routing」を有効化
+   - MX・SPF のレコードが Cloudflare のものに置き換わる。ここから旧サービスにはメールが届かなくなる
 2. ★「宛先アドレス」に `invest-news-source@outlook.jp` を追加し、届いた確認メールのリンクを開く
-3. フォームから送信してテストする（送信元は `form@invest-news-source.com`）
+3. ★「ルーティングルール」→「カスタムアドレス」で `support` を作り、アクション「メールを転送」・宛先 `invest-news-source@outlook.jp`
+   - キャッチオール（それ以外の宛先）は「削除（破棄）」のままでよい
+4. テストする
+   - 外部のアドレス（Gmail など）から `support@invest-news-source.com` に送り、outlook.jp に届くか
+   - お問い合わせフォームから送信し、outlook.jp に届くか（送信元は `form@invest-news-source.com`。返信すると問い合わせた人に届く）
+   - outlook.jp の迷惑メールフォルダも確認する
+5. ★ 問題なければ旧メールサービスを解約する
 
 ### 4. Turnstile（ボット対策、任意）
 

@@ -47,7 +47,8 @@ export const site = {
   // 逆アクセスランキング（Blozoo）
   blozoo: { u: '8024', t: '4613' },
 
-  contactEmail: 'invest-news-source@outlook.jp',
+  // サイトに表示する問い合わせ先（受信専用。Cloudflare Email Routing で outlook.jp に転送）
+  contactEmail: 'support@invest-news-source.com',
 
   // お問い合わせフォームのボット対策（Cloudflare Turnstile のサイトキー。秘密鍵は Worker のシークレットに置く）
   turnstileSiteKey: '',
