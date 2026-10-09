@@ -65,10 +65,16 @@ document.querySelectorAll<HTMLButtonElement>('[data-save]').forEach((b) =>
   b.addEventListener('click', () => { toggle(store.saved, b.dataset.save!); save(store); renderSaved(); }),
 );
 
-/* ---------- 既読 ---------- */
+/* ---------- 既読・新着 ---------- */
+// 公開から NEW_DAYS 日以内で、まだ読んでいない記事に「NEW」を付ける
+const NEW_DAYS = 3;
 function renderRead() {
+  const since = Date.now() - NEW_DAYS * 864e5;
   document.querySelectorAll<HTMLElement>('[data-card]').forEach((el) => {
-    el.classList.toggle('is-read', store.read.includes(el.dataset.card!));
+    const read = store.read.includes(el.dataset.card!);
+    el.classList.toggle('is-read', read);
+    const published = Date.parse(el.dataset.published || '');
+    el.classList.toggle('is-new', !read && published > since);
   });
 }
 // 記事の本文を最後まで読んだら既読にする

@@ -102,6 +102,7 @@
   .brand { display: flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; }
   .brand img { width: 32px; height: 32px; }
   .brand span { font-weight: 700; font-size: 18px; }
+  .brand img.brand__title { display: none; width: auto; height: 30px; }
   .gnav { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; }
   .gnav a { padding: 10px 12px; color: var(--ink); font-weight: 500; font-size: 15px; text-decoration: none; }
   .gnav a[aria-current='page'] { color: var(--ac); font-weight: 700; }
@@ -118,7 +119,18 @@
   .progress > span { display: block; height: 3px; width: 0; background: var(--ac); }
   @media (max-width: 720px) {
     .gnav a.gnav__text { display: none; }
-    .brand span { font-size: 15px; }
+    /* 題字は残りの幅に合わせて縮め、アイコンと1行に収める */
+    .site-header__bar { flex-wrap: nowrap; }
+    .gnav { flex: none; flex-wrap: nowrap; }
+    .brand { flex: 1 1 auto; gap: 8px; min-width: 0; }
+    .brand .brand__name { display: none; }
+    .brand img.brand__title { width: 100%; max-width: 240px; height: auto; min-width: 0; }
+    .brand img.brand__title.is-light { display: block; }
+    :root[data-theme='dark'] .brand img.brand__title.is-light { display: none; }
+    :root[data-theme='dark'] .brand img.brand__title.is-dark { display: block; }
+  }
+  @media (max-width: 400px) {
+    .icon-btn { width: 40px; }
   }
 
   /* 見出し */
@@ -156,6 +168,15 @@
   .card.is-read { opacity: 0.62; }
   .read-chip { display: none; border: 1px solid var(--ln); padding: 0 8px; border-radius: 999px; }
   .is-read .read-chip { display: inline; }
+  /* 新着（公開から3日以内・未読）。判定は reader.ts */
+  .new-chip {
+    display: none; padding: 1px 8px; border-radius: 999px; background: #c2410c; color: #fff;
+    font-family: var(--font-num); font-size: 11px; font-weight: 700; letter-spacing: 0.06em; line-height: 18px;
+  }
+  .is-new .new-chip { display: inline-block; }
+  .card { position: relative; }
+  .card .new-chip { position: absolute; top: 10px; left: 10px; z-index: 1; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); }
+  .news-row .new-chip { flex: none; }
   @media (max-width: 720px) {
     .card-grid.is-scroll { display: flex; overflow-x: auto; gap: 12px; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); scroll-snap-type: x mandatory; }
     .card-grid.is-scroll > .card { flex: 0 0 250px; scroll-snap-align: start; }

@@ -29,9 +29,11 @@ const jsonLd = [
 ---
 <Base title={site.name} jsonLd={jsonLd}>
   <main class="wrap page">
-    <h1 style="margin:0 0 32px;line-height:0">
+    <h1 class="hero">
+      <span class="hero__text">{site.name}</span>
+      <!-- スマホでは読み込まない（1px の透明画像に差し替え） -->
       <picture>
-        <source media="(max-width: 720px)" srcset="/brand/header-sp-light.webp" />
+        <source media="(max-width: 720px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         <img
           src="/brand/header-light.webp"
           alt={`${site.name} — 速報はXで、深掘りはこちら。AIも国策もIPOも、数字でほどいてから話すのだ。`}
@@ -43,7 +45,7 @@ const jsonLd = [
         />
       </picture>
       <picture>
-        <source media="(max-width: 720px)" srcset="/brand/header-sp-dark.webp" />
+        <source media="(max-width: 720px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         <img src="/brand/header-dark.webp" alt="" width="2560" height="500" class="hero-dark" style="width:100%;height:auto" loading="lazy" />
       </picture>
     </h1>
@@ -96,6 +98,14 @@ const jsonLd = [
 </Base>
 
 <style>
+  .hero { margin: 0 0 32px; line-height: 0; }
+  .hero__text { display: none; }
+  /* スマホでは題字画像のキャラクターが見切れるので出さない（題字はヘッダーに表示）。見出しは読み上げ用に残す */
+  @media (max-width: 720px) {
+    .hero { margin: 0; }
+    .hero picture { display: none; }
+    .hero__text { display: block; position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  }
   .hero-dark { display: none; }
   :global([data-theme='dark']) .hero-light { display: none; }
   :global([data-theme='dark']) .hero-dark { display: block; }
