@@ -1,0 +1,4 @@
+/* 本文用の濃い文字色（.arc-article p）が見出し帯のリード文に効き、濃紺の上で読めなかった */
+.arc-hero .arc-hero-lead{color: #e2e8f0 !important;}
+/* 「30s」バッジ（::before）の背景色が無く、白地に白文字で見えなかった */
+.arc-summary .arc-summary-title::before{background: #0a2540 !important; padding: 1px 6px !important; border-radius: 4px !important; margin-right: 8px !important;}

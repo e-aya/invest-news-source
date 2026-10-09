@@ -1,0 +1,3 @@
+/* 要点ボックスに別記事（同じ gov- 名前空間）の紺色の背景が効き、暗い文字が読めなかった。姉妹記事と同じく明るい文字にする */
+.gov-article .gov-summary .gov-summary-list li{color: #dbe1f5 !important;}
+.gov-article .gov-summary .gov-summary-list li b{color: #fde68a !important;}
