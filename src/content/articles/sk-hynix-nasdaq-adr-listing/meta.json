@@ -5,7 +5,12 @@
   "publishedAt": "2026-07-08T14:53:26.000Z",
   "category": "ipo",
   "series": "ipo",
-  "tickers": [],
+  "tickers": [
+    {
+      "code": "SKHY",
+      "name": "SKハイニックス"
+    }
+  ],
   "tags": [
     "ADR",
     "AI熱狂の光と影",
@@ -21,7 +26,10 @@
     "希薄化",
     "米国大型IPO",
     "米国株",
-    "良い会社悪いタイミング"
+    "良い会社悪いタイミング",
+    "2026年IPO",
+    "メガIPO",
+    "IPO"
   ],
   "wpId": 15902,
   "format": "legacy"

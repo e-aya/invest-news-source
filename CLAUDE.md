@@ -28,7 +28,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 
 - 対象は `scripts/migration-list.json`（159本、選定シートから作成）
 - スラッグは `scripts/slugs.json`（記事ID → スラッグ）。一度公開したら変えない
-- シリーズ・銘柄は `scripts/migration-list.json` の `series` / `tickers` で指定する（`meta.json` だけ直すと再取り込みで戻る）
+- シリーズ・銘柄・追加タグは `scripts/migration-list.json` の `series` / `tickers` / `addTags` で指定する（`meta.json` だけ直すと再取り込みで戻る）
 - 本文の仮リンク `href="#"` は `scripts/link-overrides.json`（手動）→ 銘柄コード → タイトルの類似度 の順で解決し、決まらないものはリンクを外す
 - 結果は `import/report.md`
 

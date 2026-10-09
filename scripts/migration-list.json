@@ -769,7 +769,8 @@
    "category": "ai-semi",
    "workingTitle": "SKハイニックスとキオクシア｜HBMとNANDの収益構造",
    "tickers": [
-    "285A"
+    "285A",
+    "SKHY"
    ],
    "namespace": "hxk"
   },
@@ -840,7 +841,14 @@
    "wpId": 15902,
    "category": "ipo",
    "workingTitle": "SKハイニックスのNasdaq ADR上場",
-   "tickers": [],
+   "tickers": [
+    "SKHY"
+   ],
+   "addTags": [
+    "2026年IPO",
+    "メガIPO",
+    "IPO"
+   ],
    "namespace": "skh"
   },
   {
