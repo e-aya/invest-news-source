@@ -1,0 +1,83 @@
+/* sbd- : ソフトバンクG 10/9 下落とOpenAI売上報道の記事（native） */
+.sbd-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 32px;padding:0;list-style:none}
+.sbd-chip{display:flex;flex-direction:column;flex:1 1 150px;padding:10px 12px;background:var(--sf);border:1px solid var(--ln);border-left:4px solid var(--ac);border-radius:10px}
+.sbd-chip-k{font-size:12px;color:var(--mu);line-height:1.5}
+.sbd-chip-v{font-size:19px;font-weight:700;color:var(--ink);line-height:1.4;font-family:var(--font-num),var(--font-body)}
+.sbd-chip-s{font-size:11.5px;color:var(--mu);line-height:1.5}
+.sbd-h2{display:flex;align-items:center;gap:10px;padding-bottom:8px;border-bottom:2px solid var(--ln)}
+.sbd-num{display:inline-flex;align-items:center;justify-content:center;flex:0 0 32px;width:32px;height:32px;border-radius:8px;font-size:15px;font-weight:700;color:#fff;line-height:1;font-family:var(--font-num)}
+.sbd-c1{background:#2f7a2c}.sbd-c2{background:#2f6f9e}.sbd-c3{background:#c46a1a}.sbd-c4{background:#b8443a}.sbd-c5{background:#5b4b8a}
+.sbd-sec strong{font-weight:700;background:linear-gradient(transparent 62%,var(--acs) 62%)}
+.sbd-plate{margin:24px 0 0;border:1px solid var(--ln);border-radius:var(--radius);overflow:hidden;background:var(--sf)}
+.sbd-plate figcaption.sbd-cap{margin:0;padding:8px 14px 10px;border-top:1px solid var(--ln);background:var(--sf2);font-size:12.5px;line-height:1.65;color:var(--mu)}
+.sbd-pv{display:block}
+.sbd-mv{display:none}
+@media (max-width:600px){.sbd-pv{display:none}.sbd-mv{display:block}}
+.sbd-aside{margin-top:18px;padding:12px 16px;background:var(--ors);border-left:4px solid var(--or);border-radius:0 10px 10px 0;font-size:15px;line-height:1.8}
+.sbd-tw{margin-top:18px;overflow-x:auto}
+.sbd-tbl{width:100%;border-collapse:collapse;font-size:14px;line-height:1.6}
+.sbd-tbl th,.sbd-tbl td{padding:9px 10px;border:1px solid var(--ln);vertical-align:top;text-align:left}
+.sbd-tbl th{background:var(--sf2);font-weight:700;white-space:nowrap}
+.sbd-tbl td.sbd-td-k{font-weight:700;background:var(--sf);white-space:nowrap}
+.sbd-tag{display:inline-block;padding:1px 7px;border-radius:6px;font-size:12px;font-weight:700;line-height:1.6}
+.sbd-tag-a{background:var(--acs);color:var(--ac)}
+.sbd-tag-w{background:var(--ors);color:var(--or)}
+@media (max-width:600px){.sbd-tbl{font-size:13px}.sbd-tbl th,.sbd-tbl td{padding:8px 7px}.sbd-tbl th,.sbd-tbl td.sbd-td-k{white-space:normal}.sbd-tbl td.sbd-td-k{width:22%}}
+.sbd-take{padding:18px 22px;background:var(--acs);border-radius:var(--radius)}
+.sbd-take ul{list-style:none;margin:0;padding:0}
+.sbd-take li{position:relative;padding-left:1.3em;line-height:1.8}
+.sbd-take li+li{margin-top:8px}
+.sbd-mk{position:absolute;left:0;color:var(--ac);font-weight:700}
+.sbd-take+p{margin-top:16px}
+.sbd-src p{font-size:13px;color:var(--mu);line-height:1.8}
+.sbd-src .sbd-h2{font-size:16px}
+.sbd-plate+p,.sbd-tw+p,.sbd-aside+p,.sbd-plate+.sbd-aside{margin-top:18px}
+.sbd-plate{--sbd-bg:var(--sf);--sbd-panel:var(--sf2);--sbd-acc:#2f7a2c;--sbd-acc2:#a9cf8f;--sbd-accl:var(--acs);--sbd-ink:var(--ink);--sbd-gray:#d6cfc2;--sbd-warn:#c46a1a;--sbd-warnl:#f2d3b4;--sbd-red:#b8443a;--sbd-redl:#f0cdc7;--sbd-grid:var(--ln);--sbd-axis:var(--mu);--sbd-rail:var(--ln);--sbd-mu:var(--mu);--sbd-act:var(--ac);--sbd-ort:var(--or);--sbd-redt:#a83a30;--sbd-inv:#ffffff}
+:root[data-theme='dark'] .sbd-plate{--sbd-bg:var(--sf);--sbd-panel:var(--sf2);--sbd-acc:#7cbf55;--sbd-acc2:#4f7a3a;--sbd-accl:var(--acs);--sbd-ink:var(--ink);--sbd-gray:#3e3a31;--sbd-warn:#e0955a;--sbd-warnl:#5a4128;--sbd-red:#d9786d;--sbd-redl:#4d2a26;--sbd-grid:var(--ln);--sbd-axis:var(--mu);--sbd-rail:var(--ln);--sbd-mu:var(--mu);--sbd-act:var(--ac);--sbd-ort:var(--or);--sbd-redt:#e8897e;--sbd-inv:#14120d}
+svg.sbd-svg{display:block;width:100%;height:auto;max-width:100%}
+svg.sbd-svg .sbd-p-bg{fill:var(--sbd-bg);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-panel{fill:var(--sbd-panel);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-acc{fill:var(--sbd-acc);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-acc2{fill:var(--sbd-acc2);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-accl{fill:var(--sbd-accl);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-ink{fill:var(--sbd-ink);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-gray{fill:var(--sbd-gray);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-warn{fill:var(--sbd-warn);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-warnl{fill:var(--sbd-warnl);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-red{fill:var(--sbd-red);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-redl{fill:var(--sbd-redl);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-grid{fill:none;stroke:var(--sbd-grid);stroke-width:1;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-axis{fill:none;stroke:var(--sbd-axis);stroke-width:1.2;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-rail{fill:none;stroke:var(--sbd-rail);stroke-width:2;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-today{fill:none;stroke:var(--sbd-warn);stroke-width:1.6;stroke-dasharray:5 4}
+svg.sbd-svg .sbd-p-dashg{fill:none;stroke:var(--sbd-axis);stroke-width:1.2;stroke-dasharray:4 3}
+svg.sbd-svg .sbd-p-ringa{fill:var(--sbd-bg);stroke:var(--sbd-acc);stroke-width:2.4;stroke-dasharray:none}
+svg.sbd-svg .sbd-p-arrow{fill:none;stroke:var(--sbd-ink);stroke-width:1.4;stroke-dasharray:none}
+svg.sbd-svg .sbd-x-t{fill:var(--sbd-ink);text-anchor:start;font-weight:400;font-family:inherit}
+svg.sbd-svg .sbd-x-tm{fill:var(--sbd-ink);text-anchor:middle;font-weight:400;font-family:inherit}
+svg.sbd-svg .sbd-x-te{fill:var(--sbd-ink);text-anchor:end;font-weight:400;font-family:inherit}
+svg.sbd-svg .sbd-x-b{fill:var(--sbd-ink);text-anchor:start;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-bm{fill:var(--sbd-ink);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-be{fill:var(--sbd-ink);text-anchor:end;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-mu{fill:var(--sbd-mu);text-anchor:start;font-weight:400;font-family:inherit}
+svg.sbd-svg .sbd-x-mum{fill:var(--sbd-mu);text-anchor:middle;font-weight:400;font-family:inherit}
+svg.sbd-svg .sbd-x-mue{fill:var(--sbd-mu);text-anchor:end;font-weight:400;font-family:inherit}
+svg.sbd-svg .sbd-x-ab{fill:var(--sbd-act);text-anchor:start;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-abm{fill:var(--sbd-act);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-abe{fill:var(--sbd-act);text-anchor:end;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-wb{fill:var(--sbd-ort);text-anchor:start;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-wbm{fill:var(--sbd-ort);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-wbe{fill:var(--sbd-ort);text-anchor:end;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-rb{fill:var(--sbd-redt);text-anchor:start;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-rbm{fill:var(--sbd-redt);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-inv{fill:var(--sbd-inv);text-anchor:start;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-invm{fill:var(--sbd-inv);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-x-inve{fill:var(--sbd-inv);text-anchor:end;font-weight:700;font-family:inherit}
+svg.sbd-svg .sbd-fs-90{font-size:9px}
+svg.sbd-svg .sbd-fs-100{font-size:10px}
+svg.sbd-svg .sbd-fs-110{font-size:11px}
+svg.sbd-svg .sbd-fs-120{font-size:12px}
+svg.sbd-svg .sbd-fs-130{font-size:13px}
+svg.sbd-svg .sbd-fs-140{font-size:14px}
+svg.sbd-svg .sbd-fs-150{font-size:15px}
+svg.sbd-svg .sbd-fs-160{font-size:16px}
