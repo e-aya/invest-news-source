@@ -34,6 +34,9 @@ await check(`旧URL /?p=${wpId} → /${slug}/`, `/?p=${wpId}`, redirectTo(`/${sl
 await check('移行しなかった記事は 410', '/?p=1', status(410));
 await check('WordPress 管理画面は 410', '/wp-login.php', status(410));
 await check('固定ページの旧URLは転送', '/?page_id=2', (res) => (res.status === 301 ? '' : `301 のはずが ${res.status}`));
+for (const [id, to] of Object.entries(legacy.pages)) {
+  await check(`固定ページ /?p=${id} → ${to}`, `/?p=${id}`, redirectTo(to));
+}
 await check('記事ページ', `/${slug}/`, status(200));
 await check('存在しないページは 404', '/this-page-does-not-exist/', status(404));
 await check('RSS（/feed/）', '/feed/', (res, body) => status(200)(res) || (body.includes('<rss') ? '' : 'RSS ではありません'));

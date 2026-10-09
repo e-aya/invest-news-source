@@ -1,1 +1,5 @@
-{}
+{
+ "_comment": "WordPress の固定ページ（記事ID → 新しいURL）。旧URL /?p=ID と /?page_id=ID の両方に使う",
+ "11": "/privacy/",
+ "16": "/contact/"
+}

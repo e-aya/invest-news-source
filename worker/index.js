@@ -38,8 +38,11 @@ async function handle(request, env, ctx) {
   // ---- WordPress 時代のURL ----
   const q = url.searchParams;
   if (q.has('p')) {
+    // 記事 → 固定ページ（WordPress では固定ページも /?p=ID で開ける）の順に探す
     const slug = legacy.byWpId[q.get('p')];
-    return slug ? redirect(url, `/${slug}/`) : gone(env, request);
+    if (slug) return redirect(url, `/${slug}/`);
+    const page = legacy.pages[q.get('p')];
+    return page ? redirect(url, page) : gone(env, request);
   }
   if (q.has('page_id')) {
     // 固定ページ（運営者情報・プライバシーポリシーなど）は scripts/wp-pages.json の対応表で転送。
