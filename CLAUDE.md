@@ -40,9 +40,17 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 - 「この記事のポイント」は `meta.json` の `points` に書く（ページ側で表示し、JSON-LD の説明にも使う）
 - 公開・更新日は `publishedAt` / `updatedAt`（ISO 8601、+09:00）
 
+## 本番の状態
+
+- 2026-10-09 に本番へ切り替え済み（Cloudflare DNS・Workers 独自ドメイン・Email Routing）。smoke はすべて通過
+- メール：`support@` は Email Routing で `invest-news-source@outlook.jp` へ転送（受信専用）。フォームは `form@` から送信。MX・SPF は Cloudflare のもの
+- DNS に残っている `mail` / `ml-cp` の A と `default._domainkey` の TXT はお名前メール用。解約したら削除してよい
+
 ## 未完了
 
-以下はすべてアカウント側の操作。手順は README.md の「初回セットアップ」にまとめてある（KV は初回デプロイで自動作成されるので作業不要）
+以下はすべてアカウント側の操作。手順は README.md の「初回セットアップ」にまとめてある
 
-- Cloudflare：サイト追加・お名前.com のネームサーバー変更 → 本番デプロイ → Email Routing（support@ を outlook.jp へ転送。受信専用）→ Turnstile
-- 相互RSS（kitaaa.net / twobeko.com）と Blozoo の `https` 読み込みは本番で動作確認する
+- Search Console に `/sitemap-index.xml` を登録
+- 相互RSS（kitaaa.net / twobeko.com）と Blozoo の表示を本番で確認
+- Turnstile（任意。迷惑投稿が増えたら）
+- 旧サーバー・お名前メールの解約（1〜2週間様子を見てから）
