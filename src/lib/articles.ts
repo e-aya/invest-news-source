@@ -48,9 +48,13 @@ export function readBody(slug: string): string {
   return fs.existsSync(p) ? fs.readFileSync(p, 'utf-8') : '';
 }
 
+// style.css は取り込みで毎回作り直すので、手で直した分は fix.css に置く（後から読み込んで上書きする）
 export function readStyle(slug: string): string {
-  const p = path.join(ARTICLE_DIR, slug, 'style.css');
-  return fs.existsSync(p) ? fs.readFileSync(p, 'utf-8') : '';
+  return ['style.css', 'fix.css']
+    .map((f) => path.join(ARTICLE_DIR, slug, f))
+    .filter((p) => fs.existsSync(p))
+    .map((p) => fs.readFileSync(p, 'utf-8'))
+    .join('\n');
 }
 
 /** 本文の文字数から読了目安（分）を出す。日本語は1分あたり約600字で計算 */

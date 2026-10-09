@@ -157,6 +157,44 @@ const jsonLd = [
         {!legacy && bodyTail && <AdSlot kind="inArticle" height={280} />}
         {!legacy && <Fragment set:html={bodyTail} />}
       </div>
+      {
+        legacy && (
+          /*
+            旧記事の多くは「白い紙面に黒い文字」を前提に、背景を透明のまま文字色だけ暗く指定している。
+            そういう記事はダーク表示だと読めないので、ここで判定して印を付け、ダーク表示のときだけ明るい紙面に載せる。
+            描画前に決めてちらつきを防ぐため、本文の直後で同期的に実行する。
+          */
+          <script is:inline>
+            (function () {
+              var body = document.querySelector('[data-article-body]');
+              if (!body) return;
+              function rgb(c) { var m = c.match(/[\d.]+/g) || []; return m.map(Number); }
+              function lum(c) {
+                var f = function (v) { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+                return 0.2126 * f(c[0]) + 0.7152 * f(c[1]) + 0.0722 * f(c[2]);
+              }
+              // 記事側で背景色を塗っていない（ページの背景が透けて見える）要素か
+              function onPage(el) {
+                for (var e = el; e && e !== body.parentElement; e = e.parentElement) {
+                  var cs = getComputedStyle(e), c = rgb(cs.backgroundColor);
+                  if (cs.backgroundImage !== 'none' || (c.length >= 3 && (c.length < 4 || c[3] > 0.5))) return false;
+                }
+                return true;
+              }
+              var dark = 0, total = 0;
+              var w = document.createTreeWalker(body, NodeFilter.SHOW_TEXT);
+              while (w.nextNode()) {
+                var n = w.currentNode.textContent.replace(/\s+/g, '').length;
+                var el = w.currentNode.parentElement;
+                if (!n || el.closest('svg')) continue;
+                total += n;
+                if (lum(rgb(getComputedStyle(el).color)) < 0.18 && onPage(el)) dark += n;
+              }
+              if (total && dark / total >= 0.03) body.classList.add('is-paper');
+            })();
+          </script>
+        )
+      }
       <!-- 本文の最後まで読んだら既読にする（シリーズの「次の記事」より上に置く） -->
       <div data-read-mark={article.id} aria-hidden="true" style="height:1px"></div>
 
@@ -236,6 +274,13 @@ const jsonLd = [
   .post__body.is-bare :global(h2) { margin-top: 32px; }
   .post__body.is-bare :global(h3) { margin-top: 24px; }
   .post__body.is-bare :global(p + p) { margin-top: 12px; }
+  /* 白い紙面前提の旧記事（判定は本文直後のスクリプト）。ダーク表示のときだけライトと同じ紙面に載せる */
+  :global(:root[data-theme='dark']) .post__body.is-paper {
+    --bg: #f3eee3; --sf: #fbf8f1; --sf2: #ece5d6; --ink: #1c1a16; --mu: #5a5348; --ln: #d8cfbe;
+    --ac: #2f7a2c; --acs: #e3edd5; --or: #a84f0b; --ors: #f6e4d2;
+    color-scheme: light; background: var(--sf); color: var(--ink);
+    padding: clamp(16px, 3vw, 28px); border-radius: var(--radius);
+  }
   .series-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
   .series-nav a {
     display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid var(--ln);

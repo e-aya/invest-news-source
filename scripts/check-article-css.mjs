@@ -6,13 +6,15 @@ import path from 'node:path';
 const DIR = 'src/content/articles';
 const bad = [];
 for (const slug of fs.readdirSync(DIR)) {
-  const f = path.join(DIR, slug, 'style.css');
+  for (const name of ['style.css', 'fix.css']) {
+  const f = path.join(DIR, slug, name);
   if (!fs.existsSync(f)) continue;
   const css = fs.readFileSync(f, 'utf-8').replace(/\/\*[\s\S]*?\*\//g, '');
   for (const m of css.matchAll(/([^{}]*)\{/g)) {
     const sel = m[1].replace(/"[^"]*"|'[^']*'/g, '');
     const count = (re) => (sel.match(re) || []).length;
-    if (count(/\(/g) !== count(/\)/g) || count(/\[/g) !== count(/\]/g)) bad.push(`${slug}: ${m[1].trim().slice(0, 80)}`);
+    if (count(/\(/g) !== count(/\)/g) || count(/\[/g) !== count(/\]/g)) bad.push(`${slug}/${name}: ${m[1].trim().slice(0, 80)}`);
+  }
   }
 }
 if (bad.length) {
