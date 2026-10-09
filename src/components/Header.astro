@@ -13,7 +13,10 @@ const nav = [
   <div class="wrap site-header__bar">
     <a class="brand" href="/">
       <img src="/brand/icon-512.png" alt="" width="32" height="32" />
-      <span>{site.name}</span>
+      <span class="brand__name">{site.name}</span>
+      <!-- スマホ：トップの大きな題字の代わりに、題字（号外 ずんだもん投資速報）をヘッダーに出す -->
+      <img class="brand__title is-light" src="/brand/title-light.webp" alt={site.name} width="639" height="87" />
+      <img class="brand__title is-dark" src="/brand/title-dark.webp" alt="" width="639" height="87" />
     </a>
     <nav class="gnav" aria-label="メインメニュー">
       {nav.map((n) => (

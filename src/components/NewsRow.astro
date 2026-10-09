@@ -6,8 +6,9 @@ const d = displayDate(article);
 const tag = article.data.tags[0] ?? categoryLabel(article.data.category);
 ---
 <li data-item={item ? article.id : undefined} hidden={item}>
-  <a class="news-row" href={articleUrl(article)} data-card={article.id}>
+  <a class="news-row" href={articleUrl(article)} data-card={article.id} data-published={article.data.publishedAt.toISOString()}>
     <span class="pill">{tag}</span>
+    <span class="new-chip">NEW</span>
     <span class="news-row__title">{article.data.title}</span>
     <span class:list={['date', d.updated && 'is-updated']} style="font-size:13px">{d.label} <time datetime={d.date.toISOString()}>{fmtDate(d.date)}</time></span>
   </a>

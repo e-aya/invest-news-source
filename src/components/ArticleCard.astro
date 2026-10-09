@@ -6,7 +6,8 @@ const tile = tileOf(article);
 const d = displayDate(article);
 const isIpo = article.data.category === 'ipo';
 ---
-<a class="card" href={articleUrl(article)} data-card={article.id}>
+<a class="card" href={articleUrl(article)} data-card={article.id} data-published={article.data.publishedAt.toISOString()}>
+  <span class="new-chip">NEW</span>
   {
     tile.logo ? (
       <div class:list={['card__tile', 'has-logo', !isIpo && 'is-or']}>
