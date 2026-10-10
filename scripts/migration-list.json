@@ -1029,7 +1029,9 @@
    "wpId": 15715,
    "category": "ipo",
    "workingTitle": "OpenAIとAnthropicのIPO競争｜日本の個人投資家の向き合い方",
-   "tickers": [],
+   "tickers": [
+    "ANTH"
+   ],
    "namespace": "air"
   },
   {
@@ -1107,7 +1109,9 @@
    "wpId": 15664,
    "category": "ai-semi",
    "workingTitle": "政府が止めた「最強AI」｜Claude Fable 5停止",
-   "tickers": [],
+   "tickers": [
+    "ANTH"
+   ],
    "namespace": "aec"
   },
   {

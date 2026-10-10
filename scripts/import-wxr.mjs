@@ -137,7 +137,7 @@ const TICKER_NAMES = {
   '543A': 'ARCHION', '9334': 'アイビスHD', '9984': 'ソフトバンクグループ', '8848': 'レオパレス21', '8473': 'SBIホールディングス',
   '7475': 'アルビス', '8035': '東京エレクトロン', '8316': '三井住友FG', '4062': 'イビデン', '6976': '太陽誘電', '6857': 'アドバンテスト',
   '3382': 'セブン＆アイHD', '7011': '三菱重工業', '7267': 'ホンダ', '5803': 'フジクラ',
-  NVDA: 'NVIDIA', MU: 'マイクロン', TSM: 'TSMC', SKHY: 'SKハイニックス', SBE: 'SBエナジー', IBM: 'IBM', ASML: 'ASML', ORCL: 'オラクル', SPCX: 'SpaceX',
+  NVDA: 'NVIDIA', MU: 'マイクロン', TSM: 'TSMC', SKHY: 'SKハイニックス', SBE: 'SBエナジー', IBM: 'IBM', ASML: 'ASML', ORCL: 'オラクル', SPCX: 'SpaceX', ANTH: 'Anthropic（仮）',
 };
 const SERIES_TAGS = [
   ['geo-risk', /地政学リスクウォッチ/],

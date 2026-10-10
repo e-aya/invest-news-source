@@ -5,7 +5,12 @@
   "publishedAt": "2026-06-19T13:07:45.000Z",
   "category": "ipo",
   "series": "ipo",
-  "tickers": [],
+  "tickers": [
+    {
+      "code": "ANTH",
+      "name": "Anthropic（仮）"
+    }
+  ],
   "tags": [
     "2026年相場",
     "AGIX",
