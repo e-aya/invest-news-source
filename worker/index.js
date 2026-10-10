@@ -96,11 +96,12 @@ function redirect(url, to, status = 301) {
   return Response.redirect(new URL(to, url).toString(), status);
 }
 
+// 410 はブラウザに5分だけ保存させる（あとから転送を追加したときに、古い「削除されました」が長く残らないように）
 async function gone(env, request) {
   const res = await env.ASSETS.fetch(new URL('/gone/', request.url));
   return new Response(res.body, {
     status: 410,
-    headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'public, max-age=3600', 'x-robots-tag': 'noindex' },
+    headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'public, max-age=300', 'x-robots-tag': 'noindex' },
   });
 }
 
