@@ -20,7 +20,7 @@ Astro で作る静的サイトを、Cloudflare Workers（静的アセット）�
 npm run dev        # ローカルで表示確認（http://localhost:4321）
 npm run build      # 本番ビルド＋検索インデックス作成＋リンク検査
 npm run preview    # Worker込みでローカル確認（旧URL転送・410・API）
-npm run deploy     # ビルドして Cloudflare に公開
+npm run deploy     # ビルドして Cloudflare に公開し、新しい記事があればブログ村へ更新通知（Ping）を送る
 npm run import:wp  # import/export.xml と import/additional.css から記事を取り込む
 ```
 

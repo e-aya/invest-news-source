@@ -1,0 +1,6 @@
+{
+  "_comment": "記事を公開したとき（npm run deploy の後）に更新通知（Ping）を送る先。ブログ村の URL はマイページに表示される自分専用のもの",
+  "targets": [
+    { "id": "blogmura", "label": "にほんブログ村", "url": "https://ping.blogmura.com/xmlrpc/51wi5cg26s83/" }
+  ]
+}

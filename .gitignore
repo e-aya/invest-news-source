@@ -9,3 +9,6 @@ import/
 
 # ビルド時に scripts/gen-worker-data.mjs が作る（Git では管理しない）
 worker/generated/
+
+# 最後に更新通知（Ping）を送った記事（scripts/ping.mjs）
+.ping-state.json
