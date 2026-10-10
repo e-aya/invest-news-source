@@ -129,3 +129,41 @@ export function logoOf(code: string): string | undefined {
     if (f) return `/logos/${f}`;
   }
 }
+
+// 記事のアイキャッチ画像。public/covers/<スラッグ>.webp|jpg|png を置くと記事の冒頭に表示し、
+// X などのシェア画像（og:image）にも使う。横 1200 × 縦 630 前後（1.91:1）がシェアカードにちょうど収まる
+const COVER_DIR = path.resolve('public/covers');
+const coverFiles = fs.existsSync(COVER_DIR) ? fs.readdirSync(COVER_DIR) : [];
+export function coverOf(slug: string): { src: string; width?: number; height?: number } | undefined {
+  for (const ext of ['webp', 'jpg', 'jpeg', 'png']) {
+    const f = coverFiles.find((n) => n.toLowerCase() === `${slug.toLowerCase()}.${ext}`);
+    if (f) return { src: `/covers/${f}`, ...imageSize(path.join(COVER_DIR, f)) };
+  }
+}
+
+/** PNG / JPEG / WebP のヘッダーから縦横の大きさを読む（表示前に枠の高さを確保して、読み込み時のガタつきを防ぐ） */
+function imageSize(file: string): { width: number; height: number } | undefined {
+  const b = fs.readFileSync(file);
+  if (b.readUInt32BE(0) === 0x89504e47) return { width: b.readUInt32BE(16), height: b.readUInt32BE(20) };
+  if (b.toString('ascii', 0, 4) === 'RIFF' && b.toString('ascii', 8, 12) === 'WEBP') {
+    const kind = b.toString('ascii', 12, 16);
+    if (kind === 'VP8 ') return { width: b.readUInt16LE(26) & 0x3fff, height: b.readUInt16LE(28) & 0x3fff };
+    if (kind === 'VP8L') {
+      const n = b.readUInt32LE(21);
+      return { width: (n & 0x3fff) + 1, height: ((n >> 14) & 0x3fff) + 1 };
+    }
+    if (kind === 'VP8X') return { width: b.readUIntLE(24, 3) + 1, height: b.readUIntLE(27, 3) + 1 };
+  }
+  if (b[0] === 0xff && b[1] === 0xd8) {
+    let i = 2;
+    while (i + 9 < b.length) {
+      if (b[i] !== 0xff) { i++; continue; }
+      const marker = b[i + 1];
+      // SOF0〜SOF15（DHT・JPG・DAC を除く）に大きさが入っている
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+        return { width: b.readUInt16BE(i + 7), height: b.readUInt16BE(i + 5) };
+      }
+      i += 2 + b.readUInt16BE(i + 2);
+    }
+  }
+}
