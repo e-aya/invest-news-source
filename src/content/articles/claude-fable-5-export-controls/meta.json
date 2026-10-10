@@ -4,7 +4,12 @@
   "status": "published",
   "publishedAt": "2026-06-15T15:28:19.000Z",
   "category": "ai-semi",
-  "tickers": [],
+  "tickers": [
+    {
+      "code": "ANTH",
+      "name": "Anthropic（仮）"
+    }
+  ],
   "tags": [
     "2026年相場",
     "AIガバナンス",

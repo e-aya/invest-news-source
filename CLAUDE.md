@@ -56,3 +56,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 
 - Turnstile（任意。迷惑投稿が増えたら）
 - 旧サーバー・お名前メールの解約（1〜2週間様子を見てから）
+
+以下はティッカー発表待ち
+
+- Anthropic は仮のティッカー `ANTH`（表示名「Anthropic（仮）」）で銘柄ページを作っている。正式に決まったら、3記事の `meta.json`・`scripts/migration-list.json`・`scripts/import-wxr.mjs` の `TICKER_NAMES` を書き換え、旧URL `/stocks/anth/` から新しい銘柄ページへの転送を `worker/index.js` に入れる

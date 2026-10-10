@@ -6,7 +6,12 @@
   "publishedAt": "2026-10-08T22:30:00+09:00",
   "category": "ipo",
   "series": "ipo",
-  "tickers": [],
+  "tickers": [
+    {
+      "code": "ANTH",
+      "name": "Anthropic（仮）"
+    }
+  ],
   "tags": [
     "Anthropic",
     "Anthropic IPO",
