@@ -1,0 +1,96 @@
+/* ytg- : S&P500最高値圏 vs 米10年債5.24% と 10/14米CPI→日米金融政策→円相場の連鎖（native） */
+
+.ytg-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 32px;padding:0;list-style:none}
+.ytg-chip{display:flex;flex-direction:column;flex:1 1 150px;padding:10px 12px;background:var(--sf);border:1px solid var(--ln);border-left:4px solid var(--ac);border-radius:10px}
+.ytg-chip-k{font-size:12px;color:var(--mu);line-height:1.5}
+.ytg-chip-v{font-size:19px;font-weight:700;color:var(--ink);line-height:1.4;font-family:var(--font-num),var(--font-body)}
+.ytg-chip-s{font-size:11.5px;color:var(--mu);line-height:1.5}
+.ytg-h2{display:flex;align-items:center;gap:10px;padding-bottom:8px;border-bottom:2px solid var(--ln)}
+.ytg-num{display:inline-flex;align-items:center;justify-content:center;flex:0 0 32px;width:32px;height:32px;border-radius:8px;font-size:15px;font-weight:700;color:#fff;line-height:1;font-family:var(--font-num)}
+.ytg-c1{background:#2f7a2c}.ytg-c2{background:#2f6f9e}.ytg-c3{background:#c46a1a}.ytg-c4{background:#b8443a}.ytg-c5{background:#5b4b8a}
+.ytg-sec strong{font-weight:700;background:linear-gradient(transparent 62%,var(--acs) 62%)}
+.ytg-plate{margin:24px 0 0;border:1px solid var(--ln);border-radius:var(--radius);overflow:hidden;background:var(--sf)}
+.ytg-plate figcaption.ytg-cap{margin:0;padding:8px 14px 10px;border-top:1px solid var(--ln);background:var(--sf2);font-size:12.5px;line-height:1.65;color:var(--mu)}
+.ytg-pv{display:block}
+.ytg-mv{display:none}
+@media (max-width:600px){.ytg-pv{display:none}.ytg-mv{display:block}}
+.ytg-aside{margin-top:18px;padding:12px 16px;background:var(--ors);border-left:4px solid var(--or);border-radius:0 10px 10px 0;font-size:15px;line-height:1.8}
+.ytg-tw{margin-top:18px;overflow-x:auto}
+.ytg-tbl{width:100%;border-collapse:collapse;font-size:14px;line-height:1.6}
+.ytg-tbl th,.ytg-tbl td{padding:9px 10px;border:1px solid var(--ln);vertical-align:top;text-align:left}
+.ytg-tbl th{background:var(--sf2);font-weight:700;white-space:nowrap}
+.ytg-tbl td.ytg-td-k{font-weight:700;background:var(--sf);white-space:nowrap}
+.ytg-tag{display:inline-block;padding:1px 7px;border-radius:6px;font-size:12px;font-weight:700;line-height:1.6}
+.ytg-tag-a{background:var(--acs);color:var(--ac)}
+.ytg-tag-w{background:var(--ors);color:var(--or)}
+@media (max-width:600px){.ytg-tbl{font-size:13px}.ytg-tbl th,.ytg-tbl td{padding:8px 7px}.ytg-tbl th,.ytg-tbl td.ytg-td-k{white-space:normal}.ytg-tbl td.ytg-td-k{width:22%}}
+.ytg-take{padding:18px 22px;background:var(--acs);border-radius:var(--radius)}
+.ytg-take ul{list-style:none;margin:0;padding:0}
+.ytg-take li{position:relative;padding-left:1.3em;line-height:1.8}
+.ytg-take li+li{margin-top:8px}
+.ytg-mk{position:absolute;left:0;color:var(--ac);font-weight:700}
+.ytg-take+p{margin-top:16px}
+.ytg-src p{font-size:13px;color:var(--mu);line-height:1.8}
+.ytg-src .ytg-h2{font-size:16px}
+.ytg-plate+p,.ytg-tw+p,.ytg-aside+p,.ytg-plate+.ytg-aside{margin-top:18px}
+.ytg-plate{--ytg-bg:var(--sf);--ytg-panel:var(--sf2);--ytg-acc:#2f7a2c;--ytg-acc2:#a9cf8f;--ytg-accl:var(--acs);--ytg-ink:var(--ink);--ytg-gray:#d6cfc2;--ytg-warn:#c46a1a;--ytg-warnl:#f2d3b4;--ytg-red:#b8443a;--ytg-redl:#f0cdc7;--ytg-grid:var(--ln);--ytg-axis:var(--mu);--ytg-rail:var(--ln);--ytg-mu:var(--mu);--ytg-act:var(--ac);--ytg-ort:var(--or);--ytg-redt:#a83a30;--ytg-inv:#ffffff}
+:root[data-theme='dark'] .ytg-plate{--ytg-bg:var(--sf);--ytg-panel:var(--sf2);--ytg-acc:#7cbf55;--ytg-acc2:#4f7a3a;--ytg-accl:var(--acs);--ytg-ink:var(--ink);--ytg-gray:#3e3a31;--ytg-warn:#e0955a;--ytg-warnl:#5a4128;--ytg-red:#d9786d;--ytg-redl:#4d2a26;--ytg-grid:var(--ln);--ytg-axis:var(--mu);--ytg-rail:var(--ln);--ytg-mu:var(--mu);--ytg-act:var(--ac);--ytg-ort:var(--or);--ytg-redt:#e8897e;--ytg-inv:#14120d}
+svg.ytg-svg{display:block;width:100%;height:auto;max-width:100%}
+svg.ytg-svg .ytg-p-bg{fill:var(--ytg-bg);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-panel{fill:var(--ytg-panel);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-acc{fill:var(--ytg-acc);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-acc2{fill:var(--ytg-acc2);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-accl{fill:var(--ytg-accl);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-ink{fill:var(--ytg-ink);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-gray{fill:var(--ytg-gray);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-warn{fill:var(--ytg-warn);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-warnl{fill:var(--ytg-warnl);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-red{fill:var(--ytg-red);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-redl{fill:var(--ytg-redl);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-grid{fill:none;stroke:var(--ytg-grid);stroke-width:1;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-axis{fill:none;stroke:var(--ytg-axis);stroke-width:1.2;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-rail{fill:none;stroke:var(--ytg-rail);stroke-width:2;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-today{fill:none;stroke:var(--ytg-warn);stroke-width:1.6;stroke-dasharray:5 4}
+svg.ytg-svg .ytg-p-dashg{fill:none;stroke:var(--ytg-axis);stroke-width:1.2;stroke-dasharray:4 3}
+svg.ytg-svg .ytg-p-ringa{fill:var(--ytg-bg);stroke:var(--ytg-acc);stroke-width:2.4;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-arrow{fill:none;stroke:var(--ytg-ink);stroke-width:1.4;stroke-dasharray:none}
+svg.ytg-svg .ytg-x-t{fill:var(--ytg-ink);text-anchor:start;font-weight:400;font-family:inherit}
+svg.ytg-svg .ytg-x-tm{fill:var(--ytg-ink);text-anchor:middle;font-weight:400;font-family:inherit}
+svg.ytg-svg .ytg-x-te{fill:var(--ytg-ink);text-anchor:end;font-weight:400;font-family:inherit}
+svg.ytg-svg .ytg-x-b{fill:var(--ytg-ink);text-anchor:start;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-bm{fill:var(--ytg-ink);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-be{fill:var(--ytg-ink);text-anchor:end;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-mu{fill:var(--ytg-mu);text-anchor:start;font-weight:400;font-family:inherit}
+svg.ytg-svg .ytg-x-mum{fill:var(--ytg-mu);text-anchor:middle;font-weight:400;font-family:inherit}
+svg.ytg-svg .ytg-x-mue{fill:var(--ytg-mu);text-anchor:end;font-weight:400;font-family:inherit}
+svg.ytg-svg .ytg-x-ab{fill:var(--ytg-act);text-anchor:start;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-abm{fill:var(--ytg-act);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-abe{fill:var(--ytg-act);text-anchor:end;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-wb{fill:var(--ytg-ort);text-anchor:start;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-wbm{fill:var(--ytg-ort);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-wbe{fill:var(--ytg-ort);text-anchor:end;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-rb{fill:var(--ytg-redt);text-anchor:start;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-rbm{fill:var(--ytg-redt);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-inv{fill:var(--ytg-inv);text-anchor:start;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-invm{fill:var(--ytg-inv);text-anchor:middle;font-weight:700;font-family:inherit}
+svg.ytg-svg .ytg-x-inve{fill:var(--ytg-inv);text-anchor:end;font-weight:700;font-family:inherit}
+
+svg.ytg-svg .ytg-p-head{fill:var(--ytg-ink);stroke:none;stroke-width:0;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-arrowa{fill:none;stroke:var(--ytg-acc);stroke-width:2.4;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-arroww{fill:none;stroke:var(--ytg-warn);stroke-width:2.4;stroke-dasharray:none}
+svg.ytg-svg .ytg-p-rope{fill:none;stroke:var(--ytg-axis);stroke-width:4;stroke-linecap:round;stroke-dasharray:none}
+svg.ytg-svg .ytg-fs-110{font-size:11px}
+svg.ytg-svg .ytg-fs-120{font-size:12px}
+svg.ytg-svg .ytg-fs-130{font-size:13px}
+svg.ytg-svg .ytg-fs-140{font-size:14px}
+svg.ytg-svg .ytg-fs-150{font-size:15px}
+svg.ytg-svg .ytg-fs-160{font-size:16px}
+svg.ytg-svg .ytg-fs-170{font-size:17px}
+svg.ytg-svg .ytg-fs-180{font-size:18px}
+.ytg-sec{scroll-margin-top:16px}
+@media (max-width:600px){.ytg-tbl-w{min-width:560px}}
+.ytg-toc{margin:0 0 24px;padding:14px 20px 16px;border:1px solid var(--ln);border-radius:var(--radius);background:var(--sf)}
+.ytg-toc-h{margin:0 0 6px;font-size:14px;font-weight:700;color:var(--ac)}
+.ytg-toc-l{margin:0;padding-left:1.4em;font-size:14.5px;line-height:1.9}
+.ytg-toc-l a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--mu)}
+.ytg-toc-l a:hover{color:var(--ac);border-bottom-color:var(--ac)}
