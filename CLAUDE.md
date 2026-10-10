@@ -20,7 +20,8 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 
 - `npm run build` … 記事CSSのセレクタ検査 → 転送表生成 → astro build → pagefind → 全内部リンク検査（リンク切れがあると失敗する。失敗したら直してから進める）
 - `npm run preview` … ビルドして wrangler dev で Worker 込みの確認
-- `npm run deploy` … ビルドして Cloudflare に公開（本番：独自ドメイン）
+- `npm run deploy` … ビルドして Cloudflare に公開（本番：独自ドメイン）。最後に `scripts/ping.mjs` がブログ村へ更新通知（Ping）を送る（最新記事が前回から変わったときだけ。送り先は `src/data/ping.json`）
+- `npm run ping -- --force` … 更新通知を手動で送る
 - `npm run deploy:staging` … 確認用（workers.dev、noindex、メール送信なし）に公開
 - `npm run smoke -- <URL>` … 公開したサイトの点検（旧URL転送・410・RSS・サイトマップ・ads.txt・noindex）
 - `npm run import:wp` … `import/export.xml`（WXR）と `import/additional.css` から再取り込み。`import/` は git 管理外

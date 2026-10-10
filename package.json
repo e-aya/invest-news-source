@@ -6,11 +6,12 @@
     "dev": "astro dev",
     "build": "node scripts/check-article-css.mjs && node scripts/gen-worker-data.mjs && astro build && pagefind --site dist && node scripts/check-links.mjs",
     "preview": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy --env=\"\"",
+    "deploy": "npm run build && wrangler deploy --env=\"\" && node scripts/ping.mjs",
     "deploy:staging": "npm run build && wrangler deploy --env staging",
     "import:wp": "node scripts/import-wxr.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "smoke": "node scripts/gen-worker-data.mjs && node scripts/smoke.mjs"
+    "smoke": "node scripts/gen-worker-data.mjs && node scripts/smoke.mjs",
+    "ping": "node scripts/ping.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
