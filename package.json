@@ -11,7 +11,8 @@
     "import:wp": "node scripts/import-wxr.mjs",
     "check:links": "node scripts/check-links.mjs",
     "smoke": "node scripts/gen-worker-data.mjs && node scripts/smoke.mjs",
-    "ping": "node scripts/ping.mjs"
+    "ping": "node scripts/ping.mjs",
+    "cover": "node scripts/cover.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

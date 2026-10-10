@@ -10,7 +10,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 - 公開状態は `meta.json` の `status`：`published` / `draft` / `withdrawn`（withdrawn は Worker が 410 を返す）
 - 外部サービスのID（GA4・AdSense・Blozoo・Turnstile）と著者情報は `src/site.config.ts`
 - 企業ロゴは `public/logos/<銘柄コード>.svg|webp|png|jpg`。あれば記事カードに表示（`src/lib/articles.ts` の `logoOf()`）
-- 記事のアイキャッチは `public/covers/<スラッグ>.webp|jpg|png`（1200×630 前後）。あれば記事冒頭に表示し、og:image（X のカード画像）にも使う（`coverOf()`）。なければ銘柄のロゴを冒頭に表示（本文に独自の h1 がある旧記事は除く）。どちらもなければ何も出さない
+- 記事のアイキャッチは `public/covers/<スラッグ>.webp|jpg|png`（1200×630 前後。置くときは `npm run cover` で WebP に縮める）。あれば記事冒頭に表示し、og:image（X のカード画像）にも使う（`coverOf()`）。なければ銘柄のロゴを冒頭に表示（本文に独自の h1 がある旧記事は除く）。どちらもなければ何も出さない
 - `worker/index.js`：旧URL `/?p=ID` → スラッグへ 301（`worker/generated/legacy-map.json` は `scripts/gen-worker-data.mjs` がビルド時に生成。Git では管理しない）、未移行記事と `wp-*` は 410、`/feed/` と `/?feed=rss2`（アンテナ・ブログ村などの登録URL。転送せず RSS をそのまま返す）、`/api/contact`（Email Routing の send_email）、`/api/rss`（相互RSSを cron で取得し KV に保存）
 - CSS は `src/styles/global.css` の `@layer` で読み込み順を固定。旧記事の `style.css` はレイヤー外で、その記事の名前空間（`.akp-` など）だけに効く
 - 旧記事の表示を手で直すときは `src/content/articles/<slug>/fix.css` に書く（`style.css` は再取り込みで上書きされる。fix.css は後から読み込まれる）。名前空間（`.arc-` など）は複数の記事で共有されていて、別記事の指定が効いてしまうことがある
@@ -23,6 +23,7 @@ WordPress から移行した個人の投資ブログ。Astro の静的サイト�
 - `npm run preview` … ビルドして wrangler dev で Worker 込みの確認
 - `npm run deploy` … ビルドして Cloudflare に公開（本番：独自ドメイン）。最後に `scripts/ping.mjs` がブログ村へ更新通知（Ping）を送る（最新記事が前回から変わったときだけ。送り先は `src/data/ping.json`）
 - `npm run ping -- --force` … 更新通知を手動で送る
+- `npm run cover -- <元の画像> <スラッグ>` … アイキャッチを横1200pxの WebP（画質80）に縮めて `public/covers/<スラッグ>.webp` に保存し、同じ記事の古い画像は消す。2MB の PNG が 100〜200KB ほどになる
 - `npm run deploy:staging` … 確認用（workers.dev、noindex、メール送信なし）に公開
 - `npm run smoke -- <URL>` … 公開したサイトの点検（旧URL転送・410・RSS・サイトマップ・ads.txt・noindex）
 - `npm run import:wp` … `import/export.xml`（WXR）と `import/additional.css` から再取り込み。`import/` は git 管理外
